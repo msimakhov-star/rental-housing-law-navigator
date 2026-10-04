@@ -1,0 +1,55 @@
+{
+ "doc_id": "D073",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T00:54:39Z",
+ "rules": [
+  {
+   "level": "city",
+   "source_doc_id": "D073",
+   "source_url": "https://docs.sandiego.gov/municode/municodechapter09/ch09art08division07.pdf",
+   "quoted_span": "A landlord shall not terminate a tenancy without just cause. For purposes of this",
+   "conflict_flag": false,
+   "conflict_note": "Division text as codified (3-2024); amended 2-27-2024 (effective 3-28-2024) and originally added 2004; the version setting the current just cause and relocation rules took effect 2023-06-24 (O-21647).",
+   "interaction": "Local just cause consistent with and additional to Cal. Civ. Code 1946.2; relocation paid is credited against other relocation owed under state or federal law.",
+   "applies_if": null,
+   "exempt_if": {
+    "any": [
+     {
+      "fact": "building_age_years",
+      "op": "<",
+      "value": 15
+     },
+     {
+      "all": [
+       {
+        "unavailable": "owner-occupied single-family or two-unit property, or separately alienable property with exempt-notice and non-corporate landlord"
+       },
+       {
+        "fact": "units",
+        "op": "<=",
+        "value": 2
+       }
+      ]
+     },
+     {
+      "unavailable": "deed-restricted or subsidized affordable housing, hotel, mobilehome, care facility or dormitory"
+     }
+    ]
+   },
+   "yields_to": [],
+   "conflicts_with": [],
+   "confidence": 0.9,
+   "coverage_conditions": "Residential rental property with a tenancy over 30 days; applies from the first day of tenancy",
+   "exemptions": "housing with certificate of occupancy within previous 15 years; deed-restricted or subsidized affordable housing (not Section 8); hotels and short-term rentals; mobilehomes under the Mobilehome Residency Law; care and transitional facilities; dormitories; shared kitchen/bath with resident landlord; owner-occupied single-family or two-unit property; separately alienable property owned by a non-REIT, non-corporate landlord with written notice",
+   "effective_date": "2023-06-24",
+   "key_value": "no-fault relocation: 2 months' rent (3 months for senior/disabled)",
+   "status": "in_force",
+   "jurisdiction": "San Diego, CA",
+   "category": "just_cause_eviction",
+   "title": "San Diego Residential Tenant Protections (Tenants' Right to Know), just cause and relocation",
+   "requirement": "A landlord may not end a tenancy without at-fault or no-fault just cause. For no-fault terminations the landlord must pay two months' rent (three if the tenant is a senior or disabled) or waive that amount of rent, regardless of income or tenancy length.",
+   "citation": "S.D.M.C. §§ 98.0701 to 98.0710"
+  }
+ ],
+ "notes": "San Diego Municipal Code ch. 9 art. 8 div. 7 (3-2024 edition). Division has no rent cap, deposit, screening or algorithmic provisions. Buyout, retaliation and remedies sections are outside the six categories."
+}

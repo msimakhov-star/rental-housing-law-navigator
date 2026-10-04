@@ -1,0 +1,32 @@
+{
+ "doc_id": "D079",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T00:53:59Z",
+ "rules": [
+  {
+   "jurisdiction": "San Francisco, CA",
+   "level": "city",
+   "category": "just_cause_eviction",
+   "status": "in_force",
+   "title": "San Francisco just cause eviction",
+   "requirement": "A landlord must have one of 17 listed just causes, as the dominant motive, to evict a tenant from a unit covered by the Rent Ordinance. Expiration of the lease or a change in ownership is not just cause.",
+   "key_value": "17 just causes; landlord must show dominant motive",
+   "coverage_conditions": "Units covered by the Rent Ordinance, including post-1979 units and Costa-Hawkins tenancies that are exempt only from rent limits",
+   "exemptions": "Some tenancies regulated by another government agency",
+   "effective_date": null,
+   "citation": "S.F. Admin. Code § 37.9",
+   "source_doc_id": "D079",
+   "source_url": "https://sf.gov/information/overview-just-cause-evictions",
+   "quoted_span": "In order to evict a tenant from a rental unit covered by the Rent Ordinance, a landlord must have a \"just cause\" reason that is the dominant motive for pursuing the eviction.",
+   "confidence": 0.85,
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": null,
+   "applies_if": null,
+   "exempt_if": null,
+   "yields_to": [],
+   "conflicts_with": []
+  }
+ ],
+ "notes": "Relocation payment amounts (37.9C, 37.9A) are on D082/D083 and attach to this rule; page gives no effective date."
+}

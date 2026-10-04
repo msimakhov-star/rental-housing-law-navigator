@@ -1,0 +1,7 @@
+SOURCE: https://www.law.cornell.edu/regulations/massachusetts/803-CMR-5-04
+RETRIEVED: 2026-10-04 03:10 UTC
+VIA: r.jina.ai
+SUPPLIED_MANIFEST_ID: D056
+
+QUOTE-ONLY STUB: the full page is not redistributed; fetch it from the SOURCE url above. Quoted spans used by our rules:
+CORI shall only be requested for a housing applicant as the final step in the application process.

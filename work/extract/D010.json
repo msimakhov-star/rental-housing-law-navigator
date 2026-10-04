@@ -1,0 +1,34 @@
+{
+ "doc_id": "D010",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T00:53:13Z",
+ "rules": [
+  {
+   "level": "city",
+   "status": "in_force",
+   "effective_date": "2017-02",
+   "source_doc_id": "D010",
+   "source_url": "https://drive.google.com/file/d/1j4U3fDtmnYuwcUWhx5BMUcXc1bnKT8Ku/view?usp=sharing",
+   "confidence": 0.6,
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": "Federal or state criminal-history requirements that conflict with the policy preempt it.",
+   "applies_if": {
+    "unavailable": "housing provider receives DND funding or land, or the unit is an income-restricted unit under the BPDA Inclusionary Development Policy"
+   },
+   "exempt_if": null,
+   "yields_to": [],
+   "conflicts_with": [],
+   "coverage_conditions": "Housing providers receiving DND funding and/or land, or with BPDA Inclusionary Development Policy income-restricted units",
+   "exemptions": "Direct relationship between conviction and housing sought, unreasonable risk of substantial harm to others, current criminal behavior; conflicting federal or state law preempts",
+   "jurisdiction": "Boston, MA",
+   "category": "screening_restrictions",
+   "title": "Boston Fair Chance Tenant Selection Policy",
+   "requirement": "Housing providers with city funding or land, or inclusionary units, may not use a blanket ban on applicants with arrests or convictions and must decide case by case. They may not consider non-conviction arrests, judicially relieved convictions, juvenile records or convictions over 5 years old, and may not use credit scores to deny.",
+   "key_value": "no blanket criminal-history ban; ignore arrests without conviction, juvenile records, convictions over 5 years old",
+   "citation": "Boston DND Fair Chance Tenant Selection Policy (Feb. 2017)",
+   "quoted_span": "a) Arrests that did not result in conviction. This includes dismissed charges, diversion"
+  }
+ ],
+ "notes": "Policy applies only to DND-funded/land or BPDA inclusionary units, not data-derivable, so applies_if is an unavailable leaf. Effective date taken from the Feb 2017 page header; text gives no explicit effective date. Also contains credit-score ban, folded into one record."
+}

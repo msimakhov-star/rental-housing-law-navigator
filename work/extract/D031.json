@@ -1,0 +1,34 @@
+{
+ "doc_id": "D031",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T00:53:13Z",
+ "rules": [
+  {
+   "level": "city",
+   "status": "in_force",
+   "effective_date": null,
+   "source_doc_id": "D031",
+   "source_url": "https://www.cambridgema.gov/tenantrights",
+   "confidence": 0.4,
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": "Notice-only rule; does not restrict causes for eviction.",
+   "applies_if": null,
+   "exempt_if": {
+    "unavailable": "unit in hospital, skilled nursing or health facility, non-profit short-term substance abuse treatment facility, or short-term rental unit"
+   },
+   "yields_to": [],
+   "conflicts_with": [],
+   "coverage_conditions": "Residential rental agreements, including a single unit",
+   "exemptions": "Hospital, skilled nursing or health facility; non-profit short-term substance abuse treatment; short-term rental units",
+   "jurisdiction": "Cambridge, MA",
+   "category": "just_cause_eviction",
+   "title": "Tenants Rights and Resources Notification Ordinance",
+   "requirement": "Cambridge landlords must give tenants a rights and resources guide at the start of a tenancy and when legal steps to end it are taken. It does not stop a landlord from starting an eviction otherwise allowed by law.",
+   "key_value": "guide at lease start and with notice to quit; fine $300 per day",
+   "citation": "Cambridge Mun. Code ch. 8.71",
+   "quoted_span": "This Ordinance does not prevent a landlord from initiating an eviction action if otherwise allowed by law."
+  }
+ ],
+ "notes": "Notice ordinance, not a just-cause list; low-confidence fit. Page gives no ordinance effective date (page posted 10/14/2020 is not one)."
+}

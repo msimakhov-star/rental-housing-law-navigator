@@ -1,0 +1,7 @@
+{
+ "doc_id": "D047",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T00:53:07Z",
+ "rules": [],
+ "notes": "Duplicate bill-history page for S.2983; the rule is recorded once from D046 to avoid a duplicate record. Bill page shows only title, committee referral and history (3/12/2026 reported favorably, sent to Ways and Means); the bill text is not in the document, so prohibited conduct, coverage and penalties are unknown."
+}

@@ -1,0 +1,47 @@
+{
+ "doc_id": "D042",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T00:54:39Z",
+ "rules": [
+  {
+   "level": "city",
+   "source_doc_id": "D042",
+   "source_url": "https://housing.lacity.gov/rso-rent-increase-calculator",
+   "quoted_span": "Annual rent increases for rental units subject to the City of Los Angeles Rent Stabilization Ordinance (RSO), effective July 1, 2025, through June 30, 2026 is 3%",
+   "conflict_flag": true,
+   "conflict_note": "The 3% period on this page ended 2026-06-30, before the 2026-10-01 as-of date, and the page shows no rate for 2026-07-01 onward; effective_date 2026-02-02 is the date of the latest formula change on this page (utility add-on removed), not the date of the 3% rate (2025-07-01).",
+   "interaction": null,
+   "applies_if": {
+    "fact": "co_date",
+    "op": "<=",
+    "value": "1978-10-01"
+   },
+   "exempt_if": {
+    "all": [
+     {
+      "unavailable": "condominium or townhome tenancy commenced after 1995-12-31"
+     },
+     {
+      "fact": "units",
+      "op": "<=",
+      "value": 1
+     }
+    ]
+   },
+   "yields_to": [],
+   "conflicts_with": [],
+   "confidence": 0.55,
+   "coverage_conditions": "Units subject to the RSO",
+   "exemptions": null,
+   "effective_date": "2026-02-02",
+   "key_value": "3% (2025-07-01 to 2026-06-30)",
+   "status": "in_force",
+   "jurisdiction": "Los Angeles, CA",
+   "category": "rent_increase_limits",
+   "title": "Los Angeles RSO annual allowable rent increase (rate page)",
+   "requirement": "The RSO annual allowable increase shown for July 1, 2025 to June 30, 2026 is 3%; no extra percentage for utilities since Feb 2, 2026. State law requires 30 days' written notice for increases under 10%.",
+   "citation": "L.A.M.C. § 151.00 et seq."
+  }
+ ],
+ "notes": "LAHD calculator page; supplies the rate number for the RSO cap (underlying rule is in D041). Stale-rate caveat recorded in conflict_note. Also lists RSO surcharge $1.61 and SCEP surcharge $2.83 per month (not a rule in the six categories)."
+}

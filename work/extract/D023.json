@@ -1,0 +1,103 @@
+{
+ "doc_id": "D023",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T00:00:00Z",
+ "rules": [
+  {
+   "jurisdiction": "CA",
+   "level": "state",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "yields_to": [
+    {
+     "jurisdiction": "Los Angeles, CA",
+     "category": "just_cause_eviction"
+    },
+    {
+     "jurisdiction": "San Francisco, CA",
+     "category": "just_cause_eviction"
+    },
+    {
+     "jurisdiction": "San Diego, CA",
+     "category": "just_cause_eviction"
+    },
+    {
+     "jurisdiction": "Berkeley, CA",
+     "category": "just_cause_eviction"
+    },
+    {
+     "jurisdiction": "Santa Ana, CA",
+     "category": "just_cause_eviction"
+    }
+   ],
+   "conflicts_with": [],
+   "applies_if": null,
+   "exempt_if": {
+    "any": [
+     {
+      "unavailable": "transient or tourist hotel occupancy"
+     },
+     {
+      "unavailable": "nonprofit hospital, religious facility, extended care or residential care facility"
+     },
+     {
+      "unavailable": "dormitory owned and operated by a school or higher education institution"
+     },
+     {
+      "unavailable": "tenant shares bathroom or kitchen with owner who lives there"
+     },
+     {
+      "all": [
+       {
+        "unavailable": "single-family owner-occupied residence renting no more than two units or bedrooms, or mobilehome"
+       },
+       {
+        "fact": "units",
+        "op": "<=",
+        "value": 1
+       }
+      ]
+     },
+     {
+      "all": [
+       {
+        "unavailable": "owner occupied one of two units as principal residence at start of tenancy, neither an ADU"
+       },
+       {
+        "fact": "units",
+        "op": "==",
+        "value": 2
+       }
+      ]
+     },
+     {
+      "fact": "building_age_years",
+      "op": "<",
+      "value": 15
+     },
+     {
+      "unavailable": "separately alienable property owned by a non-corporate, non-REIT owner with written exemption notice"
+     },
+     {
+      "unavailable": "housing deed-restricted or subsidized as affordable housing"
+     }
+    ]
+   },
+   "interaction": "Does not apply where a local just cause ordinance adopted on or before 2019-09-01, or a more protective later one, covers the property; the local ordinance applies instead.",
+   "category": "just_cause_eviction",
+   "status": "in_force",
+   "title": "Tenant Protection Act: just cause required to end a tenancy after 12 months (AB 1529 amendment)",
+   "requirement": "After a tenant has lived in a unit 12 months (24 if an adult was added), the owner may end the tenancy only for a stated at-fault or no-fault just cause. For no-fault causes the owner must pay one month's rent as relocation help or waive the last month's rent.",
+   "key_value": "just cause after 12 months; 1 month's rent relocation for no-fault",
+   "coverage_conditions": "Residential tenancies of 12 months or more (24 months if adult tenants added before 12 months); repealed Jan 1, 2030",
+   "exemptions": "Hotels, nonprofit/religious/care facilities, dorms, shared-bath owner homes, owner-occupied single-family homes and owner-occupied duplexes, housing with certificate of occupancy within 15 years, separately alienable non-corporate owned property with notice, deed-restricted affordable housing; local just cause ordinances (pre-9/1/2019, or later and more protective) apply instead",
+   "effective_date": "2026-01-01",
+   "citation": "Cal. Civ. Code § 1946.2",
+   "source_doc_id": "D023",
+   "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1946.2",
+   "quoted_span": "after a tenant has continuously and lawfully occupied a residential real property for 12 months, the owner of the residential real property shall not terminate a tenancy without just cause",
+   "confidence": 0.9
+  }
+ ],
+ "notes": "Section was operative 2024-04-01 and last amended by AB 1529 effective 2026-01-01 (used as effective_date). Statute sunsets 2030-01-01. Local carve-out in (i) is encoded as yields_to for the five CA cities, consolidator should keep only those with their own just cause rule."
+}

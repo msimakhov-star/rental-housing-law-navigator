@@ -1,0 +1,82 @@
+{
+ "doc_id": "D043",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T00:54:39Z",
+ "rules": [
+  {
+   "level": "city",
+   "source_doc_id": "D043",
+   "source_url": "https://housing.lacity.gov/wp-content/uploads/2026/08/Relocation-Assistance-Bulletins-A-and-B-Combined.pdf",
+   "quoted_span": "Household $11,000 $14,400 $10,550",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": "Amounts increase every July 1; state Housing Crisis Act and the LA Resident Protections Ordinance (eff. 2025-02-11) can require higher payments for lower-income tenants displaced by demolition.",
+   "applies_if": {
+    "fact": "co_date",
+    "op": "<=",
+    "value": "1978-10-01"
+   },
+   "exempt_if": null,
+   "yields_to": [],
+   "conflicts_with": [],
+   "confidence": 0.8,
+   "coverage_conditions": "No-fault evictions of RSO units; demolition for new construction of lower-income tenants of Protected Units follows the RPO Chart B instead ($87,450 to $115,480)",
+   "exemptions": "resident manager replaced by another manager; hazardous conditions from a natural disaster not caused by landlord negligence",
+   "effective_date": "2026-07-01",
+   "key_value": "$11,000 / $14,400 eligible; $23,150 / $27,400 qualified (2026-07-01 to 2027-06-30)",
+   "status": "in_force",
+   "jurisdiction": "Los Angeles, CA",
+   "category": "just_cause_eviction",
+   "title": "Los Angeles RSO no-fault eviction relocation assistance (Bulletin A, 2026-27)",
+   "requirement": "Landlords must pay relocation assistance for no-fault evictions of RSO units within 15 days of serving the notice, per unit: eligible tenants $11,000 (under 3 years) or $14,400 (3+ years or low income); qualified tenants (62+, disabled, or with minor child) $23,150 or $27,400; reduced mom-and-pop amounts for owner or family move-in.",
+   "citation": "L.A.M.C. § 151.09"
+  },
+  {
+   "level": "city",
+   "source_doc_id": "D043",
+   "source_url": "https://housing.lacity.gov/wp-content/uploads/2026/08/Relocation-Assistance-Bulletins-A-and-B-Combined.pdf",
+   "quoted_span": "Single Family Dwellings Owned by Natural Persons",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": "Relocation under the JCO is credited with, and may be topped up by, State Housing Crisis Act and RPO amounts for lower-income demolition displacement.",
+   "applies_if": {
+    "fact": "co_date",
+    "op": ">",
+    "value": "1978-10-01"
+   },
+   "exempt_if": {
+    "any": [
+     {
+      "all": [
+       {
+        "unavailable": "single-family home or condominium owned by a non-corporate, non-trust owner who gave written notice of exemption"
+       },
+       {
+        "fact": "units",
+        "op": "<=",
+        "value": 1
+       }
+      ]
+     },
+     {
+      "unavailable": "transient hotel, licensed care facility, fraternity or sorority house, owner's roommate, qualifying cooperative, homeless or treatment nonprofit facility, HACLA or government property"
+     }
+    ]
+   },
+   "yields_to": [],
+   "conflicts_with": [],
+   "confidence": 0.8,
+   "coverage_conditions": "No-fault evictions of units covered by the Just Cause Ordinance",
+   "exemptions": "resident manager replaced by another manager; hazardous conditions from a natural disaster not caused by landlord negligence",
+   "effective_date": "2026-07-01",
+   "key_value": "$11,000 / $14,400 eligible; $23,150 / $27,400 qualified; one month's rent for qualifying single-family (2026-07-01 to 2027-06-30)",
+   "status": "in_force",
+   "jurisdiction": "Los Angeles, CA",
+   "category": "just_cause_eviction",
+   "title": "Los Angeles JCO no-fault eviction relocation assistance (Bulletin A, 2026-27)",
+   "requirement": "Landlords must pay relocation assistance for no-fault evictions of JCO units using the same per-unit chart as the RSO ($11,000 to $27,400); a single-family dwelling owned by a natural person with no more than four units plus one single-family home owes one month's rent.",
+   "citation": "L.A.M.C. § 165.00 et seq."
+  }
+ ],
+ "notes": "Relocation Assistance Bulletins A and B (rev 2026-07-01). Chart A amounts effective 2026-07-01 to 2027-06-30 and rise each July 1; Bulletin B covers Resident Protections Ordinance demolition payments (Ordinances 188481 and 188482, effective 2025-02-11), folded into coverage_conditions. Fees tables and HUD income limits are not rules in the six categories. Jurisdictions' underlying section cites (151.09, 165.03, 165.06) come from the bulletin text; the instrument effective dates are not stated, so effective_date is the amount-chart date."
+}

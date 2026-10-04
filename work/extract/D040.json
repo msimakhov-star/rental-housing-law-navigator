@@ -1,0 +1,118 @@
+{
+ "doc_id": "D040",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T00:54:39Z",
+ "rules": [
+  {
+   "level": "city",
+   "source_doc_id": "D040",
+   "source_url": "https://housing.lacity.gov/residents/just-cause-for-eviction-ordinance-jco",
+   "quoted_span": "It prohibits terminations of tenancies without just cause and requires relocation assistance for no-fault evictions.",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": "Units subject to the RSO get just cause protection under the RSO (L.A.M.C. 151.09) instead; the JCO fills the gap for non-RSO units and layers on state AB 1482 just cause.",
+   "applies_if": {
+    "fact": "co_date",
+    "op": ">",
+    "value": "1978-10-01"
+   },
+   "exempt_if": {
+    "any": [
+     {
+      "all": [
+       {
+        "unavailable": "single-family home or condominium owned by a non-corporate, non-trust owner who gave written notice of exemption"
+       },
+       {
+        "fact": "units",
+        "op": "<=",
+        "value": 1
+       }
+      ]
+     },
+     {
+      "unavailable": "transient hotel, licensed care facility, fraternity or sorority house, owner's roommate, qualifying cooperative, homeless or treatment nonprofit facility, HACLA or government property"
+     }
+    ]
+   },
+   "yields_to": [],
+   "conflicts_with": [],
+   "confidence": 0.7,
+   "coverage_conditions": "Most residential rentals not regulated by the RSO (buildings newer than October 1, 1978, and single-family dwellings); tenant in unit at least six months or original lease expired",
+   "exemptions": "transient hotels, licensed care facilities, fraternity/sorority houses, owner's roommate, some cooperatives, some nonprofit homeless or treatment facilities, some HACLA/government property; single-family home or condo only if not owned by a trust, corporation or LLC with a corporate member and tenant got written notice",
+   "effective_date": null,
+   "key_value": "just cause required; relocation assistance for no-fault evictions",
+   "status": "in_force",
+   "jurisdiction": "Los Angeles, CA",
+   "category": "just_cause_eviction",
+   "title": "Los Angeles Just Cause for Eviction Ordinance (JCO)",
+   "requirement": "A landlord may not end a tenancy without just cause (at-fault or no-fault reasons listed in the ordinance) and must pay relocation assistance for no-fault evictions. Applies to units not covered by the RSO once the tenant has lived there six months or the original lease expired.",
+   "citation": "L.A.M.C. § 165.00 et seq."
+  },
+  {
+   "level": "state",
+   "source_doc_id": "D040",
+   "source_url": "https://housing.lacity.gov/residents/just-cause-for-eviction-ordinance-jco",
+   "quoted_span": "limited to no more than 5% plus the percentage change in the cost of living for the region",
+   "conflict_flag": false,
+   "conflict_note": "Secondary city web page; it lists stale annual percentages (8.9% for Aug 2024 to Jul 2025) and gives no effective date for the statute, so effective_date is left null.",
+   "interaction": "Yields to stricter local rent control such as the LA RSO for units covered by it.",
+   "applies_if": null,
+   "exempt_if": {
+    "any": [
+     {
+      "fact": "building_age_years",
+      "op": "<",
+      "value": 15
+     },
+     {
+      "all": [
+       {
+        "unavailable": "single-family home or condominium owned by a non-corporate, non-trust owner who gave written notice of exemption"
+       },
+       {
+        "fact": "units",
+        "op": "<=",
+        "value": 1
+       }
+      ]
+     },
+     {
+      "all": [
+       {
+        "unavailable": "owner occupied the second unit for the entire tenancy"
+       },
+       {
+        "fact": "units",
+        "op": "<=",
+        "value": 2
+       }
+      ]
+     },
+     {
+      "unavailable": "deed-restricted affordable housing or dormitory"
+     }
+    ]
+   },
+   "yields_to": [
+    {
+     "jurisdiction": "Los Angeles, CA",
+     "category": "rent_increase_limits"
+    }
+   ],
+   "conflicts_with": [],
+   "confidence": 0.5,
+   "coverage_conditions": "Buildings older than 15 years (rolling)",
+   "exemptions": "units built within the last 15 years; deed-restricted affordable units; certain dormitories; two-unit property where an owner occupied the second unit for the whole tenancy; single-family homes and condos if owner is not a trust, corporation or LLC with a corporate member and tenant got written notice",
+   "effective_date": null,
+   "key_value": "5% + CPI, max 10%",
+   "status": "in_force",
+   "jurisdiction": "CA",
+   "category": "rent_increase_limits",
+   "title": "California Tenant Protection Act of 2019 (AB 1482) annual rent cap",
+   "requirement": "Annual rent increases are capped at 5% plus the regional change in the cost of living, or 10%, whichever is lower, for covered buildings older than 15 years.",
+   "citation": "Cal. Civ. Code § 1947.12"
+  }
+ ],
+ "notes": "LAHD JCO page (updated 2026-09-10). Gives no effective date for the JCO itself and no relocation amounts (see D043). Also describes state AB 1482 rent cap and exemptions; extracted as a low-confidence CA record citing Civ. Code 1947.12 because the page names that section. Ignored: registry, notices, FMR non-payment rule, filing of eviction notices."
+}

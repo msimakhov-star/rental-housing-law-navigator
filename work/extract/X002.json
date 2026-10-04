@@ -1,0 +1,34 @@
+{
+ "doc_id": "X002",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T02:00:00Z",
+ "rules": [
+  {
+   "level": "city",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": "Local rent control; no state rule in this text overrides it.",
+   "applies_if": null,
+   "exempt_if": {
+    "unavailable": "exempt newly constructed dwelling, building vacant since January 1, 1984, decontrolled unit or bona fide condo/co-op owner-occupied unit (section 155-2, art. VII to VIII)"
+   },
+   "yields_to": [],
+   "conflicts_with": [],
+   "exemptions": "Newly constructed dwellings and buildings completely vacant since January 1, 1984 may be exempt (referenced only; criteria not in this text); vacancy decontrol and condo/co-op initial rental decontrol (art. VII, VIII) not captured",
+   "coverage_conditions": "Dwellings to which Hoboken Code ch. 155 is applicable (coverage section 155-2 is not in this text)",
+   "jurisdiction": "Hoboken, NJ",
+   "category": "rent_increase_limits",
+   "status": "in_force",
+   "title": "Hoboken rent control: annual increase cap",
+   "requirement": "At lease renewal a landlord of a covered unit may not raise rent by more than 5% or the CPI change, whichever is less, and increases need 30 days written notice and a stated reason. Surcharges for taxes, water/sewer and capital improvements need approval and are separate.",
+   "key_value": "lesser of 5% or CPI change",
+   "effective_date": "2019-01-16",
+   "citation": "Hoboken Code ch. 155",
+   "source_doc_id": "X002",
+   "source_url": "https://ecode360.com/15252470",
+   "quoted_span": "no landlord may request or receive a percentage increase in rent which is greater than 5% or the percentage difference between the consumer price index",
+   "confidence": 0.75
+  }
+ ],
+ "notes": "Section headings are stripped, so the cap paragraph sits under section 155-4 by inference from the amendment lists; the 2019-01-16 date (Ord. B-104) is the last amendment listed after the cap paragraph and could belong to it only by ecode layout (section 155-3 was amended 2025-10-22, Ord. B-818). Coverage/exemption criteria (section 155-2, decontrol) are NOT in this page. No just-cause, deposit, fee, screening or algorithm rules in this article."
+}

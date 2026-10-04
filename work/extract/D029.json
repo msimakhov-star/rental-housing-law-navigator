@@ -1,0 +1,43 @@
+{
+ "doc_id": "D029",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T00:53:13Z",
+ "rules": [
+  {
+   "level": "city",
+   "status": "in_force",
+   "effective_date": null,
+   "source_doc_id": "D029",
+   "source_url": "https://www.cambridgema.gov/departments/humanrightscommission",
+   "confidence": 0.55,
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": "Complements M.G.L. c.151B state protections.",
+   "applies_if": null,
+   "exempt_if": {
+    "all": [
+     {
+      "unavailable": "owner lives in the building"
+     },
+     {
+      "fact": "units",
+      "op": "==",
+      "value": 2
+     }
+    ]
+   },
+   "yields_to": [],
+   "conflicts_with": [],
+   "coverage_conditions": "Renting housing in Cambridge",
+   "exemptions": "2-family dwellings when the owner lives there",
+   "jurisdiction": "Cambridge, MA",
+   "category": "screening_restrictions",
+   "title": "Cambridge Fair Housing Ordinance: source of income protection",
+   "requirement": "Cambridge landlords may not discriminate against renters based on source of income, including Section 8 and public benefits. They may screen on ability to pay and care of the apartment if applied equally.",
+   "key_value": "source of income (incl. Section 8, public benefits) protected",
+   "citation": "Cambridge Mun. Code ch. 14.04",
+   "quoted_span": "Source of Income, includes Section 8 and public benefits"
+  }
+ ],
+ "notes": "Secondary page; no effective date given. Cite chapter 14.04 as named on page. Nothing on rent, deposits, fees or eviction."
+}

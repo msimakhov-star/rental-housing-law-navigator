@@ -1,0 +1,7 @@
+SOURCE: https://members.aagla.org/news/city-of-la-security-deposit-interest-requirement
+RETRIEVED: 2026-10-04 00:58 UTC
+VIA: r.jina.ai
+SUPPLIED_MANIFEST_ID: D044
+
+QUOTE-ONLY STUB: the full page is not redistributed; fetch it from the SOURCE url above. Quoted spans used by our rules:
+Security deposit interest must be paid to the tenant either monthly or annually.

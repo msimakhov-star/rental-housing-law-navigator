@@ -1,0 +1,34 @@
+{
+ "doc_id": "X020",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T01:30:00Z",
+ "rules": [
+  {
+   "level": "city",
+   "status": "in_force",
+   "coverage_conditions": "Properties in the City of Los Angeles subject to the Rent Stabilization Ordinance (LARSO)",
+   "exemptions": null,
+   "effective_date": null,
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": "Applies only on top of the state deposit cap in Cal. Civ. Code \u00a7 1950.5; only to rent-stabilized units.",
+   "applies_if": {
+    "unavailable": "unit subject to the Los Angeles Rent Stabilization Ordinance (LARSO)"
+   },
+   "exempt_if": null,
+   "yields_to": [],
+   "conflicts_with": [],
+   "jurisdiction": "Los Angeles, CA",
+   "category": "security_deposits",
+   "title": "Los Angeles rent-stabilized security deposit interest",
+   "requirement": "Landlords of City of Los Angeles units under the Rent Stabilization Ordinance must pay tenants interest on security deposits, either monthly or yearly, as direct payment or rent credit, and tell the tenant in writing which method they chose. The City sets the rate each year (4.320% for calendar year 2025).",
+   "key_value": "interest on deposits paid monthly or yearly; 4.320% for 2025",
+   "citation": "L.A.M.C. \u00a7 151.06.02",
+   "source_doc_id": "X020",
+   "source_url": "https://members.aagla.org/news/city-of-la-security-deposit-interest-requirement",
+   "quoted_span": "Security deposit interest must be paid to the tenant either monthly or annually.",
+   "confidence": 0.6
+  }
+ ],
+ "notes": "Trade-association summary quoting L.A.M.C. 151.06.02 (interest accrual began 1990-11-01, but no date for the current operative version, so effective_date is null). Covers interest only, not the deposit cap."
+}

@@ -1,0 +1,34 @@
+{
+ "doc_id": "D013",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T00:53:13Z",
+ "rules": [
+  {
+   "level": "city",
+   "status": "in_force",
+   "effective_date": null,
+   "source_doc_id": "D013",
+   "source_url": "https://www.boston.gov/housing-stability-notification-act",
+   "confidence": 0.4,
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": "Notice-only rule; does not restrict causes for eviction.",
+   "applies_if": null,
+   "exempt_if": {
+    "unavailable": "residence in a hospital, skilled nursing facility or health facility, or a non-profit short-term substance abuse treatment facility"
+   },
+   "yields_to": [],
+   "conflicts_with": [],
+   "coverage_conditions": "ALL LANDLORDS planning to end a tenancy",
+   "exemptions": "Hospital, skilled nursing or health facility; non-profit short-term substance abuse treatment facility (per D014)",
+   "jurisdiction": "Boston, MA",
+   "category": "just_cause_eviction",
+   "title": "Housing Stability Notification Act",
+   "requirement": "A Boston landlord ending a tenancy must give the tenant a Notice of Tenants' Rights and Resources with the notice to quit or non-renewal, and report it to the city. Violation does not halt the eviction.",
+   "key_value": "notice of rights with notice to quit; fine $300 per day after warning",
+   "citation": "City of Boston Ordinances § 10-11.7",
+   "quoted_span": "The Housing Stability Notification Act requires"
+  }
+ ],
+ "notes": "Notice requirement, not a list of allowed causes; filed under just_cause_eviction at low confidence (Boston has no just-cause ordinance in this page). Page gives no effective date (D014 gives 2020-11-06)."
+}

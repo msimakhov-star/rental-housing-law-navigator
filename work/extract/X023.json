@@ -1,0 +1,32 @@
+{
+ "doc_id": "X023",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T02:00:00Z",
+ "rules": [
+  {
+   "level": "state",
+   "effective_date": null,
+   "conflict_flag": false,
+   "conflict_note": "Duplicate of X007 record for the same instrument; this one carries the citation and the proposed cap formula (lesser of CPI or 5%).",
+   "interaction": "State ban on local rent control (M.G.L. c.40P) remains in place.",
+   "applies_if": null,
+   "exempt_if": null,
+   "yields_to": [],
+   "conflicts_with": [],
+   "coverage_conditions": null,
+   "exemptions": null,
+   "jurisdiction": "MA",
+   "category": "rent_increase_limits",
+   "status": "failed",
+   "citation": "Mass. Initiative Petition 25-21",
+   "title": "Massachusetts statewide rent cap ballot question (struck)",
+   "key_value": "failed: proposed cap on annual rent increases not on ballot",
+   "requirement": "In Cella v. Attorney General (SJC-13893) the SJC held Initiative Petition 25-21, which would have repealed M.G.L. c.40P and capped annual rent increases at the lesser of CPI or 5%, cannot appear on the November 2026 ballot because its religious-use exemption bars it under Article 48.",
+   "source_doc_id": "X023",
+   "source_url": "https://massrealestatelawblog.com/tag/cella-v-attorney-general/",
+   "quoted_span": "involved Initiative Petition 25-21, titled “An Initiative Petition to Protect Tenants by Limiting Rent Increases.”",
+   "confidence": 0.6
+  }
+ ],
+ "notes": "Adds IP 25-21 citation and proposed cap detail not in X007; consolidator should merge with X007 record."
+}

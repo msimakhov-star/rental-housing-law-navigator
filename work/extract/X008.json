@@ -1,0 +1,32 @@
+{
+ "doc_id": "X008",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T02:00:00Z",
+ "rules": [
+  {
+   "level": "city",
+   "effective_date": null,
+   "conflict_flag": false,
+   "conflict_note": "Page gives no ordinance number or effective date; first vote Feb. 17, final vote 'Tuesday' per article dated March 9, 2026 (X009 says final vote set for March 3).",
+   "interaction": null,
+   "applies_if": null,
+   "exempt_if": null,
+   "yields_to": [],
+   "conflicts_with": [],
+   "coverage_conditions": "Apartment owners and landlords in Santa Ana",
+   "exemptions": null,
+   "jurisdiction": "Santa Ana, CA",
+   "category": "algorithmic_rent_setting",
+   "citation": "Santa Ana algorithmic rent-setting software ordinance (2026)",
+   "title": "Santa Ana ban on algorithmic rent-setting software",
+   "status": "in_force",
+   "key_value": "ban on algorithmic devices using nonpublic competitor data; $1,000 per violation",
+   "requirement": "Landlords may not use, and vendors may not sell or license, automated software (Algorithmic Devices) to set residential rents. Violators can be fined $1,000; enforced mainly through code enforcement.",
+   "source_doc_id": "X008",
+   "source_url": "https://www.ocbj.com/real-estate/santa-ana-bans-landlords-from-using-ai-apartment-rent-pricing-software/",
+   "quoted_span": "prohibiting the sale, licensing and use of Algorithmic Devices,",
+   "confidence": 0.6
+  }
+ ],
+ "notes": "No ordinance number (brief says NS-3090) or effective date on page; citation is descriptive and effective_date null. Status in_force inferred from 'final step to officially put the ordinance into effect'."
+}

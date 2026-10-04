@@ -1,0 +1,32 @@
+{
+ "doc_id": "D012",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T00:53:13Z",
+ "rules": [
+  {
+   "level": "city",
+   "status": "in_force",
+   "effective_date": null,
+   "source_doc_id": "D012",
+   "source_url": "https://www.boston.gov/departments/fair-housing-and-equity/boston-fair-housing-regulations",
+   "confidence": 0.45,
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": "Complements M.G.L. c.151B state source-of-income protection (not named in this page).",
+   "applies_if": null,
+   "exempt_if": null,
+   "yields_to": [],
+   "conflicts_with": [],
+   "coverage_conditions": null,
+   "exemptions": null,
+   "jurisdiction": "Boston, MA",
+   "category": "screening_restrictions",
+   "title": "Boston fair housing rule: rental assistance (vouchers) is a protected class",
+   "requirement": "Boston landlords may not refuse or treat applicants differently because they use rental assistance such as Section 8, disability or veterans vouchers.",
+   "key_value": "no discrimination based on rental assistance (Section 8 vouchers)",
+   "citation": "Boston Fair Housing Commission, Boston Fair Housing Regulations",
+   "quoted_span": "The landlord tells you they don't accept rental assistance. This includes Section"
+  }
+ ],
+ "notes": "Secondary web summary; names no ordinance section or date, so citation is the issuing program and effective_date null. Rental assistance is the only screening-related item; other protected classes ignored."
+}

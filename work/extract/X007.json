@@ -1,0 +1,32 @@
+{
+ "doc_id": "X007",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T02:00:00Z",
+ "rules": [
+  {
+   "level": "state",
+   "effective_date": null,
+   "conflict_flag": false,
+   "conflict_note": "Page does not name IP 25-21; citation taken from data/dev/change_tests.json (T5) and X023.",
+   "interaction": "State ban on local rent control (M.G.L. c.40P) remains in place.",
+   "applies_if": null,
+   "exempt_if": null,
+   "yields_to": [],
+   "conflicts_with": [],
+   "coverage_conditions": null,
+   "exemptions": null,
+   "jurisdiction": "MA",
+   "category": "rent_increase_limits",
+   "status": "failed",
+   "citation": "Mass. Initiative Petition 25-21",
+   "title": "Massachusetts statewide rent cap ballot question (struck)",
+   "key_value": "failed: proposed cap on annual rent increases not on ballot",
+   "requirement": "The Supreme Judicial Court ruled the proposed ballot question limiting annual rent increases cannot go on the November 2026 ballot, so the proposed cap on annual rent increases will not appear on the ballot and no state or local rent cap results.",
+   "source_doc_id": "X007",
+   "source_url": "https://www.wbur.org/news/2026/06/23/massachusetts-high-court-rent-control-ballot-question-struck",
+   "quoted_span": "ruled a ballot question seeking to bring rent control back to Massachusetts cannot go forward this November",
+   "confidence": 0.6
+  }
+ ],
+ "notes": "Citation IP 25-21 supported by T5 definition and X023, not by this page text. Court ruled on religious-exemption ground (Article 48)."
+}

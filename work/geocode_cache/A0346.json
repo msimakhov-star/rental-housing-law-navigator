@@ -1,0 +1,1 @@
+{"address_id": "A0346", "match": null, "attempts": [{"endpoint": "address", "q": {"street": "AUBURN DR", "city": "San Diego", "state": "CA", "zip": "92105"}, "n": 0, "error": null}, {"endpoint": "address", "q": {"street": "AUBURN DR", "city": "San Diego", "state": "CA"}, "n": 0, "error": null}, {"endpoint": "oneline", "q": "AUBURN DR, San Diego, CA", "n": 0, "error": null}]}

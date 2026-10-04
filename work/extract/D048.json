@@ -1,0 +1,32 @@
+{
+ "doc_id": "D048",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T00:53:07Z",
+ "rules": [
+  {
+   "jurisdiction": "MA",
+   "level": "state",
+   "category": "rent_increase_limits",
+   "status": "in_force",
+   "title": "State bar on local rent control (M.G.L. c.40P s.4)",
+   "requirement": "Cities and towns may not enact, maintain or enforce rent control. A town that accepts c.40P may only adopt voluntary regulation, excluding units of owners with fewer than ten units or fair market rent over $400, with the town compensating owners.",
+   "key_value": "Local rent control prohibited",
+   "coverage_conditions": "Every Massachusetts city and town",
+   "exemptions": "Narrow exception for towns accepting c.40P: voluntary compliance after six months, no regulation of occupancy, services, evictions or condo conversion, not units owned by owner of fewer than ten units or with fair market rent above $400, municipality compensates owners",
+   "effective_date": null,
+   "citation": "M.G.L. c.40P \u00a7 4",
+   "source_doc_id": "D048",
+   "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleVII/Chapter40P/Section4",
+   "quoted_span": "No city or town may enact, maintain or enforce rent control of any kind",
+   "confidence": 0.9,
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": "Preempts local rent control in Boston and Cambridge (cities may not adopt rent control).",
+   "applies_if": null,
+   "exempt_if": null,
+   "yields_to": [],
+   "conflicts_with": []
+  }
+ ],
+ "notes": "Statute text gives no effective date. Not an enacted cap: it bars local caps; Massachusetts has no statewide rent cap in these documents."
+}

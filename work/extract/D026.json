@@ -1,0 +1,32 @@
+{
+ "doc_id": "D026",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T00:00:00Z",
+ "rules": [
+  {
+   "jurisdiction": "CA",
+   "level": "state",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "yields_to": [],
+   "conflicts_with": [],
+   "applies_if": null,
+   "exempt_if": null,
+   "interaction": "Screening fee is not 'security' under Civ. Code 1950.5.",
+   "category": "application_screening_fees",
+   "status": "in_force",
+   "title": "Application screening fee cap of $30, CPI-adjusted (AB 1170 version)",
+   "requirement": "A landlord may charge an application screening fee only for real costs, never more than $30 per applicant (adjusted for CPI), and only if a unit is or will be available. The landlord must give an itemized receipt and refund unused amounts, and the fee process must follow first-come order or refund non-selected applicants.",
+   "key_value": "$30 cap per applicant, CPI-adjusted",
+   "coverage_conditions": "Landlords and agents charging applicants (including guarantors) to screen a residential rental application",
+   "exemptions": null,
+   "effective_date": "2026-01-01",
+   "citation": "Cal. Civ. Code § 1950.6",
+   "source_doc_id": "D026",
+   "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1950.6",
+   "quoted_span": "In no case shall the amount of the application screening fee charged by the landlord or their agent be greater than thirty dollars ($30) per applicant.",
+   "confidence": 0.9
+  }
+ ],
+ "notes": "Effective date is the AB 1170 amendment (2026-01-01); the $30 cap itself dates from before 1998. The text gives no current CPI-adjusted dollar figure."
+}

@@ -1,0 +1,50 @@
+{
+ "doc_id": "X004",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T01:10:00Z",
+ "rules": [
+  {
+   "jurisdiction": "Newark, NJ",
+   "level": "city",
+   "category": "rent_increase_limits",
+   "status": "in_force",
+   "title": "Newark rent control ordinance (Title XIX, ch. 19:2)",
+   "requirement": "At lease expiration a landlord may not raise rent by more than the CPI-U (NY-NJ area) change over the prior 15 months to 3 months, and never more than 4%. No annual increase is allowed if the unit is not in substantial compliance with codes or the landlord has not registered.",
+   "key_value": "CPI-U increase, capped at 4% per 12 months",
+   "coverage_conditions": "All multiple dwellings (any building with one or more rented apartments or units) in Newark",
+   "exemptions": "Public housing; hotel/motel transient space; commercial space; newly constructed multiple dwellings for up to 30 years from completion (or the initial mortgage amortization period if shorter) once certified (19:2-18.1); substantially rehabilitated vacant dwellings for 5 years (19:2-18.2); Rental Rehabilitation Program units with Section 8; units under a government rent-regulation contract",
+   "effective_date": "2024-09-18",
+   "citation": "Newark Mun. Code \u00a7 19:2-3",
+   "source_doc_id": "X004",
+   "source_url": "https://ecode360.com/36623772",
+   "quoted_span": "In no case shall the allowable rent increase exceed 4%.",
+   "confidence": 0.8,
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": "Local rent control; the NJ Anti-Eviction Act and state law on rent control exemptions (N.J.S.A. 2A:42-84.1 et seq.) apply alongside it.",
+   "applies_if": null,
+   "exempt_if": {
+    "any": [
+     {
+      "all": [
+       {
+        "fact": "co_date",
+        "op": ">",
+        "value": "1996-10-01"
+       },
+       {
+        "unavailable": "Rent Control Board certification of newly constructed multiple dwelling exemption"
+       }
+      ]
+     },
+     {
+      "unavailable": "public housing, transient hotel/motel space, commercial use, rental-rehabilitation Section 8 units, government rent-regulation contract, or substantially rehabilitated vacant dwelling exempt for 5 years"
+     }
+    ]
+   },
+   "yields_to": [],
+   "conflicts_with": []
+  }
+ ],
+ "notes": "Rate section (19:2-3) amended 9-18-2024 by Ord. 6PSF-I; effective_date uses that adoption date (no separate effective date printed). Section numbers inferred from 'Section 19:2-3' etc. references and ordinance history lines since the page text omits headings; chapter is Title XIX ch. 19:2. No Newark just-cause eviction cause list, no deposit rules and no algorithmic pricing mention in this text (only a preamble recital about eviction without just cause and references to N.J.S.A. 2A:18-61.1); no just_cause record emitted."
+}

@@ -1,0 +1,98 @@
+{
+ "A0001": {
+  "year_built": 1962,
+  "units": 20,
+  "units_min": null,
+  "units_source": "assessor",
+  "use_code": "X",
+  "use_description": "fixture"
+ },
+ "A0002": {
+  "year_built": 1979,
+  "units": null,
+  "units_min": null,
+  "units_source": "none",
+  "use_code": "X",
+  "use_description": "fixture"
+ },
+ "A0003": {
+  "year_built": 2010,
+  "units": 2,
+  "units_min": null,
+  "units_source": "assessor",
+  "use_code": "X",
+  "use_description": "fixture"
+ },
+ "A0004": {
+  "year_built": 1990,
+  "units": null,
+  "units_min": null,
+  "units_source": "none",
+  "use_code": "X",
+  "use_description": "fixture"
+ },
+ "A0005": {
+  "year_built": 2001,
+  "units": 20,
+  "units_min": null,
+  "units_source": "assessor",
+  "use_code": "X",
+  "use_description": "fixture"
+ },
+ "A0006": {
+  "year_built": 1950,
+  "units": 10,
+  "units_min": null,
+  "units_source": "assessor",
+  "use_code": "X",
+  "use_description": "fixture"
+ },
+ "A0007": {
+  "year_built": 1960,
+  "units": 30,
+  "units_min": null,
+  "units_source": "assessor",
+  "use_code": "X",
+  "use_description": "fixture"
+ },
+ "A0008": {
+  "year_built": 1930,
+  "units": 12,
+  "units_min": null,
+  "units_source": "assessor",
+  "use_code": "X",
+  "use_description": "fixture"
+ },
+ "A0009": {
+  "year_built": 1985,
+  "units": 9,
+  "units_min": null,
+  "units_source": "assessor",
+  "use_code": "X",
+  "use_description": "fixture"
+ },
+ "A0010": {
+  "year_built": 1950,
+  "units": 10,
+  "units_min": null,
+  "units_source": "assessor",
+  "use_code": "X",
+  "use_description": "fixture"
+ },
+ "A0011": {
+  "year_built": 1970,
+  "units": 10,
+  "units_min": null,
+  "units_source": "assessor",
+  "use_code": "X",
+  "use_description": "fixture"
+ },
+ "A0012": {
+  "year_built": 2011,
+  "units": 8,
+  "units_min": null,
+  "units_source": "assessor",
+  "use_code": "X",
+  "use_description": "fixture"
+ }
+}

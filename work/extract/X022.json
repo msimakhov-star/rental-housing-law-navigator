@@ -1,0 +1,32 @@
+{
+ "doc_id": "X022",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T02:00:00Z",
+ "rules": [
+  {
+   "level": "state",
+   "effective_date": null,
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": null,
+   "applies_if": null,
+   "exempt_if": null,
+   "yields_to": [],
+   "conflicts_with": [],
+   "coverage_conditions": "Lessors before the start of a tenancy",
+   "exemptions": "Licensed brokers (254 C.M.R. 7) with written fee notice",
+   "jurisdiction": "MA",
+   "category": "application_screening_fees",
+   "status": "in_force",
+   "citation": "M.G.L. c.186 § 15B",
+   "title": "Massachusetts bar on landlord application fees",
+   "requirement": "Before a tenancy begins, a landlord may charge only first month's rent, last month's rent, a security deposit and a lock-change fee. Application, screening and similar fees are forbidden for landlords; licensed brokers may charge fees under 254 CMR 7.",
+   "key_value": "no landlord application fee; only first, last, security, locks",
+   "source_doc_id": "X022",
+   "source_url": "https://masslandlords.net/can-massachusetts-landlords-charge-an-application-fee/",
+   "quoted_span": "no lessor may require payment for anything except first, last, security, and locks (MGL Ch 186 Section 15B).",
+   "confidence": 0.6
+  }
+ ],
+ "notes": "No effective date on page ('law has been in effect since the 1970s'); effective_date null. Broker rules 254 C.M.R. 7 folded into the same record."
+}

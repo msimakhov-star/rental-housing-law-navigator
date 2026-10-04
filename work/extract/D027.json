@@ -1,0 +1,32 @@
+{
+ "doc_id": "D027",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T00:00:00Z",
+ "rules": [
+  {
+   "jurisdiction": "CA",
+   "level": "state",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "yields_to": [],
+   "conflicts_with": [],
+   "applies_if": null,
+   "exempt_if": null,
+   "interaction": "Statewide floor; asking about level or source of income is not itself discrimination.",
+   "category": "screening_restrictions",
+   "status": "in_force",
+   "title": "FEHA: source-of-income discrimination barred in housing (SB 267)",
+   "requirement": "Landlords cannot discriminate against or harass anyone because of source of income, including Section 8 and other housing vouchers. With a rent subsidy they must judge income by the tenant's share of rent and let applicants give alternative proof instead of credit history.",
+   "key_value": "source of income, incl. vouchers, is protected; credit history alternative for subsidized tenants",
+   "coverage_conditions": "Owners of housing accommodations, real estate businesses and others covered by the section",
+   "exemptions": null,
+   "effective_date": "2024-01-01",
+   "citation": "Cal. Gov. Code § 12955",
+   "source_doc_id": "D027",
+   "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=12955",
+   "quoted_span": "For the owner of any housing accommodation to discriminate against or harass any person because of the race, color, religion, sex, gender, gender identity, gender expression, sexual orientation, marital status, national origin, ancestry, familial status, source of income",
+   "confidence": 0.9
+  }
+ ],
+ "notes": "Effective date from SB 267 (Stats. 2023 Ch. 776, effective 2024-01-01). Criminal-history rules are not in this section (only in D016 guidance)."
+}

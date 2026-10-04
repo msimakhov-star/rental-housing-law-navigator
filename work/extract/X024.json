@@ -1,0 +1,32 @@
+{
+ "doc_id": "X024",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T01:03:58Z",
+ "rules": [
+  {
+   "conflict_flag": false,
+   "conflict_note": null,
+   "yields_to": [],
+   "conflicts_with": [],
+   "applies_if": null,
+   "exempt_if": null,
+   "jurisdiction": "CA",
+   "level": "state",
+   "category": "algorithmic_rent_setting",
+   "status": "in_force",
+   "title": "Cartwright Act ban on common pricing algorithms (AB 325 / SB 763)",
+   "requirement": "Businesses may not use or distribute a common pricing algorithm (two or more users, uses competitor data) as part of an agreement to restrain trade, or coerce users to adopt its price recommendations. Not rental-specific; covers landlords using shared rent-setting software.",
+   "key_value": "ban on common pricing algorithms using competitor data; civil fines up to $1 million (AG/DA)",
+   "coverage_conditions": "Any business using or distributing a common pricing algorithm (two or more users, uses competitor data); not rental-specific",
+   "exemptions": "Single-firm algorithms using only the business's own data",
+   "effective_date": "2026-01-01",
+   "citation": "Cal. Bus. & Prof. Code § 16729",
+   "source_doc_id": "X024",
+   "source_url": "https://www.clearygottlieb.com/news-and-insights/publication-listing/californias-antitrust-law-amendments-kick-in-targeting-algorithmic-pricing",
+   "quoted_span": "Businesses are expressly prohibited from using or distributing common pricing algorithms as part of an agreement to restrain trade.",
+   "confidence": 0.6,
+   "interaction": "General antitrust law (statewide); does not itself preempt local rental algorithm bans."
+  }
+ ],
+ "notes": "Law-firm summary; effective date 2026-01-01 stated for both AB 325 and SB 763. Not rental-specific; no preemption discussion."
+}

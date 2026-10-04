@@ -1,0 +1,261 @@
+{
+ "idmap": {
+  "CA1-01": "r-0001",
+  "CA1-02": "r-0002",
+  "CA1-03": "r-0003",
+  "CA1-04": "r-0004",
+  "CA1-05": "r-0005",
+  "CA1-06": "r-0006",
+  "NJ-01": "r-0007",
+  "NJ-02": "r-0008",
+  "NJ-03": "r-0009",
+  "NJ-05": "r-0010",
+  "NJ-04": "r-0011",
+  "NJ-06": "r-0012",
+  "MA-01": "r-0013",
+  "MA-02": "r-0014",
+  "MA-03": "r-0015",
+  "MA-04": "r-0016",
+  "MA-05": "r-0017",
+  "MA-06": "r-0018",
+  "MA-07": "r-0019",
+  "MA-08": "r-0020",
+  "CA1-07": "r-0021",
+  "CA1-08": "r-0022",
+  "CA1-09": "r-0023",
+  "CA1-10": "r-0024",
+  "CA2-01": "r-0025",
+  "CA2-02": "r-0026",
+  "CA2-03": "r-0027",
+  "CA2-04": "r-0028",
+  "CA2-05": "r-0029",
+  "CA1-11": "r-0030",
+  "CA1-12": "r-0031",
+  "CA1-13": "r-0032",
+  "CA2-06": "r-0033",
+  "CA2-07": "r-0034",
+  "CA2-08": "r-0035",
+  "CA2-09": "r-0036",
+  "CA2-10": "r-0037",
+  "CA2-11": "r-0038",
+  "CA1-14": "r-0039",
+  "CA1-15": "r-0040",
+  "CA1-16": "r-0041",
+  "NJ-07": "r-0042",
+  "NJ-08": "r-0043",
+  "NJ-09": "r-0044",
+  "NJ-10": "r-0045",
+  "NJ-11": "r-0046",
+  "NJ-12": "r-0047",
+  "MA-10": "r-0048",
+  "MA-09": "r-0049",
+  "MA-11": "r-0050"
+ },
+ "pruned_descriptors": [],
+ "cells_unaccounted": [],
+ "errors": [],
+ "decisions": [
+  {
+   "group": "CA1",
+   "decision": "Merged D040's restatement of Civ. Code 1947.12 into the D024 record (official text, operative 2024-04-01)."
+  },
+  {
+   "group": "CA1",
+   "decision": "1947.12 yields_to LA, SF, Berkeley and Santa Ana rent rules (all cap below 5% + CPI, subd. (d)(3)); not San Diego (no local cap). 1946.2 yields_to the five CA city just cause rules per subd. (i)."
+  },
+  {
+   "group": "CA1",
+   "decision": "1950.5 small-landlord 2-month cap modeled as a variant in key_value/exemptions with exempt_if null: the statute covers every landlord, only the number differs, so no address should lose the rule."
+  },
+  {
+   "group": "CA1",
+   "decision": "LA just cause: one record citing the JCO (L.A.M.C. 165.00 et seq.) with applies_if null; RSO 151.09 (RSO units) described in coverage and interaction; merged D041, D043 candidates. Dropped the extractor's single-family exemption: D040 says that exemption is from state law, not the JCO."
+  },
+  {
+   "group": "CA1",
+   "decision": "LA deposit interest (151.06.02) kept as a rule: D041 (supplied) lists deposit interest under the RSO, X020 gives the section; applies_if RSO coverage (co_date <= 1978-10-01) instead of an unavailable leaf."
+  },
+  {
+   "group": "CA1",
+   "decision": "LA RSO effective_date 2026-02-02 (LAHD) with conflict_flag for the 2026-01-24 landlord-association date; merged D042 rate candidate into it."
+  },
+  {
+   "group": "CA1",
+   "decision": "LA algorithmic: no_rule (D039 motion only; X018 Aug 2026 survey omits LA). San Diego rent: no_rule (D073 mandated notice points to state 1947.12)."
+  },
+  {
+   "group": "CA1",
+   "decision": "San Diego algorithmic: D076 quoted (citation credit), status in_force and 2025-06-21 from X015; X015 and X018 candidates merged."
+  },
+  {
+   "group": "CA1",
+   "decision": "San Diego screening filled from new X028 per orchestrator (supplemental, no citation credit)."
+  },
+  {
+   "group": "CA1",
+   "decision": "Santa Ana algorithmic: X018 (2026-04-02, NS-3090) chosen over X008/X009 (no number, no date); dates consistent with final vote 2026-03-03."
+  },
+  {
+   "group": "CA1",
+   "decision": "Santa Ana rent: year_built (law says 'constructed after February 1, 1995'), with 1995 itself left UNKNOWN."
+  },
+  {
+   "group": "CA1",
+   "decision": "Tenancy-length conditions (12 months under 1946.2, 6 months under the JCO, 30 days in Santa Ana) kept in coverage text, not applies_if, since tenancy facts are per tenant and would make every address unknown."
+  },
+  {
+   "group": "CA1",
+   "decision": "Dropped pure 'unavailable' exemption leaves for rare special housing (hotels, dorms, care facilities, deed-restricted affordable housing, shared bath or kitchen with owner) from exempt_if, because one such leaf makes every address unknown; they stay in the exemptions text. Leaves the data can partly decide (units, building age) are kept as conjunctions."
+  },
+  {
+   "group": "CA1",
+   "decision": "Effective dates of amended statutes: 1946.2 and 1950.6 use the 2026-01-01 amendment date (version now operative); 1950.5 uses 2024-07-01 (cap set by AB 12, per subd. (c)(6) and the brief); 12955 uses 2024-01-01 (SB 267)."
+  },
+  {
+   "group": "CA1",
+   "decision": "conflict_flag used only for the LA RSO date discrepancy; no preemption conflicts in this group (state 16729 does not displace local bans)."
+  },
+  {
+   "group": "CA2",
+   "decision": "SF rent: one record S.F. Admin. Code ch. 37 from D080 (1.6% from 2026-03-01); D083 repeats the rate; co_date <= 1979-06-13 cutoff confirmed by D079 ('Certificate of Occupancy after June 13, 1979' exempt from rent limits)."
+  },
+  {
+   "group": "CA2",
+   "decision": "SF rent exempt_if left null: Costa-Hawkins eligibility and 'some tenancies' regulated by another agency are tenancy-level facts the text does not tie to any building fact; kept in exemptions text so a pre-1979 multifamily building resolves to applies, matching the brief's 20-unit 1962 illustration."
+  },
+  {
+   "group": "CA2",
+   "decision": "SF just cause: D079 (S.F. Admin. Code § 37.9) is canonical; D082/D083 relocation tables folded into key_value; effective_date null (no date in text)."
+  },
+  {
+   "group": "CA2",
+   "decision": "SF deposits: kept a low-confidence (0.5) record from D083 (Rent Board deposit interest rate 4.2%); the page names no ordinance, so citation is the Rent Board rate, not a code section. Real cite believed to be S.F. Admin. Code ch. 49 but UNVERIFIED in any corpus text: gap-fill needed."
+  },
+  {
+   "group": "CA2",
+   "decision": "SF screening: D078 only names the Fair Chance Ordinance and says it covers affordable housing decisions; no code section cited (Police Code art. 49 not in any text), applies_if is an unavailable affordable-housing leaf so lookups are unknown."
+  },
+  {
+   "group": "CA2",
+   "decision": "SF fees: no_rule based on the brief's illustrative SF lookup (state-only screening fee row); no SF doc mentions a local fee rule."
+  },
+  {
+   "group": "CA2",
+   "decision": "SF algorithmic: D081 gives the exact effective date 2024-10-14; merged X018 (October 2024, same) into it; D039 (approved July 2024) and D076 (adopted September 2024) give adoption, not effective, dates."
+  },
+  {
+   "group": "CA2",
+   "decision": "Berkeley rent: merged D006 (5% AGA cap), D008 (2026 AGA 1.0%, no earlier than 2026-01-01, BMC 13.76.110A) and D009 (coverage) into one ch. 13.76 record sourced from D008. Coverage uses year_built < 1980 because both D006 and D009 say 'built before 1980'; partial-coverage cutoff is 'certificate of occupancy after June 1980' (D009) vs 'after 1980' (D006), noted in coverage_conditions. Berkeley rows have no year_built or units, so lookups resolve unknown."
+  },
+  {
+   "group": "CA2",
+   "decision": "Berkeley just cause: D006 and D009 candidates merged into one ch. 13.76 record (D006 quote, D009 coverage, D004 relocation $19,413 / $6,471 from 2026-01-01); effective_date null because no Measure BB effective date is stated."
+  },
+  {
+   "group": "CA2",
+   "decision": "Berkeley deposits: deposit interest under the Rent Ordinance (ch. 13.76, D007 and D009) recorded; the deposit cap is state law and belongs to CA1's Cal. Civ. Code § 1950.5 record."
+  },
+  {
+   "group": "CA2",
+   "decision": "Berkeley fees: ch. 13.78 (D005) recorded as a local rule (disclosure statement and no non-refundable fees for existing tenants); dropped the extractor's conflicts_with CA because the chapter complements the state cap."
+  },
+  {
+   "group": "CA2",
+   "decision": "Berkeley screening: ch. 13.106 (D003); exempt_if encodes only the building-level owner-occupied 1 to 3 unit exemption; applicant- or tenancy-level exemptions (lifetime sex offenders, roommate additions, owner move-back agreements) stay in text."
+  },
+  {
+   "group": "CA2",
+   "decision": "Berkeley algorithmic: ch. 13.63 from D001 with effective_date 2026-03-01 per participant guide section 9 (organizer statement of the ordinance text date), conflict_flag true against X018's January 2026; D001 itself carries no date."
+  },
+  {
+   "group": "CA2",
+   "decision": "No yields_to/conflicts_with on SF or Berkeley records: no text says a local rule defers to state law; CA1's state rent and just cause records should yield to these cells."
+  },
+  {
+   "group": "MA",
+   "decision": "MA rent: two records, c.40P s.4 (in_force) and IP 25-21 (failed, organizer T5 MA-RENT-P1); IP 25-21 sourced from X023 because no supplied D doc covers it."
+  },
+  {
+   "group": "MA",
+   "decision": "MA fees: two instruments, c.186 s.15B(1)(b) upfront-charge limit and c.112 s.87DDD1/2 broker fee, both named as fee examples in the brief; s.15B also carries the deposit record."
+  },
+  {
+   "group": "MA",
+   "decision": "c.186 s.15B effective_date 2025-08-01 = date of the operative clause (1)(b) text (2025 c.9 ss.54-55) shown in D052; the one-month cap predates it."
+  },
+  {
+   "group": "MA",
+   "decision": "H.3744 (D011) not recorded as a rule (organizers do not name it); used as evidence in the Boston rent and just-cause no_rule notes."
+  },
+  {
+   "group": "MA",
+   "decision": "Just cause: no_rule at all three levels. HSNA (Boston 10-11.7) and Cambridge ch. 8.71 are notice-of-rights ordinances, not grounds-for-eviction rules; D031 says ch. 8.71 does not prevent evictions. Flip to records if the key treats eviction notice rules as just cause."
+  },
+  {
+   "group": "MA",
+   "decision": "Boston screening: two instruments, DND Fair Chance policy (D010, applies_if unavailable: DND-funded/inclusionary only) and Fair Housing Regulations rental-assistance protection (D012, weak cite, conf 0.45)."
+  },
+  {
+   "group": "MA",
+   "decision": "MA screening: c.151B s.4(10) only; criminal-record rules (803 CMR 5 CORI, D056) could not be fetched (403), so no state criminal-history record."
+  },
+  {
+   "group": "MA",
+   "decision": "Algorithmic: S.2983 (D046; D047 duplicate history) and H.5222 (D045) pending, effective_date null (T4). Cambridge policy order (X026) is not an instrument: no_rule."
+  },
+  {
+   "group": "MA",
+   "decision": "Boston and Cambridge deposits/fees/algorithmic no_rule are inferred from state statutes covering the field and silence of all city sources, not from an explicit city statement."
+  },
+  {
+   "group": "NJ",
+   "decision": "NJ just cause: D067 quoted (citation metric), X011 statute supports exemptions; hotel/motel and trust-unit exceptions kept in text only (outside ordinary residential rentals), so apartment buildings resolve instead of all-unknown."
+  },
+  {
+   "group": "NJ",
+   "decision": "NJ deposits: merged D067, X012 (46:8-21.2) and X013 (46:8-26 coverage section of the same act) into one record cited N.J.S.A. 46:8-21.2; effective_date null because '2003' and '1979' are amendment years, not effective dates of the operative text."
+  },
+  {
+   "group": "NJ",
+   "decision": "NJ fees: real-estate-licensee carve-out left out of exempt_if (it exempts the agent, not the building); 1-2 family dwelling exemption encoded as units <= 2."
+  },
+  {
+   "group": "NJ",
+   "decision": "NJ screening: two instruments kept separate: Fair Chance in Housing Act (P.L.2021, c.110, D065) and LAD source of income (N.J.S.A. 10:5-12(g), D068 quote, D067 cite); merged D067 and D068 LAD candidates into one record."
+  },
+  {
+   "group": "NJ",
+   "decision": "FAIR Act: conflict_flag false per orchestrator (rule-level flag would flag Newark too); preemption expressed only via conflicts_with on NJ-06, NJ-08, NJ-10, with the section 6.b quote in interaction."
+  },
+  {
+   "group": "NJ",
+   "decision": "Dropped X006 conflicts_with NJ screening: neither the Newark ordinance nor P.L.2021, c.110 contains a preemption clause, and X006's reference to a 'FAIR Act' screening law was wrong."
+  },
+  {
+   "group": "NJ",
+   "decision": "Jersey City rent control: applies_if units >= 5 (D036 '1-4 Unit Properties are exempt'), so missing units gives unknown; Hoboken exempt_if stays unknown for all addresses because coverage section 155-2 was not captured."
+  },
+  {
+   "group": "NJ",
+   "decision": "Newark rent control: replaced static co_date 1996-10-01 leaf with rolling building_age_years < 30 plus certification; public housing, hotel, commercial and program exemptions kept in text only."
+  },
+  {
+   "group": "NJ",
+   "decision": "Hoboken ch. 155 effective_date 2019-01-16 read from the ecode history note that follows the cap subsection (notes trail their subsection on that page: the 155-1.1 proof-of-rent note sits with B-532 of 2023)."
+  },
+  {
+   "group": "NJ",
+   "decision": "Jersey City ban sourced from X018 (has cite and 'effective June 2025'); X014 adds no date. Hoboken ban dated 2025-07-09 (adoption, X003) rather than '2025-07', which the engine would read as July 1, before adoption."
+  },
+  {
+   "group": "NJ",
+   "decision": "Hoboken ch. 158 art. I (Ord. B-750, disclosure of whether a rent algorithm was used for increases over 10%) not recorded: a disclosure duty, not a limit or ban; the brief names only art. II."
+  }
+ ],
+ "files": [
+  "CA1.json",
+  "CA2.json",
+  "MA.json",
+  "NJ.json"
+ ]
+}

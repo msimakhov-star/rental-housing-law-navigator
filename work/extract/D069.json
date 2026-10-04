@@ -1,0 +1,41 @@
+{
+ "doc_id": "D069",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T00:53:04Z",
+ "rules": [
+  {
+   "source_doc_id": "D069",
+   "source_url": "https://pub.njleg.state.nj.us/Bills/2026/AL26/43_.HTM",
+   "conflict_flag": true,
+   "conflict_note": "Section 6.b bars municipalities from enacting ordinances that conflict with this act; local algorithmic rent-setting bans (Jersey City, Hoboken) may be preempted from 2027-07-01 to the extent they conflict.",
+   "interaction": "Section 6.b prohibits conflicting municipal ordinances, except those explicitly authorized or required by other law.",
+   "applies_if": null,
+   "exempt_if": null,
+   "yields_to": [],
+   "conflicts_with": [
+    {
+     "jurisdiction": "Jersey City, NJ",
+     "category": "algorithmic_rent_setting"
+    },
+    {
+     "jurisdiction": "Hoboken, NJ",
+     "category": "algorithmic_rent_setting"
+    }
+   ],
+   "level": "state",
+   "jurisdiction": "NJ",
+   "category": "algorithmic_rent_setting",
+   "status": "not_yet_effective",
+   "title": "Forbidding the Algorithmic Inflation of Rent (FAIR) Act",
+   "requirement": "Landlords may not pay for or use a coordinator's rent-setting algorithm that pools nonpublic information from competing owners, and no one may perform that coordinating function. It takes effect on 2027-07-01.",
+   "key_value": "Ban on algorithmic coordination of rent, lease terms or occupancy using competitors' nonpublic data",
+   "coverage_conditions": "Rental property owners, coordinators and their agents; any residential dwelling unit used as a primary residence in NJ",
+   "exemptions": "Government affordability controls; public research or testing; free public rent estimates; equal-terms brokerage databases; simple spreadsheets and plain database queries",
+   "effective_date": "2027-07-01",
+   "citation": "P.L.2026, c.43",
+   "quoted_span": "any person to perform a coordinating function.",
+   "confidence": 0.9
+  }
+ ],
+ "notes": "Effective date per section 9: first day of the twelfth month after approval on 2026-07-20 = 2027-07-01 (computed, consistent with the brief). Amended by first reprint; enforcement is under the NJ Antitrust Act."
+}

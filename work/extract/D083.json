@@ -1,0 +1,32 @@
+{
+ "doc_id": "D083",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T00:53:59Z",
+ "rules": [
+  {
+   "jurisdiction": "San Francisco, CA",
+   "level": "city",
+   "category": "security_deposits",
+   "status": "in_force",
+   "title": "San Francisco security deposit interest rate",
+   "requirement": "Landlords must pay interest on tenant security deposits at the Rent Board rate, 4.2% for March 1, 2026 through February 28, 2027 (5.0% the prior year).",
+   "key_value": "4.2% deposit interest (3/1/26 to 2/28/27)",
+   "coverage_conditions": "Residential tenancies in San Francisco",
+   "exemptions": null,
+   "effective_date": "2026-03-01",
+   "citation": "S.F. Rent Board security deposit interest rate",
+   "source_doc_id": "D083",
+   "source_url": "https://www.sf.gov/reports--current-rates-including-rent-increase-relocation-sec-deposit",
+   "quoted_span": "4.2% for March 1, 2026 – February 28, 2027",
+   "confidence": 0.4,
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": null,
+   "applies_if": null,
+   "exempt_if": null,
+   "yields_to": [],
+   "conflicts_with": []
+  }
+ ],
+ "notes": "Rates page; names no code section for deposit interest, so citation is the Rent Board rate and confidence is low. The 1.6% allowable increase and relocation tables repeat D080 and D079/D082 and were not re-emitted."
+}

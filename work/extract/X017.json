@@ -1,0 +1,32 @@
+{
+ "doc_id": "X017",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T01:30:00Z",
+ "rules": [
+  {
+   "level": "city",
+   "status": "in_force",
+   "coverage_conditions": "All housing accommodations in the City of Los Angeles rented or offered for rent, including duplexes, condominiums, single family residences and mobile homes",
+   "exemptions": null,
+   "effective_date": "2020-01-01",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": "Complements state source-of-income protection (Cal. Gov. Code \u00a7 12955); local law adds punitive damages and an unlawful detainer defense.",
+   "applies_if": null,
+   "exempt_if": null,
+   "yields_to": [],
+   "conflicts_with": [],
+   "jurisdiction": "Los Angeles, CA",
+   "category": "screening_restrictions",
+   "title": "Los Angeles ban on source-of-income (Section 8 voucher) discrimination",
+   "requirement": "Anyone offering, renting or listing housing in the City of Los Angeles may not refuse to rent, renew, or evict, charge different terms, or advertise a preference based on a person's source of income, including Section 8 vouchers and other rental assistance. Tenants can sue (punitive damages at least three times actual damages or one month's rent) and use a violation as a defense to unlawful detainer.",
+   "key_value": "no refusal or different terms based on source of income (vouchers, rental assistance)",
+   "citation": "L.A.M.C. \u00a7\u00a7 45.65 to 45.69",
+   "source_doc_id": "X017",
+   "source_url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lamc/0-0-0-322208",
+   "quoted_span": "Based upon a person\u2019s source of income, refuse to rent or lease, or to continue to rent or lease, a housing accommodation;",
+   "confidence": 0.85
+  }
+ ],
+ "notes": "Codified text of L.A.M.C. Secs. 45.65 to 45.69 (Sec. 45.69: takes effect January 1, 2020). The fetched page does not show the article number heading for these sections (only Article 5.7 mobilehome age article follows), so citation is by section range; Secs. 45.70 to 45.72 are an unrelated mobilehome-age rule and were ignored. Doc has no criminal-history rule."
+}

@@ -1,0 +1,37 @@
+{
+ "doc_id": "X014",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T02:00:00Z",
+ "rules": [
+  {
+   "level": "city",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": "Possible conflict with the NJ statewide algorithmic rent-setting law; human review.",
+   "applies_if": null,
+   "exempt_if": null,
+   "yields_to": [],
+   "conflicts_with": [
+    {
+     "jurisdiction": "NJ",
+     "category": "algorithmic_rent_setting"
+    }
+   ],
+   "exemptions": "Real estate agents (per article)",
+   "coverage_conditions": "Landlords in Jersey City; real estate agents not covered per the article",
+   "jurisdiction": "Jersey City, NJ",
+   "category": "algorithmic_rent_setting",
+   "status": "in_force",
+   "title": "Jersey City ban on rent-setting algorithms",
+   "requirement": "The city council banned landlords from using rent-setting algorithms such as RealPage, including use of certain nonpublic data in revenue management software; real estate agents were carved out at the sponsor's agreement.",
+   "key_value": "ban on rent-setting algorithms using nonpublic data",
+   "effective_date": null,
+   "citation": "Jersey City Code \u00a7 218-12",
+   "source_doc_id": "X014",
+   "source_url": "https://hudsoncountyview.com/jersey-city-council-approves-realpage-ban-and-increasing-benefits-for-laborers/",
+   "quoted_span": "The Jersey City Council unanimously approved (9-0) a measure banning rent-setting algorithms such as RealPage",
+   "confidence": 0.6
+  }
+ ],
+ "notes": "Article names no code section, adoption or effective date; the section 218-12 cite and June 2025 date come from the orchestrator brief, not this text, so effective_date is null. Article also mentions a $2,000 daily fine only as a speaker's comment. News piece is a secondary source."
+}

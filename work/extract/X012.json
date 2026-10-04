@@ -1,0 +1,43 @@
+{
+ "doc_id": "X012",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T02:00:00Z",
+ "rules": [
+  {
+   "level": "state",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": "Statewide; no local deposit rules known from this text.",
+   "applies_if": null,
+   "exempt_if": {
+    "all": [
+     {
+      "unavailable": "owner-occupied premises where tenant has not given 30 days written notice invoking the act"
+     },
+     {
+      "fact": "units",
+      "op": "<=",
+      "value": 2
+     }
+    ]
+   },
+   "yields_to": [],
+   "conflicts_with": [],
+   "exemptions": "Act does not apply to owner-occupied premises with not more than two rental units unless the tenant gives 30 days written notice (N.J.S.A. 46:8-26)",
+   "coverage_conditions": "Rental of real property used for dwelling purposes",
+   "jurisdiction": "NJ",
+   "category": "security_deposits",
+   "status": "in_force",
+   "title": "NJ security deposit limit",
+   "requirement": "A landlord may not require more than 1.5 times one month's rent as a security deposit, and any annual top-up may not exceed 10 percent of the current deposit.",
+   "key_value": "1.5 months' rent; annual increase max 10% of deposit",
+   "effective_date": "2003",
+   "citation": "N.J.S.A. 46:8-21.2",
+   "source_doc_id": "X012",
+   "source_url": "https://law.justia.com/codes/new-jersey/title-46/section-46-8-21-2/",
+   "quoted_span": "An owner or lessee may not require more than a sum equal to 1 1/2 times 1 month's rental according to the terms of contract, lease, or agreement",
+   "confidence": 0.85
+  }
+ ],
+ "notes": "Effective_date '2003' is the year of the amendment (L.2003 c.188 s.5) that appears in the history line; exact date not in text. The exemption in exempt_if comes from 46:8-26 (X013), not this page."
+}

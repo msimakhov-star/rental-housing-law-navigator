@@ -1,0 +1,37 @@
+{
+ "doc_id": "X003",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T02:00:00Z",
+ "rules": [
+  {
+   "level": "city",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": "Possible conflict with the NJ statewide algorithmic rent-setting law; human review.",
+   "applies_if": null,
+   "exempt_if": null,
+   "yields_to": [],
+   "conflicts_with": [
+    {
+     "jurisdiction": "NJ",
+     "category": "algorithmic_rent_setting"
+    }
+   ],
+   "exemptions": "Medical/long-term care and detention facilities",
+   "coverage_conditions": "Any residential dwelling unit (primary residence), excluding medical/long-term care or detention facilities",
+   "jurisdiction": "Hoboken, NJ",
+   "category": "algorithmic_rent_setting",
+   "status": "in_force",
+   "title": "Hoboken ban on price fixing using algorithmic pricing",
+   "requirement": "Landlords of any residential dwelling unit in Hoboken may not use software, algorithms or data-sharing platforms that analyze nonpublic competitor information to coordinate, recommend or implement rents, lease terms or occupancy levels. Violations are heard in Hoboken Municipal Court.",
+   "key_value": "ban on algorithmic pricing using nonpublic competitor data; fine up to $2,000 or up to 90 days community service",
+   "effective_date": "2025-07-09",
+   "citation": "Hoboken Code ch. 158, art. II",
+   "source_doc_id": "X003",
+   "source_url": "https://ecode360.com/46833413",
+   "quoted_span": "are prohibited from price fixing using algorithmic pricing",
+   "confidence": 0.8
+  }
+ ],
+ "notes": "Date 2025-07-09 is the adoption date (Ord. B-781); the page gives no separate effective date. Art. I (Ord. B-750, adopted 4-2-2025) is only a disclosure duty for increases over 10% (itemization, whether a rent algorithm was used, $1,000 fine), not a limit or ban, so not extracted. The page omits chapter and article headings; ch. 158 art. II is from the editor note and orchestrator brief. No other category rules."
+}

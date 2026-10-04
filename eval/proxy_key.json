@@ -1,0 +1,235 @@
+{
+ "as_of": "2026-10-01",
+ "note": "Built ONLY from docs/*.txt and data/dev/change_tests.json. Real key: 58 rules + 19 no-rule findings; this covers a subset.",
+ "rules": [
+  {
+   "id": "CA-RENT",
+   "jurisdiction": "CA",
+   "category": "rent_increase_limits",
+   "cite_regex": "1947\\.12|AB\\s*1482|Tenant Protection Act",
+   "key_value_hint": "5\\s*%.*CPI|10\\s*%",
+   "source": "brief p.3"
+  },
+  {
+   "id": "CA-JC",
+   "jurisdiction": "CA",
+   "category": "just_cause_eviction",
+   "cite_regex": "1946\\.2",
+   "source": "brief p.3"
+  },
+  {
+   "id": "CA-DEP",
+   "jurisdiction": "CA",
+   "category": "security_deposits",
+   "cite_regex": "1950\\.5|AB\\s*12\\b",
+   "effective_date": "2024-07-01",
+   "key_value_hint": "one month|1 month|1x",
+   "status": "in_force",
+   "source": "brief p.3"
+  },
+  {
+   "id": "CA-FEE",
+   "jurisdiction": "CA",
+   "category": "application_screening_fees",
+   "cite_regex": "1950\\.6",
+   "source": "brief p.3"
+  },
+  {
+   "id": "CA-SCR",
+   "jurisdiction": "CA",
+   "category": "screening_restrictions",
+   "cite_regex": "12955|SB\\s*329|FEHA|Fair Employment",
+   "source": "brief p.3 (cite 12955 from CONTRACTS.md formats)"
+  },
+  {
+   "id": "CA-ALG",
+   "jurisdiction": "CA",
+   "category": "algorithmic_rent_setting",
+   "cite_regex": "AB\\s*325|SB\\s*763|Bus\\.?\\s*(&|and)\\s*Prof",
+   "effective_date": "2026-01-01",
+   "status": "in_force",
+   "source": "brief p.3"
+  },
+  {
+   "id": "NJ-JC",
+   "jurisdiction": "NJ",
+   "category": "just_cause_eviction",
+   "cite_regex": "2A:18-61\\.1|Anti-Eviction",
+   "source": "brief p.3"
+  },
+  {
+   "id": "NJ-DEP",
+   "jurisdiction": "NJ",
+   "category": "security_deposits",
+   "cite_regex": "46:8-21\\.2|Security Deposit",
+   "key_value_hint": "1\\.5|one and one-half|one and a half",
+   "source": "brief p.3"
+  },
+  {
+   "id": "NJ-FEE",
+   "jurisdiction": "NJ",
+   "category": "application_screening_fees",
+   "cite_regex": "P\\.?\\s*L\\.?\\s*2025,?\\s*c\\.?\\s*405|\\bc\\.?\\s*405\\b",
+   "effective_date": "2026-05-01",
+   "key_value_hint": "\\$\\s*50\\b|50 dollars",
+   "status": "in_force",
+   "source": "brief p.3"
+  },
+  {
+   "id": "NJ-SCR",
+   "jurisdiction": "NJ",
+   "category": "screening_restrictions",
+   "cite_regex": "Fair Chance",
+   "source": "brief p.3"
+  },
+  {
+   "id": "NJ-ALG",
+   "jurisdiction": "NJ",
+   "category": "algorithmic_rent_setting",
+   "cite_regex": "P\\.?\\s*L\\.?\\s*2026,?\\s*c\\.?\\s*43|FAIR Act",
+   "effective_date": "2027-07-01",
+   "status": "not_yet_effective",
+   "source": "brief p.3 + change_tests T3"
+  },
+  {
+   "id": "MA-C40P",
+   "jurisdiction": "MA",
+   "category": "rent_increase_limits",
+   "cite_regex": "40P",
+   "source": "brief p.3"
+  },
+  {
+   "id": "MA-IP2521",
+   "jurisdiction": "MA",
+   "category": "rent_increase_limits",
+   "cite_regex": "25-21|ballot|initiative",
+   "status": "failed",
+   "source": "change_tests T5 + guide s.7"
+  },
+  {
+   "id": "MA-DEP",
+   "jurisdiction": "MA",
+   "category": "security_deposits",
+   "cite_regex": "186.*15B|15B",
+   "key_value_hint": "first month",
+   "source": "brief p.3"
+  },
+  {
+   "id": "MA-FEE-15B",
+   "jurisdiction": "MA",
+   "category": "application_screening_fees",
+   "cite_regex": "186.*15B|15B",
+   "source": "brief p.3"
+  },
+  {
+   "id": "MA-BROKER",
+   "jurisdiction": "MA",
+   "category": "application_screening_fees",
+   "cite_regex": "112.*87DDD|87DDD",
+   "effective_date": "2025-08-01",
+   "status": "in_force",
+   "source": "brief p.3"
+  },
+  {
+   "id": "MA-ALG-S2983",
+   "jurisdiction": "MA",
+   "category": "algorithmic_rent_setting",
+   "cite_regex": "S\\.?\\s*2983",
+   "status": "pending",
+   "source": "brief p.3 + change_tests T4"
+  },
+  {
+   "id": "MA-ALG-H5222",
+   "jurisdiction": "MA",
+   "category": "algorithmic_rent_setting",
+   "cite_regex": "H\\.?\\s*5222",
+   "status": "pending",
+   "source": "brief p.3 + change_tests T4"
+  },
+  {
+   "id": "SF-RENT",
+   "jurisdiction": "San Francisco, CA",
+   "category": "rent_increase_limits",
+   "cite_regex": "(ch\\.?|chapter)\\s*37\\b|Rent (Stabilization|Ordinance)|\\b37\\.\\d",
+   "source": "brief p.2 illustrative output + p.3"
+  },
+  {
+   "id": "SF-JC",
+   "jurisdiction": "San Francisco, CA",
+   "category": "just_cause_eviction",
+   "cite_regex": "37\\.9\\b",
+   "source": "brief p.2 illustrative output"
+  },
+  {
+   "id": "SF-ALG",
+   "jurisdiction": "San Francisco, CA",
+   "category": "algorithmic_rent_setting",
+   "cite_regex": "37\\.10C",
+   "effective_date": "2024-10",
+   "status": "in_force",
+   "note": "month only in brief",
+   "source": "brief p.3"
+  },
+  {
+   "id": "LA-RSO",
+   "jurisdiction": "Los Angeles, CA",
+   "category": "rent_increase_limits",
+   "cite_regex": "151\\.|Rent Stabilization|RSO",
+   "note": "guide s.9: new RSO formula eff 2026-02-02 (LAHD) vs 2026-01-24; date left unchecked",
+   "source": "brief p.3"
+  },
+  {
+   "id": "SD-ALG",
+   "jurisdiction": "San Diego, CA",
+   "category": "algorithmic_rent_setting",
+   "cite_regex": "98\\.110[1-4]",
+   "effective_date": "2025-06",
+   "status": "in_force",
+   "note": "month only in brief",
+   "source": "brief p.3"
+  },
+  {
+   "id": "BERK-ALG",
+   "jurisdiction": "Berkeley, CA",
+   "category": "algorithmic_rent_setting",
+   "cite_regex": "13\\.63",
+   "effective_date": "2026-03-01",
+   "effective_date_alt": [
+    "2026-01",
+    "2026"
+   ],
+   "status": "in_force",
+   "source": "brief p.3 + guide s.9 (two published dates, either accepted)"
+  },
+  {
+   "id": "SA-ALG",
+   "jurisdiction": "Santa Ana, CA",
+   "category": "algorithmic_rent_setting",
+   "cite_regex": "NS-?\\s*3090",
+   "effective_date": "2026-04",
+   "status": "in_force",
+   "note": "month only in brief",
+   "source": "brief p.3"
+  },
+  {
+   "id": "JC-ALG",
+   "jurisdiction": "Jersey City, NJ",
+   "category": "algorithmic_rent_setting",
+   "cite_regex": "218-12",
+   "effective_date": "2025-06",
+   "status": "in_force",
+   "note": "month only in brief",
+   "source": "brief p.3"
+  },
+  {
+   "id": "HOB-ALG",
+   "jurisdiction": "Hoboken, NJ",
+   "category": "algorithmic_rent_setting",
+   "cite_regex": "ch\\.?\\s*158|chapter\\s*158|\\b158\\b",
+   "effective_date": "2025-07",
+   "status": "in_force",
+   "note": "month only in brief",
+   "source": "brief p.3"
+  }
+ ]
+}

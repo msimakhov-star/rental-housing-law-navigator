@@ -1,0 +1,36 @@
+{
+ "doc_id": "D080",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T00:53:59Z",
+ "rules": [
+  {
+   "jurisdiction": "San Francisco, CA",
+   "level": "city",
+   "category": "rent_increase_limits",
+   "status": "in_force",
+   "title": "San Francisco annual allowable rent increase",
+   "requirement": "For rent-controlled units, the annual allowable increase is 1.6% from March 1, 2026 through February 28, 2027 (1.4% the prior year).",
+   "key_value": "1.6% (3/1/26 to 2/28/27)",
+   "coverage_conditions": "Rent-controlled units under the Rent Ordinance (certificate of occupancy on or before 1979-06-13)",
+   "exemptions": null,
+   "effective_date": "2026-03-01",
+   "citation": "S.F. Admin. Code ch. 37",
+   "source_doc_id": "D080",
+   "source_url": "https://www.sf.gov/news--annual-rent-increase-3126-22827-announced",
+   "quoted_span": "For rent-controlled units, the annual allowable increase amount effective March 1, 2026 through February 28, 2027 is 1.6%.",
+   "confidence": 0.8,
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": null,
+   "applies_if": {
+    "fact": "co_date",
+    "op": "<=",
+    "value": "1979-06-13"
+   },
+   "exempt_if": null,
+   "yields_to": [],
+   "conflicts_with": []
+  }
+ ],
+ "notes": "News page on the annual rate; the 1979-06-13 coverage cutoff comes from the task context and D079's mention of post-June 13, 1979 certificates, not from this page."
+}

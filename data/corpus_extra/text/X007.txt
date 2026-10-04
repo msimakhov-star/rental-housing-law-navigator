@@ -1,0 +1,7 @@
+SOURCE: https://www.wbur.org/news/2026/06/23/massachusetts-high-court-rent-control-ballot-question-struck
+RETRIEVED: 2026-10-04 00:54 UTC
+VIA: curl
+SUPPLIED_MANIFEST_ID: D059
+
+QUOTE-ONLY STUB: the full page is not redistributed; fetch it from the SOURCE url above. Quoted spans used by our rules:
+ruled a ballot question seeking to bring rent control back to Massachusetts cannot go forward this November

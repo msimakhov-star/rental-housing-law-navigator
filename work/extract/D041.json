@@ -1,0 +1,75 @@
+{
+ "doc_id": "D041",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T00:54:39Z",
+ "rules": [
+  {
+   "level": "city",
+   "source_doc_id": "D041",
+   "source_url": "https://housing.lacity.gov/residents/rso-overview",
+   "quoted_span": "Generally, the RSO applies to rental properties that were first built on or before October 1, 1978",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": "Takes precedence over the state AB 1482 cap for covered units; non-RSO units fall under the JCO and state law.",
+   "applies_if": {
+    "fact": "co_date",
+    "op": "<=",
+    "value": "1978-10-01"
+   },
+   "exempt_if": {
+    "all": [
+     {
+      "unavailable": "condominium or townhome tenancy commenced after 1995-12-31"
+     },
+     {
+      "fact": "units",
+      "op": "<=",
+      "value": 1
+     }
+    ]
+   },
+   "yields_to": [],
+   "conflicts_with": [],
+   "confidence": 0.75,
+   "coverage_conditions": "Rental properties first built on or before 1978-10-01 (certificate of occupancy), plus replacement units under L.A.M.C. 151.28: apartments, condos and townhomes (not regulated for tenancies commencing after 1995-12-31), duplexes, multiple SFDs on one parcel, ADUs, mobile homes",
+   "exemptions": "luxury exemption (rent on or before 1978-05-31); condo/townhome tenancies commenced after 1995-12-31; temporary exemptions on registration",
+   "effective_date": "2026-02-02",
+   "key_value": "annual allowable % set by LAHD (3% for 2025-07-01 to 2026-06-30 per D042); once per 12 months",
+   "status": "in_force",
+   "jurisdiction": "Los Angeles, CA",
+   "category": "rent_increase_limits",
+   "title": "Los Angeles Rent Stabilization Ordinance (RSO) annual allowable rent increase",
+   "requirement": "Rent in covered units may be raised once every 12 months by the annual allowable percentage published by LAHD; since Feb 2, 2026 no extra utility percentage or dependent add-on is allowed. Rent may go to market only after a vacancy event such as voluntary move-out or a buyout.",
+   "citation": "L.A.M.C. § 151.00 et seq."
+  },
+  {
+   "level": "city",
+   "source_doc_id": "D041",
+   "source_url": "https://housing.lacity.gov/residents/rso-overview",
+   "quoted_span": "Legal reasons for eviction",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": "RSO units are covered by this section; non-RSO units fall under the JCO (L.A.M.C. 165.00 et seq.).",
+   "applies_if": {
+    "fact": "co_date",
+    "op": "<=",
+    "value": "1978-10-01"
+   },
+   "exempt_if": null,
+   "yields_to": [],
+   "conflicts_with": [],
+   "confidence": 0.7,
+   "coverage_conditions": "Units covered by the RSO (first built on or before 1978-10-01)",
+   "exemptions": null,
+   "effective_date": null,
+   "key_value": "just cause required; relocation assistance for no-fault evictions",
+   "status": "in_force",
+   "jurisdiction": "Los Angeles, CA",
+   "category": "just_cause_eviction",
+   "title": "Los Angeles RSO just cause for eviction and relocation assistance",
+   "requirement": "RSO tenants can be evicted only for listed at-fault reasons (non-payment, lease violation, nuisance, illegal use, refusal to renew, denying access, unapproved subtenant) or no-fault reasons (owner or family move-in, resident manager, demolition or removal from the market, government order, affordable housing conversion). No-fault evictions require relocation assistance.",
+   "citation": "L.A.M.C. § 151.09"
+  }
+ ],
+ "notes": "LAHD RSO overview (updated 2026-09-22). Effective dates shown: Feb 2, 2026 (utility and dependent add-ons removed), Mar 30, 2020 to Jan 31, 2024 freeze. No effective date for the RSO itself is given. The annual percentage lives on a separate page (D042). Just cause record has no date or amounts in this doc."
+}

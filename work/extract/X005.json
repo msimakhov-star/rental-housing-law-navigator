@@ -1,0 +1,7 @@
+{
+ "doc_id": "X005",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T01:10:00Z",
+ "rules": [],
+ "notes": "Chapter 2:10 Department of Economic and Housing Development page: administrative and property programs only. Only housing-relevant item is s. 2:10-11 Unconscionable Rent Increase, but the page text ends after the definitions (s. 2:10-11.1), so no operative limit, penalty or effective date is visible; not extractable as a rent cap. No mention of deposits, screening, just cause or rent-setting algorithms (grep for algorithm/software/screening/security deposit found nothing relevant)."
+}

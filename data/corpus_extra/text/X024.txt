@@ -1,0 +1,7 @@
+SOURCE: https://www.clearygottlieb.com/news-and-insights/publication-listing/californias-antitrust-law-amendments-kick-in-targeting-algorithmic-pricing
+RETRIEVED: 2026-10-04 00:59 UTC
+VIA: r.jina.ai
+SUPPLIED_MANIFEST_ID: D028
+
+QUOTE-ONLY STUB: the full page is not redistributed; fetch it from the SOURCE url above. Quoted spans used by our rules:
+Businesses are expressly prohibited from using or distributing common pricing algorithms as part of an agreement to restrain trade.

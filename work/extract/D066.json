@@ -1,0 +1,43 @@
+{
+ "doc_id": "D066",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T00:53:04Z",
+ "rules": [
+  {
+   "source_doc_id": "D066",
+   "source_url": "https://pub.njleg.gov/bills/2024/PL25/405_.HTM",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": null,
+   "applies_if": null,
+   "exempt_if": {
+    "any": [
+     {
+      "fact": "units",
+      "op": "<=",
+      "value": 2
+     },
+     {
+      "unavailable": "licensee of the New Jersey Real Estate Commission who is not the landlord"
+     }
+    ]
+   },
+   "yields_to": [],
+   "conflicts_with": [],
+   "level": "state",
+   "jurisdiction": "NJ",
+   "category": "application_screening_fees",
+   "status": "in_force",
+   "title": "Residential rental application fee cap",
+   "requirement": "A landlord or agent may not charge an application fee above $50 (adjusted yearly by CPI). Overcharges are penalized and refunded to the applicant.",
+   "key_value": "$50 cap, CPI-adjusted each January 1; penalty up to $500/$750/$1,000",
+   "coverage_conditions": "Residential rental property leased or subleased for dwelling purposes",
+   "exemptions": "Dwelling unit in a one-family or two-family dwelling; New Jersey Real Estate Commission licensee unless the licensee is the landlord",
+   "effective_date": "2026-05-01",
+   "citation": "P.L.2025, c.405",
+   "quoted_span": "shall not require an application or other similar fee to apply",
+   "confidence": 0.9
+  }
+ ],
+ "notes": "Effective date computed from section 3 (first day of the fourth month after approval on 2026-01-20 = 2026-05-01). Annual CPI adjustment amounts are not in the text."
+}

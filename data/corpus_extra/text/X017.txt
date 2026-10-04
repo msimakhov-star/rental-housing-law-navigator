@@ -1,0 +1,7 @@
+SOURCE: https://codelibrary.amlegal.com/codes/los_angeles/latest/lamc/0-0-0-322208
+RETRIEVED: 2026-10-04 00:55 UTC
+VIA: r.jina.ai
+SUPPLIED_MANIFEST_ID: D038
+
+QUOTE-ONLY STUB: the full page is not redistributed; fetch it from the SOURCE url above. Quoted spans used by our rules:
+Based upon a person’s source of income, refuse to rent or lease, or to continue to rent or lease, a housing accommodation;

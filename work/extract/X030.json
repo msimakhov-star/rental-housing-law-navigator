@@ -1,0 +1,37 @@
+{
+ "doc_id": "X030",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T03:30:00Z",
+ "rules": [
+  {
+   "jurisdiction": "Jersey City, NJ",
+   "level": "city",
+   "category": "algorithmic_rent_setting",
+   "status": "in_force",
+   "title": "Jersey City ban on algorithmic rent-fixing (Ord. 25-057)",
+   "requirement": "Landlords may not subscribe to, contract with or pay a service provider that collects nonpublic competitor rental information and uses software to recommend rents, lease terms or occupancy levels. Service providers may not facilitate agreements not to compete among landlords.",
+   "key_value": "ban on paying for algorithmic rent-setting services; subsequent violations fined $100 to $2,000, each day a separate violation",
+   "coverage_conditions": "Real estate lessors, agents and subcontractors, and service providers, for residential dwelling units (houses, apartments, accessory units used as a primary residence)",
+   "exemptions": "Owners of multiple properties for actions relating exclusively to properties they control; licensed real estate agents acting in accordance with state regulations; inpatient medical care, licensed long-term care, detention facilities",
+   "effective_date": null,
+   "citation": "Jersey City Code § 218-12",
+   "source_doc_id": "X030",
+   "source_url": "https://cityofjerseycity.civicweb.net/document/429156",
+   "quoted_span": "It is unlawful for any real estate lessor, agent, or subcontractor thereof, to subscribe to, contract with, or otherwise exchange anything of value in return for the services of a Service Provider.",
+   "confidence": 0.85,
+   "conflict_flag": false,
+   "conflict_note": "Ordinance text gives adoption on 2025-05-21 (mayor approved 2025-05-22) but no effective date, so effective_date is null; X018 (law firm alert) says June 2025.",
+   "interaction": "NJ statewide algorithmic rent-setting law (P.L.2025, c.405) takes effect later and may overlap; flagged for human review.",
+   "applies_if": null,
+   "exempt_if": null,
+   "yields_to": [],
+   "conflicts_with": [
+    {
+     "jurisdiction": "NJ",
+     "category": "algorithmic_rent_setting"
+    }
+   ]
+  }
+ ],
+ "notes": "Ordinance text only (PDF of Ord. 25-057, not saved); it does not state an effective date. Chapter 260 rent control was not read."
+}

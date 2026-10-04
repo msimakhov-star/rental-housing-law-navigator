@@ -1,0 +1,84 @@
+{
+ "doc_id": "D024",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T00:00:00Z",
+ "rules": [
+  {
+   "jurisdiction": "CA",
+   "level": "state",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "yields_to": [
+    {
+     "jurisdiction": "Los Angeles, CA",
+     "category": "rent_increase_limits"
+    },
+    {
+     "jurisdiction": "San Francisco, CA",
+     "category": "rent_increase_limits"
+    },
+    {
+     "jurisdiction": "Berkeley, CA",
+     "category": "rent_increase_limits"
+    },
+    {
+     "jurisdiction": "Santa Ana, CA",
+     "category": "rent_increase_limits"
+    }
+   ],
+   "conflicts_with": [],
+   "applies_if": null,
+   "exempt_if": {
+    "any": [
+     {
+      "unavailable": "housing deed-restricted or subsidized as affordable housing"
+     },
+     {
+      "unavailable": "dormitory owned and operated by a school or higher education institution"
+     },
+     {
+      "unavailable": "housing under local rent control that restricts annual increases below the state cap"
+     },
+     {
+      "fact": "building_age_years",
+      "op": "<",
+      "value": 15
+     },
+     {
+      "unavailable": "separately alienable property owned by a non-corporate, non-REIT owner with written exemption notice"
+     },
+     {
+      "all": [
+       {
+        "unavailable": "owner occupied one of two units as principal residence at start of tenancy, neither an ADU"
+       },
+       {
+        "fact": "units",
+        "op": "==",
+        "value": 2
+       }
+      ]
+     },
+     {
+      "unavailable": "homeowner of a mobilehome"
+     }
+    ]
+   },
+   "interaction": "Does not apply to housing under local rent control that limits annual increases to less than this cap; it does not expand or limit local rent control authority.",
+   "category": "rent_increase_limits",
+   "status": "in_force",
+   "title": "Tenant Protection Act rent cap (SB 567 version)",
+   "requirement": "Rent cannot be raised more than 5% plus local CPI change, or 10%, whichever is lower, in any 12-month period, and no more than twice in that period. New tenancies may start at any rent.",
+   "key_value": "5% + CPI, max 10% per 12 months",
+   "coverage_conditions": "Residential rental units not exempt; applies to increases from the lowest rent charged in the prior 12 months; sunset Jan 1, 2030",
+   "exemptions": "Deed-restricted or subsidized affordable housing, dorms, housing under stricter local rent control, housing with certificate of occupancy within 15 years, separately alienable non-corporate owner property with notice, owner-occupied duplex",
+   "effective_date": "2024-04-01",
+   "citation": "Cal. Civ. Code § 1947.12",
+   "source_doc_id": "D024",
+   "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1947.12",
+   "quoted_span": "shall not, over the course of any 12-month period, increase the gross rental rate for a dwelling or a unit more than 5 percent plus the percentage change in the cost of living, or 10 percent, whichever is lower",
+   "confidence": 0.9
+  }
+ ],
+ "notes": "Operative 2024-04-01 (SB 567, effective 2024-01-01). Original AB 1482 start 2020-01-01 is not the current version. yields_to lists CA cities with local rent control; consolidator should prune to those with a rule. Sunsets 2030-01-01."
+}

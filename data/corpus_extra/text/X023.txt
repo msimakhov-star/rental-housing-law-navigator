@@ -1,0 +1,8 @@
+SOURCE: https://massrealestatelawblog.com/tag/cella-v-attorney-general/
+RETRIEVED: 2026-10-04 00:59 UTC
+VIA: curl
+SUPPLIED_MANIFEST_ID: D055
+
+QUOTE-ONLY STUB: the full page is not redistributed; fetch it from the SOURCE url above. Quoted spans used by our rules:
+The case, Cella v. Attorney General, SJC-13893 (embedded below), involved Initiative Petition 25-21
+involved Initiative Petition 25-21, titled “An Initiative Petition to Protect Tenants by Limiting Rent Increases.”

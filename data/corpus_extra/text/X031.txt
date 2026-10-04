@@ -1,0 +1,7 @@
+SOURCE: https://codelibrary.amlegal.com/codes/san_francisco/latest/sf_police/0-0-0-8616
+RETRIEVED: 2026-10-04 03:17 UTC
+VIA: r.jina.ai
+SUPPLIED_MANIFEST_ID: none
+
+QUOTE-ONLY STUB: the full page is not redistributed; fetch it from the SOURCE url above. Quoted spans used by our rules:
+A Conviction that is more than seven years old, the date of Conviction being the date of sentencing;

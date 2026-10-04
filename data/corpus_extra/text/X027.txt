@@ -1,0 +1,7 @@
+SOURCE: https://www.lassd.org/resource/city-of-san-diego-tenant-protection-ordinance/
+RETRIEVED: 2026-10-04 01:02 UTC
+VIA: r.jina.ai
+SUPPLIED_MANIFEST_ID: D077
+
+QUOTE-ONLY STUB: the full page is not redistributed; fetch it from the SOURCE url above. Quoted spans used by our rules:
+The purpose of the Ordinance is to require Just Cause for termination of residential tenancies consistent with California Civil Code section 1946.2

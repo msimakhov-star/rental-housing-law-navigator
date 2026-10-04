@@ -1,0 +1,32 @@
+{
+ "doc_id": "D007",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T00:53:59Z",
+ "rules": [
+  {
+   "jurisdiction": "Berkeley, CA",
+   "level": "city",
+   "category": "security_deposits",
+   "status": "in_force",
+   "title": "Berkeley security deposit interest",
+   "requirement": "Landlords of units covered by the Berkeley Rent Ordinance must pay tenants interest on the security deposit each year, prorated on move-out. The deposit cap (one month, or two for small owners, from July 1, 2024) is state law (AB 12), not local.",
+   "key_value": "interest due annually on deposits; cap itself is state law (1 month, 2 for small owners)",
+   "coverage_conditions": "Units fully or partially covered by the Rent Ordinance",
+   "exemptions": null,
+   "effective_date": null,
+   "citation": "Berkeley Mun. Code ch. 13.76",
+   "source_doc_id": "D007",
+   "source_url": "https://rentboard.berkeleyca.gov/rights-responsibilities/security-deposits",
+   "quoted_span": "For tenancies in units fully or partially covered by Berkeley's Rent Ordinance, landlords must pay tenants interest on their security deposit at the end of each year and a prorated amount if the tenant moves out before the end of the year. See our",
+   "confidence": 0.5,
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": "Deposit amount limits come from California law, not a Berkeley rule.",
+   "applies_if": null,
+   "exempt_if": null,
+   "yields_to": [],
+   "conflicts_with": []
+  }
+ ],
+ "notes": "Page is a summary; the interest requirement names only the Berkeley Rent Ordinance, so ch. 13.76 is the best citation (section not stated). Cap and return rules described are state law (AB 12)."
+}

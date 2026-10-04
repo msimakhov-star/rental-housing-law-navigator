@@ -1,0 +1,34 @@
+{
+ "doc_id": "X031",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T03:30:00Z",
+ "rules": [
+  {
+   "jurisdiction": "San Francisco, CA",
+   "level": "city",
+   "category": "screening_restrictions",
+   "status": "in_force",
+   "title": "San Francisco Fair Chance Ordinance, housing provisions (Police Code art. 49, sec. 4906)",
+   "requirement": "For affordable housing, a housing provider may not ask about or base an adverse action on arrests not leading to conviction, expunged or dismissed convictions, juvenile matters, convictions over seven years old, infractions or decriminalized conduct. Conviction history may be asked about only after the applicant is found eligible and qualified on rental and credit history, and decisions need an individualized assessment of directly related convictions.",
+   "key_value": "affordable housing only: no inquiry before eligibility check; 7-year look-back limit; individualized assessment; 14 days to respond to a notice of adverse action",
+   "coverage_conditions": "Housing providers, regarding applicants and household members for Affordable Housing (term defined in section 4903, not read)",
+   "exemptions": null,
+   "effective_date": "2026-08-10",
+   "citation": "S.F. Police Code art. 49",
+   "source_doc_id": "X031",
+   "source_url": "https://codelibrary.amlegal.com/codes/san_francisco/latest/sf_police/0-0-0-8616",
+   "quoted_span": "A Conviction that is more than seven years old, the date of Conviction being the date of sentencing;",
+   "confidence": 0.8,
+   "conflict_flag": false,
+   "conflict_note": "Section was added 2014 (Eff. 3/16/2014, Oper. 8/13/2014) and last amended by Ord. 128-26, Eff. 8/10/2026; effective_date uses the latest amendment.",
+   "interaction": "Operates alongside state fair housing law; the section reads as limited to Affordable Housing, so market-rate coverage is unconfirmed.",
+   "applies_if": null,
+   "exempt_if": {
+    "unavailable": "housing is not Affordable Housing as defined in section 4903"
+   },
+   "yields_to": [],
+   "conflicts_with": []
+  }
+ ],
+ "notes": "Only section 4906 read; definition of Affordable Housing (4903), notices (4907) and enforcement (4911) not read. Section 49.2 / Rent Board deposit-interest legal basis not attempted."
+}

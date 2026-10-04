@@ -1,0 +1,32 @@
+{
+ "doc_id": "D076",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T00:54:39Z",
+ "rules": [
+  {
+   "level": "city",
+   "source_doc_id": "D076",
+   "source_url": "https://sandiego.gov/sites/default/files/2025-04/automated-rent-price-fixing-prohibition-ordinance-materials.pdf",
+   "quoted_span": "It is unlawful for a landlord to use an algorithmic device to set rental rates",
+   "conflict_flag": false,
+   "conflict_note": "This document is a draft ordinance (O-2025-107) with blank passage, mayor and clerk signature lines, dated Nov 2024 and staff report Feb 27, 2025; it does not show adoption, so status is pending and effective date unknown. Enactment status UNVERIFIED from this document; check a later source.",
+   "interaction": "No state-level conflict is discussed in the document.",
+   "applies_if": null,
+   "exempt_if": null,
+   "yields_to": [],
+   "conflicts_with": [],
+   "confidence": 0.5,
+   "coverage_conditions": "Landlords and sellers of rent-setting software for residential rental property in the City of San Diego; takes effect on the 30th day after final passage",
+   "exemptions": "software that publishes reports from public information or from aggregated nonpublic data more than 90 days old without recommending future rents; software used to set rents or income limits under affordable housing program guidelines",
+   "effective_date": null,
+   "key_value": "ban on algorithmic devices using nonpublic competitor data; up to $1,000 per violation",
+   "status": "pending",
+   "jurisdiction": "San Diego, CA",
+   "category": "algorithmic_rent_setting",
+   "title": "San Diego Prohibition of Anti-Competitive Automated Rent Price-Fixing (proposed Div. 11)",
+   "requirement": "Proposed ordinance bans selling, licensing or providing, and a landlord's use of, software that uses nonpublic competitor data to advise or recommend rents or occupancy levels; tenants may sue for injunction, damages or civil penalties up to $1,000 per violation, plus attorney's fees.",
+   "citation": "S.D.M.C. §§ 98.1101 to 98.1104"
+  }
+ ],
+ "notes": "Draft ordinance package (staff report, ordinance, digest, strikeout version); final passage date is blank. Adds Division 11 to ch. 9 art. 8. No effective date can be computed without the passage date."
+}

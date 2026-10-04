@@ -1,0 +1,7 @@
+SOURCE: https://law.justia.com/codes/new-jersey/title-2a/section-2a-18-61-1/
+RETRIEVED: 2026-10-04 00:54 UTC
+VIA: r.jina.ai
+SUPPLIED_MANIFEST_ID: D062
+
+QUOTE-ONLY STUB: the full page is not redistributed; fetch it from the SOURCE url above. Quoted spans used by our rules:
+No lessee or tenant or the assigns, under-tenants or legal representatives of such lessee or tenant may be removed by the Superior Court from any house, building, mobile home or land in a mobile home park or tenement leased for residential purposes

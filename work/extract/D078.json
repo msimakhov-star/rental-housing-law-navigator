@@ -1,0 +1,32 @@
+{
+ "doc_id": "D078",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T00:53:59Z",
+ "rules": [
+  {
+   "jurisdiction": "San Francisco, CA",
+   "level": "city",
+   "category": "screening_restrictions",
+   "status": "in_force",
+   "title": "San Francisco Fair Chance Ordinance (affordable housing)",
+   "requirement": "San Francisco's Fair Chance Ordinance protects residents with arrest or conviction history in affordable housing decisions.",
+   "key_value": "protects people with arrest or conviction history in affordable housing decisions",
+   "coverage_conditions": "Affordable housing decisions in San Francisco",
+   "exemptions": null,
+   "effective_date": null,
+   "citation": "S.F. Fair Chance Ordinance (Human Rights Commission)",
+   "source_doc_id": "D078",
+   "source_url": "https://sf-hrc.org/fair-chance-ordinance",
+   "quoted_span": "San Francisco's Fair Chance Ordinance protects residents with arrest or conviction history in affordable housing decisions.",
+   "confidence": 0.4,
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": null,
+   "applies_if": null,
+   "exempt_if": null,
+   "yields_to": [],
+   "conflicts_with": []
+  }
+ ],
+ "notes": "Page is an agency homepage; it names the Fair Chance Ordinance in one sentence only, no code section or date, so citation is the ordinance's name and confidence is low."
+}

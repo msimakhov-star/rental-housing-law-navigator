@@ -1,0 +1,7 @@
+SOURCE: https://hudsoncountyview.com/jersey-city-council-approves-realpage-ban-and-increasing-benefits-for-laborers/
+RETRIEVED: 2026-10-04 00:55 UTC
+VIA: r.jina.ai
+SUPPLIED_MANIFEST_ID: D035
+
+QUOTE-ONLY STUB: the full page is not redistributed; fetch it from the SOURCE url above. Quoted spans used by our rules:
+The Jersey City Council unanimously approved (9-0) a measure banning rent-setting algorithms such as RealPage

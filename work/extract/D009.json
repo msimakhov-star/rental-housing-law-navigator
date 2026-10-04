@@ -1,0 +1,71 @@
+{
+ "doc_id": "D009",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T00:53:59Z",
+ "rules": [
+  {
+   "jurisdiction": "Berkeley, CA",
+   "level": "city",
+   "category": "rent_increase_limits",
+   "status": "in_force",
+   "title": "Berkeley rent control coverage by unit type",
+   "requirement": "Most units in multifamily properties built before 1980 are fully covered by rent control; new construction, most condos and later single-family tenancies are only partially covered and have no rent control.",
+   "key_value": "rent control covers most multifamily built before 1980",
+   "coverage_conditions": "Fully covered: pre-1980 multifamily, single-family tenancies before 1996, rooming houses",
+   "exemptions": "Exempt: golden duplex, shared kitchen or bath with owner, ADU with owner-occupancy, university units, nonprofit cooperatives",
+   "effective_date": null,
+   "citation": "Berkeley Mun. Code ch. 13.76",
+   "source_doc_id": "D009",
+   "source_url": "https://rentboard.berkeleyca.gov/sites/default/files/documents/Rent%20Ordinance%20Coverage%20by%20Unit%20Type.pdf",
+   "quoted_span": "Most units in multifamily properties built before 1980** Fully Covered Yes Yes Yes Yes",
+   "confidence": 0.75,
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": null,
+   "applies_if": {
+    "any": [
+     {
+      "fact": "co_date",
+      "op": "<=",
+      "value": "1979-12-31"
+     },
+     {
+      "unavailable": "single-family home with tenancy that began before 1996, or rooming house with five or more rooms rented individually"
+     }
+    ]
+   },
+   "exempt_if": {
+    "unavailable": "exempt unit types (golden duplex, owner shares kitchen or bath, ADU with owner-occupancy, university unit, nonprofit cooperative)"
+   },
+   "yields_to": [],
+   "conflicts_with": []
+  },
+  {
+   "jurisdiction": "Berkeley, CA",
+   "level": "city",
+   "category": "just_cause_eviction",
+   "status": "in_force",
+   "title": "Berkeley just cause coverage by unit type",
+   "requirement": "Just cause for eviction applies to fully and partially covered units; exempt unit types have no just cause protection.",
+   "key_value": "just cause applies to fully and partially covered units",
+   "coverage_conditions": "Fully or partially covered units",
+   "exemptions": "Exempt unit types listed in the coverage guide",
+   "effective_date": null,
+   "citation": "Berkeley Mun. Code ch. 13.76",
+   "source_doc_id": "D009",
+   "source_url": "https://rentboard.berkeleyca.gov/sites/default/files/documents/Rent%20Ordinance%20Coverage%20by%20Unit%20Type.pdf",
+   "quoted_span": "Partially Covered Yes No Yes Yes",
+   "confidence": 0.75,
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": null,
+   "applies_if": null,
+   "exempt_if": {
+    "unavailable": "exempt unit types (golden duplex, owner shares kitchen or bath, ADU with owner-occupancy, university unit, nonprofit cooperative)"
+   },
+   "yields_to": [],
+   "conflicts_with": []
+  }
+ ],
+ "notes": "Coverage table is a guide only; new construction is stated as certificate of occupancy after June 1980 here vs after 1980 on D006, so the pre-1980 year cutoff is approximate."
+}

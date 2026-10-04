@@ -1,0 +1,7 @@
+SOURCE: https://caanet.org/compliance-reminder-section-8-acceptance-and-criminal-background-checks-are-fair-housing-issues/
+RETRIEVED: 2026-10-04 00:59 UTC
+VIA: curl
+SUPPLIED_MANIFEST_ID: D015
+
+QUOTE-ONLY STUB: the full page is not redistributed; fetch it from the SOURCE url above. Quoted spans used by our rules:
+state law prohibits landlords from refusing to participate in such programs.

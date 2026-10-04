@@ -1,0 +1,32 @@
+{
+ "doc_id": "X029",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T03:30:00Z",
+ "rules": [
+  {
+   "jurisdiction": "MA",
+   "level": "state",
+   "category": "screening_restrictions",
+   "status": "in_force",
+   "title": "Massachusetts CORI rules for housing applicants (803 CMR 5.00)",
+   "requirement": "A landlord, property manager or real estate agent may request standard access CORI only on the housing applicant, and only as the final step in the application process. It may not be used to screen other household members.",
+   "key_value": "CORI check only as the final step of the application; applicant only, not other household members",
+   "coverage_conditions": "Landlords, property management companies and real estate agents evaluating applicants for market rate housing",
+   "exemptions": null,
+   "effective_date": "2021-06-11",
+   "citation": "803 CMR 5.00",
+   "source_doc_id": "X029",
+   "source_url": "https://www.law.cornell.edu/regulations/massachusetts/803-CMR-5-04",
+   "quoted_span": "CORI shall only be requested for a housing applicant as the final step in the application process.",
+   "confidence": 0.8,
+   "conflict_flag": false,
+   "conflict_note": "Text is Cornell LII mirror of section 5.04 only; effective date is the latest amendment (Mass Register Issue 1445, eff. 6/11/2021) shown on the page.",
+   "interaction": "Applies statewide; subsidized housing and public housing authorities are covered by section 5.05, not read here.",
+   "applies_if": null,
+   "exempt_if": null,
+   "yields_to": [],
+   "conflicts_with": []
+  }
+ ],
+ "notes": "Only section 5.04 (market rate housing) was read; sections 5.05 to 5.15 (subsidized housing, adverse decision notice, CRA use) were not."
+}

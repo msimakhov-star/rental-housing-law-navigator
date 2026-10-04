@@ -1,0 +1,8 @@
+SOURCE: https://ecode360.com/46833413
+RETRIEVED: 2026-10-04 00:53 UTC
+VIA: r.jina.ai
+SUPPLIED_MANIFEST_ID: D034
+
+QUOTE-ONLY STUB: the full page is not redistributed; fetch it from the SOURCE url above. Quoted spans used by our rules:
+Landlords who rent any residential dwelling unit (defined as any primary residence excluding medical/long-term care or detention facilities) in the City of Hoboken are prohibited from price fixing using algorithmic pricing.
+are prohibited from price fixing using algorithmic pricing

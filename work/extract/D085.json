@@ -1,0 +1,71 @@
+{
+ "doc_id": "D085",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T00:54:39Z",
+ "rules": [
+  {
+   "level": "city",
+   "source_doc_id": "D085",
+   "source_url": "https://santa-ana.gov/santa-ana-city-council-adopts-rent-stabilization-and-just-cause-eviction-ordinances-effective-nov-19",
+   "quoted_span": "Increase in residential rents are limited to the lower of 3% per year, or 80% of the percent change in the Consumer Price Index over the most recent 12-month period.",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": "Local rent stabilization; the state AB 1482 cap yields to it where it is stricter.",
+   "applies_if": null,
+   "exempt_if": {
+    "fact": "co_date",
+    "op": ">",
+    "value": "1995-02-01"
+   },
+   "yields_to": [],
+   "conflicts_with": [],
+   "confidence": 0.7,
+   "coverage_conditions": "Residential rental property in Santa Ana",
+   "exemptions": "residential buildings constructed after February 1, 1995; mobile home spaces offered for rent after January 1, 1990",
+   "effective_date": "2021-11-19",
+   "key_value": "lower of 3% or 80% of CPI change",
+   "status": "in_force",
+   "jurisdiction": "Santa Ana, CA",
+   "category": "rent_increase_limits",
+   "title": "Santa Ana Rent Stabilization Ordinance",
+   "requirement": "Rent increases are limited to the lower of 3% per year or 80% of the 12-month CPI change; no increase if CPI is negative. Owners may petition for a higher increase to ensure a fair return.",
+   "citation": "Santa Ana Rent Stabilization and Just Cause Eviction Ordinance (Rent Stabilization Program)"
+  },
+  {
+   "level": "city",
+   "source_doc_id": "D085",
+   "source_url": "https://santa-ana.gov/santa-ana-city-council-adopts-rent-stabilization-and-just-cause-eviction-ordinances-effective-nov-19",
+   "quoted_span": "Under a no-fault just cause termination, the owner shall either provide 3 months of relocation assistance or waive payment of rent for the final 3 months of the tenancy.",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": null,
+   "applies_if": null,
+   "exempt_if": {
+    "any": [
+     {
+      "fact": "building_age_years",
+      "op": "<",
+      "value": 15
+     },
+     {
+      "unavailable": "deed-restricted affordable housing, hotel, care facility, dormitory or shared living quarters"
+     }
+    ]
+   },
+   "yields_to": [],
+   "conflicts_with": [],
+   "confidence": 0.7,
+   "coverage_conditions": "Residential rental property in Santa Ana, after the first 30 days of tenancy",
+   "exemptions": "housing produced in the last 15 years; deed-restricted affordable housing; hotel and transient occupancy; hospital and care facilities; dormitories; other shared living quarters",
+   "effective_date": "2021-11-19",
+   "key_value": "3 months' relocation assistance or rent waiver for no-fault terminations",
+   "status": "in_force",
+   "jurisdiction": "Santa Ana, CA",
+   "category": "just_cause_eviction",
+   "title": "Santa Ana Just Cause Eviction Ordinance",
+   "requirement": "After 30 days an owner may not end a tenancy without just cause stated in a written notice, after first giving notice and time to cure; for no-fault causes the owner pays 3 months of relocation assistance or waives the last 3 months of rent.",
+   "citation": "Santa Ana Rent Stabilization and Just Cause Eviction Ordinance (Rent Stabilization Program)"
+  }
+ ],
+ "notes": "City press release on the 2021 adoption; both ordinances effective 2021-11-19 (text says effective Nov 19 and 'not effective until November 19, 2021'). No ordinance number or code cite is given. Rent cap numbers are the adopted 2021 terms; later changes (e.g. the 2.87% annual rate) are in D084."
+}

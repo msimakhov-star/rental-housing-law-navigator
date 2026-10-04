@@ -1,0 +1,7 @@
+SOURCE: https://www.ocbj.com/real-estate/santa-ana-bans-landlords-from-using-ai-apartment-rent-pricing-software/
+RETRIEVED: 2026-10-04 00:54 UTC
+VIA: curl
+SUPPLIED_MANIFEST_ID: D086
+
+QUOTE-ONLY STUB: the full page is not redistributed; fetch it from the SOURCE url above. Quoted spans used by our rules:
+prohibiting the sale, licensing and use of Algorithmic Devices,

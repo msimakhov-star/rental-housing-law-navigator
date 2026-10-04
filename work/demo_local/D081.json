@@ -1,0 +1,37 @@
+{
+ "doc_id": "D081",
+ "extractor_model": "ollama:gemma4:12b-nvfp4",
+ "extracted_at": "2026-10-04T01:22:23Z",
+ "rules": [
+  {
+   "jurisdiction": "San Francisco, CA",
+   "level": "city",
+   "category": "algorithmic_rent_setting",
+   "status": "in_force",
+   "title": "Prohibition on algorithmic devices for rent setting",
+   "requirement": "The law prohibits the sale or use of algorithmic devices to set rents or manage occupancy levels for residential units in San Francisco.",
+   "key_value": "ban on algorithmic devices using nonpublic competitor data",
+   "coverage_conditions": "residential units in San Francisco",
+   "exemptions": null,
+   "effective_date": "2024-10-14",
+   "citation": "S.F. Admin. Code § 37.10C",
+   "source_doc_id": "D081",
+   "source_url": "https://www.sf.gov/news/new-law-prohibits-algorithmic-devices-used-set-rents-san-francisco",
+   "quoted_span": "The law prohibits the sale or use of algorithmic devices to set rents or manage occupancy levels for residential units in San Francisco.",
+   "confidence": 1.0,
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": null,
+   "applies_if": null,
+   "exempt_if": null,
+   "yields_to": [],
+   "conflicts_with": []
+  }
+ ],
+ "notes": "The document defines 'algorithmic device' as software using nonpublic competitor data, but the rule applies to the sale and use of such devices.",
+ "run": {
+  "validation_errors": [],
+  "retries": 0,
+  "repairs": []
+ }
+}

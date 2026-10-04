@@ -1,0 +1,7 @@
+{
+ "doc_id": "X016",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T01:30:00Z",
+ "rules": [],
+ "notes": "Fetched page is only the GoCodebook navigation shell (table of contents of San Diego Municipal Code divisions, site chrome); it contains no text of the source-of-income division, so no rule can be quoted. Gap remains: San Diego source-of-income rule needs another source (header lists manifest id D075)."
+}

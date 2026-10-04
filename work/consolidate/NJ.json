@@ -1,0 +1,608 @@
+{
+ "group": "NJ",
+ "consolidator_model": "claude-opus-5-5",
+ "consolidated_at": "2026-10-04T02:10:29Z",
+ "rules": [
+  {
+   "conflict_flag": false,
+   "conflict_note": null,
+   "yields_to": [],
+   "conflicts_with": [],
+   "overrides": null,
+   "applies_if": null,
+   "exempt_if": {
+    "all": [
+     {
+      "unavailable": "owner-occupied premises with two or fewer rental units"
+     },
+     {
+      "fact": "units",
+      "op": "<=",
+      "value": 3
+     }
+    ]
+   },
+   "team_rule_id": "NJ-01",
+   "jurisdiction": "NJ",
+   "level": "state",
+   "category": "just_cause_eviction",
+   "status": "in_force",
+   "title": "NJ Anti-Eviction Act",
+   "requirement": "A residential landlord may not evict a tenant or refuse to renew a lease without one of the good causes listed in the Act, and must prove that cause in court. Most causes require a written Notice to Quit, and some a Notice to Cease first.",
+   "key_value": "Good cause required for eviction or non-renewal (statutory grounds); Notice to Quit for all causes except nonpayment",
+   "coverage_conditions": "Most residential rental properties, including single-family homes, apartment buildings and complexes, mobile homes, rooming and boarding homes",
+   "exemptions": "Two- or three-unit owner-occupied premises with two or fewer rental units; transient or seasonal hotel, motel or guest house guests; unit held in trust for a developmentally disabled immediate family member who permanently occupies it",
+   "effective_date": null,
+   "citation": "N.J.S.A. 2A:18-61.1",
+   "source_doc_id": "D067",
+   "source_url": "https://www.nj.gov/dca/codes/publications/pdf_lti/t_i_r.pdf",
+   "quoted_span": "No residential landlord may evict or fail to renew a",
+   "confidence": 0.85,
+   "interaction": "Statewide; applies alongside local rent control in Jersey City, Hoboken and Newark. Quote from the supplied DCA guide (D067); statute text X011 (supplemental) confirms the grounds and the owner-occupied two-rental-unit exception but gives no effective date for the current version."
+  },
+  {
+   "conflict_flag": false,
+   "conflict_note": null,
+   "yields_to": [],
+   "conflicts_with": [],
+   "overrides": null,
+   "applies_if": null,
+   "exempt_if": {
+    "all": [
+     {
+      "unavailable": "owner-occupied premises with not more than two rental units and the tenant has not invoked the law by 30 days written notice"
+     },
+     {
+      "fact": "units",
+      "op": "<=",
+      "value": 3
+     }
+    ]
+   },
+   "team_rule_id": "NJ-02",
+   "jurisdiction": "NJ",
+   "level": "state",
+   "category": "security_deposits",
+   "status": "in_force",
+   "title": "NJ Security Deposit Law",
+   "requirement": "A landlord may not take a security deposit above 1.5 times one month's rent, and a yearly top-up may not exceed 10% of the current deposit. The deposit must be held in a New Jersey interest-bearing account, interest belongs to the tenant, and it must be returned with interest less itemized deductions within 30 days after the tenancy ends.",
+   "key_value": "1.5 months' rent",
+   "coverage_conditions": "All rental premises or units used for dwelling purposes (N.J.S.A. 46:8-26)",
+   "exemptions": "Owner-occupied two- or three-family dwelling (owner-occupied premises with not more than two rental units), unless the tenant gives 30 days written notice invoking the law; interest-account rules do not apply to seasonal rentals of 125 days or less",
+   "effective_date": null,
+   "citation": "N.J.S.A. 46:8-21.2",
+   "source_doc_id": "D067",
+   "source_url": "https://www.nj.gov/dca/codes/publications/pdf_lti/t_i_r.pdf",
+   "quoted_span": "one and one-half times one month’s rent ( N.J.S.A. 46:8-21.2 ). It can be less.",
+   "confidence": 0.85,
+   "interaction": "Statewide. Quote from the supplied DCA guide (D067); statute texts X012 (46:8-21.2, cap and 10% rule, history 'amended 2003, c.188', a year not an effective date) and X013 (46:8-26, coverage section of the same act) merged into this one record."
+  },
+  {
+   "conflict_flag": false,
+   "conflict_note": null,
+   "yields_to": [],
+   "conflicts_with": [],
+   "overrides": null,
+   "applies_if": null,
+   "exempt_if": {
+    "fact": "units",
+    "op": "<=",
+    "value": 2
+   },
+   "team_rule_id": "NJ-03",
+   "jurisdiction": "NJ",
+   "level": "state",
+   "category": "application_screening_fees",
+   "status": "in_force",
+   "title": "Residential rental application fee cap",
+   "requirement": "A landlord or agent may not charge an application or similar fee above $50 to apply to rent a home; the cap is adjusted each January 1 by CPI. Violations carry penalties and the overcharge is returned to the applicant.",
+   "key_value": "$50 cap, CPI-adjusted yearly",
+   "coverage_conditions": "Application or similar fee to lease or sublease a residential rental property for dwelling purposes",
+   "exemptions": "Dwelling unit in a one-family or two-family dwelling; a New Jersey Real Estate Commission licensee unless the licensee is the landlord",
+   "effective_date": "2026-05-01",
+   "citation": "P.L.2025, c.405",
+   "source_doc_id": "D066",
+   "source_url": "https://pub.njleg.gov/bills/2024/PL25/405_.HTM",
+   "quoted_span": "shall not require an application or other similar fee to apply to lease or sublease a residential rental property for dwelling purposes, which exceeds $50.",
+   "confidence": 0.9,
+   "interaction": "Statewide (C.46:8-18.1). Effective date computed from section 3 (first day of the fourth month after approval on January 20, 2026), matching the brief (eff. 5/1/2026). The licensee carve-out concerns who charges the fee, not the building, so it is not in exempt_if.",
+   "date_kind": "law"
+  },
+  {
+   "conflict_flag": false,
+   "conflict_note": null,
+   "yields_to": [],
+   "conflicts_with": [],
+   "overrides": null,
+   "applies_if": null,
+   "exempt_if": {
+    "all": [
+     {
+      "unavailable": "owner-occupied premises"
+     },
+     {
+      "fact": "units",
+      "op": "<=",
+      "value": 4
+     }
+    ]
+   },
+   "team_rule_id": "NJ-04",
+   "jurisdiction": "NJ",
+   "level": "state",
+   "category": "screening_restrictions",
+   "status": "in_force",
+   "title": "Fair Chance in Housing Act",
+   "requirement": "Landlords may not ask about criminal history on an application or before making a conditional offer. After the offer they may consider only certain convictions within set lookback periods, must do an individualized assessment, and must give written reasons if they withdraw the offer.",
+   "key_value": "No criminal-record inquiry before a conditional offer; lookback 6 years (1st degree), 4 years (2nd/3rd degree), 1 year (4th degree); penalties up to $1,000 / $5,000 / $10,000",
+   "coverage_conditions": "Housing providers offering a rental dwelling unit for residential purposes",
+   "exemptions": "Dwelling unit in an owner-occupied premises of not more than four dwelling units",
+   "effective_date": "2022-01-01",
+   "citation": "P.L.2021, c.110",
+   "source_doc_id": "D065",
+   "source_url": "https://pub.njleg.gov/bills/2020/PL21/110_.HTM",
+   "quoted_span": "shall not make any oral or written inquiry regarding an applicant’s criminal record prior to making a conditional offer.",
+   "confidence": 0.85,
+   "interaction": "Statewide (C.46:8-52 et seq.); the text contains no preemption clause, so it applies alongside Newark's ban-the-box ordinance. Effective date computed from section 14 (first day of the seventh month after approval on June 18, 2021).",
+   "date_kind": "law"
+  },
+  {
+   "conflict_flag": false,
+   "conflict_note": null,
+   "yields_to": [],
+   "conflicts_with": [],
+   "overrides": null,
+   "applies_if": null,
+   "exempt_if": {
+    "all": [
+     {
+      "unavailable": "owner occupies the other unit of a two-family dwelling, or rents rooms in an owner-occupied one-family dwelling"
+     },
+     {
+      "fact": "units",
+      "op": "<=",
+      "value": 2
+     }
+    ]
+   },
+   "team_rule_id": "NJ-05",
+   "jurisdiction": "NJ",
+   "level": "state",
+   "category": "screening_restrictions",
+   "status": "in_force",
+   "title": "NJ Law Against Discrimination: source of lawful income",
+   "requirement": "A landlord may not refuse to rent or treat an applicant differently because of the source of lawful income or rent payment, such as a Section 8 voucher. A landlord may still refuse for insufficient income or poor credit.",
+   "key_value": "Source of lawful income (incl. Section 8 vouchers) is a protected basis",
+   "coverage_conditions": "Sale or rental of all real property, residential or business",
+   "exemptions": "Single apartment in a two-family dwelling whose other unit the owner occupies; rooms rented in an owner-occupied one-family dwelling; religious-organization preference; housing for older persons (familial status only)",
+   "effective_date": null,
+   "citation": "N.J.S.A. 10:5-12",
+   "source_doc_id": "D068",
+   "source_url": "https://www.nj.gov/oag/dcr/downloads/kyrhousing02.pdf",
+   "quoted_span": "a landlord cannot deny the lawful recipient of a Section 8 HUD voucher the right to rent an apartment based solely on that source of lawful income.",
+   "confidence": 0.7,
+   "interaction": "Separate instrument from the Fair Chance in Housing Act in the same cell. Quote from the DCR brochure (D068); the cite N.J.S.A. 10:5-12(g) to -(h) is printed in the DCA guide (D067), which also lists source of lawful income as protected. Neither text gives an effective date."
+  },
+  {
+   "conflict_flag": false,
+   "conflict_note": null,
+   "yields_to": [],
+   "conflicts_with": [
+    {
+     "jurisdiction": "Jersey City, NJ",
+     "category": "algorithmic_rent_setting"
+    },
+    {
+     "jurisdiction": "Hoboken, NJ",
+     "category": "algorithmic_rent_setting"
+    }
+   ],
+   "overrides": null,
+   "applies_if": null,
+   "exempt_if": null,
+   "team_rule_id": "NJ-06",
+   "jurisdiction": "NJ",
+   "level": "state",
+   "category": "algorithmic_rent_setting",
+   "status": "not_yet_effective",
+   "title": "Forbidding the Algorithmic Inflation of Rent (FAIR) Act",
+   "requirement": "From July 1, 2027, landlords may not pay for or use a coordinator's rent-setting service that pools competitors' nonpublic data or sets rents, lease terms or occupancy by algorithm, and no one may perform that coordinating function. Violations are violations of the New Jersey Antitrust Act.",
+   "key_value": "Ban on algorithmic coordination of rents, lease terms or occupancy using competitors' nonpublic data; effective 2027-07-01",
+   "coverage_conditions": "Rental property owners, coordinators and their agents; any residential dwelling unit used as a primary residence in New Jersey",
+   "exemptions": "Inpatient medical, long-term care and detention facilities are not dwelling units; research or testing use; free public rent estimates; equal-terms brokerage listing databases; government affordability controls; non-AI spreadsheets needing human analysis and plain database queries",
+   "effective_date": "2027-07-01",
+   "citation": "P.L.2026, c.43",
+   "source_doc_id": "D069",
+   "source_url": "https://pub.njleg.state.nj.us/Bills/2026/AL26/43_.HTM",
+   "quoted_span": "a rental property owner, or any agent, representative, or subcontractor thereof, to receive, subscribe to, contract for, or otherwise exchange any form of consideration in return for the use of, the services of a coordinator;",
+   "confidence": 0.9,
+   "interaction": "Possible preemption of the Jersey City and Hoboken bans, for human review: section 6.b reads \"A municipality shall be prohibited from enacting an ordinance that conflicts with this act.\" and adds that it does not bar ordinances explicitly authorized or required by other law; it does not say whether ordinances enacted before the act are void. Approved July 20, 2026; effective date computed from section 9 (first day of the twelfth month after enactment), matching the brief, T3 and X025.",
+   "date_kind": "law"
+  },
+  {
+   "conflict_flag": false,
+   "conflict_note": null,
+   "yields_to": [],
+   "conflicts_with": [],
+   "overrides": null,
+   "applies_if": {
+    "fact": "units",
+    "op": ">=",
+    "value": 5
+   },
+   "exempt_if": {
+    "all": [
+     {
+      "fact": "building_age_years",
+      "op": "<",
+      "value": 30
+     },
+     {
+      "unavailable": "exemption granted on a Rent Control Exemption Request (e.g. newly constructed multiple dwelling, N.J.S.A. 2A:42-84.5)"
+     }
+    ]
+   },
+   "team_rule_id": "NJ-07",
+   "jurisdiction": "Jersey City, NJ",
+   "level": "city",
+   "category": "rent_increase_limits",
+   "status": "in_force",
+   "title": "Jersey City Rent Control Ordinance",
+   "requirement": "Rent increases in Jersey City buildings with 5 or more units are regulated by the Rent Control Ordinance and its Rent Leveling Board; all 1 to 4 unit properties are exempt. Owners may ask the Office of Landlord Tenant Relations for other permitted exemptions.",
+   "key_value": "Rent control for buildings of 5 or more units (1 to 4 unit properties exempt); cap formula not stated in the source (city links a CPI chart)",
+   "coverage_conditions": "Properties with 5 or more units",
+   "exemptions": "All 1 to 4 unit properties; other permitted exemptions granted on a Rent Control Exemption Request; newly constructed multiple dwellings for 30 years after completion under state law (N.J.S.A. 2A:42-84.5, per D067); some government-subsidized rents",
+   "effective_date": null,
+   "citation": "Jersey City Code ch. 260",
+   "source_doc_id": "D036",
+   "source_url": "https://www.jerseycitynj.gov/landlordtenant",
+   "quoted_span": "(Please Note: All 1-4 Unit Properties are exempt from rent control)",
+   "confidence": 0.6,
+   "interaction": "Local rent control; NJ has no state rent cap (D067). The state new-construction exemption is encoded as building age under 30 plus an unavailable grant fact; subsidized-housing exemptions are listed only in text. Missing units or year_built give unknown."
+  },
+  {
+   "conflict_flag": false,
+   "conflict_note": null,
+   "yields_to": [],
+   "conflicts_with": [
+    {
+     "jurisdiction": "NJ",
+     "category": "algorithmic_rent_setting"
+    }
+   ],
+   "overrides": null,
+   "applies_if": null,
+   "exempt_if": null,
+   "team_rule_id": "NJ-08",
+   "jurisdiction": "Jersey City, NJ",
+   "level": "city",
+   "category": "algorithmic_rent_setting",
+   "status": "in_force",
+   "title": "Jersey City ban on algorithmic rent fixing",
+   "requirement": "Landlords and their agents may not subscribe to, contract with or pay a service provider that collects nonpublic competitor information and uses an algorithm to recommend rents, lease terms or occupancy levels, and service providers may not facilitate agreements not to compete. Enforcement is public and private; repeat violations are fined $100 to $2,000, each day a separate violation.",
+   "key_value": "Ban on paying for algorithmic rent-coordination services; repeat violations $100 to $2,000 per day",
+   "coverage_conditions": "Real estate lessors, their agents and subcontractors, and service providers, for residential dwelling units in Jersey City",
+   "exemptions": "Owners of multiple properties for actions related exclusively to properties they control; licensed real estate agents acting in accordance with state rules",
+   "effective_date": "2025-06",
+   "citation": "Jersey City Code § 218-12",
+   "source_doc_id": "X030",
+   "source_url": "https://cityofjerseycity.civicweb.net/document/429156",
+   "quoted_span": "It is unlawful for any real estate lessor, agent, or subcontractor thereof, to subscribe to, contract with, or otherwise",
+   "confidence": 0.8,
+   "interaction": "Supplemental source: official text of Ord. 25-057 (X030, adopted May 21 2025, mayor approved May 22 2025), which prints no effective date; 2025-06 from the law-firm alert X018 and the brief (Jun 2025). No supplied D doc covers the ban. Possible preemption by the NJ FAIR Act, P.L.2026, c.43, from 2027-07-01 (human review via conflicts_with).",
+   "date_kind": "law"
+  },
+  {
+   "conflict_flag": false,
+   "conflict_note": null,
+   "yields_to": [],
+   "conflicts_with": [],
+   "overrides": null,
+   "applies_if": null,
+   "exempt_if": {
+    "any": [
+     {
+      "all": [
+       {
+        "fact": "building_age_years",
+        "op": "<",
+        "value": 30
+       },
+       {
+        "unavailable": "Rent Regulation Officer determined the dwelling is an exempt newly constructed dwelling"
+       }
+      ]
+     },
+     {
+      "unavailable": "coverage under section 155-2 (not captured), building vacant since January 1, 1984, or unit decontrolled under art. VII or VIII"
+     }
+    ]
+   },
+   "team_rule_id": "NJ-09",
+   "jurisdiction": "Hoboken, NJ",
+   "level": "city",
+   "category": "rent_increase_limits",
+   "status": "in_force",
+   "title": "Hoboken Rent Control Ordinance",
+   "requirement": "At lease renewal a landlord of a rent-controlled Hoboken unit may not raise the rent by more than 5% or the CPI change, whichever is less, and only once in 12 months, with 30 days written notice explaining the reason. Tax, water/sewer and capital improvement surcharges need separate approval.",
+   "key_value": "Lesser of 5% or CPI change per year",
+   "coverage_conditions": "Dwellings to which Hoboken Code ch. 155 applies (coverage section 155-2 not in the captured text)",
+   "exemptions": "Newly constructed dwellings and buildings completely vacant since January 1, 1984, on determination by the Rent Regulation Officer; vacancy decontrol (art. VII) and condo/co-op initial rental decontrol (art. VIII); criteria not in the captured text",
+   "effective_date": "2023-02-01",
+   "citation": "Hoboken Code ch. 155",
+   "source_doc_id": "X002",
+   "source_url": "https://ecode360.com/15252470",
+   "quoted_span": "no landlord may request or receive a percentage increase in rent which is greater than 5% or the percentage difference between the consumer price index",
+   "confidence": 0.7,
+   "interaction": "Supplemental source: Hoboken ecode pages (X001 to X003) have no supplied D-doc equivalent. effective_date is the adoption date of Ord. B-532 (2-1-2023), the history tag over section 155-5 (cap); chapter adopted 1-16-1984 (X001). Coverage and exemption criteria are not captured, so the exemption stays unknown for every address.",
+   "date_kind": "version"
+  },
+  {
+   "conflict_flag": false,
+   "conflict_note": null,
+   "yields_to": [],
+   "conflicts_with": [
+    {
+     "jurisdiction": "NJ",
+     "category": "algorithmic_rent_setting"
+    }
+   ],
+   "overrides": null,
+   "applies_if": null,
+   "exempt_if": null,
+   "team_rule_id": "NJ-10",
+   "jurisdiction": "Hoboken, NJ",
+   "level": "city",
+   "category": "algorithmic_rent_setting",
+   "status": "in_force",
+   "title": "Hoboken ban on price fixing using algorithmic pricing",
+   "requirement": "Landlords of any residential dwelling unit in Hoboken may not use software, algorithms or data-sharing platforms that analyze nonpublic competitor information to coordinate, recommend or implement rents, lease terms or occupancy levels. Violations go to Hoboken Municipal Court.",
+   "key_value": "Ban on algorithmic pricing using nonpublic competitor data (under 365 days old); fine up to $2,000 or up to 90 days community service",
+   "coverage_conditions": "Any residential dwelling unit used as a primary residence in Hoboken",
+   "exemptions": "Medical/long-term care and detention facilities",
+   "effective_date": "2025-07-09",
+   "citation": "Hoboken Code ch. 158, art. II",
+   "source_doc_id": "X003",
+   "source_url": "https://ecode360.com/46833413",
+   "quoted_span": "Landlords who rent any residential dwelling unit (defined as any primary residence excluding medical/long-term care or detention facilities) in the City of Hoboken are prohibited from price fixing using algorithmic pricing.",
+   "confidence": 0.75,
+   "interaction": "Supplemental source (codified text X003, adopted 7-9-2025 by Ord. B-781; X018 and the brief say effective July 2025, consistent). Possible preemption by the NJ FAIR Act from 2027-07-01 (human review via conflicts_with).",
+   "date_kind": "law"
+  },
+  {
+   "conflict_flag": false,
+   "conflict_note": null,
+   "yields_to": [],
+   "conflicts_with": [],
+   "overrides": null,
+   "applies_if": null,
+   "exempt_if": {
+    "all": [
+     {
+      "fact": "building_age_years",
+      "op": "<",
+      "value": 30
+     },
+     {
+      "unavailable": "Rent Control Board certification of newly constructed multiple dwelling exemption (19:2-18.1)"
+     }
+    ]
+   },
+   "team_rule_id": "NJ-11",
+   "jurisdiction": "Newark, NJ",
+   "level": "city",
+   "category": "rent_increase_limits",
+   "status": "in_force",
+   "title": "Newark Rent Control Ordinance",
+   "requirement": "At lease renewal a Newark landlord may not raise rent by more than the CPI-U change over the prior 15 to 3 months, and never more than 4%, once per 12 months, with 30 days written notice. No increase is allowed if the dwelling is not in substantial code compliance or not registered.",
+   "key_value": "CPI-U change, max 4% per 12 months",
+   "coverage_conditions": "All multiple dwellings in Newark (any building with one or more apartments rented or offered for rent)",
+   "exemptions": "Public housing; transient hotel/motel space; commercial space; newly constructed multiple dwellings certified by the Rent Control Board, for 30 years after completion or the initial mortgage amortization period if shorter (19:2-18.1); substantially rehabilitated vacant dwellings for 5 years (19:2-18.2); Rental Rehabilitation Program units with Section 8; units under a government rent-regulation contract",
+   "effective_date": "2024-09-18",
+   "citation": "Newark Mun. Code § 19:2-3",
+   "source_doc_id": "X004",
+   "source_url": "https://ecode360.com/36623772",
+   "quoted_span": "In no case shall the allowable rent increase exceed 4%.",
+   "confidence": 0.8,
+   "interaction": "Supplemental source (Newark ecode X004, no supplied D-doc equivalent). effective_date is the adoption date of Ord. 6PSF-I that last amended section 19:2-3. Only the new-construction exemption is encoded (age under 30 plus unavailable certification); program and use-type exemptions are listed in text.",
+   "date_kind": "version"
+  },
+  {
+   "conflict_flag": false,
+   "conflict_note": null,
+   "yields_to": [],
+   "conflicts_with": [],
+   "overrides": null,
+   "applies_if": null,
+   "exempt_if": {
+    "all": [
+     {
+      "unavailable": "owner occupies the other unit of a two-family dwelling, or rents rooms in an owner-occupied one-family dwelling"
+     },
+     {
+      "fact": "units",
+      "op": "<=",
+      "value": 2
+     }
+    ]
+   },
+   "team_rule_id": "NJ-12",
+   "jurisdiction": "Newark, NJ",
+   "level": "city",
+   "category": "screening_restrictions",
+   "status": "in_force",
+   "title": "Newark Ban the Box housing ordinance",
+   "requirement": "Landlords and brokers may check criminal history only after a formal application, with notice and consent, and may look back only 8 years for indictable convictions or 5 years for disorderly persons offenses (plus listed serious offenses and pending charges). Arrests without conviction, expunged and juvenile records may not be used, and denials need written reasons.",
+   "key_value": "Criminal history inquiry only after a formal application; 8-year / 5-year lookback; fines up to $500 first, $1,000 repeat",
+   "coverage_conditions": "Rental, lease or sublease of real property by a landlord or real estate broker in Newark",
+   "exemptions": "Single apartment in an owner-occupied two-family dwelling; rooms in an owner-occupied one-family dwelling; where federal or state law requires or permits criminal history consideration; property in a government program housing people with criminal histories",
+   "effective_date": "2015-04-15",
+   "citation": "Newark Mun. Code § 2:31-1 et seq.",
+   "source_doc_id": "X006",
+   "source_url": "https://ecode360.com/36642000",
+   "quoted_span": "Inquiry into and consideration of any applicant's criminal history shall take place only after the applicant has submitted a formal application.",
+   "confidence": 0.8,
+   "interaction": "Supplemental source (Newark ecode X006). Applies alongside the state Fair Chance in Housing Act (no preemption clause in either text). effective_date is the adoption date of Ord. 6 PSF-B.",
+   "date_kind": "law"
+  }
+ ],
+ "no_rule": [
+  {
+   "jurisdiction": "NJ",
+   "category": "rent_increase_limits",
+   "finding": "no_rule_at_this_level",
+   "evidence_doc_id": "D067",
+   "note": "DCA Truth in Renting guide: 'The State of New Jersey has no laws that establish, govern or control rents.' Rent control is municipal (Jersey City, Hoboken, Newark records)."
+  },
+  {
+   "jurisdiction": "Newark, NJ",
+   "category": "algorithmic_rent_setting",
+   "finding": "no_rule_at_this_level",
+   "evidence_doc_id": "data/dev/change_tests.json#T2",
+   "note": "Organizer test T2 and the brief: the Hoboken and Jersey City bans apply only in their own cities, 'neither for Newark'; no Newark ordinance in X004 to X006. Statewide FAIR Act (NJ-06) covers Newark from 2027-07-01."
+  }
+ ],
+ "gaps": [
+  {
+   "jurisdiction": "Jersey City, NJ",
+   "category": "just_cause_eviction",
+   "checked": [
+    "D036",
+    "D067",
+    "X014",
+    "X018",
+    "X030"
+   ],
+   "note": "No local just-cause ordinance in the checked sources; the statewide Anti-Eviction Act (NJ-01) covers the city. Silence is not evidence of no local rule."
+  },
+  {
+   "jurisdiction": "Jersey City, NJ",
+   "category": "security_deposits",
+   "checked": [
+    "D036",
+    "D067",
+    "X014",
+    "X018",
+    "X030"
+   ],
+   "note": "No local deposit rule in the checked sources; state N.J.S.A. 46:8-21.2 (NJ-02) covers the city."
+  },
+  {
+   "jurisdiction": "Jersey City, NJ",
+   "category": "application_screening_fees",
+   "checked": [
+    "D036",
+    "D067",
+    "X014",
+    "X018",
+    "X030"
+   ],
+   "note": "No local fee rule in the checked sources; state P.L.2025, c.405 (NJ-03) covers the city."
+  },
+  {
+   "jurisdiction": "Jersey City, NJ",
+   "category": "screening_restrictions",
+   "checked": [
+    "D036",
+    "D067",
+    "X014",
+    "X018",
+    "X030"
+   ],
+   "note": "No local screening ordinance in the checked sources; state Fair Chance in Housing Act and LAD (NJ-04, NJ-05) cover the city."
+  },
+  {
+   "jurisdiction": "Hoboken, NJ",
+   "category": "just_cause_eviction",
+   "checked": [
+    "X001",
+    "X002",
+    "X003",
+    "X018"
+   ],
+   "note": "No local just-cause ordinance in the checked sources; the statewide Anti-Eviction Act (NJ-01) covers the city. Silence is not evidence of no local rule."
+  },
+  {
+   "jurisdiction": "Hoboken, NJ",
+   "category": "security_deposits",
+   "checked": [
+    "X001",
+    "X002",
+    "X003",
+    "X018"
+   ],
+   "note": "No local deposit rule in the checked sources; state N.J.S.A. 46:8-21.2 (NJ-02) covers the city."
+  },
+  {
+   "jurisdiction": "Hoboken, NJ",
+   "category": "application_screening_fees",
+   "checked": [
+    "X001",
+    "X002",
+    "X003",
+    "X018"
+   ],
+   "note": "No local fee rule in the checked sources; state P.L.2025, c.405 (NJ-03) covers the city."
+  },
+  {
+   "jurisdiction": "Hoboken, NJ",
+   "category": "screening_restrictions",
+   "checked": [
+    "X001",
+    "X002",
+    "X003",
+    "X018"
+   ],
+   "note": "No local screening ordinance in the checked sources; state Fair Chance in Housing Act and LAD (NJ-04, NJ-05) cover the city."
+  },
+  {
+   "jurisdiction": "Newark, NJ",
+   "category": "just_cause_eviction",
+   "checked": [
+    "X004",
+    "X005",
+    "X006"
+   ],
+   "note": "No local just-cause ordinance in the checked sources; the statewide Anti-Eviction Act (NJ-01) covers the city. Silence is not evidence of no local rule. X004 only mentions eviction without just cause in its preamble and refers to N.J.S.A. 2A:18-61.1."
+  },
+  {
+   "jurisdiction": "Newark, NJ",
+   "category": "security_deposits",
+   "checked": [
+    "X004",
+    "X005",
+    "X006"
+   ],
+   "note": "No local deposit rule in the checked sources; state N.J.S.A. 46:8-21.2 (NJ-02) covers the city."
+  },
+  {
+   "jurisdiction": "Newark, NJ",
+   "category": "application_screening_fees",
+   "checked": [
+    "X004",
+    "X005",
+    "X006"
+   ],
+   "note": "No local fee rule in the checked sources; state P.L.2025, c.405 (NJ-03) covers the city."
+  }
+ ],
+ "missing_expected": [],
+ "decisions": [
+  "Audit fix: Hoboken ch. 155 effective_date 2019-01-16 to 2023-02-01: ecode tags precede their section (X002 '[Added 9-3-1986]' sits over sec. 155-6.1; TOC X001 names 155-5 'Expiration or termination of lease', matching the cap text), so the cap's tag is B-532 of 2-1-2023 and B-104 belongs to the tax surcharge.",
+  "Audit fix: NJ-01 citation to the brief's form N.J.S.A. 2A:18-61.1; quoted_span now a single raw line of D067.",
+  "Audit fix: key_values trimmed to headline: NJ-02 '1.5 months' rent' (organizer sample record), NJ-03 '$50 cap, CPI-adjusted yearly'; details stay in requirement.",
+  "Audit fix: NJ-05 citation N.J.S.A. 10:5-12 (D067 prints 10:5-12(g) to -(h)).",
+  "Audit fix: NJ-08 now sourced from the official Ord. 25-057 text (X030) instead of X018; effective_date stays 2025-06 (X030 gives only adoption 2025-05-21 and approval 2025-05-22); X030 extractor's note naming the FAIR Act P.L.2025, c.405 not copied (it is P.L.2026, c.43).",
+  "NJ just cause: D067 quoted (citation metric), X011 statute supports exemptions; hotel/motel and trust-unit exceptions kept in text only (outside ordinary residential rentals), so apartment buildings resolve instead of all-unknown.",
+  "NJ deposits: merged D067, X012 (46:8-21.2) and X013 (46:8-26 coverage section of the same act) into one record cited N.J.S.A. 46:8-21.2; effective_date null because '2003' and '1979' are amendment years, not effective dates of the operative text.",
+  "NJ fees: real-estate-licensee carve-out left out of exempt_if (it exempts the agent, not the building); 1-2 family dwelling exemption encoded as units <= 2.",
+  "NJ screening: two instruments kept separate: Fair Chance in Housing Act (P.L.2021, c.110, D065) and LAD source of income (N.J.S.A. 10:5-12(g), D068 quote, D067 cite); merged D067 and D068 LAD candidates into one record.",
+  "FAIR Act: conflict_flag false per orchestrator (rule-level flag would flag Newark too); preemption expressed only via conflicts_with on NJ-06, NJ-08, NJ-10, with the section 6.b quote in interaction.",
+  "Dropped X006 conflicts_with NJ screening: neither the Newark ordinance nor P.L.2021, c.110 contains a preemption clause, and X006's reference to a 'FAIR Act' screening law was wrong.",
+  "Jersey City rent control: applies_if units >= 5 (D036 '1-4 Unit Properties are exempt'), so missing units gives unknown; Hoboken exempt_if stays unknown for all addresses because coverage section 155-2 was not captured.",
+  "Newark rent control: replaced static co_date 1996-10-01 leaf with rolling building_age_years < 30 plus certification; public housing, hotel, commercial and program exemptions kept in text only.",
+  "Hoboken ban dated 2025-07-09 (adoption, X003) rather than '2025-07', which the engine would read as July 1, before adoption.",
+  "Hoboken ch. 158 art. I (Ord. B-750, disclosure of whether a rent algorithm was used for increases over 10%) not recorded: a disclosure duty, not a limit or ban; the brief names only art. II.",
+  "date_kind added: law for NJ-03, NJ-04, NJ-06, NJ-08, NJ-10, NJ-12; version for NJ-09 (B-532 amendment of the 1984 ch. 155) and NJ-11 (6PSF-I amendment of the 2017 ordinance). NJ-12 marked law per orchestrator, though X006 shows a predecessor Ord. 6 PSF-F (2012), repealed in full in 2015, whose housing content is not in the corpus."
+ ]
+}

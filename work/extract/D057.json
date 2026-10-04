@@ -1,0 +1,32 @@
+{
+ "doc_id": "D057",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T00:53:07Z",
+ "rules": [
+  {
+   "jurisdiction": "MA",
+   "level": "state",
+   "category": "application_screening_fees",
+   "status": "in_force",
+   "title": "Broker fee paid only by the party who hired the broker (c.112 s.87DDD1/2)",
+   "requirement": "A licensed broker may contract only with the tenant or only with the landlord, and any fee is paid only by the party who hired the broker, so landlord-hired brokers cannot charge the tenant.",
+   "key_value": "Broker fee paid only by the party who engaged the broker",
+   "coverage_conditions": "Licensed brokers or salespersons finding rental housing for a fee",
+   "exemptions": null,
+   "effective_date": "2025-08-01",
+   "citation": "M.G.L. c.112 \u00a7 87DDD1/2",
+   "source_doc_id": "D057",
+   "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXVI/Chapter112/Section87DDD%201~2",
+   "quoted_span": "Any fee shall only be paid by the party, lessor or tenant who originally engaged and entered into a contract with the licensed broker or salesperson.",
+   "confidence": 0.9,
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": "Statewide; text confirms effective 2025-08-01 (2025, c.9, s.43).",
+   "applies_if": null,
+   "exempt_if": null,
+   "yields_to": [],
+   "conflicts_with": []
+  }
+ ],
+ "notes": "Effective date verified in text header: effective August 1, 2025."
+}

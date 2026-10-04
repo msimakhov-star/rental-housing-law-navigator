@@ -1,0 +1,32 @@
+{
+ "doc_id": "D049",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T00:53:07Z",
+ "rules": [
+  {
+   "jurisdiction": "MA",
+   "level": "state",
+   "category": "screening_restrictions",
+   "status": "in_force",
+   "title": "Source-of-income and housing subsidy discrimination (c.151B s.4(10))",
+   "requirement": "It is unlawful to furnish rental accommodations to discriminate against a person because they receive public assistance or housing subsidies such as rental assistance, or because of a requirement of such a program.",
+   "key_value": "No refusal based on public assistance or housing subsidy (e.g. vouchers)",
+   "coverage_conditions": "Any person furnishing credit, services or rental accommodations",
+   "exemptions": "No exemption stated for this paragraph in the text",
+   "effective_date": null,
+   "citation": "M.G.L. c.151B \u00a7 4",
+   "source_doc_id": "D049",
+   "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXXI/Chapter151B/Section4",
+   "quoted_span": "to discriminate against any individual who is a recipient of federal, state, or local public assistance, including medical assistance",
+   "confidence": 0.8,
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": "State fair housing floor; local source-of-income rules may add to it.",
+   "applies_if": null,
+   "exempt_if": null,
+   "yields_to": [],
+   "conflicts_with": []
+  }
+ ],
+ "notes": "c.151B s.4 is long and mostly covers employment and protected-class discrimination (out of scope); only para 10 fits screening_restrictions. No criminal-history rule for housing in this text (para 9 1/2 is employment). No effective date in text."
+}

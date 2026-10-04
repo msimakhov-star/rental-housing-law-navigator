@@ -1,0 +1,7 @@
+SOURCE: https://gocodebook.com/library/us/ca/san-diego-zoning/division-11-prohibition-of-anti-competitive-automated-rent-price-fixing/98.1103-use-and-sale-of-algorithmic-devices-prohibited
+RETRIEVED: 2026-10-04 00:55 UTC
+VIA: curl
+SUPPLIED_MANIFEST_ID: D074
+
+QUOTE-ONLY STUB: the full page is not redistributed; fetch it from the SOURCE url above. Quoted spans used by our rules:
+(b) It is unlawful for a landlord to use an algorithmic device to set rental rates or occupancy levels for residential rental property.

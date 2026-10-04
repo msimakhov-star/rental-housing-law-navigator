@@ -1,0 +1,122 @@
+{
+ "A0001": {
+  "state": "CA",
+  "county": null,
+  "legal_city": "San Francisco, CA",
+  "geocode_status": "exact",
+  "matched_address": null,
+  "lat": null,
+  "lon": null,
+  "notes": null
+ },
+ "A0002": {
+  "state": "CA",
+  "county": null,
+  "legal_city": "San Francisco, CA",
+  "geocode_status": "exact",
+  "matched_address": null,
+  "lat": null,
+  "lon": null,
+  "notes": null
+ },
+ "A0003": {
+  "state": "CA",
+  "county": null,
+  "legal_city": "Los Angeles, CA",
+  "geocode_status": "exact",
+  "matched_address": null,
+  "lat": null,
+  "lon": null,
+  "notes": null
+ },
+ "A0004": {
+  "state": "CA",
+  "county": null,
+  "legal_city": "Los Angeles, CA",
+  "geocode_status": "exact",
+  "matched_address": null,
+  "lat": null,
+  "lon": null,
+  "notes": null
+ },
+ "A0005": {
+  "state": "NJ",
+  "county": null,
+  "legal_city": "Hoboken, NJ",
+  "geocode_status": "exact",
+  "matched_address": null,
+  "lat": null,
+  "lon": null,
+  "notes": null
+ },
+ "A0006": {
+  "state": "NJ",
+  "county": null,
+  "legal_city": "Jersey City, NJ",
+  "geocode_status": "exact",
+  "matched_address": null,
+  "lat": null,
+  "lon": null,
+  "notes": null
+ },
+ "A0007": {
+  "state": "NJ",
+  "county": null,
+  "legal_city": "Newark, NJ",
+  "geocode_status": "exact",
+  "matched_address": null,
+  "lat": null,
+  "lon": null,
+  "notes": null
+ },
+ "A0008": {
+  "state": "MA",
+  "county": null,
+  "legal_city": "Boston, MA",
+  "geocode_status": "exact",
+  "matched_address": null,
+  "lat": null,
+  "lon": null,
+  "notes": null
+ },
+ "A0009": {
+  "state": "MA",
+  "county": null,
+  "legal_city": "Cambridge, MA",
+  "geocode_status": "exact",
+  "matched_address": null,
+  "lat": null,
+  "lon": null,
+  "notes": null
+ },
+ "A0010": {
+  "state": "NJ",
+  "county": null,
+  "legal_city": null,
+  "geocode_status": "failed",
+  "matched_address": null,
+  "lat": null,
+  "lon": null,
+  "notes": null
+ },
+ "A0011": {
+  "state": "CA",
+  "county": null,
+  "legal_city": null,
+  "geocode_status": "exact",
+  "matched_address": null,
+  "lat": null,
+  "lon": null,
+  "notes": null
+ },
+ "A0012": {
+  "state": "CA",
+  "county": null,
+  "legal_city": "Los Angeles, CA",
+  "geocode_status": "exact",
+  "matched_address": null,
+  "lat": null,
+  "lon": null,
+  "notes": null
+ }
+}

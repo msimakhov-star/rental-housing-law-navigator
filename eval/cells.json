@@ -1,0 +1,608 @@
+{
+ "n_cells": 78,
+ "evidence_values": {
+  "rule": "docs name a rule",
+  "no_rule_evidenced": "docs say there is none",
+  "likely_no_rule": "inferred from docs, not stated",
+  "possible_unevidenced": "may hold a rule, docs silent"
+ },
+ "cells": [
+  {
+   "jurisdiction": "CA",
+   "category": "rent_increase_limits",
+   "evidence": "rule",
+   "key_ids": [
+    "CA-RENT"
+   ],
+   "reason": "documents name an instrument"
+  },
+  {
+   "jurisdiction": "CA",
+   "category": "just_cause_eviction",
+   "evidence": "rule",
+   "key_ids": [
+    "CA-JC"
+   ],
+   "reason": "documents name an instrument"
+  },
+  {
+   "jurisdiction": "CA",
+   "category": "security_deposits",
+   "evidence": "rule",
+   "key_ids": [
+    "CA-DEP"
+   ],
+   "reason": "documents name an instrument"
+  },
+  {
+   "jurisdiction": "CA",
+   "category": "application_screening_fees",
+   "evidence": "rule",
+   "key_ids": [
+    "CA-FEE"
+   ],
+   "reason": "documents name an instrument"
+  },
+  {
+   "jurisdiction": "CA",
+   "category": "screening_restrictions",
+   "evidence": "rule",
+   "key_ids": [
+    "CA-SCR"
+   ],
+   "reason": "documents name an instrument"
+  },
+  {
+   "jurisdiction": "CA",
+   "category": "algorithmic_rent_setting",
+   "evidence": "rule",
+   "key_ids": [
+    "CA-ALG"
+   ],
+   "reason": "documents name an instrument"
+  },
+  {
+   "jurisdiction": "NJ",
+   "category": "rent_increase_limits",
+   "evidence": "likely_no_rule",
+   "key_ids": [],
+   "reason": "brief: NJ rent control is set city by city, no statewide cap named"
+  },
+  {
+   "jurisdiction": "NJ",
+   "category": "just_cause_eviction",
+   "evidence": "rule",
+   "key_ids": [
+    "NJ-JC"
+   ],
+   "reason": "documents name an instrument"
+  },
+  {
+   "jurisdiction": "NJ",
+   "category": "security_deposits",
+   "evidence": "rule",
+   "key_ids": [
+    "NJ-DEP"
+   ],
+   "reason": "documents name an instrument"
+  },
+  {
+   "jurisdiction": "NJ",
+   "category": "application_screening_fees",
+   "evidence": "rule",
+   "key_ids": [
+    "NJ-FEE"
+   ],
+   "reason": "documents name an instrument"
+  },
+  {
+   "jurisdiction": "NJ",
+   "category": "screening_restrictions",
+   "evidence": "rule",
+   "key_ids": [
+    "NJ-SCR"
+   ],
+   "reason": "documents name an instrument"
+  },
+  {
+   "jurisdiction": "NJ",
+   "category": "algorithmic_rent_setting",
+   "evidence": "rule",
+   "key_ids": [
+    "NJ-ALG"
+   ],
+   "reason": "documents name an instrument"
+  },
+  {
+   "jurisdiction": "MA",
+   "category": "rent_increase_limits",
+   "evidence": "rule",
+   "key_ids": [
+    "MA-C40P",
+    "MA-IP2521"
+   ],
+   "reason": "documents name an instrument"
+  },
+  {
+   "jurisdiction": "MA",
+   "category": "just_cause_eviction",
+   "evidence": "likely_no_rule",
+   "key_ids": [],
+   "reason": "brief names no MA instrument for this category"
+  },
+  {
+   "jurisdiction": "MA",
+   "category": "security_deposits",
+   "evidence": "rule",
+   "key_ids": [
+    "MA-DEP"
+   ],
+   "reason": "documents name an instrument"
+  },
+  {
+   "jurisdiction": "MA",
+   "category": "application_screening_fees",
+   "evidence": "rule",
+   "key_ids": [
+    "MA-FEE-15B",
+    "MA-BROKER"
+   ],
+   "reason": "documents name an instrument"
+  },
+  {
+   "jurisdiction": "MA",
+   "category": "screening_restrictions",
+   "evidence": "likely_no_rule",
+   "key_ids": [],
+   "reason": "brief names no MA instrument for this category"
+  },
+  {
+   "jurisdiction": "MA",
+   "category": "algorithmic_rent_setting",
+   "evidence": "rule",
+   "key_ids": [
+    "MA-ALG-S2983",
+    "MA-ALG-H5222"
+   ],
+   "reason": "documents name an instrument"
+  },
+  {
+   "jurisdiction": "Los Angeles, CA",
+   "category": "rent_increase_limits",
+   "evidence": "rule",
+   "key_ids": [
+    "LA-RSO"
+   ],
+   "reason": "documents name an instrument"
+  },
+  {
+   "jurisdiction": "Los Angeles, CA",
+   "category": "just_cause_eviction",
+   "evidence": "possible_unevidenced",
+   "key_ids": [],
+   "reason": "brief names no local just-cause instrument here"
+  },
+  {
+   "jurisdiction": "Los Angeles, CA",
+   "category": "security_deposits",
+   "evidence": "likely_no_rule",
+   "key_ids": [],
+   "reason": "state-level rule governs; brief names no city instrument"
+  },
+  {
+   "jurisdiction": "Los Angeles, CA",
+   "category": "application_screening_fees",
+   "evidence": "likely_no_rule",
+   "key_ids": [],
+   "reason": "state-level rule governs; brief names no city instrument"
+  },
+  {
+   "jurisdiction": "Los Angeles, CA",
+   "category": "screening_restrictions",
+   "evidence": "likely_no_rule",
+   "key_ids": [],
+   "reason": "state-level rule governs; brief names no city instrument"
+  },
+  {
+   "jurisdiction": "Los Angeles, CA",
+   "category": "algorithmic_rent_setting",
+   "evidence": "likely_no_rule",
+   "key_ids": [],
+   "reason": "brief enumerates local bans (SF, SD, Berkeley, Santa Ana, Jersey City, Hoboken); this city not among them (MA bills are state-level)"
+  },
+  {
+   "jurisdiction": "San Francisco, CA",
+   "category": "rent_increase_limits",
+   "evidence": "rule",
+   "key_ids": [
+    "SF-RENT"
+   ],
+   "reason": "documents name an instrument"
+  },
+  {
+   "jurisdiction": "San Francisco, CA",
+   "category": "just_cause_eviction",
+   "evidence": "rule",
+   "key_ids": [
+    "SF-JC"
+   ],
+   "reason": "documents name an instrument"
+  },
+  {
+   "jurisdiction": "San Francisco, CA",
+   "category": "security_deposits",
+   "evidence": "likely_no_rule",
+   "key_ids": [],
+   "reason": "state-level rule governs; brief names no city instrument"
+  },
+  {
+   "jurisdiction": "San Francisco, CA",
+   "category": "application_screening_fees",
+   "evidence": "likely_no_rule",
+   "key_ids": [],
+   "reason": "state-level rule governs; brief names no city instrument"
+  },
+  {
+   "jurisdiction": "San Francisco, CA",
+   "category": "screening_restrictions",
+   "evidence": "likely_no_rule",
+   "key_ids": [],
+   "reason": "state-level rule governs; brief names no city instrument"
+  },
+  {
+   "jurisdiction": "San Francisco, CA",
+   "category": "algorithmic_rent_setting",
+   "evidence": "rule",
+   "key_ids": [
+    "SF-ALG"
+   ],
+   "reason": "documents name an instrument"
+  },
+  {
+   "jurisdiction": "San Diego, CA",
+   "category": "rent_increase_limits",
+   "evidence": "possible_unevidenced",
+   "key_ids": [],
+   "reason": "brief says local rent control exists city by city but names no instrument here"
+  },
+  {
+   "jurisdiction": "San Diego, CA",
+   "category": "just_cause_eviction",
+   "evidence": "possible_unevidenced",
+   "key_ids": [],
+   "reason": "brief names no local just-cause instrument here"
+  },
+  {
+   "jurisdiction": "San Diego, CA",
+   "category": "security_deposits",
+   "evidence": "likely_no_rule",
+   "key_ids": [],
+   "reason": "state-level rule governs; brief names no city instrument"
+  },
+  {
+   "jurisdiction": "San Diego, CA",
+   "category": "application_screening_fees",
+   "evidence": "likely_no_rule",
+   "key_ids": [],
+   "reason": "state-level rule governs; brief names no city instrument"
+  },
+  {
+   "jurisdiction": "San Diego, CA",
+   "category": "screening_restrictions",
+   "evidence": "likely_no_rule",
+   "key_ids": [],
+   "reason": "state-level rule governs; brief names no city instrument"
+  },
+  {
+   "jurisdiction": "San Diego, CA",
+   "category": "algorithmic_rent_setting",
+   "evidence": "rule",
+   "key_ids": [
+    "SD-ALG"
+   ],
+   "reason": "documents name an instrument"
+  },
+  {
+   "jurisdiction": "Berkeley, CA",
+   "category": "rent_increase_limits",
+   "evidence": "possible_unevidenced",
+   "key_ids": [],
+   "reason": "brief says local rent control exists city by city but names no instrument here"
+  },
+  {
+   "jurisdiction": "Berkeley, CA",
+   "category": "just_cause_eviction",
+   "evidence": "possible_unevidenced",
+   "key_ids": [],
+   "reason": "brief names no local just-cause instrument here"
+  },
+  {
+   "jurisdiction": "Berkeley, CA",
+   "category": "security_deposits",
+   "evidence": "likely_no_rule",
+   "key_ids": [],
+   "reason": "state-level rule governs; brief names no city instrument"
+  },
+  {
+   "jurisdiction": "Berkeley, CA",
+   "category": "application_screening_fees",
+   "evidence": "likely_no_rule",
+   "key_ids": [],
+   "reason": "state-level rule governs; brief names no city instrument"
+  },
+  {
+   "jurisdiction": "Berkeley, CA",
+   "category": "screening_restrictions",
+   "evidence": "likely_no_rule",
+   "key_ids": [],
+   "reason": "state-level rule governs; brief names no city instrument"
+  },
+  {
+   "jurisdiction": "Berkeley, CA",
+   "category": "algorithmic_rent_setting",
+   "evidence": "rule",
+   "key_ids": [
+    "BERK-ALG"
+   ],
+   "reason": "documents name an instrument"
+  },
+  {
+   "jurisdiction": "Santa Ana, CA",
+   "category": "rent_increase_limits",
+   "evidence": "possible_unevidenced",
+   "key_ids": [],
+   "reason": "brief says local rent control exists city by city but names no instrument here"
+  },
+  {
+   "jurisdiction": "Santa Ana, CA",
+   "category": "just_cause_eviction",
+   "evidence": "possible_unevidenced",
+   "key_ids": [],
+   "reason": "brief names no local just-cause instrument here"
+  },
+  {
+   "jurisdiction": "Santa Ana, CA",
+   "category": "security_deposits",
+   "evidence": "likely_no_rule",
+   "key_ids": [],
+   "reason": "state-level rule governs; brief names no city instrument"
+  },
+  {
+   "jurisdiction": "Santa Ana, CA",
+   "category": "application_screening_fees",
+   "evidence": "likely_no_rule",
+   "key_ids": [],
+   "reason": "state-level rule governs; brief names no city instrument"
+  },
+  {
+   "jurisdiction": "Santa Ana, CA",
+   "category": "screening_restrictions",
+   "evidence": "likely_no_rule",
+   "key_ids": [],
+   "reason": "state-level rule governs; brief names no city instrument"
+  },
+  {
+   "jurisdiction": "Santa Ana, CA",
+   "category": "algorithmic_rent_setting",
+   "evidence": "rule",
+   "key_ids": [
+    "SA-ALG"
+   ],
+   "reason": "documents name an instrument"
+  },
+  {
+   "jurisdiction": "Jersey City, NJ",
+   "category": "rent_increase_limits",
+   "evidence": "possible_unevidenced",
+   "key_ids": [],
+   "reason": "brief says local rent control exists city by city but names no instrument here"
+  },
+  {
+   "jurisdiction": "Jersey City, NJ",
+   "category": "just_cause_eviction",
+   "evidence": "possible_unevidenced",
+   "key_ids": [],
+   "reason": "brief names no local just-cause instrument here"
+  },
+  {
+   "jurisdiction": "Jersey City, NJ",
+   "category": "security_deposits",
+   "evidence": "likely_no_rule",
+   "key_ids": [],
+   "reason": "state-level rule governs; brief names no city instrument"
+  },
+  {
+   "jurisdiction": "Jersey City, NJ",
+   "category": "application_screening_fees",
+   "evidence": "likely_no_rule",
+   "key_ids": [],
+   "reason": "state-level rule governs; brief names no city instrument"
+  },
+  {
+   "jurisdiction": "Jersey City, NJ",
+   "category": "screening_restrictions",
+   "evidence": "likely_no_rule",
+   "key_ids": [],
+   "reason": "state-level rule governs; brief names no city instrument"
+  },
+  {
+   "jurisdiction": "Jersey City, NJ",
+   "category": "algorithmic_rent_setting",
+   "evidence": "rule",
+   "key_ids": [
+    "JC-ALG"
+   ],
+   "reason": "documents name an instrument"
+  },
+  {
+   "jurisdiction": "Hoboken, NJ",
+   "category": "rent_increase_limits",
+   "evidence": "possible_unevidenced",
+   "key_ids": [],
+   "reason": "brief says local rent control exists city by city but names no instrument here"
+  },
+  {
+   "jurisdiction": "Hoboken, NJ",
+   "category": "just_cause_eviction",
+   "evidence": "possible_unevidenced",
+   "key_ids": [],
+   "reason": "brief names no local just-cause instrument here"
+  },
+  {
+   "jurisdiction": "Hoboken, NJ",
+   "category": "security_deposits",
+   "evidence": "likely_no_rule",
+   "key_ids": [],
+   "reason": "state-level rule governs; brief names no city instrument"
+  },
+  {
+   "jurisdiction": "Hoboken, NJ",
+   "category": "application_screening_fees",
+   "evidence": "likely_no_rule",
+   "key_ids": [],
+   "reason": "state-level rule governs; brief names no city instrument"
+  },
+  {
+   "jurisdiction": "Hoboken, NJ",
+   "category": "screening_restrictions",
+   "evidence": "likely_no_rule",
+   "key_ids": [],
+   "reason": "state-level rule governs; brief names no city instrument"
+  },
+  {
+   "jurisdiction": "Hoboken, NJ",
+   "category": "algorithmic_rent_setting",
+   "evidence": "rule",
+   "key_ids": [
+    "HOB-ALG"
+   ],
+   "reason": "documents name an instrument"
+  },
+  {
+   "jurisdiction": "Newark, NJ",
+   "category": "rent_increase_limits",
+   "evidence": "possible_unevidenced",
+   "key_ids": [],
+   "reason": "brief says local rent control exists city by city but names no instrument here"
+  },
+  {
+   "jurisdiction": "Newark, NJ",
+   "category": "just_cause_eviction",
+   "evidence": "possible_unevidenced",
+   "key_ids": [],
+   "reason": "brief names no local just-cause instrument here"
+  },
+  {
+   "jurisdiction": "Newark, NJ",
+   "category": "security_deposits",
+   "evidence": "likely_no_rule",
+   "key_ids": [],
+   "reason": "state-level rule governs; brief names no city instrument"
+  },
+  {
+   "jurisdiction": "Newark, NJ",
+   "category": "application_screening_fees",
+   "evidence": "likely_no_rule",
+   "key_ids": [],
+   "reason": "state-level rule governs; brief names no city instrument"
+  },
+  {
+   "jurisdiction": "Newark, NJ",
+   "category": "screening_restrictions",
+   "evidence": "likely_no_rule",
+   "key_ids": [],
+   "reason": "state-level rule governs; brief names no city instrument"
+  },
+  {
+   "jurisdiction": "Newark, NJ",
+   "category": "algorithmic_rent_setting",
+   "evidence": "no_rule_evidenced",
+   "key_ids": [],
+   "reason": "change test T2: neither local ban applies in Newark"
+  },
+  {
+   "jurisdiction": "Boston, MA",
+   "category": "rent_increase_limits",
+   "evidence": "no_rule_evidenced",
+   "key_ids": [],
+   "reason": "T5: no rent cap for Boston/Cambridge; state law bars local rent control (statewide rule sits at MA level)"
+  },
+  {
+   "jurisdiction": "Boston, MA",
+   "category": "just_cause_eviction",
+   "evidence": "possible_unevidenced",
+   "key_ids": [],
+   "reason": "brief names no local just-cause instrument here"
+  },
+  {
+   "jurisdiction": "Boston, MA",
+   "category": "security_deposits",
+   "evidence": "likely_no_rule",
+   "key_ids": [],
+   "reason": "state-level rule governs; brief names no city instrument"
+  },
+  {
+   "jurisdiction": "Boston, MA",
+   "category": "application_screening_fees",
+   "evidence": "likely_no_rule",
+   "key_ids": [],
+   "reason": "state-level rule governs; brief names no city instrument"
+  },
+  {
+   "jurisdiction": "Boston, MA",
+   "category": "screening_restrictions",
+   "evidence": "likely_no_rule",
+   "key_ids": [],
+   "reason": "state-level rule governs; brief names no city instrument"
+  },
+  {
+   "jurisdiction": "Boston, MA",
+   "category": "algorithmic_rent_setting",
+   "evidence": "likely_no_rule",
+   "key_ids": [],
+   "reason": "brief enumerates local bans (SF, SD, Berkeley, Santa Ana, Jersey City, Hoboken); this city not among them (MA bills are state-level)"
+  },
+  {
+   "jurisdiction": "Cambridge, MA",
+   "category": "rent_increase_limits",
+   "evidence": "no_rule_evidenced",
+   "key_ids": [],
+   "reason": "T5: no rent cap for Boston/Cambridge; state law bars local rent control (statewide rule sits at MA level)"
+  },
+  {
+   "jurisdiction": "Cambridge, MA",
+   "category": "just_cause_eviction",
+   "evidence": "possible_unevidenced",
+   "key_ids": [],
+   "reason": "brief names no local just-cause instrument here"
+  },
+  {
+   "jurisdiction": "Cambridge, MA",
+   "category": "security_deposits",
+   "evidence": "likely_no_rule",
+   "key_ids": [],
+   "reason": "state-level rule governs; brief names no city instrument"
+  },
+  {
+   "jurisdiction": "Cambridge, MA",
+   "category": "application_screening_fees",
+   "evidence": "likely_no_rule",
+   "key_ids": [],
+   "reason": "state-level rule governs; brief names no city instrument"
+  },
+  {
+   "jurisdiction": "Cambridge, MA",
+   "category": "screening_restrictions",
+   "evidence": "likely_no_rule",
+   "key_ids": [],
+   "reason": "state-level rule governs; brief names no city instrument"
+  },
+  {
+   "jurisdiction": "Cambridge, MA",
+   "category": "algorithmic_rent_setting",
+   "evidence": "likely_no_rule",
+   "key_ids": [],
+   "reason": "brief enumerates local bans (SF, SD, Berkeley, Santa Ana, Jersey City, Hoboken); this city not among them (MA bills are state-level)"
+  }
+ ]
+}

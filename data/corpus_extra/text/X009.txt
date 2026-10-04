@@ -1,0 +1,7 @@
+SOURCE: https://www.publicceo.com/2026/02/santa-ana-city-council-continues-to-strengthen-tenant-protections-by-banning-anticompetitive-rent-setting-software/
+RETRIEVED: 2026-10-04 00:54 UTC
+VIA: r.jina.ai
+SUPPLIED_MANIFEST_ID: D087
+
+QUOTE-ONLY STUB: the full page is not redistributed; fetch it from the SOURCE url above. Quoted spans used by our rules:
+prohibits the sale, licensing, provision and use of certain algorithmic rent-setting software for residential rental properties.

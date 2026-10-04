@@ -1,0 +1,32 @@
+{
+ "doc_id": "D046",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T00:53:07Z",
+ "rules": [
+  {
+   "jurisdiction": "MA",
+   "level": "state",
+   "category": "algorithmic_rent_setting",
+   "status": "pending",
+   "title": "S.2983 An Act prohibiting algorithmic rent setting",
+   "requirement": "Pending Senate bill (194th General Court) to prohibit algorithmic rent setting; new draft of S.994 and S.1016; not law.",
+   "key_value": "Pending bill to prohibit algorithmic rent setting",
+   "coverage_conditions": null,
+   "exemptions": null,
+   "effective_date": null,
+   "citation": "S.2983 (194th Gen. Ct.)",
+   "source_doc_id": "D046",
+   "source_url": "https://malegislature.gov/Bills/194/S2983",
+   "quoted_span": "An Act prohibiting algorithmic rent setting",
+   "confidence": 0.7,
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": "Would be a new state-level rule; no local conflicts stated.",
+   "applies_if": null,
+   "exempt_if": null,
+   "yields_to": [],
+   "conflicts_with": []
+  }
+ ],
+ "notes": "Bill page shows only title, committee referral and history (3/12/2026 reported favorably, sent to Ways and Means); the bill text is not in the document, so prohibited conduct, coverage and penalties are unknown."
+}

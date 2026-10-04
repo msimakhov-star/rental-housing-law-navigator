@@ -1,0 +1,43 @@
+{
+ "doc_id": "D025",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T00:00:00Z",
+ "rules": [
+  {
+   "jurisdiction": "CA",
+   "level": "state",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "yields_to": [],
+   "conflicts_with": [],
+   "applies_if": null,
+   "exempt_if": {
+    "all": [
+     {
+      "unavailable": "owner is a natural person or all-natural-person LLC owning no more than two residential rental properties"
+     },
+     {
+      "fact": "units",
+      "op": "<=",
+      "value": 4
+     }
+    ]
+   },
+   "interaction": "Application screening fees are governed by Civ. Code 1950.6 and are not counted as security.",
+   "category": "security_deposits",
+   "status": "in_force",
+   "title": "Security deposit cap of one month's rent (AB 12), with AB 414 return and photo rules",
+   "requirement": "A landlord cannot demand or receive security of more than one month's rent (two months for certain small landlords), and must return the deposit with an itemized statement within 21 days of move-out. Landlords must take photos of the unit at move-in (tenancies from 2025-07-01) and at move-out, and cannot call a deposit nonrefundable.",
+   "key_value": "1 month's rent cap; return within 21 days",
+   "coverage_conditions": "Security for residential rental agreements for a tenant's dwelling; cap applies to security collected on or after 2024-07-01",
+   "exemptions": "Two-month cap if landlord is a natural person (or all-natural-person LLC) owning no more than two rental properties with no more than four units in total, unless the tenant is a service member; advance rent of 6+ months allowed for leases of 6+ months",
+   "effective_date": "2024-07-01",
+   "citation": "Cal. Civ. Code § 1950.5",
+   "source_doc_id": "D025",
+   "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1950.5",
+   "quoted_span": "a landlord shall not demand or receive security, however denominated, in an amount or value in excess of an amount equal to one month’s rent",
+   "confidence": 0.9
+  }
+ ],
+ "notes": "Cap effective for security collected on or after 2024-07-01 per (c)(6); section last amended by AB 414 effective 2026-01-01 (photo and return provisions), not used as effective_date. exempt_if models the small-landlord two-month cap per prompt convention, though such landlords still face a 2-month cap rather than none."
+}

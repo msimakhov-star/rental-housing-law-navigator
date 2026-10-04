@@ -1,0 +1,37 @@
+{
+ "doc_id": "D005",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T00:53:59Z",
+ "rules": [
+  {
+   "jurisdiction": "Berkeley, CA",
+   "level": "city",
+   "category": "application_screening_fees",
+   "status": "in_force",
+   "title": "Berkeley tenant screening and application fee rules",
+   "requirement": "Screening fees are capped under state law ($68.96 for 2026) and landlords must give a fee-rights statement before collecting. Berkeley also bars non-refundable fees charged to existing tenants for renewals or roommate changes.",
+   "key_value": "$68.96 max screening fee (2026), per Cal. Civ. Code § 1950.6",
+   "coverage_conditions": "Owners charging screening or application fees for Berkeley residential rentals; chapter applies regardless of lease language",
+   "exemptions": null,
+   "effective_date": null,
+   "citation": "Berkeley Mun. Code ch. 13.78",
+   "source_doc_id": "D005",
+   "source_url": "https://rentboard.berkeleyca.gov/laws-regulations/city-berkeley-ordinances-affecting-rental-properties/tenant-screening-and",
+   "quoted_span": "The maximum tenant screening fee for 2026 is",
+   "confidence": 0.7,
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": "Dollar cap comes from state law (Cal. Civ. Code § 1950.6); the local chapter adds disclosure and existing-tenant fee limits.",
+   "applies_if": null,
+   "exempt_if": null,
+   "yields_to": [],
+   "conflicts_with": [
+    {
+     "jurisdiction": "CA",
+     "category": "application_screening_fees"
+    }
+   ]
+  }
+ ],
+ "notes": "Page is a secondary summary; ordinance effective dates not given. State cap statute is cited on the page but is its own record elsewhere."
+}

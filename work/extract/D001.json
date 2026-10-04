@@ -1,0 +1,32 @@
+{
+ "doc_id": "D001",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T00:53:59Z",
+ "rules": [
+  {
+   "jurisdiction": "Berkeley, CA",
+   "level": "city",
+   "category": "algorithmic_rent_setting",
+   "status": "in_force",
+   "title": "Berkeley ban on coordinated pricing algorithms",
+   "requirement": "Landlords may not use, and vendors may not sell or provide, a coordinated pricing algorithm that sets or recommends rents or occupancy levels using nonpublic competitor data. The City Attorney or an aggrieved tenant can sue; civil penalty up to $1,000 per violation.",
+   "key_value": "ban on coordinated pricing algorithms using nonpublic competitor data; up to $1,000 per violation",
+   "coverage_conditions": "All residential dwelling units in Berkeley",
+   "exemptions": "Aggregated anonymous reports, affordable-housing limit tools, market research, appraisal, software research and training",
+   "effective_date": null,
+   "citation": "Berkeley Mun. Code ch. 13.63",
+   "source_doc_id": "D001",
+   "source_url": "https://berkeleyca.gov/sites/default/files/documents/2025-12-02%20Item%2001%20Ordinance%207992.pdf",
+   "quoted_span": "B. It shall be unlawful for a landlord to use a coordinated pricing algorithm described",
+   "confidence": 0.85,
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": "No state-level ban in the corpus; local ban stands alone.",
+   "applies_if": null,
+   "exempt_if": null,
+   "yields_to": [],
+   "conflicts_with": []
+  }
+ ],
+ "notes": "Ordinance 7,992-N.S. text gives no effective date (it shows only the Nov 18, 2025 passage to print), so effective_date is null; status in_force assumes the ordinance took effect before 2026-10-01 (the brief cites 2026-03-01 per text vs January 2026 per a law-firm alert, neither visible in this doc)."
+}

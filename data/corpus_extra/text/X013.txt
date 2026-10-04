@@ -1,0 +1,7 @@
+SOURCE: https://law.justia.com/codes/new-jersey/title-46/section-46-8-26/
+RETRIEVED: 2026-10-04 00:55 UTC
+VIA: r.jina.ai
+SUPPLIED_MANIFEST_ID: D064
+
+QUOTE-ONLY STUB: the full page is not redistributed; fetch it from the SOURCE url above. Quoted spans used by our rules:
+The provisions of this act shall apply to all rental premises or units used for dwelling purposes except owner-occupied premises with not more than two rental units

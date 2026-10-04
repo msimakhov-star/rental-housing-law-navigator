@@ -1,0 +1,34 @@
+{
+ "doc_id": "D016",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T00:00:00Z",
+ "rules": [
+  {
+   "jurisdiction": "CA",
+   "level": "state",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "yields_to": [],
+   "conflicts_with": [],
+   "applies_if": null,
+   "exempt_if": {
+    "unavailable": "owner-occupant renting to one additional person, or senior housing"
+   },
+   "interaction": "Statewide floor; local fair-chance or source-of-income ordinances may add protections.",
+   "category": "screening_restrictions",
+   "status": "in_force",
+   "title": "FEHA: source-of-income and criminal-history limits in tenant screening (CRD guidance)",
+   "requirement": "Landlords cannot refuse to rent because of source of income, including Section 8 vouchers, and cannot use blanket bans on applicants with a criminal history. Convictions must be directly related to being a good tenant, and arrests without conviction, sealed or expunged records and juvenile records cannot be considered.",
+   "key_value": "no source-of-income discrimination; no blanket criminal-history ban",
+   "coverage_conditions": "Landlords, tenant screening companies, property managers and other housing providers in California",
+   "exemptions": "Owner-occupant renting to one additional person may exclude on protected characteristics (not for discriminatory ads); senior housing may limit by age",
+   "effective_date": null,
+   "citation": "Cal. Gov. Code § 12955",
+   "source_doc_id": "D016",
+   "source_url": "https://calcivilrights.ca.gov/housing/",
+   "quoted_span": "No. California law protects tenants from discrimination based on how a tenant will be paying rent (“source of income”).",
+   "confidence": 0.7
+  }
+ ],
+ "notes": "Secondary CRD summary of FEHA; names no section for criminal-history rules, so cited to Gov. Code 12955 (same instrument as D027). No effective date given. No rule in the other five categories (CRD says it has no jurisdiction over deposits or rent control)."
+}

@@ -1,0 +1,76 @@
+{
+ "doc_id": "D006",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T00:53:59Z",
+ "rules": [
+  {
+   "jurisdiction": "Berkeley, CA",
+   "level": "city",
+   "category": "rent_increase_limits",
+   "status": "in_force",
+   "title": "Berkeley Rent Ordinance rent ceilings after Measure BB",
+   "requirement": "Landlords of fully covered units may raise rent once a year by the Annual General Adjustment, which Measure BB caps at 5%, plus banked adjustments up to the rent ceiling.",
+   "key_value": "AGA tied to CPI, max 5%",
+   "coverage_conditions": "Fully covered units: most multifamily built before 1980, single-family homes with tenancy before 1996, rooming houses",
+   "exemptions": "Partially covered units (new construction, most condos, other single-family homes, some subsidized) have no rent control",
+   "effective_date": null,
+   "citation": "Berkeley Mun. Code ch. 13.76",
+   "source_doc_id": "D006",
+   "source_url": "https://rentboard.berkeleyca.gov/laws-regulations/measure-bb-changes-berkeleys-rent-ordinance",
+   "quoted_span": "The maximum AGA is 5%. This means that, if the formula in the Rent",
+   "confidence": 0.8,
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": "Local rent control; Costa-Hawkins and state AB 1482 interplay not described here.",
+   "applies_if": {
+    "any": [
+     {
+      "fact": "co_date",
+      "op": "<=",
+      "value": "1979-12-31"
+     },
+     {
+      "unavailable": "single-family home with tenancy that began before 1996, or rooming house with five or more rooms rented individually"
+     }
+    ]
+   },
+   "exempt_if": {
+    "unavailable": "exempt unit types (golden duplex, owner shares kitchen or bath, ADU with owner-occupancy, university unit, nonprofit cooperative)"
+   },
+   "yields_to": [],
+   "conflicts_with": [
+    {
+     "jurisdiction": "CA",
+     "category": "rent_increase_limits"
+    }
+   ]
+  },
+  {
+   "jurisdiction": "Berkeley, CA",
+   "level": "city",
+   "category": "just_cause_eviction",
+   "status": "in_force",
+   "title": "Berkeley just cause for eviction after Measure BB",
+   "requirement": "Tenants in fully or partially covered units can be evicted only for just cause. Measure BB bars eviction for rent debt under one month of Fair Market Rent and for refusing a new fixed-term lease, and tightens lease-breach and notice rules.",
+   "key_value": "just cause required; no nonpayment eviction below one month FMR",
+   "coverage_conditions": "Fully or partially covered units under the Rent Ordinance",
+   "exemptions": "Exempt unit types (see coverage guide)",
+   "effective_date": null,
+   "citation": "Berkeley Mun. Code ch. 13.76",
+   "source_doc_id": "D006",
+   "source_url": "https://rentboard.berkeleyca.gov/laws-regulations/measure-bb-changes-berkeleys-rent-ordinance",
+   "quoted_span": "tenants in units that are fully or partially covered by the Rent Ordinance cannot be evicted unless there is",
+   "confidence": 0.8,
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": null,
+   "applies_if": null,
+   "exempt_if": {
+    "unavailable": "exempt unit types (golden duplex, owner shares kitchen or bath, ADU with owner-occupancy, university unit, nonprofit cooperative)"
+   },
+   "yields_to": [],
+   "conflicts_with": []
+  }
+ ],
+ "notes": "Measure BB passed Nov 2024; the page gives no single effective date for the amendments (tenancy-dated items: Dec 20, 2024; Feb 6, 2024), so effective_date is null."
+}

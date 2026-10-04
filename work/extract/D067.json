@@ -1,0 +1,120 @@
+{
+ "doc_id": "D067",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T00:53:04Z",
+ "rules": [
+  {
+   "jurisdiction": "NJ",
+   "level": "state",
+   "status": "in_force",
+   "effective_date": null,
+   "source_doc_id": "D067",
+   "source_url": "https://www.nj.gov/dca/codes/publications/pdf_lti/t_i_r.pdf",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "yields_to": [],
+   "conflicts_with": [],
+   "applies_if": null,
+   "category": "security_deposits",
+   "title": "NJ Security Deposit Law",
+   "requirement": "A landlord may not collect more than one and one-half months' rent as a security deposit, and yearly increases cannot exceed 10% of the current deposit. The deposit must be held in an interest-bearing New Jersey account with interest paid to the tenant, and returned with itemized deductions within 30 days after the tenancy ends.",
+   "key_value": "1.5 months' rent cap; yearly increase max 10%; return within 30 days",
+   "coverage_conditions": "Most residential rental properties, including mobile homes",
+   "exemptions": "Owner-occupied two- or three-family dwelling (tenant may opt in 30 days after written request); interest rules do not apply to seasonal rentals of 125 days or less",
+   "citation": "N.J.S.A. 46:8-21.2",
+   "quoted_span": "one and one-half times one month’s rent ( N.J.S.A. 46:8-21.2 ). It can be less.",
+   "confidence": 0.8,
+   "interaction": "State law; the guide mentions no local override.",
+   "exempt_if": {
+    "all": [
+     {
+      "unavailable": "owner-occupied two- or three-family dwelling"
+     },
+     {
+      "fact": "units",
+      "op": "<=",
+      "value": 3
+     }
+    ]
+   }
+  },
+  {
+   "jurisdiction": "NJ",
+   "level": "state",
+   "status": "in_force",
+   "effective_date": null,
+   "source_doc_id": "D067",
+   "source_url": "https://www.nj.gov/dca/codes/publications/pdf_lti/t_i_r.pdf",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "yields_to": [],
+   "conflicts_with": [],
+   "applies_if": null,
+   "category": "just_cause_eviction",
+   "title": "NJ Anti-Eviction Act",
+   "requirement": "A residential landlord may not evict or fail to renew a lease without good cause, which must be proven in court. Causes are listed in the Act (nonpayment, disorderly conduct, damage, rule violations, owner occupancy, conversion, and others), generally with a written Notice to Quit or Cease.",
+   "key_value": "Good cause required; statutory grounds, Notice to Quit (3 days to 3 months by cause)",
+   "coverage_conditions": "Most residential rental properties including single-family homes, mobile homes, apartment buildings, rooming and boarding houses",
+   "exemptions": "Two- or three-unit owner-occupied premises with two or fewer rental units (limited grounds still apply); hotel, motel and guest house transient or seasonal guests; unit held in trust for a developmentally disabled family member",
+   "citation": "N.J.S.A. 2A:18-61.1 et seq.",
+   "quoted_span": "The Anti-Eviction Act,  N.J.S.A. 2A:18-61.1 to 61.12, was created to protect",
+   "confidence": 0.8,
+   "interaction": "State law applies statewide; the guide does not describe local overrides.",
+   "exempt_if": {
+    "any": [
+     {
+      "all": [
+       {
+        "unavailable": "owner-occupied premises with two or fewer rental units"
+       },
+       {
+        "fact": "units",
+        "op": "<=",
+        "value": 3
+       }
+      ]
+     },
+     {
+      "unavailable": "hotel, motel or guest house rented to a transient guest or seasonal tenant, or unit held in trust for a developmentally disabled family member"
+     }
+    ]
+   }
+  },
+  {
+   "jurisdiction": "NJ",
+   "level": "state",
+   "status": "in_force",
+   "effective_date": null,
+   "source_doc_id": "D067",
+   "source_url": "https://www.nj.gov/dca/codes/publications/pdf_lti/t_i_r.pdf",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "yields_to": [],
+   "conflicts_with": [],
+   "applies_if": null,
+   "category": "screening_restrictions",
+   "title": "NJ Law Against Discrimination: source of lawful income",
+   "requirement": "A landlord may not refuse to rent or discriminate in renting because of a person's source of lawful income, among other protected traits. A landlord may still refuse for insufficient income or poor credit history.",
+   "key_value": "Source of lawful income protected",
+   "coverage_conditions": "All landlord-tenant relationships",
+   "exemptions": "Two-family owner-occupied dwellings, rooms in an owner- or resident-occupied single home (as it pertains to familial status per the guide)",
+   "citation": "N.J.S.A. 10:5-12(g)",
+   "quoted_span": "nationality, or source of lawful income.",
+   "confidence": 0.5,
+   "interaction": "State anti-discrimination law; guide says nothing about criminal-history screening.",
+   "exempt_if": {
+    "all": [
+     {
+      "unavailable": "two-family owner-occupied dwelling or room in an owner-occupied home"
+     },
+     {
+      "fact": "units",
+      "op": "<=",
+      "value": 2
+     }
+    ]
+   }
+  }
+ ],
+ "notes": "Guide states NJ has no state law that establishes, governs or controls rents (municipal rent control only; Newly Constructed Multiple Dwellings Law N.J.S.A. 2A:42-84.5 exempts new buildings from local control for 30 years): no state rent_increase_limits rule, a valid no_rule finding. Guide gives no effective dates. Application fees: only says landlord may request reasonable rental application fees, no cap or statute named: no rule. No criminal-history screening rule or algorithmic rent-setting content. Source-of-income record is lower confidence (single clause in discrimination summary)."
+}

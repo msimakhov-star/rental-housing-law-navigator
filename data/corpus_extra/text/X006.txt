@@ -1,0 +1,7 @@
+SOURCE: https://ecode360.com/36642000
+RETRIEVED: 2026-10-04 00:54 UTC
+VIA: r.jina.ai
+SUPPLIED_MANIFEST_ID: D072
+
+QUOTE-ONLY STUB: the full page is not redistributed; fetch it from the SOURCE url above. Quoted spans used by our rules:
+Inquiry into and consideration of any applicant's criminal history shall take place only after the applicant has submitted a formal application.

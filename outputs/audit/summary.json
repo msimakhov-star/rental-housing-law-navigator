@@ -1,0 +1,65 @@
+{
+ "generated_at": "2026-10-04T02:24:01Z",
+ "as_of": "2026-10-01",
+ "addresses": 500,
+ "rules": 53,
+ "tests": [
+  "T1",
+  "T2",
+  "T3",
+  "T4",
+  "T5"
+ ],
+ "test_errors": {},
+ "notes": [],
+ "counts": {
+  "Berkeley, CA": {
+   "unknown": 160,
+   "applies": 80
+  },
+  "Boston, MA": {
+   "applies": 120,
+   "unknown": 60
+  },
+  "CA": {
+   "superseded": 273,
+   "applies": 984,
+   "unknown": 233
+  },
+  "Cambridge, MA": {
+   "applies": 100
+  },
+  "Hoboken, NJ": {
+   "unknown": 40,
+   "applies": 40
+  },
+  "Jersey City, NJ": {
+   "unknown": 50,
+   "applies": 50
+  },
+  "Los Angeles, CA": {
+   "applies": 254,
+   "unknown": 16
+  },
+  "MA": {
+   "applies": 660,
+   "pending": 220
+  },
+  "NJ": {
+   "unknown": 700,
+   "not_yet_effective": 140
+  },
+  "Newark, NJ": {
+   "unknown": 98,
+   "applies": 2
+  },
+  "San Diego, CA": {
+   "unknown": 50,
+   "applies": 100
+  },
+  "San Francisco, CA": {
+   "applies": 311,
+   "unknown": 82
+  }
+ }
+}

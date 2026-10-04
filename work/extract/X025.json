@@ -1,0 +1,41 @@
+{
+ "doc_id": "X025",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T01:03:58Z",
+ "rules": [
+  {
+   "conflict_flag": false,
+   "conflict_note": null,
+   "yields_to": [],
+   "conflicts_with": [
+    {
+     "jurisdiction": "Jersey City, NJ",
+     "category": "algorithmic_rent_setting"
+    },
+    {
+     "jurisdiction": "Hoboken, NJ",
+     "category": "algorithmic_rent_setting"
+    }
+   ],
+   "applies_if": null,
+   "exempt_if": null,
+   "jurisdiction": "NJ",
+   "level": "state",
+   "category": "algorithmic_rent_setting",
+   "status": "not_yet_effective",
+   "title": "Forbidding the Algorithmic Inflation of Rent (FAIR) Act",
+   "requirement": "Landlords may not use algorithmic revenue management software that uses competitors' nonpublic leasing data to set or recommend rents; software providers/coordinators may not use it to coordinate pricing among competing landlords. Attorney General runs a complaint portal.",
+   "key_value": "ban on rent-setting software using competitors' nonpublic leasing data",
+   "coverage_conditions": "Residential rental property owners, property managers, software providers and other coordinators",
+   "exemptions": "Spreadsheets requiring human analysis, publicly available rent estimation tools, traditional real estate listing databases, government-administered affordable housing programs",
+   "effective_date": "2027-07-01",
+   "citation": "P.L.2026, c.43",
+   "source_doc_id": "X025",
+   "source_url": "https://daypitney.com/new-jersey-enacts-fair-act-to-prohibit-algorithmic-rent-setting-practices",
+   "quoted_span": "The FAIR Act takes effect on July 1, 2027",
+   "confidence": 0.6,
+   "interaction": "Page does not state whether it preempts local ordinances; possible conflict with local bans (Jersey City, Hoboken) needs review."
+  }
+ ],
+ "notes": "Law-firm summary; signed July 20 (2026), effective 2027-07-01. Preemption of local ordinances is NOT addressed in this page."
+}

@@ -1,0 +1,469 @@
+{
+ "as_of": "2026-10-01",
+ "note": "Expected outcomes follow directly from docs text only. Cases select real addresses by facts; every match (max 10) is checked.",
+ "cases": [
+  {
+   "id": "S01",
+   "description": "SF large pre-1979 building (brief's 20-unit, built 1962 illustration)",
+   "select": {
+    "city": "San Francisco, CA",
+    "year_built": {
+     "lte": 1975
+    },
+    "units": {
+     "gte": 20
+    }
+   },
+   "expect": [
+    {
+     "key": "SF-RENT",
+     "result_in": [
+      "applies"
+     ]
+    },
+    {
+     "key": "CA-RENT",
+     "result_in": [
+      "superseded"
+     ]
+    },
+    {
+     "key": "SF-JC",
+     "result_in": [
+      "applies"
+     ]
+    },
+    {
+     "key": "CA-DEP",
+     "result_in": [
+      "applies"
+     ]
+    },
+    {
+     "key": "CA-FEE",
+     "result_in": [
+      "applies",
+      "unknown"
+     ]
+    },
+    {
+     "key": "SF-ALG",
+     "result_in": [
+      "applies"
+     ]
+    },
+    {
+     "key": "CA-ALG",
+     "result_in": [
+      "applies"
+     ]
+    }
+   ],
+   "source": "brief p.2 illustrative output"
+  },
+  {
+   "id": "S02",
+   "description": "SF building built in the CO cutoff year 1979: unknown, not guessed",
+   "select": {
+    "city": "San Francisco, CA",
+    "year_built": {
+     "eq": 1979
+    }
+   },
+   "expect": [
+    {
+     "key": "SF-RENT",
+     "result_in": [
+      "unknown"
+     ]
+    }
+   ],
+   "source": "guide s.4.1 (cutoff year => unknown)"
+  },
+  {
+   "id": "S03",
+   "description": "SF building clearly after the 1979-06-13 cutoff: SF rent ordinance not reported",
+   "select": {
+    "city": "San Francisco, CA",
+    "year_built": {
+     "gte": 1985
+    }
+   },
+   "expect": [
+    {
+     "key": "SF-RENT",
+     "result_in": [
+      "absent"
+     ]
+    },
+    {
+     "key": "SF-ALG",
+     "result_in": [
+      "applies"
+     ]
+    }
+   ],
+   "source": "brief p.2 + guide s.4.1"
+  },
+  {
+   "id": "S04",
+   "description": "LA building built before the 1978-10-01 cutoff, 5+ units",
+   "select": {
+    "city": "Los Angeles, CA",
+    "year_built": {
+     "lte": 1975
+    },
+    "units": {
+     "gte": 5
+    }
+   },
+   "expect": [
+    {
+     "key": "LA-RSO",
+     "result_in": [
+      "applies"
+     ]
+    },
+    {
+     "key": "CA-ALG",
+     "result_in": [
+      "applies"
+     ]
+    }
+   ],
+   "source": "guide s.4.1 (LA cutoff 1978-10-01) + brief p.3"
+  },
+  {
+   "id": "S05",
+   "description": "LA building built in cutoff year 1978: unknown",
+   "select": {
+    "city": "Los Angeles, CA",
+    "year_built": {
+     "eq": 1978
+    }
+   },
+   "expect": [
+    {
+     "key": "LA-RSO",
+     "result_in": [
+      "unknown"
+     ]
+    }
+   ],
+   "source": "guide s.4.1"
+  },
+  {
+   "id": "S06",
+   "description": "Berkeley row (no year, no units in the data): local ban still applies (either published date is before 2026-10-01)",
+   "select": {
+    "city": "Berkeley, CA",
+    "year_built": {
+     "null": true
+    }
+   },
+   "expect": [
+    {
+     "key": "BERK-ALG",
+     "result_in": [
+      "applies"
+     ]
+    },
+    {
+     "key": "CA-ALG",
+     "result_in": [
+      "applies"
+     ]
+    },
+    {
+     "key": "SF-ALG",
+     "result_in": [
+      "absent"
+     ]
+    }
+   ],
+   "source": "brief p.2 table + guide s.4.1/s.9"
+  },
+  {
+   "id": "S07",
+   "description": "San Diego row (no year built): local ban + state AB 325",
+   "select": {
+    "city": "San Diego, CA",
+    "year_built": {
+     "null": true
+    }
+   },
+   "expect": [
+    {
+     "key": "SD-ALG",
+     "result_in": [
+      "applies"
+     ]
+    },
+    {
+     "key": "CA-ALG",
+     "result_in": [
+      "applies"
+     ]
+    }
+   ],
+   "source": "brief p.3 (San Diego Jun 2025)"
+  },
+  {
+   "id": "S08",
+   "description": "Newark row, no unit count: no local ban, FAIR Act not yet effective, no conflict flag",
+   "select": {
+    "city": "Newark, NJ",
+    "units": {
+     "null": true
+    }
+   },
+   "expect": [
+    {
+     "key": "JC-ALG",
+     "result_in": [
+      "absent"
+     ]
+    },
+    {
+     "key": "HOB-ALG",
+     "result_in": [
+      "absent"
+     ]
+    },
+    {
+     "key": "NJ-ALG",
+     "result_in": [
+      "not_yet_effective"
+     ],
+     "conflict_flag": false
+    },
+    {
+     "key": "NJ-DEP",
+     "result_in": [
+      "applies",
+      "unknown"
+     ]
+    },
+    {
+     "key": "NJ-FEE",
+     "result_in": [
+      "applies",
+      "unknown"
+     ]
+    },
+    {
+     "key": "NJ-JC",
+     "result_in": [
+      "applies",
+      "unknown"
+     ]
+    }
+   ],
+   "source": "brief p.3 + change_tests T2/T3 + template example"
+  },
+  {
+   "id": "S09",
+   "description": "Jersey City: own ban applies, Hoboken's does not, FAIR Act not yet effective with conflict flag",
+   "select": {
+    "city": "Jersey City, NJ"
+   },
+   "expect": [
+    {
+     "key": "JC-ALG",
+     "result_in": [
+      "applies"
+     ]
+    },
+    {
+     "key": "HOB-ALG",
+     "result_in": [
+      "absent"
+     ]
+    },
+    {
+     "key": "NJ-ALG",
+     "result_in": [
+      "not_yet_effective"
+     ],
+     "conflict_flag": true
+    }
+   ],
+   "source": "change_tests T2/T3"
+  },
+  {
+   "id": "S10",
+   "description": "Hoboken: own ban applies, Jersey City's does not, FAIR Act flagged",
+   "select": {
+    "city": "Hoboken, NJ"
+   },
+   "expect": [
+    {
+     "key": "HOB-ALG",
+     "result_in": [
+      "applies"
+     ]
+    },
+    {
+     "key": "JC-ALG",
+     "result_in": [
+      "absent"
+     ]
+    },
+    {
+     "key": "NJ-ALG",
+     "result_in": [
+      "not_yet_effective"
+     ],
+     "conflict_flag": true
+    }
+   ],
+   "source": "change_tests T2/T3"
+  },
+  {
+   "id": "S11",
+   "description": "Boston: pending bills reported as pending, no rent cap, failed ballot question omitted",
+   "select": {
+    "city": "Boston, MA"
+   },
+   "expect": [
+    {
+     "key": "MA-ALG-S2983",
+     "result_in": [
+      "pending"
+     ]
+    },
+    {
+     "key": "MA-ALG-H5222",
+     "result_in": [
+      "pending"
+     ]
+    },
+    {
+     "key": "MA-IP2521",
+     "result_in": [
+      "absent"
+     ]
+    },
+    {
+     "key": "MA-DEP",
+     "result_in": [
+      "applies",
+      "unknown"
+     ]
+    }
+   ],
+   "source": "change_tests T4/T5 + brief p.3",
+   "forbid": [
+    {
+     "category": "rent_increase_limits",
+     "result": "applies",
+     "except_cite_regex": "40P"
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "description": "Cambridge: pending bills pending, broker-fee rule in force since 2025-08-01, no rent cap",
+   "select": {
+    "city": "Cambridge, MA"
+   },
+   "expect": [
+    {
+     "key": "MA-ALG-S2983",
+     "result_in": [
+      "pending"
+     ]
+    },
+    {
+     "key": "MA-ALG-H5222",
+     "result_in": [
+      "pending"
+     ]
+    },
+    {
+     "key": "MA-BROKER",
+     "result_in": [
+      "applies",
+      "unknown"
+     ]
+    },
+    {
+     "key": "MA-IP2521",
+     "result_in": [
+      "absent"
+     ]
+    }
+   ],
+   "source": "change_tests T4/T5 + brief p.3",
+   "forbid": [
+    {
+     "category": "rent_increase_limits",
+     "result": "applies",
+     "except_cite_regex": "40P"
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "description": "Every CA address carries AB 325 / SB 763 as applies on 2026-10-01",
+   "select": {
+    "city": "Los Angeles, CA"
+   },
+   "expect": [
+    {
+     "key": "CA-ALG",
+     "result_in": [
+      "applies"
+     ]
+    },
+    {
+     "key": "SF-ALG",
+     "result_in": [
+      "absent"
+     ]
+    },
+    {
+     "key": "SD-ALG",
+     "result_in": [
+      "absent"
+     ]
+    }
+   ],
+   "source": "change_tests T1"
+  }
+ ],
+ "scope_leaks": [
+  {
+   "key": "SF-ALG",
+   "home": "San Francisco, CA"
+  },
+  {
+   "key": "SF-RENT",
+   "home": "San Francisco, CA"
+  },
+  {
+   "key": "SD-ALG",
+   "home": "San Diego, CA"
+  },
+  {
+   "key": "BERK-ALG",
+   "home": "Berkeley, CA"
+  },
+  {
+   "key": "SA-ALG",
+   "home": "Santa Ana, CA"
+  },
+  {
+   "key": "JC-ALG",
+   "home": "Jersey City, NJ"
+  },
+  {
+   "key": "HOB-ALG",
+   "home": "Hoboken, NJ"
+  },
+  {
+   "key": "LA-RSO",
+   "home": "Los Angeles, CA"
+  }
+ ]
+}

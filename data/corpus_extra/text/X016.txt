@@ -1,0 +1,7 @@
+SOURCE: https://gocodebook.com/library/us/ca/san-diego-zoning/division-8-prohibition-of-discrimination-based-on-a-tenant-s-source-of-income
+RETRIEVED: 2026-10-04 00:55 UTC
+VIA: r.jina.ai
+SUPPLIED_MANIFEST_ID: D075
+
+QUOTE-ONLY STUB: the full page is not redistributed; fetch it from the SOURCE url above. Quoted spans used by our rules:
+

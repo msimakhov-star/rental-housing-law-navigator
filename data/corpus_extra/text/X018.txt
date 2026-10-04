@@ -1,0 +1,12 @@
+SOURCE: https://morganlewis.com/pubs/2026/08/algorithmic-rent-pricing-litigation-expands-under-new-state-and-local-laws
+RETRIEVED: 2026-10-04 00:58 UTC
+VIA: r.jina.ai
+SUPPLIED_MANIFEST_ID: D002
+
+QUOTE-ONLY STUB: the full page is not redistributed; fetch it from the SOURCE url above. Quoted spans used by our rules:
+Berkeley Mun. Code ch. 13.63 (effective January 2026)Prohibits coordinated pricing algorithms; recurring unit/month violations and private remedies
+Hoboken City Code, ch. 158-2 (effective July 2025)Prohibits landlords from using software, algorithms or data-sharing platforms to coordinate or recommend rents, lease terms, or occupancy.
+Jersey City Code § 218-12 (effective June 2025)Prohibits a landlord’s use of algorithmic rent coordination services; includes public and private enforcement; fines up to $2,000 per day.
+S.F. Admin. Code § 37.10C (effective October 2024)Prohibits qualifying algorithmic devices using nonpublic competitor data; private tenant claims and up to $1,000 per violation
+Santa Ana Ordinance No. NS-3090 (effective April 2, 2026)
+Santa Ana Ordinance No. NS-3090 (effective April 2, 2026)Ordinance NS-3090 prohibits specified anticompetitive automated rent price-fixing; private tenant claims and up to $1,000 per violation and per month.

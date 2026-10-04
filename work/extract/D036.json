@@ -1,0 +1,36 @@
+{
+ "doc_id": "D036",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T00:53:04Z",
+ "rules": [
+  {
+   "source_doc_id": "D036",
+   "source_url": "https://www.jerseycitynj.gov/landlordtenant",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": "Local ordinance administered by the Office of Landlord Tenant Relations.",
+   "applies_if": {
+    "fact": "units",
+    "op": ">=",
+    "value": 5
+   },
+   "exempt_if": null,
+   "yields_to": [],
+   "conflicts_with": [],
+   "level": "city",
+   "jurisdiction": "Jersey City, NJ",
+   "category": "rent_increase_limits",
+   "status": "in_force",
+   "title": "Jersey City Rent Control Ordinance",
+   "requirement": "Jersey City regulates rent increases in buildings of 5 or more units under its Rent Control Ordinance; properties with 1 to 4 units are exempt.",
+   "key_value": "Rent control for 5+ unit buildings; 1-4 unit properties exempt (cap amount not stated on page)",
+   "coverage_conditions": "Properties of 5 or more units, unless a permitted exemption is granted",
+   "exemptions": "All 1-4 unit properties; other exemptions by request to the Office",
+   "effective_date": null,
+   "citation": "Jersey City Code ch. 260",
+   "quoted_span": "All 1-4 Unit Properties are exempt from rent control",
+   "confidence": 0.6
+  }
+ ],
+ "notes": "Page is navigation-heavy and states only the rent control ordinance (Chapter 260) and the 1-4 unit exemption. It names no algorithmic rent-setting ban (no Code 218-12), no just-cause, deposit or fee rule."
+}

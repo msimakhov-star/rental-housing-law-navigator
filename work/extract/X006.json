@@ -1,0 +1,39 @@
+{
+ "doc_id": "X006",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T01:10:00Z",
+ "rules": [
+  {
+   "jurisdiction": "Newark, NJ",
+   "level": "city",
+   "category": "screening_restrictions",
+   "status": "in_force",
+   "title": "Newark fair chance in housing (Ban the Box), ch. 2:31 Art. 1",
+   "requirement": "Landlords and brokers may check criminal history only after a formal application and written notice and consent, must give 3 business days to submit rehabilitation evidence, and may only look back 8 years (indictable) or 5 years (disorderly persons/ordinance), plus pending charges and listed serious offenses at any time. Arrests without conviction, expunged and juvenile records may not be used; adverse decisions need written reasons within 10 business days.",
+   "key_value": "Criminal history inquiry only after formal application; 8-year (indictable) and 5-year (disorderly persons) lookback; fines up to $500 first, $1,000 repeat",
+   "coverage_conditions": "Any rental, lease or sublease of real property by a landlord or real estate broker in Newark",
+   "exemptions": "Single apartment in owner-occupied two-family dwelling; room rented in owner-occupied one-family dwelling; where federal or state law requires or permits criminal history consideration; properties in government programs housing people with criminal histories",
+   "effective_date": "2015-04-15",
+   "citation": "Newark Mun. Code \u00a7 2:31-1 et seq.",
+   "source_doc_id": "X006",
+   "source_url": "https://ecode360.com/36642000",
+   "quoted_span": "Inquiry into and consideration of any applicant's criminal history shall take place only after the applicant has submitted a formal application.",
+   "confidence": 0.8,
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": "Local fair chance rule; possible overlap with NJ state fair chance housing law (FAIR Act) taking effect later.",
+   "applies_if": null,
+   "exempt_if": {
+    "unavailable": "single apartment in owner-occupied two-family dwelling, or room in owner-occupied one-family dwelling"
+   },
+   "yields_to": [],
+   "conflicts_with": [
+    {
+     "jurisdiction": "NJ",
+     "category": "screening_restrictions"
+    }
+   ]
+  }
+ ],
+ "notes": "Editor's note: earlier Ord. 6 PSF-F (9-19-2012) was repealed in its entirety by Ord. 6 PSF-B (4-15-2015); the current Art. 1 Housing is Ord. 6 PSF-B, adopted 4-15-2015 (effective date not separately printed, adoption date used). Art. 2 (city licensing) is out of scope."
+}

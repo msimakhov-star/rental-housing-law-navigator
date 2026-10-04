@@ -1,0 +1,50 @@
+{
+ "doc_id": "X011",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T02:00:00Z",
+ "rules": [
+  {
+   "level": "state",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": "Statewide floor; local ordinances may add to it.",
+   "applies_if": null,
+   "exempt_if": {
+    "any": [
+     {
+      "all": [
+       {
+        "unavailable": "owner-occupied premises"
+       },
+       {
+        "fact": "units",
+        "op": "<=",
+        "value": 2
+       }
+      ]
+     },
+     {
+      "unavailable": "hotel, motel or guest house rented to transient or seasonal tenant, or trust/immediate-family-occupied unit"
+     }
+    ]
+   },
+   "yields_to": [],
+   "conflicts_with": [],
+   "exemptions": "Owner-occupied premises with not more than two rental units; hotels, motels and guest houses for transient or seasonal tenants; certain trust-held units and units occupied by immediate family of the owner",
+   "coverage_conditions": "Residential leases of houses, buildings, mobile homes and tenements",
+   "jurisdiction": "NJ",
+   "category": "just_cause_eviction",
+   "status": "in_force",
+   "title": "NJ Anti-Eviction Act: grounds for removal of tenants",
+   "requirement": "A landlord can evict a residential tenant only on a listed ground, such as non-payment, disorderly conduct, property damage, lease violations, habitual late payment, conversion, owner occupancy of small buildings, or specified criminal offenses.",
+   "key_value": "eviction only for statutory good cause (grounds a to r)",
+   "effective_date": null,
+   "citation": "N.J.S.A. 2A:18-61.1",
+   "source_doc_id": "X011",
+   "source_url": "https://law.justia.com/codes/new-jersey/title-2a/section-2a-18-61-1/",
+   "quoted_span": "No lessee or tenant or the assigns, under-tenants or legal representatives of such lessee or tenant may be removed by the Superior Court from any house, building, mobile home or land in a mobile home park or tenement leased for residential purposes",
+   "confidence": 0.85
+  }
+ ],
+ "notes": "Justia mirror of the codified statute. Text gives only amendment years (last 2013, c.51) and original L.1974 c.49, no effective date for the current version, so effective_date is null. Relocation and notice sections (2A:18-61.2 etc.) are not in this page."
+}

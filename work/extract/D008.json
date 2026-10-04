@@ -1,0 +1,45 @@
+{
+ "doc_id": "D008",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T00:53:59Z",
+ "rules": [
+  {
+   "jurisdiction": "Berkeley, CA",
+   "level": "city",
+   "category": "rent_increase_limits",
+   "status": "in_force",
+   "title": "Berkeley 2026 Annual General Adjustment",
+   "requirement": "The Rent Board set the 2026 Annual General Adjustment at 1.0%, 65% of the 1.5% CPI increase, usable no earlier than January 1, 2026. It cannot adjust rents for Costa-Hawkins tenancies that began on or after January 1, 2025.",
+   "key_value": "1.0% AGA for 2026 (65% of CPI)",
+   "coverage_conditions": "Eligible landlords of fully covered units",
+   "exemptions": null,
+   "effective_date": "2026-01-01",
+   "citation": "Berkeley Mun. Code ch. 13.76",
+   "source_doc_id": "D008",
+   "source_url": "https://rentboard.berkeleyca.gov/sites/default/files/documents/AGA%20Public%20Notice.pdf",
+   "quoted_span": "eligible landlords to increase the 2025 permanent rent ceilings by 1.0% no earlier than",
+   "confidence": 0.8,
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": null,
+   "applies_if": {
+    "any": [
+     {
+      "fact": "co_date",
+      "op": "<=",
+      "value": "1979-12-31"
+     },
+     {
+      "unavailable": "single-family home with tenancy that began before 1996, or rooming house with five or more rooms rented individually"
+     }
+    ]
+   },
+   "exempt_if": {
+    "unavailable": "exempt unit types (golden duplex, owner shares kitchen or bath, ADU with owner-occupancy, university unit, nonprofit cooperative)"
+   },
+   "yields_to": [],
+   "conflicts_with": []
+  }
+ ],
+ "notes": "AGA order (Regulation 1148) adopted Oct 16, 2025; cites BMC 13.76.110A for the formula."
+}

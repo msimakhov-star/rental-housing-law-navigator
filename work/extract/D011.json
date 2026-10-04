@@ -1,0 +1,32 @@
+{
+ "doc_id": "D011",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T00:53:13Z",
+ "rules": [
+  {
+   "level": "city",
+   "status": "failed",
+   "effective_date": null,
+   "source_doc_id": "D011",
+   "source_url": "https://malegislature.gov/Bills/193/H3744",
+   "confidence": 0.7,
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": "Would have needed a state exemption from the M.G.L. c.40P bar on local rent control; not enacted.",
+   "applies_if": null,
+   "exempt_if": null,
+   "yields_to": [],
+   "conflicts_with": [],
+   "coverage_conditions": "City of Boston (local approval received)",
+   "exemptions": null,
+   "jurisdiction": "Boston, MA",
+   "category": "rent_increase_limits",
+   "title": "H.3744: special law authorizing Boston to implement rent stabilization and tenant eviction protections",
+   "requirement": "A 2023-2024 bill that would have authorized Boston to adopt rent stabilization and eviction protections. It was sent to a study order and did not become law.",
+   "key_value": "authorization for local rent stabilization (no cap stated)",
+   "citation": "H.3744 (193rd Gen. Ct.)",
+   "quoted_span": "An Act petition for a special law authorizing the city of Boston to implement rent stabilization and tenant eviction protections"
+  }
+ ],
+ "notes": "Bill history ends 9/9/2024 with 'Accompanied a study order' (H5035) in the 193rd session (2023-2024); no enactment, so status failed (inference from session end, page has no explicit 'died' action). Page gives no bill text, so no cap; the 'eviction protections' part is not split into a separate just_cause record."
+}

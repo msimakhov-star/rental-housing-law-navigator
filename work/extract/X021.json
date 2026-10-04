@@ -1,0 +1,32 @@
+{
+ "doc_id": "X021",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T02:00:00Z",
+ "rules": [
+  {
+   "level": "state",
+   "effective_date": "2020-01-01",
+   "conflict_flag": false,
+   "conflict_note": "Page names SB 329 and FEHA but no codified section; criminal-history regulations are named only as 'California regulations' with no cite, so no separate record.",
+   "interaction": null,
+   "applies_if": null,
+   "exempt_if": null,
+   "yields_to": [],
+   "conflicts_with": [],
+   "coverage_conditions": null,
+   "exemptions": null,
+   "jurisdiction": "CA",
+   "category": "screening_restrictions",
+   "status": "in_force",
+   "citation": "Cal. SB 329 (2019), Fair Employment and Housing Act",
+   "title": "California bar on refusing Section 8 vouchers (source of income)",
+   "requirement": "Landlords may not refuse to participate in government housing subsidy programs such as Section 8; blanket 'No Section 8' policies are unlawful. Credit history may not be used against subsidy holders without offering alternative proof of ability to pay (SB 267).",
+   "key_value": "'source of income' includes Section 8 vouchers; no 'No Section 8' policies",
+   "source_doc_id": "X021",
+   "source_url": "https://caanet.org/compliance-reminder-section-8-acceptance-and-criminal-background-checks-are-fair-housing-issues/",
+   "quoted_span": "state law prohibits landlords from refusing to participate in such programs.",
+   "confidence": 0.6
+  }
+ ],
+ "notes": "Only the source-of-income rule has a citable statute on the page (SB 329, FEHA). Criminal-history limits are regulations (Civil Rights Council, eff. 2020-01-01) with no section cited; not emitted. Codified cite not on page."
+}

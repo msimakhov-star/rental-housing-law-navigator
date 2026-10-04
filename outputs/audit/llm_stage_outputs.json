@@ -1,0 +1,611 @@
+[
+ {
+  "file": "extract/D001.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T00:53:59Z",
+  "rules": 1,
+  "sha256": "1be39dbda96e13796868dd8b0ab8b0864526cbaff59c094f8a594ecaac905b8b"
+ },
+ {
+  "file": "extract/D003.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T00:53:59Z",
+  "rules": 1,
+  "sha256": "7e4421a0da64145264c56bb15844544d4a401da4570bed4d6512a8d8e534a04c"
+ },
+ {
+  "file": "extract/D004.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T00:53:59Z",
+  "rules": 0,
+  "sha256": "a5f9655a5b47229ed498ec4d2855dad2e00cef37ac5477de53de62711d249530"
+ },
+ {
+  "file": "extract/D005.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T00:53:59Z",
+  "rules": 1,
+  "sha256": "017f199b7b306cb5036f05f4cbff4749dae1352965a6c2285743bfa9a329cbf5"
+ },
+ {
+  "file": "extract/D006.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T00:53:59Z",
+  "rules": 2,
+  "sha256": "71fdceb2bb973bc972ad697dffbff1edd62e19176582cffda6e3918241c96fe5"
+ },
+ {
+  "file": "extract/D007.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T00:53:59Z",
+  "rules": 1,
+  "sha256": "44b260bfbaf2971db9e5369dcad1589d5ba331424b8c45a07a6d3e41ab3748b5"
+ },
+ {
+  "file": "extract/D008.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T00:53:59Z",
+  "rules": 1,
+  "sha256": "96019fd4dc25879234f47b2a290cdb71ee7c07075bc639abd4850094185c4753"
+ },
+ {
+  "file": "extract/D009.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T00:53:59Z",
+  "rules": 2,
+  "sha256": "70d39fcb9dc99e1ae967702c8d4093c9692d06c295d1f8cd4ecbe1dc0f8369e8"
+ },
+ {
+  "file": "extract/D010.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T00:53:13Z",
+  "rules": 1,
+  "sha256": "b2b4c8c2638af600f596d1e0d4390e856f979861b979c74b5ff0dbfeb034ef11"
+ },
+ {
+  "file": "extract/D011.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T00:53:13Z",
+  "rules": 1,
+  "sha256": "e41d5eff937ea37ed0354d9632739f857f190e8568fe62110e14defa32acd032"
+ },
+ {
+  "file": "extract/D012.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T00:53:13Z",
+  "rules": 1,
+  "sha256": "ce3c992c489f8ae6d4c8026afbfb57499250a98deeb78d94727c1b58488e80c6"
+ },
+ {
+  "file": "extract/D013.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T00:53:13Z",
+  "rules": 1,
+  "sha256": "239d7fdd0c0868d1f49143a1a148fd14f84420e87a088e171704c2d8b241c677"
+ },
+ {
+  "file": "extract/D014.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T00:53:13Z",
+  "rules": 1,
+  "sha256": "8d8f2c00f072aeb1048d0583c3611e37958dbcbe19906d4303b7f192e8b5cbac"
+ },
+ {
+  "file": "extract/D016.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T00:00:00Z",
+  "rules": 1,
+  "sha256": "96c1180655bc7b8f7c62ebf269e96035f2541f620695639ed6400e0a44b6f802"
+ },
+ {
+  "file": "extract/D022.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T00:00:00Z",
+  "rules": 1,
+  "sha256": "719760290d9006861ea68476f522533a0ed21f8af840af90f736fb7116f606c6"
+ },
+ {
+  "file": "extract/D023.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T00:00:00Z",
+  "rules": 1,
+  "sha256": "6057de29bb9e2517457fe1634e71bd1a96f79b021e3f6f02784d9160b4952061"
+ },
+ {
+  "file": "extract/D024.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T00:00:00Z",
+  "rules": 1,
+  "sha256": "8f2aa48e63631579e57c74e03cf568fe785e46147c198a24c7937b94f8f9d9bc"
+ },
+ {
+  "file": "extract/D025.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T00:00:00Z",
+  "rules": 1,
+  "sha256": "65f69b45ad5e62d84d6d364a6de6597689820e343ecc32715a98a110b9fd95ce"
+ },
+ {
+  "file": "extract/D026.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T00:00:00Z",
+  "rules": 1,
+  "sha256": "588c880e1c1de1b46d9848b4d0a3ee86ab0ef158bfbda2590a5cdc5b0a05588e"
+ },
+ {
+  "file": "extract/D027.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T00:00:00Z",
+  "rules": 1,
+  "sha256": "e3d2a1ec282ce691901c9d8ead51f24e24a17dfba005998783117a221f9a8d87"
+ },
+ {
+  "file": "extract/D029.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T00:53:13Z",
+  "rules": 1,
+  "sha256": "f3349120350c21ee1e17163c1ac5b3081eee296fef451659e3ea0544590898f1"
+ },
+ {
+  "file": "extract/D031.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T00:53:13Z",
+  "rules": 1,
+  "sha256": "6f6286d2e2fddf3fdea81d79464302a10f33a2fb9d1903b68760eb8be403735b"
+ },
+ {
+  "file": "extract/D036.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T00:53:04Z",
+  "rules": 1,
+  "sha256": "68689dde8e8a9eacddb79f4535130f6b1080280e49e606e81e1d3246150121e1"
+ },
+ {
+  "file": "extract/D039.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T00:54:39Z",
+  "rules": 0,
+  "sha256": "14da185bcae88c5dcbb0da4770e74c97dfe738962d761b96cc62ea41056bce44"
+ },
+ {
+  "file": "extract/D040.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T00:54:39Z",
+  "rules": 2,
+  "sha256": "36b63a1c1a649d440e6cf938445986c4937148f0d8ce845100950992c6f6238a"
+ },
+ {
+  "file": "extract/D041.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T00:54:39Z",
+  "rules": 2,
+  "sha256": "1e7022146ab148206e155f525b15ffae44f9ce1b13a55fb230fb3afd5bae3271"
+ },
+ {
+  "file": "extract/D042.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T00:54:39Z",
+  "rules": 1,
+  "sha256": "f844a7608616e6a3bb09331fec2d2f6dfdab1fa723031aaa46052ff0577649b7"
+ },
+ {
+  "file": "extract/D043.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T00:54:39Z",
+  "rules": 2,
+  "sha256": "335ef4c1925caa10fee8a82c241590298bc56cb15a26ca0209455f253d828fd3"
+ },
+ {
+  "file": "extract/D045.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T00:53:07Z",
+  "rules": 1,
+  "sha256": "e6d1206237cc9a7fe1678e43275ac30ee2cd19ca0ee2c3c3f72c2d5b204a0ce1"
+ },
+ {
+  "file": "extract/D046.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T00:53:07Z",
+  "rules": 1,
+  "sha256": "365faa0dd91e12b35450c4fa2e1ded2bd57b48838cc93f0a64e47de0eb66bfaf"
+ },
+ {
+  "file": "extract/D047.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T00:53:07Z",
+  "rules": 0,
+  "sha256": "96c11f011faef54ca33f01e0a41aec340ec11d07c7701330062255762bf82733"
+ },
+ {
+  "file": "extract/D048.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T00:53:07Z",
+  "rules": 1,
+  "sha256": "4e84a09c94635f255c6dfb5764c20881e9f2d5cc3f5f2efa2acfc943d186e6e5"
+ },
+ {
+  "file": "extract/D049.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T00:53:07Z",
+  "rules": 1,
+  "sha256": "bc08ae322f8c87b753c33fb5e31bc19c56dc718a18f86997b9b6297dbecf4c72"
+ },
+ {
+  "file": "extract/D050.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T00:53:07Z",
+  "rules": 0,
+  "sha256": "29a0208552fa835977b8157928d99273c873b228a0d0e6f55eb0f5af1a43507f"
+ },
+ {
+  "file": "extract/D051.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T00:53:07Z",
+  "rules": 0,
+  "sha256": "1b13b341a16d66540ec1c7b16bb146bedeea576f6805d570cf070e93ecf3e88e"
+ },
+ {
+  "file": "extract/D052.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T00:53:07Z",
+  "rules": 1,
+  "sha256": "d20626c60296f9931c2ba8f2b8d3a8142fc5691f6eb1263d06be87284572b5ee"
+ },
+ {
+  "file": "extract/D053.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T00:53:07Z",
+  "rules": 0,
+  "sha256": "9cc1379a8aa17c8b6c87888952b3e742efa6251a1824534cfb8d4c9428d72d16"
+ },
+ {
+  "file": "extract/D057.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T00:53:07Z",
+  "rules": 1,
+  "sha256": "c56004c6d844d2fe05cf392a946d7176a557da753ab52350f18e1556225d221f"
+ },
+ {
+  "file": "extract/D058.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T00:53:07Z",
+  "rules": 0,
+  "sha256": "ddee4127bd0b6ed535f3caa87e0e4da3e90869db31096d294fcb27acfce5b99b"
+ },
+ {
+  "file": "extract/D065.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T00:53:04Z",
+  "rules": 1,
+  "sha256": "e07409c936b9d77e81fe19854c9eeb9c56e26d6d94ab428c65bfd9b0e4bdb855"
+ },
+ {
+  "file": "extract/D066.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T00:53:04Z",
+  "rules": 1,
+  "sha256": "78ca6c852b3ebee533967915edafa212d3e0bb8f8c9e866aedc6da4081e9f401"
+ },
+ {
+  "file": "extract/D067.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T00:53:04Z",
+  "rules": 3,
+  "sha256": "cb17119c45b75992e4a33b6ed3f633f41ad6b1b18fa2d634cc8569487c1cff06"
+ },
+ {
+  "file": "extract/D068.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T00:53:04Z",
+  "rules": 1,
+  "sha256": "743d74bce42b7da9cf1b6f05c1129bb21be795d6dbea77d647691b40aff6502a"
+ },
+ {
+  "file": "extract/D069.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T00:53:04Z",
+  "rules": 1,
+  "sha256": "71aceab8b68023be00d974ed4abbad1f6652a7cc6c91a44168fdf4baf68c70d8"
+ },
+ {
+  "file": "extract/D073.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T00:54:39Z",
+  "rules": 1,
+  "sha256": "55132991097e484975026920421e0d468b667ed90544dc8dc81d7cc3817e5cf7"
+ },
+ {
+  "file": "extract/D076.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T00:54:39Z",
+  "rules": 1,
+  "sha256": "61d9eeb7451e0c0771e382ea374523ebdce980b5a7dddeed3054a2d81fd277ee"
+ },
+ {
+  "file": "extract/D078.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T00:53:59Z",
+  "rules": 1,
+  "sha256": "98e0b06c82c3be4e445cbc78247c9b80f73512094b626d1c700045aacd7acb87"
+ },
+ {
+  "file": "extract/D079.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T00:53:59Z",
+  "rules": 1,
+  "sha256": "cd0ecec64654a3f547d7c6cec4f890dd54bae6aa817f4239a2bddf31ae709d17"
+ },
+ {
+  "file": "extract/D080.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T00:53:59Z",
+  "rules": 1,
+  "sha256": "0bab654011bfb8b896df289c6c6819a6265f58ac4340dfd8a15af860aba0949d"
+ },
+ {
+  "file": "extract/D081.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T00:53:59Z",
+  "rules": 1,
+  "sha256": "7d4fa8cda4cb4ac6e99319ee34417ead2107278404a1c6424a7729cc44537ab0"
+ },
+ {
+  "file": "extract/D082.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T00:53:59Z",
+  "rules": 0,
+  "sha256": "e6dc3ca46540788f6f9e6b382b027b3a3d0df4b08bf98ef8b86f971dadd78710"
+ },
+ {
+  "file": "extract/D083.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T00:53:59Z",
+  "rules": 1,
+  "sha256": "af8cdb5f4d53c3f985c7c383db5dd8a5fcb0fec2a02dfeb68654a7c9ae9107eb"
+ },
+ {
+  "file": "extract/D084.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T00:54:39Z",
+  "rules": 2,
+  "sha256": "88e937b93b299c58ace6628d0059fb960fe82ef556559172bdf9af5bf76502aa"
+ },
+ {
+  "file": "extract/D085.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T00:54:39Z",
+  "rules": 2,
+  "sha256": "2eac1eb524a8eb1b509ade911441ac94b9c5cade9047f210f5c6795b210ac2f3"
+ },
+ {
+  "file": "extract/X001.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T02:00:00Z",
+  "rules": 0,
+  "sha256": "ec3fd886ff84bc519eeda60d29825ab87e436d1764b8aa5dfaa8a9a1ffddb59e"
+ },
+ {
+  "file": "extract/X002.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T02:00:00Z",
+  "rules": 1,
+  "sha256": "37fdb3b62389f4cc0875c110ac6212284e58060ac31159d79bba2cd75f69b28c"
+ },
+ {
+  "file": "extract/X003.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T02:00:00Z",
+  "rules": 1,
+  "sha256": "80b4a3c654fbdc58831255ea373d7000ebde1b2cff250b56957f96aabef73983"
+ },
+ {
+  "file": "extract/X004.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T01:10:00Z",
+  "rules": 1,
+  "sha256": "2ed4f6eb2557e6682f81d54b24f2518a0245b26e304cc22fb6f7eb5ab48ed5f1"
+ },
+ {
+  "file": "extract/X005.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T01:10:00Z",
+  "rules": 0,
+  "sha256": "b2af41ccc67939cc639d1a2607ddf2e3132f79562c491beeeda85b5142d0884d"
+ },
+ {
+  "file": "extract/X006.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T01:10:00Z",
+  "rules": 1,
+  "sha256": "0587812e5dbce226d94956f95c4ea2ef36abca49b0cf8afc9438b97cc44332f0"
+ },
+ {
+  "file": "extract/X007.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T02:00:00Z",
+  "rules": 1,
+  "sha256": "73d46c1f64a06902c5e4ac3fab9a1f6764182d43f8b3e14cda601365ce655401"
+ },
+ {
+  "file": "extract/X008.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T02:00:00Z",
+  "rules": 1,
+  "sha256": "8aa592d291d33ff9296d285ca33b0bc1201a20a2aac0cf31798498c097bffe12"
+ },
+ {
+  "file": "extract/X009.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T02:00:00Z",
+  "rules": 1,
+  "sha256": "1c1e7dc7897c2ae621e1bd34921d13e69d0626924f076cfbc2648881067474ce"
+ },
+ {
+  "file": "extract/X011.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T02:00:00Z",
+  "rules": 1,
+  "sha256": "e993cf20b720514b72a436f17b963c2cf3667977bf34da5133574959bd5fb786"
+ },
+ {
+  "file": "extract/X012.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T02:00:00Z",
+  "rules": 1,
+  "sha256": "95c12cd2872ed87853509b61af57c3aef42ead886ebbea7760b4777a7b9bb7d2"
+ },
+ {
+  "file": "extract/X013.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T02:00:00Z",
+  "rules": 1,
+  "sha256": "d48a104ffd61facf446b66143959bccf2898847f64e2fa947c52d0f35f233857"
+ },
+ {
+  "file": "extract/X014.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T02:00:00Z",
+  "rules": 1,
+  "sha256": "6c650f5555f6a34f6bad28c438b4fc0f9d146ca06067fe4069a92ff7699d9fbe"
+ },
+ {
+  "file": "extract/X015.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T01:30:00Z",
+  "rules": 1,
+  "sha256": "8935778c24a1417dad2a9a058e0d63b1e9dadbc575cbd1f235aad07b7aba55e4"
+ },
+ {
+  "file": "extract/X016.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T01:30:00Z",
+  "rules": 0,
+  "sha256": "90617cc6ee2d83d953e506e64a76828877a9ec0777e92b6dfea361625642b87a"
+ },
+ {
+  "file": "extract/X017.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T01:30:00Z",
+  "rules": 1,
+  "sha256": "cf7f153c2b1a088ab27efff87b3954dd39e094d63a7354cc807b680778668685"
+ },
+ {
+  "file": "extract/X018.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T01:30:00Z",
+  "rules": 5,
+  "sha256": "4be77a02f56f760697f5d788cbd22145eaa6d2a7e14f7067d707f615ce169e22"
+ },
+ {
+  "file": "extract/X020.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T01:30:00Z",
+  "rules": 1,
+  "sha256": "d769a1af319b4f6f5288255302656a067f14d035ac88857dcc0e03b3b3e6e783"
+ },
+ {
+  "file": "extract/X021.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T02:00:00Z",
+  "rules": 1,
+  "sha256": "69bd444fa511b8473aaa041df8446de0960151d9b316a8478c48584274412339"
+ },
+ {
+  "file": "extract/X022.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T02:00:00Z",
+  "rules": 1,
+  "sha256": "c7efe483081b24f113e0c33cdbe2431f30b81de4655431b8634e842204d15641"
+ },
+ {
+  "file": "extract/X023.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T02:00:00Z",
+  "rules": 1,
+  "sha256": "afd01238865eaa0e4de78fcb2403e7a9fac82b58cea9dda35435e7b418e99238"
+ },
+ {
+  "file": "extract/X024.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T01:03:58Z",
+  "rules": 1,
+  "sha256": "775c4b4ff6e322bb88a4b3b3c0c5539fe3506e2a5b04ce94c7a137917d0b5d13"
+ },
+ {
+  "file": "extract/X025.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T01:03:58Z",
+  "rules": 1,
+  "sha256": "1966f8a6eefe05aaa517b839d0b79ba2c7624820c983212f59c1c54bf40be0b7"
+ },
+ {
+  "file": "extract/X026.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T01:03:58Z",
+  "rules": 0,
+  "sha256": "dc4cd1c10a78eb7bc9ddbcd64116f90fe1750d592ff5965f0874f504bf8c3f4f"
+ },
+ {
+  "file": "extract/X027.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T01:03:58Z",
+  "rules": 1,
+  "sha256": "5c8acf533a48dcb79a0d5f6e2b8faf6361060f2b754e291725b08df195dfd3fe"
+ },
+ {
+  "file": "extract/X028.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T02:00:00Z",
+  "rules": 1,
+  "sha256": "6920b785bd5b062b6569281779aa5303ab3b711ff863431467c451dbd568da67"
+ },
+ {
+  "file": "extract/X029.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T03:30:00Z",
+  "rules": 1,
+  "sha256": "07104600a5fd71890da927008a4adc3b6d80e429f97fc5c1a65be258336e7044"
+ },
+ {
+  "file": "extract/X030.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T03:30:00Z",
+  "rules": 1,
+  "sha256": "146cc1d5132b7ddb451a3ac7e3a5dd4967f6f7f8469003e8107eda9aeb8d2025"
+ },
+ {
+  "file": "extract/X031.json",
+  "model": "claude-sonnet-5-5",
+  "at": "2026-10-04T03:30:00Z",
+  "rules": 1,
+  "sha256": "04a824a48559a5a600130762f9c4f09cc65851cc1022f4a51964f8159f677be2"
+ },
+ {
+  "file": "consolidate/CA1.json",
+  "model": "claude-opus-5-5",
+  "at": "2026-10-04T02:10:52Z",
+  "rules": 16,
+  "sha256": "f9660b2a433eff9905e9b7395889c76e593b0460605c66b6a76db65a4c263591"
+ },
+ {
+  "file": "consolidate/CA2.json",
+  "model": "claude-opus-5-5",
+  "at": "2026-10-04T01:07:42Z",
+  "rules": 11,
+  "sha256": "3adb5fc31d9c2568c2f7430e9ace1a3aca1104a22e7abe17b40e705e641d219a"
+ },
+ {
+  "file": "consolidate/MA.json",
+  "model": "claude-opus-5-5",
+  "at": "2026-10-04T01:08:54Z",
+  "rules": 14,
+  "sha256": "b016e8e215ffc6ae08bcbfc04e2a3942be27f47100b0535664c261c869378fd0"
+ },
+ {
+  "file": "consolidate/NJ.json",
+  "model": "claude-opus-5-5",
+  "at": "2026-10-04T02:10:29Z",
+  "rules": 12,
+  "sha256": "3f9856a1e1a15d4a858ea9a4be8a4933c6eb3de3ce1f4dbd1d1c0265b044d092"
+ }
+]

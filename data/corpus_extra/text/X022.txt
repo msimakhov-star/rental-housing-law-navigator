@@ -1,0 +1,7 @@
+SOURCE: https://masslandlords.net/can-massachusetts-landlords-charge-an-application-fee/
+RETRIEVED: 2026-10-04 00:59 UTC
+VIA: curl
+SUPPLIED_MANIFEST_ID: D054
+
+QUOTE-ONLY STUB: the full page is not redistributed; fetch it from the SOURCE url above. Quoted spans used by our rules:
+no lessor may require payment for anything except first, last, security, and locks (MGL Ch 186 Section 15B).

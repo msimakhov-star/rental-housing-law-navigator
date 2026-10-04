@@ -1,0 +1,13 @@
+address_id,street_address,postal_city,state,zip,year_built,units,use_code,use_description,source_dataset,retrieved_at
+A0001,SF ST,San Francisco,CA,00000,1962,20,X,fixture,fixture,2026-10-01T00:00Z
+A0002,SF2 ST,San Francisco,CA,00000,1979,,X,fixture,fixture,2026-10-01T00:00Z
+A0003,LA1 ST,Los Angeles,CA,00000,2010,2,X,fixture,fixture,2026-10-01T00:00Z
+A0004,LA2 ST,Los Angeles,CA,00000,1990,,X,fixture,fixture,2026-10-01T00:00Z
+A0005,HOB ST,Hoboken,NJ,00000,2001,20,X,fixture,fixture,2026-10-01T00:00Z
+A0006,JC ST,Jersey City,NJ,00000,1950,10,X,fixture,fixture,2026-10-01T00:00Z
+A0007,NWK ST,Newark,NJ,00000,1960,30,X,fixture,fixture,2026-10-01T00:00Z
+A0008,BOS ST,Boston,MA,00000,1930,12,X,fixture,fixture,2026-10-01T00:00Z
+A0009,CAM ST,Cambridge,MA,00000,1985,9,X,fixture,fixture,2026-10-01T00:00Z
+A0010,JCF ST,Jersey City,NJ,00000,1950,10,X,fixture,fixture,2026-10-01T00:00Z
+A0011,OAK ST,Oakland,CA,00000,1970,10,X,fixture,fixture,2026-10-01T00:00Z
+A0012,LA3 ST,Los Angeles,CA,00000,2011,8,X,fixture,fixture,2026-10-01T00:00Z

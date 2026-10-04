@@ -1,0 +1,440 @@
+{
+ "group": "CA2",
+ "consolidator_model": "claude-opus-5-5",
+ "consolidated_at": "2026-10-04T01:07:42Z",
+ "rules": [
+  {
+   "team_rule_id": "CA2-01",
+   "jurisdiction": "San Francisco, CA",
+   "level": "city",
+   "category": "rent_increase_limits",
+   "status": "in_force",
+   "title": "San Francisco Rent Ordinance (Residential Rent Stabilization and Arbitration Ordinance)",
+   "requirement": "In rent-controlled units, the landlord may raise the rent once a year by the Rent Board's annual allowable increase: 1.6% for March 1, 2026 through February 28, 2027 (1.4% the year before). Units that first got a certificate of occupancy after June 13, 1979 are exempt from these rent limits.",
+   "key_value": "annual allowable increase 1.6% (3/1/2026 to 2/28/2027)",
+   "coverage_conditions": "Rental units with a certificate of occupancy on or before June 13, 1979",
+   "exemptions": "Units that first obtained a certificate of occupancy after June 13, 1979; tenancies eligible for a rent increase under the Costa-Hawkins Rental Housing Act; some tenancies whose rent is regulated by another government agency",
+   "overrides": [],
+   "interaction": "Local rent control; the California statewide cap (Cal. Civ. Code § 1947.12) yields to it where it covers the unit. Rate confirmed by D083; the June 13, 1979 certificate-of-occupancy cutoff is stated in D079 and the brief.",
+   "effective_date": "2026-03-01",
+   "citation": "S.F. Admin. Code ch. 37",
+   "source_doc_id": "D080",
+   "source_url": "https://www.sf.gov/news--annual-rent-increase-3126-22827-announced",
+   "quoted_span": "For rent-controlled units, the annual allowable increase amount effective March 1, 2026 through February 28, 2027 is 1.6%.",
+   "confidence": 0.85,
+   "conflict_flag": false,
+   "conflict_note": null,
+   "applies_if": {
+    "fact": "co_date",
+    "op": "<=",
+    "value": "1979-06-13"
+   },
+   "exempt_if": null,
+   "yields_to": [],
+   "conflicts_with": [],
+   "date_kind": "version"
+  },
+  {
+   "team_rule_id": "CA2-02",
+   "jurisdiction": "San Francisco, CA",
+   "level": "city",
+   "category": "just_cause_eviction",
+   "status": "in_force",
+   "title": "San Francisco Rent Ordinance just cause eviction (Section 37.9)",
+   "requirement": "A landlord may evict a tenant from a unit covered by the Rent Ordinance only for one of 17 listed just causes, and it must be the dominant motive; lease expiry or a change of owner is not a just cause. No-fault evictions such as owner move-in trigger relocation payments.",
+   "key_value": "17 just causes; relocation $8,245 per tenant, max $24,733 per unit, plus $5,497 per elderly, disabled or minor-child household (owner move-in and similar, notices served 3/1/2026 to 2/28/2027)",
+   "coverage_conditions": "Units covered by the Rent Ordinance, including post-June 13, 1979 new construction and Costa-Hawkins tenancies that are exempt only from the rent limits",
+   "exemptions": "Some tenancies whose rent is regulated by another government agency (source gives no full list)",
+   "overrides": [],
+   "interaction": "Local just cause rule; the California statewide just cause rule (Cal. Civ. Code § 1946.2) yields to it. Relocation amounts (Section 37.9C, Ellis Act amounts in 37.9A) from D082 and D083.",
+   "effective_date": null,
+   "citation": "S.F. Admin. Code § 37.9",
+   "source_doc_id": "D079",
+   "source_url": "https://sf.gov/information/overview-just-cause-evictions",
+   "quoted_span": "In order to evict a tenant from a rental unit covered by the Rent Ordinance, a landlord must have a \"just cause\" reason that is the dominant motive for pursuing the eviction.",
+   "confidence": 0.85,
+   "conflict_flag": false,
+   "conflict_note": null,
+   "applies_if": null,
+   "exempt_if": null,
+   "yields_to": [],
+   "conflicts_with": []
+  },
+  {
+   "team_rule_id": "CA2-03",
+   "jurisdiction": "San Francisco, CA",
+   "level": "city",
+   "category": "security_deposits",
+   "status": "in_force",
+   "title": "San Francisco security deposit interest rate",
+   "requirement": "The San Francisco Rent Board publishes an annual interest rate that applies to tenant security deposits: 4.2% for March 1, 2026 through February 28, 2027 (5.0% the year before). The source lists the rate but not the ordinance or its coverage.",
+   "key_value": "4.2% security deposit interest (3/1/2026 to 2/28/2027)",
+   "coverage_conditions": "Not stated in the source",
+   "exemptions": null,
+   "overrides": [],
+   "interaction": "Adds an interest rate on deposits; the deposit cap itself is state law (Cal. Civ. Code § 1950.5). Official code cite not in any supplied or gap-fill text.",
+   "effective_date": "2026-03-01",
+   "citation": "S.F. Rent Board security deposit interest rate",
+   "source_doc_id": "D083",
+   "source_url": "https://www.sf.gov/reports--current-rates-including-rent-increase-relocation-sec-deposit",
+   "quoted_span": "Security Deposit Interest: 4.2% for March 1, 2026 – February 28, 2027",
+   "confidence": 0.5,
+   "conflict_flag": false,
+   "conflict_note": null,
+   "applies_if": null,
+   "exempt_if": null,
+   "yields_to": [],
+   "conflicts_with": [],
+   "date_kind": "version"
+  },
+  {
+   "team_rule_id": "CA2-04",
+   "jurisdiction": "San Francisco, CA",
+   "level": "city",
+   "category": "screening_restrictions",
+   "status": "in_force",
+   "title": "San Francisco Fair Chance Ordinance, housing provisions (Police Code § 4906)",
+   "requirement": "For affordable housing, a housing provider may not ask about or use arrests without conviction, dismissed or expunged convictions, juvenile matters, convictions more than seven years old, infractions or decriminalized conduct, and may ask about conviction history only after finding the applicant eligible and qualified. Decisions need an individualized assessment, and the applicant gets 14 days to respond to a notice of adverse action.",
+   "key_value": "affordable housing only: no inquiry before eligibility check; 7-year look-back limit; individualized assessment; 14 days to respond to a notice of adverse action",
+   "coverage_conditions": "Housing providers, regarding applicants and household members for Affordable Housing (defined in § 4903, not in the corpus)",
+   "exemptions": null,
+   "overrides": [],
+   "interaction": "Adds to state fair housing rules (Cal. Gov. Code § 12955). Quote from supplied D078, which names the ordinance only; X031 (city code library, supplemental source) supplies the official cite, the requirements and the dates (added by Ord. 17-14, operative 8/13/2014; last amended by Ord. 128-26, effective 8/10/2026).",
+   "effective_date": "2026-08-10",
+   "citation": "S.F. Police Code art. 49, § 4906",
+   "source_doc_id": "D078",
+   "source_url": "https://sf-hrc.org/fair-chance-ordinance",
+   "quoted_span": "San Francisco's Fair Chance Ordinance protects residents with arrest or conviction history in affordable housing decisions.",
+   "confidence": 0.75,
+   "conflict_flag": false,
+   "conflict_note": null,
+   "applies_if": {
+    "unavailable": "affordable housing (the ordinance covers affordable housing decisions)"
+   },
+   "exempt_if": null,
+   "yields_to": [],
+   "conflicts_with": [],
+   "date_kind": "version"
+  },
+  {
+   "team_rule_id": "CA2-05",
+   "jurisdiction": "San Francisco, CA",
+   "level": "city",
+   "category": "algorithmic_rent_setting",
+   "status": "in_force",
+   "title": "San Francisco ban on algorithmic rent-setting devices",
+   "requirement": "No one may sell or use an algorithmic device that analyzes nonpublic competitor rental data to recommend rents or manage occupancy for residential units in San Francisco. A tenant or the City Attorney can sue.",
+   "key_value": "ban on algorithmic devices using nonpublic competitor rental data",
+   "coverage_conditions": "Residential units in San Francisco",
+   "exemptions": null,
+   "overrides": [],
+   "interaction": "Applies alongside the California statewide rules on common pricing algorithms (Cal. Bus. & Prof. Code § 16729 (AB 325; SB 763)). X018 (law-firm alert) agrees on October 2024 and adds penalties up to $1,000 per violation per unit and month.",
+   "effective_date": "2024-10-14",
+   "citation": "S.F. Admin. Code § 37.10C",
+   "source_doc_id": "D081",
+   "source_url": "https://www.sf.gov/news/new-law-prohibits-algorithmic-devices-used-set-rents-san-francisco",
+   "quoted_span": "adding Section 37.10C to the Rent Ordinance went into effect on October 14, 2024. The law prohibits the sale or use of algorithmic devices to set rents or manage occupancy levels for residential units in San Francisco.",
+   "confidence": 0.9,
+   "conflict_flag": false,
+   "conflict_note": null,
+   "applies_if": null,
+   "exempt_if": null,
+   "yields_to": [],
+   "conflicts_with": [],
+   "date_kind": "law"
+  },
+  {
+   "team_rule_id": "CA2-06",
+   "jurisdiction": "Berkeley, CA",
+   "level": "city",
+   "category": "rent_increase_limits",
+   "status": "in_force",
+   "title": "Berkeley Rent Stabilization and Eviction for Just Cause Ordinance (rent ceilings)",
+   "requirement": "In fully covered units, the landlord may raise the rent ceiling once a year by the Annual General Adjustment: 1.0% for 2026, no earlier than January 1, 2026. The adjustment is 65% of CPI and, since Measure BB, at most 5%.",
+   "key_value": "2026 AGA 1.0% (65% of CPI, max 5%)",
+   "coverage_conditions": "Fully covered: most units in multifamily properties built before 1980; single-family homes with tenancies that began before 1996; rooming houses (5 or more rooms rented separately). Partially covered (no rent ceiling): new construction with a certificate of occupancy after June 1980 (D009; D006 says after 1980), most condominiums, later single-family tenancies, some subsidized units",
+   "exemptions": "Golden duplex; owner shares kitchen or bath and lived there first; ADU property with owner occupancy (tenancies after Nov 7, 2018); university housing; nonprofit cooperatives; condominiums and Section 202, Section 811 or HUD-insured subsidy units are only partially covered (no rent ceiling). The 2026 AGA does not apply to Costa-Hawkins tenancies that began on or after January 1, 2025",
+   "overrides": [],
+   "interaction": "Local rent control; the California statewide cap (Cal. Civ. Code § 1947.12) yields to it where it covers the unit. Coverage from D006 and D009, 5% cap from D006 (Measure BB), formula cite BMC 13.76.110A from D008.",
+   "effective_date": "2026-01-01",
+   "citation": "Berkeley Mun. Code ch. 13.76",
+   "source_doc_id": "D008",
+   "source_url": "https://rentboard.berkeleyca.gov/sites/default/files/documents/AGA%20Public%20Notice.pdf",
+   "quoted_span": "eligible landlords to increase the 2025 permanent rent ceilings by 1.0% no earlier than",
+   "confidence": 0.8,
+   "conflict_flag": false,
+   "conflict_note": null,
+   "applies_if": {
+    "all": [
+     {
+      "fact": "year_built",
+      "op": "<",
+      "value": 1980
+     },
+     {
+      "fact": "units",
+      "op": ">=",
+      "value": 2
+     }
+    ]
+   },
+   "exempt_if": {
+    "any": [
+     {
+      "all": [
+       {
+        "unavailable": "golden duplex: duplex owner-occupied on December 31, 1979 and currently with an owner living in one of the units"
+       },
+       {
+        "fact": "units",
+        "op": "==",
+        "value": 2
+       }
+      ]
+     },
+     {
+      "all": [
+       {
+        "unavailable": "tenancy started after Nov 7, 2018 on a property where one unit is an ADU and either unit is owner-occupied"
+       },
+       {
+        "fact": "units",
+        "op": "<=",
+        "value": 2
+       }
+      ]
+     }
+    ]
+   },
+   "yields_to": [],
+   "conflicts_with": [],
+   "date_kind": "version"
+  },
+  {
+   "team_rule_id": "CA2-07",
+   "jurisdiction": "Berkeley, CA",
+   "level": "city",
+   "category": "just_cause_eviction",
+   "status": "in_force",
+   "title": "Berkeley Rent Stabilization and Eviction for Just Cause Ordinance (just cause)",
+   "requirement": "Tenants in fully or partially covered units can be evicted only for just cause. Since Measure BB, no eviction for rent debt below one month of Fair Market Rent or for refusing a new fixed-term lease, and notices must be filed with the Rent Board within three business days.",
+   "key_value": "just cause required; no nonpayment eviction below one month's Fair Market Rent; owner move-in and Ellis relocation $19,413 plus $6,471 for qualifying households (from 1/1/2026)",
+   "coverage_conditions": "Units fully or partially covered by the Rent Ordinance (includes new construction, condominiums and single-family homes)",
+   "exemptions": "Golden duplex; owner shares kitchen or bath and lived there first; ADU property with owner occupancy (tenancies after Nov 7, 2018); university housing; nonprofit cooperatives",
+   "overrides": [],
+   "interaction": "Local just cause rule; the California statewide just cause rule (Cal. Civ. Code § 1946.2) yields to it. Coverage from D009, relocation amounts from D004.",
+   "effective_date": null,
+   "citation": "Berkeley Mun. Code ch. 13.76",
+   "source_doc_id": "D006",
+   "source_url": "https://rentboard.berkeleyca.gov/laws-regulations/measure-bb-changes-berkeleys-rent-ordinance",
+   "quoted_span": "In Berkeley, tenants in units that are fully or partially covered by the Rent Ordinance cannot be evicted unless there is \"just cause” (previously called “good cause”).",
+   "confidence": 0.8,
+   "conflict_flag": false,
+   "conflict_note": null,
+   "applies_if": null,
+   "exempt_if": {
+    "any": [
+     {
+      "all": [
+       {
+        "unavailable": "golden duplex: duplex owner-occupied on December 31, 1979 and currently with an owner living in one of the units"
+       },
+       {
+        "fact": "units",
+        "op": "==",
+        "value": 2
+       }
+      ]
+     },
+     {
+      "all": [
+       {
+        "unavailable": "tenancy started after Nov 7, 2018 on a property where one unit is an ADU and either unit is owner-occupied"
+       },
+       {
+        "fact": "units",
+        "op": "<=",
+        "value": 2
+       }
+      ]
+     }
+    ]
+   },
+   "yields_to": [],
+   "conflicts_with": []
+  },
+  {
+   "team_rule_id": "CA2-08",
+   "jurisdiction": "Berkeley, CA",
+   "level": "city",
+   "category": "security_deposits",
+   "status": "in_force",
+   "title": "Berkeley security deposit interest (Rent Ordinance)",
+   "requirement": "Landlords of units fully or partially covered by the Rent Ordinance must pay tenants interest on the security deposit every year, and a prorated amount when the tenant moves out.",
+   "key_value": "annual interest on security deposits",
+   "coverage_conditions": "Units fully or partially covered by the Rent Ordinance",
+   "exemptions": "Exempt unit types under the Rent Ordinance (golden duplex, shared kitchen or bath, owner-occupied ADU property, university housing, nonprofit cooperatives)",
+   "overrides": [],
+   "interaction": "The deposit cap (one month, two for qualifying small landlords, from July 1, 2024) is state law (Cal. Civ. Code § 1950.5, AB 12), not local; D009 confirms deposit interest applies to fully and partially covered units.",
+   "effective_date": null,
+   "citation": "Berkeley Mun. Code ch. 13.76",
+   "source_doc_id": "D007",
+   "source_url": "https://rentboard.berkeleyca.gov/rights-responsibilities/security-deposits",
+   "quoted_span": "For tenancies in units fully or partially covered by Berkeley's Rent Ordinance, landlords must pay tenants interest on their security deposit at the end of each year and a prorated amount if the tenant moves out before the end of the year.",
+   "confidence": 0.6,
+   "conflict_flag": false,
+   "conflict_note": null,
+   "applies_if": null,
+   "exempt_if": {
+    "any": [
+     {
+      "all": [
+       {
+        "unavailable": "golden duplex: duplex owner-occupied on December 31, 1979 and currently with an owner living in one of the units"
+       },
+       {
+        "fact": "units",
+        "op": "==",
+        "value": 2
+       }
+      ]
+     },
+     {
+      "all": [
+       {
+        "unavailable": "tenancy started after Nov 7, 2018 on a property where one unit is an ADU and either unit is owner-occupied"
+       },
+       {
+        "fact": "units",
+        "op": "<=",
+        "value": 2
+       }
+      ]
+     }
+    ]
+   },
+   "yields_to": [],
+   "conflicts_with": []
+  },
+  {
+   "team_rule_id": "CA2-09",
+   "jurisdiction": "Berkeley, CA",
+   "level": "city",
+   "category": "application_screening_fees",
+   "status": "in_force",
+   "title": "Berkeley tenant screening and application fee ordinance",
+   "requirement": "A landlord who charges a screening fee must first give a tenant screening fee rights statement and the state maximum fee. Landlords may not charge existing tenants non-refundable fees to renew a tenancy or to add, replace or remove a roommate.",
+   "key_value": "fee-rights statement required; no non-refundable renewal or roommate fees for existing tenants (state cap $68.96 in 2026)",
+   "coverage_conditions": "All residential rental agreements in Berkeley, regardless of lease terms",
+   "exemptions": null,
+   "overrides": [],
+   "interaction": "Adds disclosure and existing-tenant fee limits on top of the state screening-fee cap (Cal. Civ. Code § 1950.6), which sets the dollar amount.",
+   "effective_date": null,
+   "citation": "Berkeley Mun. Code ch. 13.78",
+   "source_doc_id": "D005",
+   "source_url": "https://rentboard.berkeleyca.gov/laws-regulations/city-berkeley-ordinances-affecting-rental-properties/tenant-screening-and",
+   "quoted_span": "An owner of residential rental property (or the owner’s agent) cannot charge a non-refundable fee to any existing tenant for the purpose of renewing a tenancy, in whole or in part",
+   "confidence": 0.75,
+   "conflict_flag": false,
+   "conflict_note": null,
+   "applies_if": null,
+   "exempt_if": null,
+   "yields_to": [],
+   "conflicts_with": []
+  },
+  {
+   "team_rule_id": "CA2-10",
+   "jurisdiction": "Berkeley, CA",
+   "level": "city",
+   "category": "screening_restrictions",
+   "status": "in_force",
+   "title": "Ronald V. Dellums Fair Chance Access to Housing Ordinance",
+   "requirement": "Berkeley landlords may not ask about or use criminal history or background checks in advertising, applications, tenant selection or decisions, and must give written notice and a chance to respond before acting on it. Fines run from $1,000 to $10,000 per violation.",
+   "key_value": "ban on criminal-history inquiries and use in rental decisions; fines $1,000 to $10,000 per violation",
+   "coverage_conditions": "Rental housing providers in Berkeley, current and prospective tenants",
+   "exemptions": "Owner-occupied properties with 1 to 3 units where an owner of record lives; lifetime sex offenders; limited public housing and Section 8 exemptions; owner move-back units under BMC 13.76.130 A.9; existing tenants subletting or adding roommates",
+   "overrides": [],
+   "interaction": "Adds to state fair housing rules (Cal. Gov. Code § 12955). Passed April 14, 2020 per D003; no effective date stated.",
+   "effective_date": null,
+   "citation": "Berkeley Mun. Code ch. 13.106",
+   "source_doc_id": "D003",
+   "source_url": "https://rentboard.berkeleyca.gov/Fair_Chance",
+   "quoted_span": "The Fair Chance Access to Housing Ordinance prohibits rental housing providers in Berkeley from asking about and using criminal history and/or criminal background checks in their rental housing advertising, applications, tenant selection process, or decision-making.",
+   "confidence": 0.85,
+   "conflict_flag": false,
+   "conflict_note": null,
+   "applies_if": null,
+   "exempt_if": {
+    "all": [
+     {
+      "unavailable": "an owner of record resides in one of the units as their primary residence"
+     },
+     {
+      "fact": "units",
+      "op": "<=",
+      "value": 3
+     }
+    ]
+   },
+   "yields_to": [],
+   "conflicts_with": []
+  },
+  {
+   "team_rule_id": "CA2-11",
+   "jurisdiction": "Berkeley, CA",
+   "level": "city",
+   "category": "algorithmic_rent_setting",
+   "status": "in_force",
+   "title": "Berkeley prohibition on coordinated pricing algorithms (Ordinance 7,992-N.S.)",
+   "requirement": "No one may sell or provide, and no landlord may use, a coordinated pricing algorithm that uses nonpublic competitor data to set or recommend rents or occupancy for Berkeley units. The City Attorney or a tenant can sue; penalties up to $1,000 per violation, each unit and month counted separately.",
+   "key_value": "ban on coordinated pricing algorithms using nonpublic competitor data; up to $1,000 per violation",
+   "coverage_conditions": "Residential dwelling units in Berkeley",
+   "exemptions": "Aggregated anonymous reports that do not recommend rents; affordable-housing rent or income limit tools; market research for project financing, appraisals, software research and training",
+   "overrides": [],
+   "interaction": "Applies alongside the California statewide rules (Cal. Bus. & Prof. Code § 16729 (AB 325; SB 763)). X018 also reports RealPage v. City of Berkeley was voluntarily dismissed with prejudice on Jan. 14, 2026.",
+   "effective_date": "2026-03-01",
+   "citation": "Berkeley Mun. Code ch. 13.63",
+   "source_doc_id": "D001",
+   "source_url": "https://berkeleyca.gov/sites/default/files/documents/2025-12-02%20Item%2001%20Ordinance%207992.pdf",
+   "quoted_span": "B. It shall be unlawful for a landlord to use a coordinated pricing algorithm described",
+   "confidence": 0.8,
+   "conflict_flag": true,
+   "conflict_note": "Two published effective dates: March 1, 2026 in the ordinance text (participant guide section 9) and January 2026 per an August 2026 Morgan Lewis alert (X018). The supplied ordinance copy (D001, passed to print November 18, 2025) states no date. Both dates are before 2026-10-01, so the ban is in force either way.",
+   "applies_if": null,
+   "exempt_if": null,
+   "yields_to": [],
+   "conflicts_with": [],
+   "date_kind": "law"
+  }
+ ],
+ "no_rule": [
+  {
+   "jurisdiction": "San Francisco, CA",
+   "category": "application_screening_fees",
+   "finding": "no_rule_at_this_level",
+   "evidence_doc_id": "docs/challenge_brief.txt",
+   "note": "The brief's illustrative San Francisco lookup cites only Cal. Civ. Code § 1950.6 for the screening fee while layering local rules in the rent, just cause and algorithmic rows; no supplied SF doc (D078 to D083) names a local fee rule. Medium confidence: no SF text positively says there is none."
+  }
+ ],
+ "gaps": [],
+ "missing_expected": [],
+ "decisions": [
+  "SF rent: one record S.F. Admin. Code ch. 37 from D080 (1.6% from 2026-03-01); D083 repeats the rate; co_date <= 1979-06-13 cutoff confirmed by D079 ('Certificate of Occupancy after June 13, 1979' exempt from rent limits).",
+  "SF rent exempt_if left null: Costa-Hawkins eligibility and 'some tenancies' regulated by another agency are tenancy-level facts the text does not tie to any building fact; kept in exemptions text so a pre-1979 multifamily building resolves to applies, matching the brief's 20-unit 1962 illustration.",
+  "SF just cause: D079 (S.F. Admin. Code § 37.9) is canonical; D082/D083 relocation tables folded into key_value; effective_date null (no date in text).",
+  "SF deposits: kept a low-confidence (0.5) record from D083 (Rent Board deposit interest rate 4.2%); the page names no ordinance, so citation is the Rent Board rate, not a code section. Real cite believed to be S.F. Admin. Code ch. 49 but UNVERIFIED in any corpus text: gap-fill needed.",
+  "Orchestrator follow-up 2: CA2-04 updated from X031 (S.F. Police Code Sec. 4906): citation 'S.F. Police Code art. 49, § 4906' (X031 prints Sec. 4906 and refers to Secs. 4903 and 4907; 'art. 49' follows from the section numbering, the text does not print the article heading), key_value and requirement from X031, D078 span and source kept for citation credit. effective_date 2026-08-10: the history note shows the current text took effect with Ord. 128-26 (Eff. 8/10/2026) and does not say which amendment set each subsection, so the contract rule 'date the version now operative took effect' gives 2026-08-10; the housing rule itself has been operative since 2014-08-13 (Ord. 17-14), noted in interaction.",
+  "SF screening (superseded by follow-up 2 for cite and date): D078 only names the Fair Chance Ordinance and says it covers affordable housing decisions; no code section cited (Police Code art. 49 not in any text), applies_if is an unavailable affordable-housing leaf so lookups are unknown.",
+  "SF fees: no_rule based on the brief's illustrative SF lookup (state-only screening fee row); no SF doc mentions a local fee rule.",
+  "SF algorithmic: D081 gives the exact effective date 2024-10-14; merged X018 (October 2024, same) into it; D039 (approved July 2024) and D076 (adopted September 2024) give adoption, not effective, dates.",
+  "Berkeley rent: merged D006 (5% AGA cap), D008 (2026 AGA 1.0%, no earlier than 2026-01-01, BMC 13.76.110A) and D009 (coverage) into one ch. 13.76 record sourced from D008. Coverage uses year_built < 1980 because both D006 and D009 say 'built before 1980'; partial-coverage cutoff is 'certificate of occupancy after June 1980' (D009) vs 'after 1980' (D006), noted in coverage_conditions. Berkeley rows have no year_built or units, so lookups resolve unknown.",
+  "Berkeley just cause: D006 and D009 candidates merged into one ch. 13.76 record (D006 quote, D009 coverage, D004 relocation $19,413 / $6,471 from 2026-01-01); effective_date null because no Measure BB effective date is stated.",
+  "Berkeley deposits: deposit interest under the Rent Ordinance (ch. 13.76, D007 and D009) recorded; the deposit cap is state law and belongs to CA1's Cal. Civ. Code § 1950.5 record.",
+  "Berkeley fees: ch. 13.78 (D005) recorded as a local rule (disclosure statement and no non-refundable fees for existing tenants); dropped the extractor's conflicts_with CA because the chapter complements the state cap.",
+  "Berkeley screening: ch. 13.106 (D003); exempt_if encodes only the building-level owner-occupied 1 to 3 unit exemption; applicant- or tenancy-level exemptions (lifetime sex offenders, roommate additions, owner move-back agreements) stay in text.",
+  "Berkeley algorithmic: ch. 13.63 from D001 with effective_date 2026-03-01 per participant guide section 9 (organizer statement of the ordinance text date), conflict_flag true against X018's January 2026; D001 itself carries no date.",
+  "Orchestrator follow-up: removed standalone unavailable leaves for rare housing types from Berkeley CA2-06/07/08 predicates (single-family pre-1996 tenancy, rooming house, owner shares kitchen or bath, university housing, nonprofit cooperative, condominium, Section 202/811/HUD-insured subsidy) because the sample is assessor-classified multifamily and they forced unknown everywhere; kept them in exemptions/coverage_conditions text. Kept golden duplex AND units == 2 and owner-occupied ADU AND units <= 2 conjunctions; CA2-06 applies_if is now year_built < 1980 AND units >= 2.",
+  "Orchestrator follow-up 3: added date_kind to dated records: version for CA2-01 (SF annual rate year), CA2-03 (SF deposit rate year), CA2-04 (Ord. 128-26 amendment of a 2014 ordinance), CA2-06 (Berkeley 2026 AGA); law for CA2-05 (SF 37.10C first effective 2024-10-14) and CA2-11 (Berkeley ch. 13.63). Caveat on CA2-11: D001 is titled 'AMENDING CHAPTER 13.63', so an earlier ch. 13.63 existed; whether it was in force is not shown in any text, so law is kept per orchestrator instruction.",
+  "No yields_to/conflicts_with on SF or Berkeley records: no text says a local rule defers to state law; CA1's state rent and just cause records should yield to these cells."
+ ]
+}

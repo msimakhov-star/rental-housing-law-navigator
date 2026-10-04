@@ -1,0 +1,64 @@
+{
+ "doc_id": "X027",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T01:03:58Z",
+ "rules": [
+  {
+   "conflict_flag": false,
+   "conflict_note": null,
+   "yields_to": [],
+   "conflicts_with": [],
+   "applies_if": null,
+   "exempt_if": {
+    "any": [
+     {
+      "unavailable": "housing deed-restricted or subsidized as affordable housing"
+     },
+     {
+      "unavailable": "dormitory, hospital, religious, care or transitional housing"
+     },
+     {
+      "fact": "building_age_years",
+      "op": "<",
+      "value": 15
+     },
+     {
+      "unavailable": "separately alienable unit owned by non-corporate, non-REIT landlord with written exemption notice"
+     },
+     {
+      "all": [
+       {
+        "unavailable": "owner occupies one of two units as principal residence"
+       },
+       {
+        "fact": "units",
+        "op": "==",
+        "value": 2
+       }
+      ]
+     },
+     {
+      "unavailable": "owner-occupied single-family home renting no more than two units or bedrooms"
+     }
+    ]
+   },
+   "jurisdiction": "San Diego, CA",
+   "level": "city",
+   "category": "just_cause_eviction",
+   "status": "in_force",
+   "title": "San Diego Residential Tenant Protection Ordinance",
+   "requirement": "Landlords need an at-fault or no-fault just cause to end a covered tenancy. For no-fault terminations the landlord must pay relocation assistance of two months' rent (three if tenant is senior 62+ or disabled), by payment or rent waiver.",
+   "key_value": "Just cause required; relocation 2 months' rent (3 months if senior or disabled)",
+   "coverage_conditions": "Tenancies over 30 days in residential rental property",
+   "exemptions": "Deed-restricted affordable housing, dorms, owner-occupied single-family (up to 2 rented units/rooms) or owner-occupied duplex, separately alienable unit with non-corporate owner and written notice, certificate of occupancy within 15 years, transient hotels, nonprofit/care facilities, mobilehomes under MRL",
+   "effective_date": "2023-06-24",
+   "citation": "S.D.M.C. § 98.0701 et seq.",
+   "source_doc_id": "X027",
+   "source_url": "https://www.lassd.org/resource/city-of-san-diego-tenant-protection-ordinance/",
+   "quoted_span": "The purpose of the Ordinance is to require Just Cause for termination of residential tenancies consistent with California Civil Code section 1946.2",
+   "confidence": 0.6,
+   "interaction": "Consistent with state Cal. Civ. Code § 1946.2; adds local relocation and buyout rules."
+  }
+ ],
+ "notes": "Legal-aid FAQ updated 2023-09-21. Page does not mention rent control or rent caps (only refers to Cal. Civ. Code § 1947.12 in the required notice); it does not say San Diego has no rent control. Section cites on the page: 98.0705, 98.0706."
+}

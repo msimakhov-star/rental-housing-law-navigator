@@ -1,0 +1,373 @@
+{
+ "r-0001": {
+  "title_en": "Tenant Protection Act rent cap (Civ. Code 1947.12, SB 567 version)",
+  "title_es": "Límite de aumentos de alquiler de la Tenant Protection Act (Civ. Code 1947.12, versión SB 567)",
+  "requirement_es": "El alquiler no puede aumentarse más del 5% más el cambio del IPC regional, o el 10%, el que sea menor, en cualquier período de 12 meses, medido desde el alquiler más bajo de los 12 meses anteriores, y en no más de dos incrementos. Un nuevo arrendamiento puede comenzar con cualquier alquiler.",
+  "key_value_es": "5% + IPC, máximo 10%",
+  "src_sha": "f6e7c823cd343d229b62c9e1e3844c8f898af68a93aa18a9f077c6eeb4c4f2ee"
+ },
+ "r-0002": {
+  "title_en": "Tenant Protection Act just cause for eviction (Civ. Code 1946.2, AB 1529 version)",
+  "title_es": "Desalojo con causa justificada de la Tenant Protection Act (Civ. Code 1946.2, versión AB 1529)",
+  "requirement_es": "Después de que un inquilino haya ocupado legalmente una unidad durante 12 meses (24 meses si se agregó un inquilino adulto), el propietario solo puede poner fin al arrendamiento por una causa justificada, con culpa o sin culpa, indicada en el aviso. Para una causa sin culpa, el propietario debe pagar un mes de alquiler como asistencia de reubicación o renunciar al alquiler del último mes.",
+  "key_value_es": "causa justificada después de 12 meses; reubicación de 1 mes de alquiler para causas sin culpa",
+  "src_sha": "2b4d811d5aded16fca08bfc59f50205a6ffa71a6130f20e7fc4cb45d38eca016"
+ },
+ "r-0003": {
+  "title_en": "Security deposit cap of one month's rent (Civ. Code 1950.5 as amended by AB 12)",
+  "title_es": "Límite del depósito de seguridad a un mes de alquiler (Civ. Code 1950.5 modificado por AB 12)",
+  "requirement_es": "Un arrendador no puede exigir ni recibir una garantía de más de un mes de alquiler, además del alquiler del primer mes; un pequeño arrendador que califique puede cobrar hasta dos meses. El depósito debe devolverse con un estado de cuenta detallado dentro de los 21 días posteriores a la mudanza.",
+  "key_value_es": "1 mes de alquiler (2 meses para pequeños arrendadores que califiquen)",
+  "src_sha": "fcab6e01f91e1d59da9848c800184e72b6f8b88018818321379577c7fe84c988"
+ },
+ "r-0004": {
+  "title_en": "Application screening fee cap (Civ. Code 1950.6)",
+  "title_es": "Límite de la tarifa de evaluación de solicitud (Civ. Code 1950.6)",
+  "requirement_es": "Un arrendador puede cobrar una tarifa de evaluación de solicitud solo por los costos reales de evaluación, nunca más de $30 por solicitante ajustados por el IPC desde 1998, y solo cuando una unidad está disponible o lo estará pronto. El arrendador debe entregar un recibo detallado, reembolsar los montos no usados y procesar las solicitudes por orden de llegada o reembolsar a los solicitantes no seleccionados.",
+  "key_value_es": "$30 por solicitante, ajustado por el IPC",
+  "src_sha": "88a32b61f09810a6867fd2bc5716d390a5f94153e9c5aa82977468195319f9ba"
+ },
+ "r-0005": {
+  "title_en": "FEHA housing discrimination: source of income, including vouchers (Gov. Code 12955, SB 329 / SB 267)",
+  "title_es": "Discriminación en la vivienda según la FEHA: fuente de ingresos, incluidos los vales (Gov. Code 12955, SB 329 / SB 267)",
+  "requirement_es": "Los propietarios no pueden discriminar ni acosar a nadie por su fuente de ingresos, incluidos Section 8 y otros vales de vivienda (desde SB 329, 2020-01-01), y desde SB 267 (2024-01-01) deben ofrecer una alternativa al historial de crédito cuando hay un subsidio de alquiler. La guía del CRD añade que las prohibiciones generales por antecedentes penales son ilegales y que no pueden considerarse arrestos sin condena, registros sellados ni de menores.",
+  "key_value_es": "se prohíbe la discriminación por fuente de ingresos (incl. vales de Section 8); sin prohibiciones generales por antecedentes penales",
+  "src_sha": "2f2675be9f1911b83b06d67b0ceb60cfbbbf126c0892944813b33ad4f914c33b"
+ },
+ "r-0006": {
+  "title_en": "Cartwright Act ban on common pricing algorithms (AB 325 and SB 763)",
+  "title_es": "Prohibición de algoritmos comunes de fijación de precios de la Cartwright Act (AB 325 y SB 763)",
+  "requirement_es": "Es ilegal usar o distribuir un algoritmo de precios común (software o método usado por dos o más personas que utiliza datos de competidores para recomendar o fijar un precio) como parte de un acuerdo de fijación de precios, o mientras se coacciona a otros para que adopten sus precios o condiciones recomendados. No se limita a la vivienda; abarca el software compartido de fijación de alquileres. SB 763 aumentó las sanciones, incluidas multas civiles de hasta $1 millón en acciones de la AG o de un fiscal de distrito.",
+  "key_value_es": "prohibición de algoritmos de precios comunes que usan datos de competidores; multas civiles de hasta $1 millón",
+  "src_sha": "ea45500fcf8a5f654b032a1ad53143cd795a2860092012298a2b43e834403d11"
+ },
+ "r-0007": {
+  "title_en": "NJ Anti-Eviction Act",
+  "title_es": "NJ Anti-Eviction Act (Ley contra el Desalojo de Nueva Jersey)",
+  "requirement_es": "Un arrendador residencial no puede desalojar a un inquilino ni negarse a renovar un contrato de arrendamiento sin una de las causas justificadas enumeradas en la Ley, y debe probar esa causa ante el tribunal. La mayoría de las causas requieren un Notice to Quit (aviso de desocupación) por escrito, y algunas un Notice to Cease (aviso de cese) previo.",
+  "key_value_es": "Se requiere causa justificada para el desalojo o la no renovación (causas legales); Notice to Quit para todas las causas excepto la falta de pago",
+  "src_sha": "aa9c7af765ec73b1668bd6a4dd31af438aa12504434b2679557bcedd720609b7"
+ },
+ "r-0008": {
+  "title_en": "NJ Security Deposit Law",
+  "title_es": "NJ Security Deposit Law (Ley de Depósitos de Seguridad de Nueva Jersey)",
+  "requirement_es": "Un arrendador no puede cobrar un depósito de seguridad superior a 1.5 veces un mes de alquiler, y un aumento anual no puede exceder el 10% del depósito actual. El depósito debe mantenerse en una cuenta con intereses en Nueva Jersey, los intereses pertenecen al inquilino, y debe devolverse con intereses, menos las deducciones detalladas, dentro de los 30 días posteriores al fin del arrendamiento.",
+  "key_value_es": "1.5 meses de alquiler; aumento anual máximo del 10% del depósito actual",
+  "src_sha": "515db85459cd640b2d7ca049972145b1dfd783fe2666aeae263554498824cf49"
+ },
+ "r-0009": {
+  "title_en": "Residential rental application fee cap",
+  "title_es": "Límite de la tarifa de solicitud de alquiler residencial",
+  "requirement_es": "Un arrendador o agente no puede cobrar una tarifa de solicitud o similar superior a $50 por solicitar el alquiler de una vivienda; el límite se ajusta cada 1 de enero según el IPC. Las infracciones conllevan sanciones y el cobro en exceso se devuelve al solicitante.",
+  "key_value_es": "límite de $50, ajustado anualmente por el IPC; sanción de hasta $500 / $750 / $1,000",
+  "src_sha": "58e4822cfbf5da17a66fbcbf6b3cf00bde4d2869ffb9a39596ab014d02405d15"
+ },
+ "r-0010": {
+  "title_en": "NJ Law Against Discrimination: source of lawful income",
+  "title_es": "NJ Law Against Discrimination: fuente de ingresos lícitos (Ley contra la Discriminación de Nueva Jersey)",
+  "requirement_es": "Un arrendador no puede negarse a alquilar ni dar un trato diferente a un solicitante por su fuente de ingresos lícitos o de pago del alquiler, como un vale de Section 8. El arrendador aún puede negarse por ingresos insuficientes o mal crédito.",
+  "key_value_es": "La fuente de ingresos lícitos (incl. vales de Section 8) es una base protegida",
+  "src_sha": "7ea8f17e293a8a1173e564f757ce08f02237d48572062163d148ff6cf4bbb7fe"
+ },
+ "r-0011": {
+  "title_en": "Fair Chance in Housing Act",
+  "title_es": "Fair Chance in Housing Act (Ley de Segunda Oportunidad en la Vivienda)",
+  "requirement_es": "Los arrendadores no pueden preguntar por antecedentes penales en una solicitud ni antes de hacer una oferta condicional. Después de la oferta, solo pueden considerar ciertas condenas dentro de períodos de revisión establecidos, deben hacer una evaluación individualizada y deben dar razones por escrito si retiran la oferta.",
+  "key_value_es": "Sin preguntas sobre antecedentes penales antes de una oferta condicional; período de revisión de 6 años (1.er grado), 4 años (2.o y 3.er grado), 1 año (4.o grado); sanciones de hasta $1,000 / $5,000 / $10,000",
+  "src_sha": "0eff840fc50baf8b25b9213328f7b0a8068ae155738b3573a154b4617eb5a3de"
+ },
+ "r-0012": {
+  "title_en": "Forbidding the Algorithmic Inflation of Rent (FAIR) Act",
+  "title_es": "Forbidding the Algorithmic Inflation of Rent (FAIR) Act (Ley que Prohíbe la Inflación Algorítmica del Alquiler)",
+  "requirement_es": "A partir del 1 de julio de 2027, los arrendadores no pueden pagar ni usar el servicio de fijación de alquileres de un coordinador que reúna datos no públicos de competidores o fije alquileres, condiciones del contrato u ocupación mediante un algoritmo, y nadie puede realizar esa función de coordinación. Las infracciones constituyen infracciones de la New Jersey Antitrust Act.",
+  "key_value_es": "Prohibición de la coordinación algorítmica de alquileres, condiciones del contrato u ocupación con datos no públicos de competidores; vigente desde 2027-07-01",
+  "src_sha": "5d4e513a747c56760f7b77892282b2b147a8ff8989cfacf6d7af30427b32121d"
+ },
+ "r-0013": {
+  "title_en": "State bar on local rent control (M.G.L. c.40P s.4)",
+  "title_es": "Prohibición estatal del control local de alquileres (M.G.L. c.40P s.4)",
+  "requirement_es": "Las ciudades y pueblos de Massachusetts no pueden promulgar, mantener ni hacer cumplir control de alquileres de ningún tipo, por lo que no hay un límite local de alquiler en Boston ni en Cambridge. Massachusetts tampoco tiene un límite de alquiler a nivel estatal.",
+  "key_value_es": "Control local de alquileres prohibido; sin límite estatal",
+  "src_sha": "8c367bc484740450a62970f12f2a5971ab152cd44574428d8b8df5f54041ed3c"
+ },
+ "r-0014": {
+  "title_en": "Initiative Petition 25-21, An Initiative Petition to Protect Tenants by Limiting Rent Increases (struck from 2026 ballot)",
+  "title_es": "Initiative Petition 25-21, An Initiative Petition to Protect Tenants by Limiting Rent Increases (eliminada de la boleta de 2026)",
+  "requirement_es": "Una pregunta de la boleta de 2026 habría derogado la prohibición de c.40P y limitado los aumentos anuales de alquiler. La Supreme Judicial Court la retiró de la boleta de noviembre de 2026 el 2026-06-23 (Cella v. Attorney General), por lo que no es ley y no se aplica ningún límite de alquiler.",
+  "key_value_es": "Fallida: el límite propuesto del menor entre el IPC o el 5% nunca entró en vigor",
+  "src_sha": "9d499ad727b89361eaf1888ddea138a19f782329717e7378936158c4d31ae6f4"
+ },
+ "r-0015": {
+  "title_en": "Security deposits (M.G.L. c.186 s.15B)",
+  "title_es": "Depósitos de seguridad (M.G.L. c.186 s.15B)",
+  "requirement_es": "Un depósito de seguridad no puede exceder el alquiler del primer mes. El arrendador debe dar recibos y una declaración del estado de la vivienda, mantener el depósito en una cuenta bancaria separada con intereses en Massachusetts, pagar intereses cada año y devolverlo dentro de los 30 días con una lista detallada y jurada de cualquier deducción; las infracciones pueden costar el triple del depósito.",
+  "key_value_es": "1 mes de alquiler",
+  "src_sha": "71d9c1251bb9da4e882e29912b64e3ec3fd4194145a9c53a20a4162f6b8b9d36"
+ },
+ "r-0016": {
+  "title_en": "Broker fee paid by the party who hired the broker (M.G.L. c.112 s.87DDD1/2)",
+  "title_es": "Honorarios del corredor pagados por la parte que lo contrató (M.G.L. c.112 s.87DDD1/2)",
+  "requirement_es": "Un corredor de alquileres trabaja para el inquilino o para el arrendador, y cualquier honorario del corredor lo paga solo la parte que lo contrató, por lo que un inquilino no paga a un corredor contratado por el arrendador.",
+  "key_value_es": "Honorarios del corredor pagados solo por la parte que contrató al corredor",
+  "src_sha": "1bfd60bd78b20eaef0aa953a206f195b35652a19dee19ac0fb04e08f7757d765"
+ },
+ "r-0017": {
+  "title_en": "Limit on upfront charges (M.G.L. c.186 s.15B(1)(b))",
+  "title_es": "Límite de cobros iniciales (M.G.L. c.186 s.15B(1)(b))",
+  "requirement_es": "En la mudanza o antes, un arrendador o su agente solo puede cobrar el alquiler del primer mes, el alquiler del último mes, un depósito de seguridad de hasta un mes de alquiler y el costo de una cerradura y llave nuevas. No se permiten tarifas de solicitud ni de evaluación cobradas por el arrendador.",
+  "key_value_es": "Solo primer mes, último mes, depósito, cerradura y llave; sin tarifa de solicitud",
+  "src_sha": "4fe5dd75724935a01127844d044a6498434fec16ee7ef34c3b84333121297599"
+ },
+ "r-0018": {
+  "title_en": "Source of income and housing subsidy discrimination (M.G.L. c.151B s.4(10))",
+  "title_es": "Discriminación por fuente de ingresos y subsidio de vivienda (M.G.L. c.151B s.4(10))",
+  "requirement_es": "Un arrendador no puede discriminar a un solicitante o inquilino por recibir asistencia pública o un subsidio de vivienda, como un vale de Section 8, ni por los requisitos de ese programa.",
+  "key_value_es": "No se permite negarse por asistencia pública o subsidio de vivienda (vales)",
+  "src_sha": "e3d56fa10e922ec11fdbcecc8b79e1b05284ecfd85dd15c82460b600b938fd37"
+ },
+ "r-0019": {
+  "title_en": "Criminal record (CORI) checks for housing applicants (803 CMR 5.00)",
+  "title_es": "Verificación de antecedentes penales (CORI) para solicitantes de vivienda (803 CMR 5.00)",
+  "requirement_es": "Un arrendador, administrador de propiedades o agente inmobiliario puede solicitar una verificación estándar de antecedentes penales (CORI) solo sobre el solicitante de vivienda y solo como último paso de la solicitud, y no puede usarla para evaluar a otros miembros del hogar.",
+  "key_value_es": "CORI solo como último paso de la solicitud; solo para el solicitante",
+  "src_sha": "03a4276caec893e452307ef8f9b82c8dcd21930cb15f658d8b40e0ee7ec8ae1f"
+ },
+ "r-0020": {
+  "title_en": "H.5222, An Act relative to preventing algorithmic rent fixing in the rental housing market (194th General Court)",
+  "title_es": "H.5222, An Act relative to preventing algorithmic rent fixing in the rental housing market (194th General Court)",
+  "requirement_es": "Proyecto de ley pendiente de la Cámara para prevenir la fijación algorítmica de alquileres; recibió informe favorable del comité de Vivienda el 3/12/2026 (nuevo borrador de H.1564) y fue remitido a House Ways and Means. No es ley.",
+  "key_value_es": "Pendiente: prevendría la fijación algorítmica de alquileres",
+  "src_sha": "17a4cc5613f1411bbf8cd61a40e16ab4ea0e93cbf857f76febfcb7137a63e8ed"
+ },
+ "r-0021": {
+  "title_en": "S.2983, An Act prohibiting algorithmic rent setting (194th General Court)",
+  "title_es": "S.2983, An Act prohibiting algorithmic rent setting (194th General Court)",
+  "requirement_es": "Proyecto de ley pendiente del Senado para prohibir la fijación algorítmica de alquileres; recibió informe favorable del comité de Vivienda el 3/12/2026 y fue remitido a Senate Ways and Means. No es ley.",
+  "key_value_es": "Pendiente: prohibiría la fijación algorítmica de alquileres",
+  "src_sha": "ad48d41df7349cf12edf072583de34c028760fe3296b1cb8e61b05b1a9ee07f1"
+ },
+ "r-0022": {
+  "title_en": "Los Angeles Rent Stabilization Ordinance (RSO) annual allowable increase",
+  "title_es": "Aumento anual permitido de la Rent Stabilization Ordinance (RSO) de Los Ángeles (Ordenanza de Estabilización de Alquileres)",
+  "requirement_es": "En unidades RSO el alquiler puede aumentarse una vez cada 12 meses según el porcentaje anual permitido que publica LAHD (3% del 2025-07-01 al 2026-06-30). Desde el cambio de fórmula no se permite ningún porcentaje adicional por servicios públicos ni por un dependiente añadido; el alquiler vuelve al precio de mercado solo después de una desocupación, como una mudanza voluntaria o una compra del contrato.",
+  "key_value_es": "% anual permitido por LAHD, una vez cada 12 meses (3% del 2025-07-01 al 2026-06-30); sin adicional por servicios públicos ni dependientes",
+  "src_sha": "f014d4042ad5dfd76f63cdc17b691cf97616c71fbfee2e80edd904965021cf21"
+ },
+ "r-0023": {
+  "title_en": "Los Angeles Just Cause Ordinance (JCO), with RSO just cause for RSO units",
+  "title_es": "Just Cause Ordinance (JCO) de Los Ángeles, con causa justificada de la RSO para unidades RSO",
+  "requirement_es": "Un arrendador solo puede poner fin a un arrendamiento por una razón enumerada con culpa (falta de pago, violación del contrato, molestia, uso ilegal, negativa a renovar, negar el acceso, subarrendatario no aprobado) o sin culpa (mudanza del propietario o de un familiar, administrador residente, demolición o retiro del mercado, orden gubernamental, conversión), y debe pagar asistencia de reubicación en los desalojos sin culpa ($11,000 a $27,400 por unidad del 2026-07-01 al 2027-06-30).",
+  "key_value_es": "se requiere causa justificada; reubicación sin culpa de $11,000 a $27,400 (2026-07-01 a 2027-06-30)",
+  "src_sha": "ddc901478aeb447bdc4a7497eed4237bc19ffcc30fd13cc39e9652cb4b565845"
+ },
+ "r-0024": {
+  "title_en": "Los Angeles RSO interest on security deposits",
+  "title_es": "Intereses sobre depósitos de seguridad según la RSO de Los Ángeles",
+  "requirement_es": "Los arrendadores de unidades RSO deben pagar a los inquilinos intereses sobre los depósitos de seguridad, mensual o anualmente, como pago directo o crédito en el alquiler, e informar por escrito al inquilino qué método usan. La Ciudad fija la tasa cada año.",
+  "key_value_es": "intereses anuales sobre depósitos de seguridad RSO (tasa fijada cada año por LAHD)",
+  "src_sha": "81f1a06d4cf79459b3af943c9361ad9a24ff21a1791378cb27a5a291aa50ae4e"
+ },
+ "r-0025": {
+  "title_en": "Los Angeles ban on source-of-income (Section 8) discrimination",
+  "title_es": "Prohibición en Los Ángeles de la discriminación por fuente de ingresos (Section 8)",
+  "requirement_es": "Quien alquile una vivienda en Los Ángeles no puede negarse a alquilar ni a renovar, desalojar, fijar condiciones diferentes ni anunciar una preferencia basada en la fuente de ingresos de una persona, incluidos los vales de Section 8 y otras ayudas de alquiler. Los inquilinos pueden demandar por daños y usar una infracción como defensa ante un desalojo.",
+  "key_value_es": "no se permite negarse ni dar condiciones diferentes por fuente de ingresos (vales, ayuda de alquiler)",
+  "src_sha": "ddce5e513a9092ffa86e6d34885070e50c38c93e0cca09ad9197209d42b7ad5c"
+ },
+ "r-0026": {
+  "title_en": "San Francisco Rent Ordinance (Residential Rent Stabilization and Arbitration Ordinance)",
+  "title_es": "Rent Ordinance de San Francisco (Residential Rent Stabilization and Arbitration Ordinance)",
+  "requirement_es": "En unidades con control de alquileres, el arrendador puede aumentar el alquiler una vez al año según el aumento anual permitido por la Rent Board: 1.6% del 1 de marzo de 2026 al 28 de febrero de 2027 (1.4% el año anterior). Las unidades que obtuvieron por primera vez un certificado de ocupación después del 13 de junio de 1979 están exentas de estos límites de alquiler.",
+  "key_value_es": "aumento anual permitido de 1.6% (3/1/2026 a 2/28/2027)",
+  "src_sha": "f0259e9fbd82a9a70f343372c65d3514361c5385317d96870e00d952b62901b4"
+ },
+ "r-0027": {
+  "title_en": "San Francisco Rent Ordinance just cause eviction (Section 37.9)",
+  "title_es": "Desalojo con causa justificada de la Rent Ordinance de San Francisco (Section 37.9)",
+  "requirement_es": "Un arrendador solo puede desalojar a un inquilino de una unidad cubierta por la Rent Ordinance por una de 17 causas justificadas enumeradas, y debe ser el motivo dominante; el vencimiento del contrato o un cambio de propietario no es una causa justificada. Los desalojos sin culpa, como la mudanza del propietario, activan pagos de reubicación.",
+  "key_value_es": "17 causas justificadas; reubicación de $8,245 por inquilino, máximo $24,733 por unidad, más $5,497 por hogar con personas mayores, con discapacidad o con hijos menores (mudanza del propietario y similares, avisos entregados del 3/1/2026 al 2/28/2027)",
+  "src_sha": "158d21d63823f07f992e38773e2f251224784f4daed672de3c084a31b502334e"
+ },
+ "r-0028": {
+  "title_en": "San Francisco security deposit interest rate",
+  "title_es": "Tasa de interés de depósitos de seguridad de San Francisco",
+  "requirement_es": "La Rent Board de San Francisco publica una tasa de interés anual que se aplica a los depósitos de seguridad de los inquilinos: 4.2% del 1 de marzo de 2026 al 28 de febrero de 2027 (5.0% el año anterior). La fuente indica la tasa, pero no la ordenanza ni su cobertura.",
+  "key_value_es": "4.2% de interés sobre depósitos de seguridad (3/1/2026 a 2/28/2027)",
+  "src_sha": "897251c1efbeaf73122d8d964a915de43a40704a9a1ccc0346c59faeb70da0e4"
+ },
+ "r-0029": {
+  "title_en": "San Francisco Fair Chance Ordinance, housing provisions (Police Code § 4906)",
+  "title_es": "Fair Chance Ordinance de San Francisco, disposiciones de vivienda (Police Code § 4906)",
+  "requirement_es": "Para la vivienda asequible, un proveedor de vivienda no puede preguntar por ni usar arrestos sin condena, condenas desestimadas o eliminadas, asuntos de menores, condenas de más de siete años, infracciones o conductas despenalizadas, y solo puede preguntar por antecedentes de condenas después de determinar que el solicitante es elegible y califica. Las decisiones requieren una evaluación individualizada, y el solicitante tiene 14 días para responder a un aviso de acción adversa.",
+  "key_value_es": "solo vivienda asequible: sin preguntas antes de la verificación de elegibilidad; límite de revisión de 7 años; evaluación individualizada; 14 días para responder a un aviso de acción adversa",
+  "src_sha": "da142a162534f271cdbbf37347c31dad9fc0a653f291f7b15d6c6ce9b462dbc4"
+ },
+ "r-0030": {
+  "title_en": "San Francisco ban on algorithmic rent-setting devices",
+  "title_es": "Prohibición en San Francisco de dispositivos algorítmicos de fijación de alquileres",
+  "requirement_es": "Nadie puede vender ni usar un dispositivo algorítmico que analice datos no públicos de alquileres de competidores para recomendar alquileres o administrar la ocupación de unidades residenciales en San Francisco. Un inquilino o el City Attorney pueden demandar.",
+  "key_value_es": "prohibición de dispositivos algorítmicos que usan datos no públicos de alquileres de competidores",
+  "src_sha": "88da4650fb474afd7dd2f1760bd4c2dc4de471c1e4a0117de9135307ff83a32c"
+ },
+ "r-0031": {
+  "title_en": "San Diego Residential Tenant Protections (Tenant Protection Ordinance), just cause and relocation",
+  "title_es": "Residential Tenant Protections de San Diego (Tenant Protection Ordinance), causa justificada y reubicación",
+  "requirement_es": "Un arrendador no puede poner fin a un arrendamiento sin una causa justificada, con culpa o sin culpa. Para una terminación sin culpa, el arrendador debe pagar dos meses de alquiler (tres meses si el inquilino es una persona mayor o con discapacidad), o renunciar a esa cantidad de alquiler, sin importar los ingresos ni la duración del arrendamiento.",
+  "key_value_es": "se requiere causa justificada; reubicación sin culpa de 2 meses de alquiler (3 meses para personas mayores o con discapacidad)",
+  "src_sha": "648d6a654ebbf15263be00e952f1f28adab286733401008cdf1ef4233a33db50"
+ },
+ "r-0032": {
+  "title_en": "San Diego prohibition of source-of-income discrimination",
+  "title_es": "Prohibición en San Diego de la discriminación por fuente de ingresos",
+  "requirement_es": "Los arrendadores no pueden negarse a alquilar ni a renovar, poner fin a un arrendamiento ni fijar condiciones diferentes por la fuente de ingresos de una persona, incluida cualquier ayuda de alquiler, vales o subsidio, y los estándares de ingresos deben contar todos los ingresos de un inquilino y los ingresos combinados de coinquilinos y cofirmantes.",
+  "key_value_es": "no se permite negarse ni dar condiciones diferentes por fuente de ingresos, incl. cualquier ayuda de alquiler",
+  "src_sha": "58b5d442cd89a7979c600e8c7df9ec3e130d9a58bafa74645e42b03761911dc6"
+ },
+ "r-0033": {
+  "title_en": "San Diego Prohibition of Anti-Competitive Automated Rent Price-Fixing (Division 11)",
+  "title_es": "Prohibición en San Diego de la fijación automatizada anticompetitiva de precios de alquiler (Division 11)",
+  "requirement_es": "Nadie puede vender, licenciar ni proporcionar a un arrendador, y ningún arrendador puede usar, software que analice datos no públicos de competidores de dos o más arrendadores para recomendar alquileres o niveles de ocupación. Un inquilino puede demandar para obtener una orden judicial, daños o sanciones civiles de hasta $1,000 por infracción; cada mes y cada propiedad es una infracción separada.",
+  "key_value_es": "prohibición de dispositivos algorítmicos que usan datos no públicos de competidores; hasta $1,000 por infracción",
+  "src_sha": "0395e6527afc13f9b8d6bd6efe76aaa2533538472827650236d727e3cefebcf1"
+ },
+ "r-0034": {
+  "title_en": "Berkeley Rent Stabilization and Eviction for Just Cause Ordinance (rent ceilings)",
+  "title_es": "Rent Stabilization and Eviction for Just Cause Ordinance de Berkeley (techos de alquiler)",
+  "requirement_es": "En unidades totalmente cubiertas, el arrendador puede aumentar el techo de alquiler una vez al año según el Annual General Adjustment (ajuste general anual): 1.0% para 2026, no antes del 1 de enero de 2026. El ajuste es el 65% del IPC y, desde la Measure BB, como máximo el 5%.",
+  "key_value_es": "AGA 2026 de 1.0% (65% del IPC, máximo 5%)",
+  "src_sha": "2abad18b334c43585381faf39d10c3aff91e7cbb6c5e7e34c8351e6fea4bca64"
+ },
+ "r-0035": {
+  "title_en": "Berkeley Rent Stabilization and Eviction for Just Cause Ordinance (just cause)",
+  "title_es": "Rent Stabilization and Eviction for Just Cause Ordinance de Berkeley (causa justificada)",
+  "requirement_es": "Los inquilinos de unidades total o parcialmente cubiertas solo pueden ser desalojados por causa justificada. Desde la Measure BB, no se permite el desalojo por una deuda de alquiler inferior a un mes del Fair Market Rent ni por negarse a firmar un nuevo contrato a plazo fijo, y los avisos deben presentarse ante la Rent Board dentro de tres días hábiles.",
+  "key_value_es": "se requiere causa justificada; sin desalojo por falta de pago inferior a un mes del Fair Market Rent; mudanza del propietario y reubicación Ellis de $19,413 más $6,471 para hogares que califiquen (desde 1/1/2026)",
+  "src_sha": "635e11551054e708ea51f9679f24a2c0187dd3b9d29d640e015ad3aba8ab4daf"
+ },
+ "r-0036": {
+  "title_en": "Berkeley security deposit interest (Rent Ordinance)",
+  "title_es": "Intereses sobre depósitos de seguridad de Berkeley (Rent Ordinance)",
+  "requirement_es": "Los arrendadores de unidades total o parcialmente cubiertas por la Rent Ordinance deben pagar a los inquilinos intereses sobre el depósito de seguridad cada año, y un monto prorrateado cuando el inquilino se mude.",
+  "key_value_es": "intereses anuales sobre depósitos de seguridad",
+  "src_sha": "1804a9d1fa676b4896932699c102110745778f1b3565a8b3ba9d498e84298efe"
+ },
+ "r-0037": {
+  "title_en": "Berkeley tenant screening and application fee ordinance",
+  "title_es": "Ordenanza de Berkeley sobre evaluación de inquilinos y tarifa de solicitud",
+  "requirement_es": "Un arrendador que cobre una tarifa de evaluación debe entregar primero una declaración de derechos sobre la tarifa de evaluación de inquilinos y la tarifa máxima estatal. Los arrendadores no pueden cobrar a inquilinos existentes tarifas no reembolsables por renovar un arrendamiento ni por agregar, reemplazar o retirar a un compañero de cuarto.",
+  "key_value_es": "se requiere declaración de derechos sobre tarifas; sin tarifas no reembolsables de renovación ni de compañeros de cuarto para inquilinos existentes (límite estatal de $68.96 en 2026)",
+  "src_sha": "1699b120fc259cd7372b9b53127a37f783a31919dc2a6e2d3bfe1504c40a089f"
+ },
+ "r-0038": {
+  "title_en": "Ronald V. Dellums Fair Chance Access to Housing Ordinance",
+  "title_es": "Ronald V. Dellums Fair Chance Access to Housing Ordinance (Ordenanza de Acceso a la Vivienda con Segunda Oportunidad)",
+  "requirement_es": "Los arrendadores de Berkeley no pueden preguntar por antecedentes penales ni verificaciones de antecedentes, ni usarlos, en la publicidad, las solicitudes, la selección de inquilinos o las decisiones, y deben dar aviso por escrito y una oportunidad de responder antes de actuar con base en ellos. Las multas van de $1,000 a $10,000 por infracción.",
+  "key_value_es": "prohibición de preguntar por antecedentes penales y de usarlos en decisiones de alquiler; multas de $1,000 a $10,000 por infracción",
+  "src_sha": "084406d13ca3fa57573ca49050b06a66bcf603813e7e54b212b99527a271b8a2"
+ },
+ "r-0039": {
+  "title_en": "Berkeley prohibition on coordinated pricing algorithms (Ordinance 7,992-N.S.)",
+  "title_es": "Prohibición en Berkeley de algoritmos de precios coordinados (Ordinance 7,992-N.S.)",
+  "requirement_es": "Nadie puede vender ni proporcionar, y ningún arrendador puede usar, un algoritmo de precios coordinados que utilice datos no públicos de competidores para fijar o recomendar alquileres u ocupación de unidades de Berkeley. El City Attorney o un inquilino pueden demandar; sanciones de hasta $1,000 por infracción, contando cada unidad y mes por separado.",
+  "key_value_es": "prohibición de algoritmos de precios coordinados que usan datos no públicos de competidores; hasta $1,000 por infracción",
+  "src_sha": "430f71e0f667e4d21abd6b5d26f41e668007d95bf7012f16b0b374dc27357a27"
+ },
+ "r-0040": {
+  "title_en": "Santa Ana Rent Stabilization Ordinance",
+  "title_es": "Rent Stabilization Ordinance de Santa Ana (Ordenanza de Estabilización de Alquileres)",
+  "requirement_es": "Los aumentos anuales de alquiler no pueden exceder el menor entre el 3% o el 80% del cambio del IPC a 12 meses, y no se permite ninguno si el IPC es negativo; el máximo del 2026-09-01 al 2027-08-31 es 2.87%. Los propietarios pueden solicitar más para obtener un rendimiento justo.",
+  "key_value_es": "el menor entre 3% o 80% del IPC; 2.87% del 2026-09-01 al 2027-08-31",
+  "src_sha": "635967cda30642f977b3b8998f618feaaa4fb581502d4829830d0fe8e417489a"
+ },
+ "r-0041": {
+  "title_en": "Santa Ana Just Cause Eviction Ordinance",
+  "title_es": "Just Cause Eviction Ordinance de Santa Ana (Ordenanza de Desalojo con Causa Justificada)",
+  "requirement_es": "Después de 30 días de arrendamiento, un propietario solo puede poner fin a un arrendamiento por una causa justificada indicada por escrito, después de dar primero aviso y tiempo para corregir una infracción. Para una causa sin culpa, el propietario debe pagar 3 meses de asistencia de reubicación o renunciar a los últimos 3 meses de alquiler.",
+  "key_value_es": "causa justificada después de 30 días; reubicación sin culpa de 3 meses de alquiler o renuncia al alquiler",
+  "src_sha": "f7934f47ba35967d43ff0bda0bff7444462b253caf9ebacd989dd33a5e3696aa"
+ },
+ "r-0042": {
+  "title_en": "Santa Ana ban on algorithmic rent-setting software (Ordinance NS-3090)",
+  "title_es": "Prohibición en Santa Ana del software de fijación algorítmica de alquileres (Ordinance NS-3090)",
+  "requirement_es": "Nadie puede vender, licenciar ni proporcionar, y ningún arrendador puede usar, software de fijación de alquileres que se base en datos no públicos de competidores para alquileres residenciales en Santa Ana. Los inquilinos pueden demandar para obtener una orden judicial, daños o sanciones civiles de hasta $1,000 por infracción (por mes) más honorarios de abogado.",
+  "key_value_es": "prohibición de dispositivos algorítmicos que usan datos no públicos de competidores; hasta $1,000 por infracción",
+  "src_sha": "c00f18292a26e519b166fa5b1ebbf6bd3df6c48605312235bb283d321b80ccd2"
+ },
+ "r-0043": {
+  "title_en": "Jersey City Rent Control Ordinance",
+  "title_es": "Rent Control Ordinance de Jersey City (Ordenanza de Control de Alquileres)",
+  "requirement_es": "Los aumentos de alquiler en edificios de Jersey City con 5 o más unidades están regulados por la Rent Control Ordinance y su Rent Leveling Board; todas las propiedades de 1 a 4 unidades están exentas. Los propietarios pueden consultar a la Office of Landlord Tenant Relations sobre otras exenciones permitidas.",
+  "key_value_es": "Control de alquileres para edificios de 5 o más unidades (propiedades de 1 a 4 unidades exentas); la fórmula del límite no se indica en la fuente (la ciudad enlaza un gráfico del IPC)",
+  "src_sha": "ccd9e11c34d310d7a2ef32d8971029156aea2aab7aa3b06dde0d6b1f81135e79"
+ },
+ "r-0044": {
+  "title_en": "Jersey City ban on algorithmic rent fixing",
+  "title_es": "Prohibición en Jersey City de la fijación algorítmica de alquileres",
+  "requirement_es": "Los arrendadores y sus agentes no pueden suscribirse a, contratar ni pagar a un proveedor de servicios que recopile información no pública de competidores y use un algoritmo para recomendar alquileres, condiciones del contrato o niveles de ocupación, y los proveedores de servicios no pueden facilitar acuerdos para no competir. La aplicación es pública y privada; las infracciones reiteradas se sancionan con multas de $100 a $2,000, y cada día es una infracción separada.",
+  "key_value_es": "Prohibición de pagar por servicios algorítmicos de coordinación de alquileres; infracciones reiteradas de $100 a $2,000 por día",
+  "src_sha": "4af2caea042d35dea4edd5259ef48e8bde9e86260a774607b5fcbae073a4efe1"
+ },
+ "r-0045": {
+  "title_en": "Hoboken Rent Control Ordinance",
+  "title_es": "Rent Control Ordinance de Hoboken (Ordenanza de Control de Alquileres)",
+  "requirement_es": "En la renovación del contrato, un arrendador de una unidad de Hoboken con control de alquileres no puede aumentar el alquiler más del 5% o del cambio del IPC, el que sea menor, y solo una vez en 12 meses, con aviso escrito de 30 días que explique el motivo. Los recargos por impuestos, agua y alcantarillado y mejoras de capital requieren aprobación por separado.",
+  "key_value_es": "El menor entre 5% o el cambio del IPC por año",
+  "src_sha": "f0888d393480aeb193bf58b1cd72da669d5d45536c0a09501b0f983337425c5c"
+ },
+ "r-0046": {
+  "title_en": "Hoboken ban on price fixing using algorithmic pricing",
+  "title_es": "Prohibición en Hoboken de la fijación de precios mediante precios algorítmicos",
+  "requirement_es": "Los arrendadores de cualquier unidad de vivienda residencial en Hoboken no pueden usar software, algoritmos ni plataformas de intercambio de datos que analicen información no pública de competidores para coordinar, recomendar o implementar alquileres, condiciones del contrato o niveles de ocupación. Las infracciones se juzgan en la Hoboken Municipal Court.",
+  "key_value_es": "Prohibición de precios algorítmicos con datos no públicos de competidores (de menos de 365 días); multa de hasta $2,000 o hasta 90 días de servicio comunitario",
+  "src_sha": "4a3b0662c6f54421716c59fc1f61e23bb65e7353ea04405c33b5974469d90fde"
+ },
+ "r-0047": {
+  "title_en": "Newark Rent Control Ordinance",
+  "title_es": "Rent Control Ordinance de Newark (Ordenanza de Control de Alquileres)",
+  "requirement_es": "En la renovación del contrato, un arrendador de Newark no puede aumentar el alquiler más que el cambio del CPI-U entre 15 y 3 meses antes, y nunca más del 4%, una vez cada 12 meses, con aviso escrito de 30 días. No se permite ningún aumento si la vivienda no cumple sustancialmente con el código o no está registrada.",
+  "key_value_es": "Cambio del CPI-U, máximo 4% por 12 meses",
+  "src_sha": "db379ddd0bcf6fb8e931775ecdaa4ccbd1245da37d18f6af49f56b3d10f71bce"
+ },
+ "r-0048": {
+  "title_en": "Newark Ban the Box housing ordinance",
+  "title_es": "Ordenanza de vivienda Ban the Box de Newark (Newark Ban the Box)",
+  "requirement_es": "Los arrendadores y corredores solo pueden verificar antecedentes penales después de una solicitud formal, con aviso y consentimiento, y solo pueden revisar 8 años atrás para condenas por delitos mayores (indictable) o 5 años para infracciones de personas desordenadas (disorderly persons) (más delitos graves enumerados y cargos pendientes). No pueden usarse arrestos sin condena, registros eliminados (expunged) ni de menores, y las denegaciones requieren razones por escrito.",
+  "key_value_es": "Preguntas sobre antecedentes penales solo después de una solicitud formal; revisión de 8 años / 5 años; multas de hasta $500 la primera vez, $1,000 por reincidencia",
+  "src_sha": "0c5e4b2c0068d5b54b8a6374cc5aa9e72b1201ee84785b46216ed7c8cf9632ff"
+ },
+ "r-0049": {
+  "title_en": "Housing Stability Notification Act (City of Boston Ordinances § 10-11.7)",
+  "title_es": "Housing Stability Notification Act (City of Boston Ordinances § 10-11.7)",
+  "requirement_es": "Todo arrendador de Boston que ponga fin a un arrendamiento debe entregar al inquilino un Notice of Tenants' Rights and Resources (aviso de derechos y recursos de los inquilinos) junto con el aviso de desocupación o de no renovación, y enviar una copia del aviso a la ciudad. Las multas pueden llegar a $300 por día.",
+  "key_value_es": "Notice of Tenants' Rights and Resources con cada aviso de desocupación o de no renovación",
+  "src_sha": "bd716d2fd877866c57d36ff43433315b2a106e887f945a727b01c807b7c60fb6"
+ },
+ "r-0050": {
+  "title_en": "Boston Fair Housing Regulations: rental assistance as a protected class",
+  "title_es": "Fair Housing Regulations de Boston: la asistencia de alquiler como clase protegida",
+  "requirement_es": "Los arrendadores de Boston no pueden negarse a alquilar ni dar un trato diferente a los inquilinos porque usen asistencia de alquiler, como Section 8, discapacidad del seguro social o vales para veteranos.",
+  "key_value_es": "Sin discriminación por asistencia de alquiler (Section 8 y otros vales)",
+  "src_sha": "070612242ebea508241f7c245e260277af3def8624cd83d2b046d1b6c4cc71ec"
+ },
+ "r-0051": {
+  "title_en": "Boston Fair Chance Tenant Selection Policy (Department of Neighborhood Development)",
+  "title_es": "Fair Chance Tenant Selection Policy de Boston (Department of Neighborhood Development)",
+  "requirement_es": "Los proveedores de vivienda con fondos o terrenos de la ciudad (DND), o con unidades inclusionarias de ingresos restringidos, no pueden denegar a todas las personas con antecedentes penales y deben decidir caso por caso. No pueden considerar arrestos sin condena, condenas selladas o eliminadas, registros de menores ni condenas de más de 5 años, y no pueden denegar con base en el puntaje de crédito.",
+  "key_value_es": "Sin prohibición general por antecedentes penales; se ignoran arrestos sin condena, registros sellados y de menores, y condenas de más de 5 años",
+  "src_sha": "bdaded8de4b4f1ba8d5e27e2cda03e591cffea1bdc660ee670c32b3af06de8b3"
+ },
+ "r-0052": {
+  "title_en": "Tenants' Rights and Resources Notification Ordinance (Cambridge Mun. Code ch. 8.71)",
+  "title_es": "Tenants' Rights and Resources Notification Ordinance (Cambridge Mun. Code ch. 8.71)",
+  "requirement_es": "Los arrendadores de Cambridge deben entregar a los inquilinos la guía de derechos y recursos de inquilinos de la ciudad al inicio del arrendamiento y al tomar medidas para ponerlo fin (aviso de desocupación o summary process). Las multas pueden llegar a $300 por día.",
+  "key_value_es": "Guía de derechos y recursos al inicio del arrendamiento y con el aviso de desocupación",
+  "src_sha": "704ee1460c2f1a223cf6b85cadb868f24ad04d67ed979dae223ed316a72feb29"
+ },
+ "r-0053": {
+  "title_en": "Cambridge Fair Housing Ordinance: source of income protection",
+  "title_es": "Fair Housing Ordinance de Cambridge: protección por fuente de ingresos",
+  "requirement_es": "Los arrendadores de Cambridge no pueden discriminar a los inquilinos por su fuente de ingresos, incluidos Section 8 y beneficios públicos.",
+  "key_value_es": "Fuente de ingresos (incl. Section 8, beneficios públicos) protegida",
+  "src_sha": "461179d271034a59b7266fb5cfcbad9f25510c2fcfb34b257158bc75ca5d7479"
+ }
+}

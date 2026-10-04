@@ -1,0 +1,32 @@
+{
+ "doc_id": "X015",
+ "extractor_model": "claude-sonnet-5-5",
+ "extracted_at": "2026-10-04T01:30:00Z",
+ "rules": [
+  {
+   "level": "city",
+   "status": "in_force",
+   "coverage_conditions": "Residential rental property in the City of San Diego",
+   "exemptions": "Reports from public or 90-day-old aggregated data that do not recommend future rents; affordable-housing program rent or income limit tools; appraisal software that does not recommend rents",
+   "effective_date": "2025-06-21",
+   "conflict_flag": false,
+   "conflict_note": null,
+   "interaction": "Local ban; no state-level ban in this document.",
+   "applies_if": null,
+   "exempt_if": null,
+   "yields_to": [],
+   "conflicts_with": [],
+   "jurisdiction": "San Diego, CA",
+   "category": "algorithmic_rent_setting",
+   "title": "San Diego ban on algorithmic rent-setting devices (Division 11)",
+   "requirement": "Landlords may not use, and no one may sell or license to a landlord, software that uses nonpublic competitor data of two or more landlords to recommend rents or occupancy levels. A tenant can sue for injunction, damages or civil penalties up to $1,000 per violation; each month and each property is a separate violation.",
+   "key_value": "ban on algorithmic devices using nonpublic competitor data; up to $1,000 per violation",
+   "citation": "S.D.M.C. \u00a7\u00a7 98.1101 to 98.1104",
+   "source_doc_id": "X015",
+   "source_url": "https://gocodebook.com/library/us/ca/san-diego-zoning/division-11-prohibition-of-anti-competitive-automated-rent-price-fixing/98.1103-use-and-sale-of-algorithmic-devices-prohibited",
+   "quoted_span": "(b) It is unlawful for a landlord to use an algorithmic device to set rental rates or occupancy levels for residential rental property.",
+   "confidence": 0.9
+  }
+ ],
+ "notes": "Enacted codified text (added 5-22-2025 by O-21955 N.S., effective 6-21-2025), so in_force. Header lists manifest id D074; if D074 is supplied corpus text, the consolidator should prefer its quoted span."
+}

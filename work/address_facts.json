@@ -1,0 +1,5002 @@
+{
+ "A0001": {
+  "year_built": 1927,
+  "units": 32,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0002": {
+  "year_built": 2001,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '6B-20U-G' suggests 20U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "6B-20U-G",
+  "year_note": null
+ },
+ "A0003": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units",
+  "use_code": "4C",
+  "use_description": "4SB",
+  "year_note": "missing in source"
+ },
+ "A0004": {
+  "year_built": 1964,
+  "units": 39,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0005": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "Alameda use code described as 5+ units; no count in sample",
+  "use_code": "7700",
+  "use_description": "Alameda County use code (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0006": {
+  "year_built": 1900,
+  "units": null,
+  "units_min": null,
+  "units_source": "none",
+  "units_note": "Boston code A/125 'SUBSD HOUSING S- 8': apartment/residential parcel, unit count not in sample (class does not guarantee >=5)",
+  "use_code": "A/125",
+  "use_description": "SUBSD HOUSING S- 8",
+  "year_note": null
+ },
+ "A0007": {
+  "year_built": 1913,
+  "units": 6,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0008": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '10S-B-A-151U-HE' suggests 151U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "10S-B-A-151U-HE",
+  "year_note": "missing in source"
+ },
+ "A0009": {
+  "year_built": 1915,
+  "units": 6,
+  "units_min": 4,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "111",
+  "use_description": "4-8-UNIT-APT",
+  "year_note": null
+ },
+ "A0010": {
+  "year_built": 1915,
+  "units": 6,
+  "units_min": 4,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "111",
+  "use_description": "4-8-UNIT-APT",
+  "year_note": null
+ },
+ "A0011": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units",
+  "use_code": "4C",
+  "use_description": "3S.F.",
+  "year_note": "missing in source"
+ },
+ "A0012": {
+  "year_built": 1900,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '3S-F-D-6U' suggests 6U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "3S-F-D-6U",
+  "year_note": null
+ },
+ "A0013": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units",
+  "use_code": "4C",
+  "use_description": "3SF",
+  "year_note": "missing in source"
+ },
+ "A0014": {
+  "year_built": 1947,
+  "units": 7,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0015": {
+  "year_built": 1930,
+  "units": 83,
+  "units_min": 9,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "112",
+  "use_description": ">8-UNIT-APT",
+  "year_note": null
+ },
+ "A0016": {
+  "year_built": 1926,
+  "units": 21,
+  "units_min": 15,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A15",
+  "use_description": "Apartment 15 Units or more",
+  "year_note": null
+ },
+ "A0017": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '3S-F-D-6U-NH' suggests 6U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "3S-F-D-6U-NH",
+  "year_note": "missing in source"
+ },
+ "A0018": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "Alameda use code described as 5+ units; no count in sample",
+  "use_code": "7200",
+  "use_description": "Alameda County use code (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0019": {
+  "year_built": null,
+  "units": 16,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "15",
+  "use_description": "SANDAG asr_landuse 14-16 (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0020": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units",
+  "use_code": "4C",
+  "use_description": "Apartments (class 4C)",
+  "year_note": "missing in source"
+ },
+ "A0021": {
+  "year_built": 1963,
+  "units": 6,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A5",
+  "use_description": "Apartment 5 to 14 Units",
+  "year_note": null
+ },
+ "A0022": {
+  "year_built": 2012,
+  "units": 5,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0023": {
+  "year_built": 1987,
+  "units": 33,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0024": {
+  "year_built": 1920,
+  "units": 6,
+  "units_min": 4,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "111",
+  "use_description": "4-8-UNIT-APT",
+  "year_note": null
+ },
+ "A0025": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "Alameda use code described as 5+ units; no count in sample",
+  "use_code": "7700",
+  "use_description": "Alameda County use code (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0026": {
+  "year_built": 1901,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '4S-B-D-8U-NH' suggests 8U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "4S-B-D-8U-NH",
+  "year_note": null
+ },
+ "A0027": {
+  "year_built": 1923,
+  "units": 6,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A5",
+  "use_description": "Apartment 5 to 14 Units",
+  "year_note": null
+ },
+ "A0028": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units",
+  "use_code": "4C",
+  "use_description": "3SF3UG",
+  "year_note": "missing in source"
+ },
+ "A0029": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units",
+  "use_code": "4C",
+  "use_description": "4SB",
+  "year_note": "missing in source"
+ },
+ "A0030": {
+  "year_built": 1908,
+  "units": 5,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "FS5",
+  "use_description": "Flat & Store 5 to 14 units",
+  "year_note": null
+ },
+ "A0031": {
+  "year_built": 1911,
+  "units": 5,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0032": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '4S-B-D-8U-NH' suggests 8U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "4S-B-D-8U-NH",
+  "year_note": "missing in source"
+ },
+ "A0033": {
+  "year_built": 1910,
+  "units": 5,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A5",
+  "use_description": "Apartment 5 to 14 Units",
+  "year_note": null
+ },
+ "A0034": {
+  "year_built": 1886,
+  "units": 6,
+  "units_min": 4,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "111",
+  "use_description": "4-8-UNIT-APT",
+  "year_note": null
+ },
+ "A0035": {
+  "year_built": 1997,
+  "units": 14,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0036": {
+  "year_built": 2019,
+  "units": null,
+  "units_min": 7,
+  "units_source": "use_code_class",
+  "units_note": "A/112 'APT 7-30 UNITS' => 7 to 30 units (units_min=7)",
+  "use_code": "A/112",
+  "use_description": "APT 7-30 UNITS",
+  "year_note": null
+ },
+ "A0037": {
+  "year_built": 2001,
+  "units": 47,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0038": {
+  "year_built": 1908,
+  "units": 5,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A5",
+  "use_description": "Apartment 5 to 14 Units",
+  "year_note": null
+ },
+ "A0039": {
+  "year_built": 1910,
+  "units": 32,
+  "units_min": 9,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "112",
+  "use_description": ">8-UNIT-APT",
+  "year_note": null
+ },
+ "A0040": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units",
+  "use_code": "4C",
+  "use_description": "3B-7U/4B-24U-G",
+  "year_note": "missing in source"
+ },
+ "A0041": {
+  "year_built": 1900,
+  "units": 15,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A5",
+  "use_description": "Apartment 5 to 14 Units",
+  "year_note": null
+ },
+ "A0042": {
+  "year_built": 1912,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '2S-B-A-6U' suggests 6U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "2S-B-A-6U",
+  "year_note": null
+ },
+ "A0043": {
+  "year_built": 1920,
+  "units": 6,
+  "units_min": 4,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "111",
+  "use_description": "4-8-UNIT-APT",
+  "year_note": null
+ },
+ "A0044": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units",
+  "use_code": "4C",
+  "use_description": "3SB",
+  "year_note": "missing in source"
+ },
+ "A0045": {
+  "year_built": 1987,
+  "units": 65,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0501",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0046": {
+  "year_built": 1975,
+  "units": 44,
+  "units_min": 9,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "112",
+  "use_description": ">8-UNIT-APT",
+  "year_note": null
+ },
+ "A0047": {
+  "year_built": 1913,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '3S-B-D-6U-H' suggests 6U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "3S-B-D-6U-H",
+  "year_note": null
+ },
+ "A0048": {
+  "year_built": 1899,
+  "units": null,
+  "units_min": 7,
+  "units_source": "use_code_class",
+  "units_note": "A/112 'APT 7-30 UNITS' => 7 to 30 units (units_min=7)",
+  "use_code": "A/112",
+  "use_description": "APT 7-30 UNITS",
+  "year_note": null
+ },
+ "A0049": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '3S-6U-AFFORDABL' suggests 6U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "3S-6U-AFFORDABL",
+  "year_note": "missing in source"
+ },
+ "A0050": {
+  "year_built": 1986,
+  "units": 49,
+  "units_min": 15,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A15",
+  "use_description": "Apartment 15 Units or more",
+  "year_note": null
+ },
+ "A0051": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '3S+BT-F-6U' suggests 6U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "3S+BT-F-6U",
+  "year_note": "missing in source"
+ },
+ "A0052": {
+  "year_built": 1965,
+  "units": null,
+  "units_min": 7,
+  "units_source": "use_code_class",
+  "units_note": "A/112 'APT 7-30 UNITS' => 7 to 30 units (units_min=7)",
+  "use_code": "A/112",
+  "use_description": "APT 7-30 UNITS",
+  "year_note": null
+ },
+ "A0053": {
+  "year_built": 1990,
+  "units": null,
+  "units_min": null,
+  "units_source": "none",
+  "units_note": "Boston code A/120 'LUXURY APARTMENT': apartment/residential parcel, unit count not in sample (class does not guarantee >=5)",
+  "use_code": "A/120",
+  "use_description": "LUXURY APARTMENT",
+  "year_note": null
+ },
+ "A0054": {
+  "year_built": 2020,
+  "units": null,
+  "units_min": 7,
+  "units_source": "use_code_class",
+  "units_note": "A/112 'APT 7-30 UNITS' => 7 to 30 units (units_min=7)",
+  "use_code": "A/112",
+  "use_description": "APT 7-30 UNITS",
+  "year_note": null
+ },
+ "A0055": {
+  "year_built": 1963,
+  "units": 6,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A5",
+  "use_description": "Apartment 5 to 14 Units",
+  "year_note": null
+ },
+ "A0056": {
+  "year_built": 1920,
+  "units": null,
+  "units_min": 7,
+  "units_source": "use_code_class",
+  "units_note": "A/112 'APT 7-30 UNITS' => 7 to 30 units (units_min=7)",
+  "use_code": "A/112",
+  "use_description": "APT 7-30 UNITS",
+  "year_note": null
+ },
+ "A0057": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units",
+  "use_code": "4C",
+  "use_description": "4SB",
+  "year_note": "missing in source"
+ },
+ "A0058": {
+  "year_built": null,
+  "units": 7,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "14",
+  "use_description": "SANDAG asr_landuse 14-16 (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0059": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units",
+  "use_code": "4C",
+  "use_description": "1SCB",
+  "year_note": "missing in source"
+ },
+ "A0060": {
+  "year_built": 1962,
+  "units": 8,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0061": {
+  "year_built": 1915,
+  "units": 5,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A5",
+  "use_description": "Apartment 5 to 14 Units",
+  "year_note": null
+ },
+ "A0062": {
+  "year_built": 1906,
+  "units": 6,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A5",
+  "use_description": "Apartment 5 to 14 Units",
+  "year_note": null
+ },
+ "A0063": {
+  "year_built": 1899,
+  "units": null,
+  "units_min": 7,
+  "units_source": "use_code_class",
+  "units_note": "A/112 'APT 7-30 UNITS' => 7 to 30 units (units_min=7)",
+  "use_code": "A/112",
+  "use_description": "APT 7-30 UNITS",
+  "year_note": null
+ },
+ "A0064": {
+  "year_built": 1890,
+  "units": 84,
+  "units_min": 9,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "112",
+  "use_description": ">8-UNIT-APT",
+  "year_note": null
+ },
+ "A0065": {
+  "year_built": null,
+  "units": null,
+  "units_min": null,
+  "units_source": "none",
+  "units_note": "Boston code A/120 'LUXURY APARTMENT': apartment/residential parcel, unit count not in sample (class does not guarantee >=5)",
+  "use_code": "A/120",
+  "use_description": "LUXURY APARTMENT",
+  "year_note": "missing in source"
+ },
+ "A0066": {
+  "year_built": 1988,
+  "units": 36,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0067": {
+  "year_built": 1954,
+  "units": 8,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0068": {
+  "year_built": 1920,
+  "units": null,
+  "units_min": 7,
+  "units_source": "use_code_class",
+  "units_note": "A/112 'APT 7-30 UNITS' => 7 to 30 units (units_min=7)",
+  "use_code": "A/112",
+  "use_description": "APT 7-30 UNITS",
+  "year_note": null
+ },
+ "A0069": {
+  "year_built": 1900,
+  "units": 7,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "FS5",
+  "use_description": "Flat & Store 5 to 14 units",
+  "year_note": null
+ },
+ "A0070": {
+  "year_built": 1910,
+  "units": 7,
+  "units_min": 4,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "111",
+  "use_description": "4-8-UNIT-APT",
+  "year_note": null
+ },
+ "A0071": {
+  "year_built": 1900,
+  "units": 5,
+  "units_min": 4,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "111",
+  "use_description": "4-8-UNIT-APT",
+  "year_note": null
+ },
+ "A0072": {
+  "year_built": 1973,
+  "units": 6,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A5",
+  "use_description": "Apartment 5 to 14 Units",
+  "year_note": null
+ },
+ "A0073": {
+  "year_built": 1900,
+  "units": 6,
+  "units_min": 4,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "111",
+  "use_description": "4-8-UNIT-APT",
+  "year_note": null
+ },
+ "A0074": {
+  "year_built": 1963,
+  "units": 34,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0075": {
+  "year_built": 1880,
+  "units": 10,
+  "units_min": 9,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "112",
+  "use_description": ">8-UNIT-APT",
+  "year_note": null
+ },
+ "A0076": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units",
+  "use_code": "4C",
+  "use_description": "3SB2UG",
+  "year_note": "missing in source"
+ },
+ "A0077": {
+  "year_built": 1902,
+  "units": 6,
+  "units_min": 4,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "111",
+  "use_description": "4-8-UNIT-APT",
+  "year_note": null
+ },
+ "A0078": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '4S-B-A-16U-H' suggests 16U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "4S-B-A-16U-H",
+  "year_note": "missing in source"
+ },
+ "A0079": {
+  "year_built": 1912,
+  "units": 9,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0080": {
+  "year_built": 2002,
+  "units": 90,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0081": {
+  "year_built": 2005,
+  "units": 69,
+  "units_min": 15,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A15",
+  "use_description": "Apartment 15 Units or more",
+  "year_note": null
+ },
+ "A0082": {
+  "year_built": 1880,
+  "units": 16,
+  "units_min": 9,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "112",
+  "use_description": ">8-UNIT-APT",
+  "year_note": null
+ },
+ "A0083": {
+  "year_built": 1890,
+  "units": null,
+  "units_min": null,
+  "units_source": "none",
+  "units_note": "Boston code A/125 'SUBSD HOUSING S- 8': apartment/residential parcel, unit count not in sample (class does not guarantee >=5)",
+  "use_code": "A/125",
+  "use_description": "SUBSD HOUSING S- 8",
+  "year_note": null
+ },
+ "A0084": {
+  "year_built": 1908,
+  "units": 5,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A5",
+  "use_description": "Apartment 5 to 14 Units",
+  "year_note": null
+ },
+ "A0085": {
+  "year_built": 1926,
+  "units": 6,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A5",
+  "use_description": "Apartment 5 to 14 Units",
+  "year_note": null
+ },
+ "A0086": {
+  "year_built": 1837,
+  "units": 5,
+  "units_min": 4,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "111",
+  "use_description": "4-8-UNIT-APT",
+  "year_note": null
+ },
+ "A0087": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '2,4B-16U-H-X' suggests 16U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "2,4B-16U-H-X",
+  "year_note": "missing in source"
+ },
+ "A0088": {
+  "year_built": 1908,
+  "units": 9,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "FS5",
+  "use_description": "Flat & Store 5 to 14 units",
+  "year_note": null
+ },
+ "A0089": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '5B-10U-H-BA' suggests 10U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "5B-10U-H-BA",
+  "year_note": "missing in source"
+ },
+ "A0090": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units",
+  "use_code": "4C",
+  "use_description": "3S.F.",
+  "year_note": "missing in source"
+ },
+ "A0091": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "Alameda use code described as 5+ units; no count in sample",
+  "use_code": "7700",
+  "use_description": "Alameda County use code (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0092": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "Alameda use code described as 5+ units; no count in sample",
+  "use_code": "7700",
+  "use_description": "Alameda County use code (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0093": {
+  "year_built": 2004,
+  "units": null,
+  "units_min": null,
+  "units_source": "none",
+  "units_note": "Boston code A/118 'ELDERLY HOME': apartment/residential parcel, unit count not in sample (class does not guarantee >=5)",
+  "use_code": "A/118",
+  "use_description": "ELDERLY HOME",
+  "year_note": null
+ },
+ "A0094": {
+  "year_built": null,
+  "units": 88,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "16",
+  "use_description": "SANDAG asr_landuse 14-16 (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0095": {
+  "year_built": 1900,
+  "units": 6,
+  "units_min": 4,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "111",
+  "use_description": "4-8-UNIT-APT",
+  "year_note": null
+ },
+ "A0096": {
+  "year_built": 1910,
+  "units": null,
+  "units_min": null,
+  "units_source": "none",
+  "units_note": "Boston code A/125 'SUBSD HOUSING S- 8': apartment/residential parcel, unit count not in sample (class does not guarantee >=5)",
+  "use_code": "A/125",
+  "use_description": "SUBSD HOUSING S- 8",
+  "year_note": null
+ },
+ "A0097": {
+  "year_built": 1907,
+  "units": 8,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "FS5",
+  "use_description": "Flat & Store 5 to 14 units",
+  "year_note": null
+ },
+ "A0098": {
+  "year_built": null,
+  "units": null,
+  "units_min": null,
+  "units_source": "none",
+  "units_note": "Boston code A/125 'SUBSD HOUSING S- 8': apartment/residential parcel, unit count not in sample (class does not guarantee >=5)",
+  "use_code": "A/125",
+  "use_description": "SUBSD HOUSING S- 8",
+  "year_note": "missing in source"
+ },
+ "A0099": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '4B-5U-H-BA' suggests 5U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "4B-5U-H-BA",
+  "year_note": "missing in source"
+ },
+ "A0100": {
+  "year_built": null,
+  "units": 7,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "14",
+  "use_description": "SANDAG asr_landuse 14-16 (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0101": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '2-4S-B-A-26U-H' suggests 26U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "2-4S-B-A-26U-H",
+  "year_note": "missing in source"
+ },
+ "A0102": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '4B-5U-H-BA' suggests 5U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "4B-5U-H-BA",
+  "year_note": "missing in source"
+ },
+ "A0103": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "Alameda use code described as 5+ units; no count in sample",
+  "use_code": "7700",
+  "use_description": "Alameda County use code (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0104": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units",
+  "use_code": "4C",
+  "use_description": "3SB",
+  "year_note": "missing in source"
+ },
+ "A0105": {
+  "year_built": 2019,
+  "units": 7,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A5",
+  "use_description": "Apartment 5 to 14 Units",
+  "year_note": null
+ },
+ "A0106": {
+  "year_built": null,
+  "units": 60,
+  "units_min": 15,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A15",
+  "use_description": "Apartment 15 Units or more",
+  "year_note": "missing in source"
+ },
+ "A0107": {
+  "year_built": 1978,
+  "units": 20,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0108": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '3S-B-D-6U-H' suggests 6U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "3S-B-D-6U-H",
+  "year_note": "missing in source"
+ },
+ "A0109": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "Alameda use code described as 5+ units; no count in sample",
+  "use_code": "7700",
+  "use_description": "Alameda County use code (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0110": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units",
+  "use_code": "4C",
+  "use_description": "3SF",
+  "year_note": "missing in source"
+ },
+ "A0111": {
+  "year_built": 1984,
+  "units": 40,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0112": {
+  "year_built": 1905,
+  "units": 9,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A5",
+  "use_description": "Apartment 5 to 14 Units",
+  "year_note": null
+ },
+ "A0113": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "Alameda use code described as 5+ units; no count in sample",
+  "use_code": "7700",
+  "use_description": "Alameda County use code (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0114": {
+  "year_built": null,
+  "units": 6,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "14",
+  "use_description": "SANDAG asr_landuse 14-16 (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0115": {
+  "year_built": 1900,
+  "units": 6,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "FS5",
+  "use_description": "Flat & Store 5 to 14 units",
+  "year_note": null
+ },
+ "A0116": {
+  "year_built": 1923,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '3S-F-D-6U-H' suggests 6U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "3S-F-D-6U-H",
+  "year_note": null
+ },
+ "A0117": {
+  "year_built": 1924,
+  "units": 40,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0118": {
+  "year_built": 2009,
+  "units": null,
+  "units_min": null,
+  "units_source": "none",
+  "units_note": "Boston code A/125 'SUBSD HOUSING S- 8': apartment/residential parcel, unit count not in sample (class does not guarantee >=5)",
+  "use_code": "A/125",
+  "use_description": "SUBSD HOUSING S- 8",
+  "year_note": null
+ },
+ "A0119": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units",
+  "use_code": "4C",
+  "use_description": "2F-4U/2F-2U",
+  "year_note": "missing in source"
+ },
+ "A0120": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units",
+  "use_code": "4C",
+  "use_description": "3SF",
+  "year_note": "missing in source"
+ },
+ "A0121": {
+  "year_built": null,
+  "units": 22,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "15",
+  "use_description": "SANDAG asr_landuse 14-16 (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0122": {
+  "year_built": 1909,
+  "units": 8,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0123": {
+  "year_built": 2013,
+  "units": null,
+  "units_min": null,
+  "units_source": "none",
+  "units_note": "Boston code A/125 'SUBSD HOUSING S- 8': apartment/residential parcel, unit count not in sample (class does not guarantee >=5)",
+  "use_code": "A/125",
+  "use_description": "SUBSD HOUSING S- 8",
+  "year_note": null
+ },
+ "A0124": {
+  "year_built": 1929,
+  "units": 16,
+  "units_min": 9,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "112",
+  "use_description": ">8-UNIT-APT",
+  "year_note": null
+ },
+ "A0125": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '5B-5U-H-(CO-OP)' suggests 5U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "5B-5U-H-(CO-OP)",
+  "year_note": "missing in source"
+ },
+ "A0126": {
+  "year_built": 1927,
+  "units": 8,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A5",
+  "use_description": "Apartment 5 to 14 Units",
+  "year_note": null
+ },
+ "A0127": {
+  "year_built": 1964,
+  "units": 5,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "050C",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0128": {
+  "year_built": null,
+  "units": null,
+  "units_min": null,
+  "units_source": "none",
+  "units_note": "Boston code A/125 'SUBSD HOUSING S- 8': apartment/residential parcel, unit count not in sample (class does not guarantee >=5)",
+  "use_code": "A/125",
+  "use_description": "SUBSD HOUSING S- 8",
+  "year_note": "missing in source"
+ },
+ "A0129": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units",
+  "use_code": "4C",
+  "use_description": "3SB1UG",
+  "year_note": "missing in source"
+ },
+ "A0130": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units",
+  "use_code": "4C",
+  "use_description": "3S.B.",
+  "year_note": "missing in source"
+ },
+ "A0131": {
+  "year_built": 1900,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '3S-F-D-6U' suggests 6U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "3S-F-D-6U",
+  "year_note": null
+ },
+ "A0132": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units",
+  "use_code": "4C",
+  "use_description": "3SB",
+  "year_note": "missing in source"
+ },
+ "A0133": {
+  "year_built": 1956,
+  "units": 6,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0134": {
+  "year_built": 1899,
+  "units": null,
+  "units_min": null,
+  "units_source": "none",
+  "units_note": "Boston code A/125 'SUBSD HOUSING S- 8': apartment/residential parcel, unit count not in sample (class does not guarantee >=5)",
+  "use_code": "A/125",
+  "use_description": "SUBSD HOUSING S- 8",
+  "year_note": null
+ },
+ "A0135": {
+  "year_built": 1908,
+  "units": 29,
+  "units_min": 15,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A15",
+  "use_description": "Apartment 15 Units or more",
+  "year_note": null
+ },
+ "A0136": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '5B-26U-H-CO-OP' suggests 26U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "5B-26U-H-CO-OP",
+  "year_note": "missing in source"
+ },
+ "A0137": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units",
+  "use_code": "4C",
+  "use_description": "3SF5UG",
+  "year_note": "missing in source"
+ },
+ "A0138": {
+  "year_built": 1959,
+  "units": 5,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0139": {
+  "year_built": 1910,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '3S-F-5U-NH' suggests 5U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "3S-F-5U-NH",
+  "year_note": null
+ },
+ "A0140": {
+  "year_built": 1910,
+  "units": null,
+  "units_min": 7,
+  "units_source": "use_code_class",
+  "units_note": "A/112 'APT 7-30 UNITS' => 7 to 30 units (units_min=7)",
+  "use_code": "A/112",
+  "use_description": "APT 7-30 UNITS",
+  "year_note": null
+ },
+ "A0141": {
+  "year_built": 1974,
+  "units": 8,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A5",
+  "use_description": "Apartment 5 to 14 Units",
+  "year_note": null
+ },
+ "A0142": {
+  "year_built": 1957,
+  "units": 8,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0143": {
+  "year_built": null,
+  "units": null,
+  "units_min": null,
+  "units_source": "none",
+  "units_note": "Boston code A/125 'SUBSD HOUSING S- 8': apartment/residential parcel, unit count not in sample (class does not guarantee >=5)",
+  "use_code": "A/125",
+  "use_description": "SUBSD HOUSING S- 8",
+  "year_note": "missing in source"
+ },
+ "A0144": {
+  "year_built": 1910,
+  "units": null,
+  "units_min": 7,
+  "units_source": "use_code_class",
+  "units_note": "A/112 'APT 7-30 UNITS' => 7 to 30 units (units_min=7)",
+  "use_code": "A/112",
+  "use_description": "APT 7-30 UNITS",
+  "year_note": null
+ },
+ "A0145": {
+  "year_built": null,
+  "units": 8,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "14",
+  "use_description": "SANDAG asr_landuse 14-16 (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0146": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units",
+  "use_code": "4C",
+  "use_description": "2SF3UG",
+  "year_note": "missing in source"
+ },
+ "A0147": {
+  "year_built": 1900,
+  "units": 5,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A5",
+  "use_description": "Apartment 5 to 14 Units",
+  "year_note": null
+ },
+ "A0148": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units",
+  "use_code": "4C",
+  "use_description": "2.5SF",
+  "year_note": "missing in source"
+ },
+ "A0149": {
+  "year_built": 2023,
+  "units": null,
+  "units_min": null,
+  "units_source": "none",
+  "units_note": "Boston code A/120 'LUXURY APARTMENT': apartment/residential parcel, unit count not in sample (class does not guarantee >=5)",
+  "use_code": "A/120",
+  "use_description": "LUXURY APARTMENT",
+  "year_note": null
+ },
+ "A0150": {
+  "year_built": null,
+  "units": 9,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "14",
+  "use_description": "SANDAG asr_landuse 14-16 (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0151": {
+  "year_built": 1899,
+  "units": null,
+  "units_min": 7,
+  "units_source": "use_code_class",
+  "units_note": "A/112 'APT 7-30 UNITS' => 7 to 30 units (units_min=7)",
+  "use_code": "A/112",
+  "use_description": "APT 7-30 UNITS",
+  "year_note": null
+ },
+ "A0152": {
+  "year_built": null,
+  "units": 12,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "14",
+  "use_description": "SANDAG asr_landuse 14-16 (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0153": {
+  "year_built": 1924,
+  "units": 9,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0154": {
+  "year_built": null,
+  "units": 8,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "14",
+  "use_description": "SANDAG asr_landuse 14-16 (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0155": {
+  "year_built": null,
+  "units": null,
+  "units_min": null,
+  "units_source": "none",
+  "units_note": "Boston code A/125 'SUBSD HOUSING S- 8': apartment/residential parcel, unit count not in sample (class does not guarantee >=5)",
+  "use_code": "A/125",
+  "use_description": "SUBSD HOUSING S- 8",
+  "year_note": "missing in source"
+ },
+ "A0156": {
+  "year_built": 1927,
+  "units": 9,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A5",
+  "use_description": "Apartment 5 to 14 Units",
+  "year_note": null
+ },
+ "A0157": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "Alameda use code described as 5+ units; no count in sample",
+  "use_code": "7700",
+  "use_description": "Alameda County use code (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0158": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "Alameda use code described as 5+ units; no count in sample",
+  "use_code": "7700",
+  "use_description": "Alameda County use code (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0159": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units",
+  "use_code": "4C",
+  "use_description": "3SF",
+  "year_note": "missing in source"
+ },
+ "A0160": {
+  "year_built": 1918,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '3S-B-A-22U' suggests 22U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "3S-B-A-22U",
+  "year_note": null
+ },
+ "A0161": {
+  "year_built": 1930,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '4S-B-A-21U-H' suggests 21U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "4S-B-A-21U-H",
+  "year_note": null
+ },
+ "A0162": {
+  "year_built": 1987,
+  "units": 24,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0163": {
+  "year_built": 1870,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '3&4S-B&F-14U' suggests 14U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "3&4S-B&F-14U",
+  "year_note": null
+ },
+ "A0164": {
+  "year_built": 1911,
+  "units": 6,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A5",
+  "use_description": "Apartment 5 to 14 Units",
+  "year_note": null
+ },
+ "A0165": {
+  "year_built": null,
+  "units": 8,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "14",
+  "use_description": "SANDAG asr_landuse 14-16 (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0166": {
+  "year_built": 1900,
+  "units": 5,
+  "units_min": 4,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "111",
+  "use_description": "4-8-UNIT-APT",
+  "year_note": null
+ },
+ "A0167": {
+  "year_built": null,
+  "units": 20,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "15",
+  "use_description": "SANDAG asr_landuse 14-16 (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0168": {
+  "year_built": 2007,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units",
+  "use_code": "4C",
+  "use_description": "5B-64U/5B-64U-G",
+  "year_note": null
+ },
+ "A0169": {
+  "year_built": 1920,
+  "units": null,
+  "units_min": 7,
+  "units_source": "use_code_class",
+  "units_note": "A/112 'APT 7-30 UNITS' => 7 to 30 units (units_min=7)",
+  "use_code": "A/112",
+  "use_description": "APT 7-30 UNITS",
+  "year_note": null
+ },
+ "A0170": {
+  "year_built": 1990,
+  "units": 32,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0171": {
+  "year_built": 1910,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '3S-B-D-7U-NH' suggests 7U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "3S-B-D-7U-NH",
+  "year_note": null
+ },
+ "A0172": {
+  "year_built": 1960,
+  "units": 33,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0173": {
+  "year_built": 1937,
+  "units": 9,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0174": {
+  "year_built": 1900,
+  "units": 19,
+  "units_min": 9,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "112",
+  "use_description": ">8-UNIT-APT",
+  "year_note": null
+ },
+ "A0175": {
+  "year_built": 1922,
+  "units": 6,
+  "units_min": 4,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "111",
+  "use_description": "4-8-UNIT-APT",
+  "year_note": null
+ },
+ "A0176": {
+  "year_built": 1965,
+  "units": 29,
+  "units_min": 9,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "112",
+  "use_description": ">8-UNIT-APT",
+  "year_note": null
+ },
+ "A0177": {
+  "year_built": 1912,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '3S-F-D-6U-NH' suggests 6U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "3S-F-D-6U-NH",
+  "year_note": null
+ },
+ "A0178": {
+  "year_built": 1961,
+  "units": 7,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0179": {
+  "year_built": 1958,
+  "units": 18,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0180": {
+  "year_built": 1990,
+  "units": 33,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0181": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '5B-10U-BA' suggests 10U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "5B-10U-BA",
+  "year_note": "missing in source"
+ },
+ "A0182": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '2,5B-90U-H-BA' suggests 90U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "2,5B-90U-H-BA",
+  "year_note": "missing in source"
+ },
+ "A0183": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "Alameda use code described as 5+ units; no count in sample",
+  "use_code": "7700",
+  "use_description": "Alameda County use code (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0184": {
+  "year_built": 1907,
+  "units": 16,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0185": {
+  "year_built": 1922,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '3S-F-D-6U-NH' suggests 6U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "3S-F-D-6U-NH",
+  "year_note": null
+ },
+ "A0186": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '3S-F-D-5U-NH' suggests 5U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "3S-F-D-5U-NH",
+  "year_note": "missing in source"
+ },
+ "A0187": {
+  "year_built": 1925,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '3S-F-D-6U-NH' suggests 6U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "3S-F-D-6U-NH",
+  "year_note": null
+ },
+ "A0188": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "Alameda use code described as 5+ units; no count in sample",
+  "use_code": "7700",
+  "use_description": "Alameda County use code (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0189": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "Alameda use code described as 5+ units; no count in sample",
+  "use_code": "7200",
+  "use_description": "Alameda County use code (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0190": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units",
+  "use_code": "4C",
+  "use_description": "3SB",
+  "year_note": "missing in source"
+ },
+ "A0191": {
+  "year_built": 1891,
+  "units": 6,
+  "units_min": 4,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "111",
+  "use_description": "4-8-UNIT-APT",
+  "year_note": null
+ },
+ "A0192": {
+  "year_built": 1916,
+  "units": 36,
+  "units_min": 15,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A15",
+  "use_description": "Apartment 15 Units or more",
+  "year_note": null
+ },
+ "A0193": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "Alameda use code described as 5+ units; no count in sample",
+  "use_code": "7700",
+  "use_description": "Alameda County use code (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0194": {
+  "year_built": 2022,
+  "units": null,
+  "units_min": null,
+  "units_source": "none",
+  "units_note": "Boston code A/125 'SUBSD HOUSING S- 8': apartment/residential parcel, unit count not in sample (class does not guarantee >=5)",
+  "use_code": "A/125",
+  "use_description": "SUBSD HOUSING S- 8",
+  "year_note": null
+ },
+ "A0195": {
+  "year_built": 1910,
+  "units": null,
+  "units_min": 7,
+  "units_source": "use_code_class",
+  "units_note": "A/112 'APT 7-30 UNITS' => 7 to 30 units (units_min=7)",
+  "use_code": "A/112",
+  "use_description": "APT 7-30 UNITS",
+  "year_note": null
+ },
+ "A0196": {
+  "year_built": 1962,
+  "units": 30,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0501",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0197": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "Alameda use code described as 5+ units; no count in sample",
+  "use_code": "7200",
+  "use_description": "Alameda County use code (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0198": {
+  "year_built": 2019,
+  "units": null,
+  "units_min": 7,
+  "units_source": "use_code_class",
+  "units_note": "A/112 'APT 7-30 UNITS' => 7 to 30 units (units_min=7)",
+  "use_code": "A/112",
+  "use_description": "APT 7-30 UNITS",
+  "year_note": null
+ },
+ "A0199": {
+  "year_built": 2012,
+  "units": 5,
+  "units_min": 4,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "111",
+  "use_description": "4-8-UNIT-APT",
+  "year_note": null
+ },
+ "A0200": {
+  "year_built": null,
+  "units": 5,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": "missing in source"
+ },
+ "A0201": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "Alameda use code described as 5+ units; no count in sample",
+  "use_code": "7700",
+  "use_description": "Alameda County use code (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0202": {
+  "year_built": 1907,
+  "units": 6,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A5",
+  "use_description": "Apartment 5 to 14 Units",
+  "year_note": null
+ },
+ "A0203": {
+  "year_built": 2002,
+  "units": null,
+  "units_min": null,
+  "units_source": "none",
+  "units_note": "Boston code A/125 'SUBSD HOUSING S- 8': apartment/residential parcel, unit count not in sample (class does not guarantee >=5)",
+  "use_code": "A/125",
+  "use_description": "SUBSD HOUSING S- 8",
+  "year_note": null
+ },
+ "A0204": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units",
+  "use_code": "4C",
+  "use_description": "3SB",
+  "year_note": "missing in source"
+ },
+ "A0205": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "Alameda use code described as 5+ units; no count in sample",
+  "use_code": "7700",
+  "use_description": "Alameda County use code (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0206": {
+  "year_built": 1929,
+  "units": 21,
+  "units_min": 15,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A15",
+  "use_description": "Apartment 15 Units or more",
+  "year_note": null
+ },
+ "A0207": {
+  "year_built": 1901,
+  "units": 10,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0208": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '4B-8U' suggests 8U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "4B-8U",
+  "year_note": "missing in source"
+ },
+ "A0209": {
+  "year_built": 1910,
+  "units": 6,
+  "units_min": 4,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "111",
+  "use_description": "4-8-UNIT-APT",
+  "year_note": null
+ },
+ "A0210": {
+  "year_built": 2016,
+  "units": 9,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0211": {
+  "year_built": 1899,
+  "units": null,
+  "units_min": 7,
+  "units_source": "use_code_class",
+  "units_note": "A/112 'APT 7-30 UNITS' => 7 to 30 units (units_min=7)",
+  "use_code": "A/112",
+  "use_description": "APT 7-30 UNITS",
+  "year_note": null
+ },
+ "A0212": {
+  "year_built": 1900,
+  "units": 5,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A5",
+  "use_description": "Apartment 5 to 14 Units",
+  "year_note": null
+ },
+ "A0213": {
+  "year_built": 1986,
+  "units": 7,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0214": {
+  "year_built": 1900,
+  "units": 6,
+  "units_min": 4,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "111",
+  "use_description": "4-8-UNIT-APT",
+  "year_note": null
+ },
+ "A0215": {
+  "year_built": 1924,
+  "units": 21,
+  "units_min": 15,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A15",
+  "use_description": "Apartment 15 Units or more",
+  "year_note": null
+ },
+ "A0216": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "Alameda use code described as 5+ units; no count in sample",
+  "use_code": "7700",
+  "use_description": "Alameda County use code (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0217": {
+  "year_built": 2011,
+  "units": null,
+  "units_min": null,
+  "units_source": "none",
+  "units_note": "Boston code A/125 'SUBSD HOUSING S- 8': apartment/residential parcel, unit count not in sample (class does not guarantee >=5)",
+  "use_code": "A/125",
+  "use_description": "SUBSD HOUSING S- 8",
+  "year_note": null
+ },
+ "A0218": {
+  "year_built": 1910,
+  "units": 46,
+  "units_min": 9,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "112",
+  "use_description": ">8-UNIT-APT",
+  "year_note": null
+ },
+ "A0219": {
+  "year_built": null,
+  "units": 8,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "14",
+  "use_description": "SANDAG asr_landuse 14-16 (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0220": {
+  "year_built": 1900,
+  "units": null,
+  "units_min": null,
+  "units_source": "none",
+  "units_note": "Boston code A/125 'SUBSD HOUSING S- 8': apartment/residential parcel, unit count not in sample (class does not guarantee >=5)",
+  "use_code": "A/125",
+  "use_description": "SUBSD HOUSING S- 8",
+  "year_note": null
+ },
+ "A0221": {
+  "year_built": 1910,
+  "units": null,
+  "units_min": 7,
+  "units_source": "use_code_class",
+  "units_note": "A/112 'APT 7-30 UNITS' => 7 to 30 units (units_min=7)",
+  "use_code": "A/112",
+  "use_description": "APT 7-30 UNITS",
+  "year_note": null
+ },
+ "A0222": {
+  "year_built": 1960,
+  "units": 8,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A5",
+  "use_description": "Apartment 5 to 14 Units",
+  "year_note": null
+ },
+ "A0223": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '4B-5U-H-BA' suggests 5U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "4B-5U-H-BA",
+  "year_note": "missing in source"
+ },
+ "A0224": {
+  "year_built": 1960,
+  "units": 13,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0225": {
+  "year_built": 1913,
+  "units": 9,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A5",
+  "use_description": "Apartment 5 to 14 Units",
+  "year_note": null
+ },
+ "A0226": {
+  "year_built": 1905,
+  "units": null,
+  "units_min": null,
+  "units_source": "none",
+  "units_note": "Boston code A/125 'SUBSD HOUSING S- 8': apartment/residential parcel, unit count not in sample (class does not guarantee >=5)",
+  "use_code": "A/125",
+  "use_description": "SUBSD HOUSING S- 8",
+  "year_note": null
+ },
+ "A0227": {
+  "year_built": 2010,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "assessor units=2 conflicts with class 4C (>=5) and description '13B-93U-2C-G' (93U): unreliable, units nulled; NJ property class 4C = apartments, 5 or more units; description '13B-93U-2C-G' suggests 93U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "13B-93U-2C-G",
+  "year_note": null
+ },
+ "A0228": {
+  "year_built": 1907,
+  "units": 5,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A5",
+  "use_description": "Apartment 5 to 14 Units",
+  "year_note": null
+ },
+ "A0229": {
+  "year_built": 1914,
+  "units": 6,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A5",
+  "use_description": "Apartment 5 to 14 Units",
+  "year_note": null
+ },
+ "A0230": {
+  "year_built": 1996,
+  "units": 18,
+  "units_min": 9,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "112",
+  "use_description": ">8-UNIT-APT",
+  "year_note": null
+ },
+ "A0231": {
+  "year_built": 1971,
+  "units": 6,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A5",
+  "use_description": "Apartment 5 to 14 Units",
+  "year_note": null
+ },
+ "A0232": {
+  "year_built": 1900,
+  "units": 6,
+  "units_min": 4,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "111",
+  "use_description": "4-8-UNIT-APT",
+  "year_note": null
+ },
+ "A0233": {
+  "year_built": 1920,
+  "units": null,
+  "units_min": 7,
+  "units_source": "use_code_class",
+  "units_note": "A/112 'APT 7-30 UNITS' => 7 to 30 units (units_min=7)",
+  "use_code": "A/112",
+  "use_description": "APT 7-30 UNITS",
+  "year_note": null
+ },
+ "A0234": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "Alameda use code described as 5+ units; no count in sample",
+  "use_code": "7700",
+  "use_description": "Alameda County use code (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0235": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "LA use code 05xx 'Five or more apartments' => >=5",
+  "use_code": "050V",
+  "use_description": "Five or more apartments",
+  "year_note": "missing in source"
+ },
+ "A0236": {
+  "year_built": 1961,
+  "units": 9,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A5",
+  "use_description": "Apartment 5 to 14 Units",
+  "year_note": null
+ },
+ "A0237": {
+  "year_built": 1927,
+  "units": 12,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A5",
+  "use_description": "Apartment 5 to 14 Units",
+  "year_note": null
+ },
+ "A0238": {
+  "year_built": 1957,
+  "units": 6,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0239": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "Alameda use code described as 5+ units; no count in sample",
+  "use_code": "7700",
+  "use_description": "Alameda County use code (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0240": {
+  "year_built": null,
+  "units": 7,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "14",
+  "use_description": "SANDAG asr_landuse 14-16 (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0241": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '5B-14U-H-BA' suggests 14U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "5B-14U-H-BA",
+  "year_note": "missing in source"
+ },
+ "A0242": {
+  "year_built": 1960,
+  "units": null,
+  "units_min": 7,
+  "units_source": "use_code_class",
+  "units_note": "A/112 'APT 7-30 UNITS' => 7 to 30 units (units_min=7)",
+  "use_code": "A/112",
+  "use_description": "APT 7-30 UNITS",
+  "year_note": null
+ },
+ "A0243": {
+  "year_built": 1910,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '3S+BT-F-6U' suggests 6U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "3S+BT-F-6U",
+  "year_note": null
+ },
+ "A0244": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '5B-12U-1BX-H-BA' suggests 12U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "5B-12U-1BX-H-BA",
+  "year_note": "missing in source"
+ },
+ "A0245": {
+  "year_built": 2018,
+  "units": null,
+  "units_min": null,
+  "units_source": "none",
+  "units_note": "Boston code A/120 'LUXURY APARTMENT': apartment/residential parcel, unit count not in sample (class does not guarantee >=5)",
+  "use_code": "A/120",
+  "use_description": "LUXURY APARTMENT",
+  "year_note": null
+ },
+ "A0246": {
+  "year_built": null,
+  "units": 8,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "14",
+  "use_description": "SANDAG asr_landuse 14-16 (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0247": {
+  "year_built": null,
+  "units": 10,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "14",
+  "use_description": "SANDAG asr_landuse 14-16 (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0248": {
+  "year_built": 1923,
+  "units": 24,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0249": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units",
+  "use_code": "4C",
+  "use_description": "3SF4UG",
+  "year_note": "missing in source"
+ },
+ "A0250": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '6S-B+F-45U-17G' suggests 45U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "6S-B+F-45U-17G",
+  "year_note": "missing in source"
+ },
+ "A0251": {
+  "year_built": null,
+  "units": 8,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "14",
+  "use_description": "SANDAG asr_landuse 14-16 (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0252": {
+  "year_built": 1984,
+  "units": 6,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0253": {
+  "year_built": 1928,
+  "units": 7,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A5",
+  "use_description": "Apartment 5 to 14 Units",
+  "year_note": null
+ },
+ "A0254": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '4B-9U-H-BA' suggests 9U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "4B-9U-H-BA",
+  "year_note": "missing in source"
+ },
+ "A0255": {
+  "year_built": 1923,
+  "units": 8,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0256": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '5B-20U-H' suggests 20U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "5B-20U-H",
+  "year_note": "missing in source"
+ },
+ "A0257": {
+  "year_built": null,
+  "units": 6,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A5",
+  "use_description": "Apartment 5 to 14 Units",
+  "year_note": "missing in source"
+ },
+ "A0258": {
+  "year_built": 1930,
+  "units": null,
+  "units_min": null,
+  "units_source": "none",
+  "units_note": "Boston code A/125 'SUBSD HOUSING S- 8': apartment/residential parcel, unit count not in sample (class does not guarantee >=5)",
+  "use_code": "A/125",
+  "use_description": "SUBSD HOUSING S- 8",
+  "year_note": null
+ },
+ "A0259": {
+  "year_built": 1900,
+  "units": 5,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "FS5",
+  "use_description": "Flat & Store 5 to 14 units",
+  "year_note": null
+ },
+ "A0260": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "Alameda use code described as 5+ units; no count in sample",
+  "use_code": "7700",
+  "use_description": "Alameda County use code (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0261": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units",
+  "use_code": "4C",
+  "use_description": "5B-1OU",
+  "year_note": "missing in source"
+ },
+ "A0262": {
+  "year_built": null,
+  "units": 18,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "15",
+  "use_description": "SANDAG asr_landuse 14-16 (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0263": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "Alameda use code described as 5+ units; no count in sample",
+  "use_code": "7700",
+  "use_description": "Alameda County use code (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0264": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units",
+  "use_code": "4C",
+  "use_description": "5SB",
+  "year_note": "missing in source"
+ },
+ "A0265": {
+  "year_built": 1912,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '3S-B-A-13U-H' suggests 13U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "3S-B-A-13U-H",
+  "year_note": null
+ },
+ "A0266": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '4S-B-D-8U-NH' suggests 8U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "4S-B-D-8U-NH",
+  "year_note": "missing in source"
+ },
+ "A0267": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "LA use code 05xx 'Five or more apartments' => >=5",
+  "use_code": "050V",
+  "use_description": "Five or more apartments",
+  "year_note": "missing in source"
+ },
+ "A0268": {
+  "year_built": 1914,
+  "units": 7,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A5",
+  "use_description": "Apartment 5 to 14 Units",
+  "year_note": null
+ },
+ "A0269": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '5B-14U' suggests 14U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "5B-14U",
+  "year_note": "missing in source"
+ },
+ "A0270": {
+  "year_built": 1890,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '4S-B-8U-H' suggests 8U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "4S-B-8U-H",
+  "year_note": null
+ },
+ "A0271": {
+  "year_built": 1928,
+  "units": 13,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A5",
+  "use_description": "Apartment 5 to 14 Units",
+  "year_note": null
+ },
+ "A0272": {
+  "year_built": 1890,
+  "units": 6,
+  "units_min": 4,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "111",
+  "use_description": "4-8-UNIT-APT",
+  "year_note": null
+ },
+ "A0273": {
+  "year_built": null,
+  "units": 10,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "14",
+  "use_description": "SANDAG asr_landuse 14-16 (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0274": {
+  "year_built": null,
+  "units": 6,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "14",
+  "use_description": "SANDAG asr_landuse 14-16 (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0275": {
+  "year_built": null,
+  "units": 7,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "14",
+  "use_description": "SANDAG asr_landuse 14-16 (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0276": {
+  "year_built": null,
+  "units": 6,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "14",
+  "use_description": "SANDAG asr_landuse 14-16 (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0277": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "Alameda use code described as 5+ units; no count in sample",
+  "use_code": "7700",
+  "use_description": "Alameda County use code (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0278": {
+  "year_built": 1919,
+  "units": 17,
+  "units_min": 15,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A15",
+  "use_description": "Apartment 15 Units or more",
+  "year_note": null
+ },
+ "A0279": {
+  "year_built": 1925,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '4S-B-A-17U' suggests 17U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "4S-B-A-17U",
+  "year_note": null
+ },
+ "A0280": {
+  "year_built": 1971,
+  "units": 6,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A5",
+  "use_description": "Apartment 5 to 14 Units",
+  "year_note": null
+ },
+ "A0281": {
+  "year_built": 1946,
+  "units": 20,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0282": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "Alameda use code described as 5+ units; no count in sample",
+  "use_code": "7700",
+  "use_description": "Alameda County use code (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0283": {
+  "year_built": 1986,
+  "units": 51,
+  "units_min": 15,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A15",
+  "use_description": "Apartment 15 Units or more",
+  "year_note": null
+ },
+ "A0284": {
+  "year_built": 1920,
+  "units": 9,
+  "units_min": 9,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "112",
+  "use_description": ">8-UNIT-APT",
+  "year_note": null
+ },
+ "A0285": {
+  "year_built": null,
+  "units": 8,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": "missing in source"
+ },
+ "A0286": {
+  "year_built": 1925,
+  "units": 29,
+  "units_min": 9,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "112",
+  "use_description": ">8-UNIT-APT",
+  "year_note": null
+ },
+ "A0287": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '4B-7U-H-BA' suggests 7U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "4B-7U-H-BA",
+  "year_note": "missing in source"
+ },
+ "A0288": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '3S-B-12U' suggests 12U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "3S-B-12U",
+  "year_note": "missing in source"
+ },
+ "A0289": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "Alameda use code described as 5+ units; no count in sample",
+  "use_code": "7700",
+  "use_description": "Alameda County use code (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0290": {
+  "year_built": 1880,
+  "units": 10,
+  "units_min": 9,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "112",
+  "use_description": ">8-UNIT-APT",
+  "year_note": null
+ },
+ "A0291": {
+  "year_built": 2014,
+  "units": 244,
+  "units_min": 9,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "112",
+  "use_description": ">8-UNIT-APT",
+  "year_note": null
+ },
+ "A0292": {
+  "year_built": 2019,
+  "units": 6,
+  "units_min": 4,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "111",
+  "use_description": "4-8-UNIT-APT",
+  "year_note": null
+ },
+ "A0293": {
+  "year_built": 1907,
+  "units": 6,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A5",
+  "use_description": "Apartment 5 to 14 Units",
+  "year_note": null
+ },
+ "A0294": {
+  "year_built": 1920,
+  "units": 6,
+  "units_min": 4,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "111",
+  "use_description": "4-8-UNIT-APT",
+  "year_note": null
+ },
+ "A0295": {
+  "year_built": 2019,
+  "units": null,
+  "units_min": null,
+  "units_source": "none",
+  "units_note": "Boston code A/125 'SUBSD HOUSING S- 8': apartment/residential parcel, unit count not in sample (class does not guarantee >=5)",
+  "use_code": "A/125",
+  "use_description": "SUBSD HOUSING S- 8",
+  "year_note": null
+ },
+ "A0296": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units",
+  "use_code": "4C",
+  "use_description": "4SB",
+  "year_note": "missing in source"
+ },
+ "A0297": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units",
+  "use_code": "4C",
+  "use_description": "4SB",
+  "year_note": "missing in source"
+ },
+ "A0298": {
+  "year_built": 1900,
+  "units": 6,
+  "units_min": 4,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "111",
+  "use_description": "4-8-UNIT-APT",
+  "year_note": null
+ },
+ "A0299": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '4B-8U-BA' suggests 8U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "4B-8U-BA",
+  "year_note": "missing in source"
+ },
+ "A0300": {
+  "year_built": 1920,
+  "units": 5,
+  "units_min": 4,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "111",
+  "use_description": "4-8-UNIT-APT",
+  "year_note": null
+ },
+ "A0301": {
+  "year_built": 1905,
+  "units": 6,
+  "units_min": 4,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "111",
+  "use_description": "4-8-UNIT-APT",
+  "year_note": null
+ },
+ "A0302": {
+  "year_built": 1900,
+  "units": 8,
+  "units_min": 4,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "111",
+  "use_description": "4-8-UNIT-APT",
+  "year_note": null
+ },
+ "A0303": {
+  "year_built": 1909,
+  "units": 10,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0304": {
+  "year_built": null,
+  "units": 7,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "14",
+  "use_description": "SANDAG asr_landuse 14-16 (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0305": {
+  "year_built": 1908,
+  "units": 5,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A5",
+  "use_description": "Apartment 5 to 14 Units",
+  "year_note": null
+ },
+ "A0306": {
+  "year_built": 1920,
+  "units": 17,
+  "units_min": 9,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "112",
+  "use_description": ">8-UNIT-APT",
+  "year_note": null
+ },
+ "A0307": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units",
+  "use_code": "4C",
+  "use_description": "3SB3UG",
+  "year_note": "missing in source"
+ },
+ "A0308": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '5B-11U-H-BA-G' suggests 11U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "5B-11U-H-BA-G",
+  "year_note": "missing in source"
+ },
+ "A0309": {
+  "year_built": 1951,
+  "units": 6,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0310": {
+  "year_built": 1900,
+  "units": null,
+  "units_min": 7,
+  "units_source": "use_code_class",
+  "units_note": "A/112 'APT 7-30 UNITS' => 7 to 30 units (units_min=7)",
+  "use_code": "A/112",
+  "use_description": "APT 7-30 UNITS",
+  "year_note": null
+ },
+ "A0311": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units",
+  "use_code": "4C",
+  "use_description": "2.5S.F.",
+  "year_note": "missing in source"
+ },
+ "A0312": {
+  "year_built": 1965,
+  "units": null,
+  "units_min": null,
+  "units_source": "none",
+  "units_note": "Boston code A/125 'SUBSD HOUSING S- 8': apartment/residential parcel, unit count not in sample (class does not guarantee >=5)",
+  "use_code": "A/125",
+  "use_description": "SUBSD HOUSING S- 8",
+  "year_note": null
+ },
+ "A0313": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units",
+  "use_code": "4C",
+  "use_description": "3SF",
+  "year_note": "missing in source"
+ },
+ "A0314": {
+  "year_built": 1919,
+  "units": 7,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0315": {
+  "year_built": 1990,
+  "units": 8,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0316": {
+  "year_built": null,
+  "units": 8,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "14",
+  "use_description": "SANDAG asr_landuse 14-16 (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0317": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "Alameda use code described as 5+ units; no count in sample",
+  "use_code": "7700",
+  "use_description": "Alameda County use code (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0318": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "Alameda use code described as 5+ units; no count in sample",
+  "use_code": "7700",
+  "use_description": "Alameda County use code (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0319": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "Alameda use code described as 5+ units; no count in sample",
+  "use_code": "7700",
+  "use_description": "Alameda County use code (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0320": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '4F-6U' suggests 6U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "4F-6U",
+  "year_note": "missing in source"
+ },
+ "A0321": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '3S-F-D-7U-NH' suggests 7U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "3S-F-D-7U-NH",
+  "year_note": "missing in source"
+ },
+ "A0322": {
+  "year_built": null,
+  "units": 31,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "15",
+  "use_description": "SANDAG asr_landuse 14-16 (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0323": {
+  "year_built": 1907,
+  "units": 5,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0324": {
+  "year_built": 1885,
+  "units": 6,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A5",
+  "use_description": "Apartment 5 to 14 Units",
+  "year_note": null
+ },
+ "A0325": {
+  "year_built": 1925,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '4S-B-A-21U' suggests 21U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "4S-B-A-21U",
+  "year_note": null
+ },
+ "A0326": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units",
+  "use_code": "4C",
+  "use_description": "4SB",
+  "year_note": "missing in source"
+ },
+ "A0327": {
+  "year_built": 1954,
+  "units": 36,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0501",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0328": {
+  "year_built": 1960,
+  "units": 6,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A5",
+  "use_description": "Apartment 5 to 14 Units",
+  "year_note": null
+ },
+ "A0329": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units",
+  "use_code": "4C",
+  "use_description": "3SB",
+  "year_note": "missing in source"
+ },
+ "A0330": {
+  "year_built": 2018,
+  "units": 24,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0331": {
+  "year_built": 1910,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units",
+  "use_code": "4C",
+  "use_description": "2.5SF4UG",
+  "year_note": null
+ },
+ "A0332": {
+  "year_built": null,
+  "units": null,
+  "units_min": null,
+  "units_source": "none",
+  "units_note": "Boston code A/125 'SUBSD HOUSING S- 8': apartment/residential parcel, unit count not in sample (class does not guarantee >=5)",
+  "use_code": "A/125",
+  "use_description": "SUBSD HOUSING S- 8",
+  "year_note": "missing in source"
+ },
+ "A0333": {
+  "year_built": null,
+  "units": 8,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "14",
+  "use_description": "SANDAG asr_landuse 14-16 (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0334": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "Alameda use code described as 5+ units; no count in sample",
+  "use_code": "7700",
+  "use_description": "Alameda County use code (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0335": {
+  "year_built": 1968,
+  "units": 10,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A5",
+  "use_description": "Apartment 5 to 14 Units",
+  "year_note": null
+ },
+ "A0336": {
+  "year_built": 2020,
+  "units": 468,
+  "units_min": 9,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "112",
+  "use_description": "MXD >8-UNIT-APT",
+  "year_note": null
+ },
+ "A0337": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units",
+  "use_code": "4C",
+  "use_description": "4S.B",
+  "year_note": "missing in source"
+ },
+ "A0338": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units",
+  "use_code": "4C",
+  "use_description": "3SF",
+  "year_note": "missing in source"
+ },
+ "A0339": {
+  "year_built": 1920,
+  "units": 8,
+  "units_min": 4,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "111",
+  "use_description": "4-8-UNIT-APT",
+  "year_note": null
+ },
+ "A0340": {
+  "year_built": 1959,
+  "units": 50,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0341": {
+  "year_built": null,
+  "units": 6,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "14",
+  "use_description": "SANDAG asr_landuse 14-16 (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0342": {
+  "year_built": 1910,
+  "units": 6,
+  "units_min": 4,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "111",
+  "use_description": "4-8-UNIT-APT",
+  "year_note": null
+ },
+ "A0343": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units",
+  "use_code": "4C",
+  "use_description": "4SB",
+  "year_note": "missing in source"
+ },
+ "A0344": {
+  "year_built": 1928,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '4S-B-44U' suggests 44U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "4S-B-44U",
+  "year_note": null
+ },
+ "A0345": {
+  "year_built": 1921,
+  "units": 5,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0346": {
+  "year_built": null,
+  "units": 8,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "14",
+  "use_description": "SANDAG asr_landuse 14-16 (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0347": {
+  "year_built": null,
+  "units": 9,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "14",
+  "use_description": "SANDAG asr_landuse 14-16 (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0348": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '4F-7U' suggests 7U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "4F-7U",
+  "year_note": "missing in source"
+ },
+ "A0349": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "Alameda use code described as 5+ units; no count in sample",
+  "use_code": "7700",
+  "use_description": "Alameda County use code (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0350": {
+  "year_built": 1900,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '3S-B-D-6U-NH' suggests 6U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "3S-B-D-6U-NH",
+  "year_note": null
+ },
+ "A0351": {
+  "year_built": 1907,
+  "units": 7,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A5",
+  "use_description": "Apartment 5 to 14 Units",
+  "year_note": null
+ },
+ "A0352": {
+  "year_built": 1900,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units",
+  "use_code": "4C",
+  "use_description": "3SB",
+  "year_note": null
+ },
+ "A0353": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "LA use code 05xx 'Five or more apartments' => >=5",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": "missing in source"
+ },
+ "A0354": {
+  "year_built": 1899,
+  "units": null,
+  "units_min": 7,
+  "units_source": "use_code_class",
+  "units_note": "A/112 'APT 7-30 UNITS' => 7 to 30 units (units_min=7)",
+  "use_code": "A/112",
+  "use_description": "APT 7-30 UNITS",
+  "year_note": null
+ },
+ "A0355": {
+  "year_built": 1986,
+  "units": 7,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0356": {
+  "year_built": 1930,
+  "units": null,
+  "units_min": 7,
+  "units_source": "use_code_class",
+  "units_note": "A/112 'APT 7-30 UNITS' => 7 to 30 units (units_min=7)",
+  "use_code": "A/112",
+  "use_description": "APT 7-30 UNITS",
+  "year_note": null
+ },
+ "A0357": {
+  "year_built": 1997,
+  "units": 29,
+  "units_min": 15,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A15",
+  "use_description": "Apartment 15 Units or more",
+  "year_note": null
+ },
+ "A0358": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units",
+  "use_code": "4C",
+  "use_description": "3SB-2UG",
+  "year_note": "missing in source"
+ },
+ "A0359": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '5B-10U-H-BA' suggests 10U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "5B-10U-H-BA",
+  "year_note": "missing in source"
+ },
+ "A0360": {
+  "year_built": 1924,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '3S-B-A-14U-H' suggests 14U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "3S-B-A-14U-H",
+  "year_note": null
+ },
+ "A0361": {
+  "year_built": 1915,
+  "units": 6,
+  "units_min": 4,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "111",
+  "use_description": "4-8-UNIT-APT",
+  "year_note": null
+ },
+ "A0362": {
+  "year_built": 1920,
+  "units": null,
+  "units_min": 7,
+  "units_source": "use_code_class",
+  "units_note": "A/112 'APT 7-30 UNITS' => 7 to 30 units (units_min=7)",
+  "use_code": "A/112",
+  "use_description": "APT 7-30 UNITS",
+  "year_note": null
+ },
+ "A0363": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "Alameda use code described as 5+ units; no count in sample",
+  "use_code": "7700",
+  "use_description": "Alameda County use code (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0364": {
+  "year_built": 1964,
+  "units": 6,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A5",
+  "use_description": "Apartment 5 to 14 Units",
+  "year_note": null
+ },
+ "A0365": {
+  "year_built": null,
+  "units": 12,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "14",
+  "use_description": "SANDAG asr_landuse 14-16 (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0366": {
+  "year_built": 2024,
+  "units": null,
+  "units_min": null,
+  "units_source": "none",
+  "units_note": "Boston code A/120 'LUXURY APARTMENT': apartment/residential parcel, unit count not in sample (class does not guarantee >=5)",
+  "use_code": "A/120",
+  "use_description": "LUXURY APARTMENT",
+  "year_note": null
+ },
+ "A0367": {
+  "year_built": null,
+  "units": 7,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "14",
+  "use_description": "SANDAG asr_landuse 14-16 (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0368": {
+  "year_built": 1926,
+  "units": 12,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A5",
+  "use_description": "Apartment 5 to 14 Units",
+  "year_note": null
+ },
+ "A0369": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "Alameda use code described as 5+ units; no count in sample",
+  "use_code": "7700",
+  "use_description": "Alameda County use code (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0370": {
+  "year_built": 1924,
+  "units": 6,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0371": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units",
+  "use_code": "4C",
+  "use_description": "USCB16UG",
+  "year_note": "missing in source"
+ },
+ "A0372": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '4S-B-D-7U-NH-G' suggests 7U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "4S-B-D-7U-NH-G",
+  "year_note": "missing in source"
+ },
+ "A0373": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "Alameda use code described as 5+ units; no count in sample",
+  "use_code": "7200",
+  "use_description": "Alameda County use code (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0374": {
+  "year_built": 1990,
+  "units": 15,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0375": {
+  "year_built": 1921,
+  "units": 9,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A5",
+  "use_description": "Apartment 5 to 14 Units",
+  "year_note": null
+ },
+ "A0376": {
+  "year_built": null,
+  "units": null,
+  "units_min": null,
+  "units_source": "none",
+  "units_note": "Boston code A/125 'SUBSD HOUSING S- 8': apartment/residential parcel, unit count not in sample (class does not guarantee >=5)",
+  "use_code": "A/125",
+  "use_description": "SUBSD HOUSING S- 8",
+  "year_note": "missing in source"
+ },
+ "A0377": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '5B-14U-H-BA' suggests 14U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "5B-14U-H-BA",
+  "year_note": "missing in source"
+ },
+ "A0378": {
+  "year_built": null,
+  "units": 9,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "14",
+  "use_description": "SANDAG asr_landuse 14-16 (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0379": {
+  "year_built": null,
+  "units": 12,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "14",
+  "use_description": "SANDAG asr_landuse 14-16 (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0380": {
+  "year_built": null,
+  "units": null,
+  "units_min": null,
+  "units_source": "none",
+  "units_note": "Boston code A/125 'SUBSD HOUSING S- 8': apartment/residential parcel, unit count not in sample (class does not guarantee >=5)",
+  "use_code": "A/125",
+  "use_description": "SUBSD HOUSING S- 8",
+  "year_note": "missing in source"
+ },
+ "A0381": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units",
+  "use_code": "4C",
+  "use_description": "3S.B.",
+  "year_note": "missing in source"
+ },
+ "A0382": {
+  "year_built": 1964,
+  "units": 10,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A5",
+  "use_description": "Apartment 5 to 14 Units",
+  "year_note": null
+ },
+ "A0383": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "Alameda use code described as 5+ units; no count in sample",
+  "use_code": "7700",
+  "use_description": "Alameda County use code (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0384": {
+  "year_built": 1925,
+  "units": 7,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A5",
+  "use_description": "Apartment 5 to 14 Units",
+  "year_note": null
+ },
+ "A0385": {
+  "year_built": 1986,
+  "units": 16,
+  "units_min": 15,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A15",
+  "use_description": "Apartment 15 Units or more",
+  "year_note": null
+ },
+ "A0386": {
+  "year_built": null,
+  "units": 7,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "14",
+  "use_description": "SANDAG asr_landuse 14-16 (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0387": {
+  "year_built": null,
+  "units": 152,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "16",
+  "use_description": "SANDAG asr_landuse 14-16 (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0388": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '3S-F-D-6U-H' suggests 6U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "3S-F-D-6U-H",
+  "year_note": "missing in source"
+ },
+ "A0389": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '5B-10U-H-BA' suggests 10U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "5B-10U-H-BA",
+  "year_note": "missing in source"
+ },
+ "A0390": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units",
+  "use_code": "4C",
+  "use_description": "3S.F.",
+  "year_note": "missing in source"
+ },
+ "A0391": {
+  "year_built": null,
+  "units": 9,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "14",
+  "use_description": "SANDAG asr_landuse 14-16 (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0392": {
+  "year_built": null,
+  "units": 7,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "14",
+  "use_description": "SANDAG asr_landuse 14-16 (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0393": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '4S-BA-21U-H' suggests 21U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "4S-BA-21U-H",
+  "year_note": "missing in source"
+ },
+ "A0394": {
+  "year_built": 1912,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '3S-B-A-13U-H' suggests 13U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "3S-B-A-13U-H",
+  "year_note": null
+ },
+ "A0395": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "Alameda use code described as 5+ units; no count in sample",
+  "use_code": "7700",
+  "use_description": "Alameda County use code (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0396": {
+  "year_built": null,
+  "units": 6,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "14",
+  "use_description": "SANDAG asr_landuse 14-16 (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0397": {
+  "year_built": 1900,
+  "units": 21,
+  "units_min": 15,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A15",
+  "use_description": "Apartment 15 Units or more",
+  "year_note": null
+ },
+ "A0398": {
+  "year_built": 1908,
+  "units": 5,
+  "units_min": null,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor; TIC building 4 units or less per class",
+  "use_code": "TIC",
+  "use_description": "TIC Bldg 4 units or less",
+  "year_note": null
+ },
+ "A0399": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '4B-9U' suggests 9U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "4B-9U",
+  "year_note": "missing in source"
+ },
+ "A0400": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units",
+  "use_code": "4C",
+  "use_description": "3SB",
+  "year_note": "missing in source"
+ },
+ "A0401": {
+  "year_built": 1908,
+  "units": 6,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A5",
+  "use_description": "Apartment 5 to 14 Units",
+  "year_note": null
+ },
+ "A0402": {
+  "year_built": 1900,
+  "units": 5,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "F5",
+  "use_description": "Flats 5 to 14 units",
+  "year_note": null
+ },
+ "A0403": {
+  "year_built": 1899,
+  "units": null,
+  "units_min": null,
+  "units_source": "none",
+  "units_note": "Boston code A/125 'SUBSD HOUSING S- 8': apartment/residential parcel, unit count not in sample (class does not guarantee >=5)",
+  "use_code": "A/125",
+  "use_description": "SUBSD HOUSING S- 8",
+  "year_note": null
+ },
+ "A0404": {
+  "year_built": 1900,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '3S-F-D-8U-H' suggests 8U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "3S-F-D-8U-H",
+  "year_note": null
+ },
+ "A0405": {
+  "year_built": 2008,
+  "units": 6,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0406": {
+  "year_built": 1899,
+  "units": null,
+  "units_min": null,
+  "units_source": "none",
+  "units_note": "Boston code A/125 'SUBSD HOUSING S- 8': apartment/residential parcel, unit count not in sample (class does not guarantee >=5)",
+  "use_code": "A/125",
+  "use_description": "SUBSD HOUSING S- 8",
+  "year_note": null
+ },
+ "A0407": {
+  "year_built": 1964,
+  "units": 10,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0408": {
+  "year_built": 1964,
+  "units": 23,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0409": {
+  "year_built": null,
+  "units": 5,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "14",
+  "use_description": "SANDAG asr_landuse 14-16 (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0410": {
+  "year_built": 1920,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '4-S-BT-21U-H' suggests 21U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "4-S-BT-21U-H",
+  "year_note": null
+ },
+ "A0411": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "Alameda use code described as 5+ units; no count in sample",
+  "use_code": "7200",
+  "use_description": "Alameda County use code (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0412": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units",
+  "use_code": "4C",
+  "use_description": "3SF",
+  "year_note": "missing in source"
+ },
+ "A0413": {
+  "year_built": null,
+  "units": 8,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "14",
+  "use_description": "SANDAG asr_landuse 14-16 (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0414": {
+  "year_built": 1922,
+  "units": 9,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A5",
+  "use_description": "Apartment 5 to 14 Units",
+  "year_note": null
+ },
+ "A0415": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '4S-B-A-46U-H' suggests 46U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "4S-B-A-46U-H",
+  "year_note": "missing in source"
+ },
+ "A0416": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '5S-BT-B-C-21U-H' suggests 21U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "5S-BT-B-C-21U-H",
+  "year_note": "missing in source"
+ },
+ "A0417": {
+  "year_built": null,
+  "units": 5,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": "missing in source"
+ },
+ "A0418": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '3S-FD-12U-H' suggests 12U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "3S-FD-12U-H",
+  "year_note": "missing in source"
+ },
+ "A0419": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "Alameda use code described as 5+ units; no count in sample",
+  "use_code": "7700",
+  "use_description": "Alameda County use code (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0420": {
+  "year_built": null,
+  "units": 10,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "14",
+  "use_description": "SANDAG asr_landuse 14-16 (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0421": {
+  "year_built": 1964,
+  "units": 6,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0422": {
+  "year_built": 1900,
+  "units": 6,
+  "units_min": 4,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "111",
+  "use_description": "4-8-UNIT-APT",
+  "year_note": null
+ },
+ "A0423": {
+  "year_built": 1965,
+  "units": null,
+  "units_min": 7,
+  "units_source": "use_code_class",
+  "units_note": "A/112 'APT 7-30 UNITS' => 7 to 30 units (units_min=7)",
+  "use_code": "A/112",
+  "use_description": "APT 7-30 UNITS",
+  "year_note": null
+ },
+ "A0424": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '4F-8U' suggests 8U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "4F-8U",
+  "year_note": "missing in source"
+ },
+ "A0425": {
+  "year_built": 1916,
+  "units": 23,
+  "units_min": 15,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A15",
+  "use_description": "Apartment 15 Units or more",
+  "year_note": null
+ },
+ "A0426": {
+  "year_built": null,
+  "units": 12,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "14",
+  "use_description": "SANDAG asr_landuse 14-16 (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0427": {
+  "year_built": 1986,
+  "units": 15,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0428": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units",
+  "use_code": "4C",
+  "use_description": "Apartments (class 4C)",
+  "year_note": "missing in source"
+ },
+ "A0429": {
+  "year_built": 1899,
+  "units": null,
+  "units_min": 7,
+  "units_source": "use_code_class",
+  "units_note": "A/112 'APT 7-30 UNITS' => 7 to 30 units (units_min=7)",
+  "use_code": "A/112",
+  "use_description": "APT 7-30 UNITS",
+  "year_note": null
+ },
+ "A0430": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "Alameda use code described as 5+ units; no count in sample",
+  "use_code": "7800",
+  "use_description": "Alameda County use code (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0431": {
+  "year_built": null,
+  "units": 5,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "14",
+  "use_description": "SANDAG asr_landuse 14-16 (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0432": {
+  "year_built": 1978,
+  "units": 23,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0433": {
+  "year_built": 1964,
+  "units": 58,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0501",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0434": {
+  "year_built": 1913,
+  "units": 8,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A5",
+  "use_description": "Apartment 5 to 14 Units",
+  "year_note": null
+ },
+ "A0435": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '4B-8U-H' suggests 8U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "4B-8U-H",
+  "year_note": "missing in source"
+ },
+ "A0436": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '5B-6B-25U-H-BA' suggests 25U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "5B-6B-25U-H-BA",
+  "year_note": "missing in source"
+ },
+ "A0437": {
+  "year_built": 2004,
+  "units": 20,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0438": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '3S-F-A-12U-H' suggests 12U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "3S-F-A-12U-H",
+  "year_note": "missing in source"
+ },
+ "A0439": {
+  "year_built": 1988,
+  "units": 7,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A5",
+  "use_description": "Apartment 5 to 14 Units",
+  "year_note": null
+ },
+ "A0440": {
+  "year_built": 1921,
+  "units": 5,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A5",
+  "use_description": "Apartment 5 to 14 Units",
+  "year_note": null
+ },
+ "A0441": {
+  "year_built": null,
+  "units": 6,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "14",
+  "use_description": "SANDAG asr_landuse 14-16 (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0442": {
+  "year_built": 1986,
+  "units": 18,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0443": {
+  "year_built": null,
+  "units": 16,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "15",
+  "use_description": "SANDAG asr_landuse 14-16 (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0444": {
+  "year_built": 1899,
+  "units": null,
+  "units_min": 7,
+  "units_source": "use_code_class",
+  "units_note": "A/112 'APT 7-30 UNITS' => 7 to 30 units (units_min=7)",
+  "use_code": "A/112",
+  "use_description": "APT 7-30 UNITS",
+  "year_note": null
+ },
+ "A0445": {
+  "year_built": 1977,
+  "units": 25,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0446": {
+  "year_built": 1899,
+  "units": null,
+  "units_min": 7,
+  "units_source": "use_code_class",
+  "units_note": "A/112 'APT 7-30 UNITS' => 7 to 30 units (units_min=7)",
+  "use_code": "A/112",
+  "use_description": "APT 7-30 UNITS",
+  "year_note": null
+ },
+ "A0447": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '5B-35U-G' suggests 35U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "5B-35U-G",
+  "year_note": "missing in source"
+ },
+ "A0448": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units",
+  "use_code": "4C",
+  "use_description": "3SB",
+  "year_note": "missing in source"
+ },
+ "A0449": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units",
+  "use_code": "4C",
+  "use_description": "3SB",
+  "year_note": "missing in source"
+ },
+ "A0450": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '3S-F-D-6U-NH' suggests 6U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "3S-F-D-6U-NH",
+  "year_note": "missing in source"
+ },
+ "A0451": {
+  "year_built": 1989,
+  "units": 8,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0452": {
+  "year_built": 1952,
+  "units": 8,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0453": {
+  "year_built": 1910,
+  "units": 6,
+  "units_min": 4,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "111",
+  "use_description": "4-8-UNIT-APT",
+  "year_note": null
+ },
+ "A0454": {
+  "year_built": 1959,
+  "units": 6,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0455": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '4S-B-A-17U-H' suggests 17U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "4S-B-A-17U-H",
+  "year_note": "missing in source"
+ },
+ "A0456": {
+  "year_built": null,
+  "units": 17,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "15",
+  "use_description": "SANDAG asr_landuse 14-16 (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0457": {
+  "year_built": 1906,
+  "units": 5,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A5",
+  "use_description": "Apartment 5 to 14 Units",
+  "year_note": null
+ },
+ "A0458": {
+  "year_built": 1963,
+  "units": 6,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0459": {
+  "year_built": 1915,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '3S-F-7U' suggests 7U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "3S-F-7U",
+  "year_note": null
+ },
+ "A0460": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units",
+  "use_code": "4C",
+  "use_description": "3SB",
+  "year_note": "missing in source"
+ },
+ "A0461": {
+  "year_built": 1923,
+  "units": 5,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A5",
+  "use_description": "Apartment 5 to 14 Units",
+  "year_note": null
+ },
+ "A0462": {
+  "year_built": 1890,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '3S-F-D-6U' suggests 6U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "3S-F-D-6U",
+  "year_note": null
+ },
+ "A0463": {
+  "year_built": 2007,
+  "units": null,
+  "units_min": null,
+  "units_source": "none",
+  "units_note": "Boston code A/125 'SUBSD HOUSING S- 8': apartment/residential parcel, unit count not in sample (class does not guarantee >=5)",
+  "use_code": "A/125",
+  "use_description": "SUBSD HOUSING S- 8",
+  "year_note": null
+ },
+ "A0464": {
+  "year_built": 1966,
+  "units": null,
+  "units_min": null,
+  "units_source": "none",
+  "units_note": "Boston code A/125 'SUBSD HOUSING S- 8': apartment/residential parcel, unit count not in sample (class does not guarantee >=5)",
+  "use_code": "A/125",
+  "use_description": "SUBSD HOUSING S- 8",
+  "year_note": null
+ },
+ "A0465": {
+  "year_built": 1915,
+  "units": 8,
+  "units_min": 4,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "111",
+  "use_description": "4-8-UNIT-APT",
+  "year_note": null
+ },
+ "A0466": {
+  "year_built": 1920,
+  "units": null,
+  "units_min": 7,
+  "units_source": "use_code_class",
+  "units_note": "A/112 'APT 7-30 UNITS' => 7 to 30 units (units_min=7)",
+  "use_code": "A/112",
+  "use_description": "APT 7-30 UNITS",
+  "year_note": null
+ },
+ "A0467": {
+  "year_built": 1923,
+  "units": null,
+  "units_min": null,
+  "units_source": "none",
+  "units_note": "Boston code A/125 'SUBSD HOUSING S- 8': apartment/residential parcel, unit count not in sample (class does not guarantee >=5)",
+  "use_code": "A/125",
+  "use_description": "SUBSD HOUSING S- 8",
+  "year_note": null
+ },
+ "A0468": {
+  "year_built": 1910,
+  "units": 6,
+  "units_min": 4,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "111",
+  "use_description": "4-8-UNIT-APT",
+  "year_note": null
+ },
+ "A0469": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "Alameda use code described as 5+ units; no count in sample",
+  "use_code": "7700",
+  "use_description": "Alameda County use code (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0470": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "Alameda use code described as 5+ units; no count in sample",
+  "use_code": "7700",
+  "use_description": "Alameda County use code (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0471": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units",
+  "use_code": "4C",
+  "use_description": "4 1/2B-10U-BA",
+  "year_note": "missing in source"
+ },
+ "A0472": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '5B-12U-BA' suggests 12U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "5B-12U-BA",
+  "year_note": "missing in source"
+ },
+ "A0473": {
+  "year_built": 1899,
+  "units": null,
+  "units_min": 7,
+  "units_source": "use_code_class",
+  "units_note": "A/112 'APT 7-30 UNITS' => 7 to 30 units (units_min=7)",
+  "use_code": "A/112",
+  "use_description": "APT 7-30 UNITS",
+  "year_note": null
+ },
+ "A0474": {
+  "year_built": 1928,
+  "units": 8,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0475": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '4B-7U-H' suggests 7U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "4B-7U-H",
+  "year_note": "missing in source"
+ },
+ "A0476": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units",
+  "use_code": "4C",
+  "use_description": "2SF2UG",
+  "year_note": "missing in source"
+ },
+ "A0477": {
+  "year_built": 1975,
+  "units": 19,
+  "units_min": 15,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A15",
+  "use_description": "Apartment 15 Units or more",
+  "year_note": null
+ },
+ "A0478": {
+  "year_built": null,
+  "units": 9,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "14",
+  "use_description": "SANDAG asr_landuse 14-16 (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0479": {
+  "year_built": 1990,
+  "units": 8,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0480": {
+  "year_built": null,
+  "units": 11,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "14",
+  "use_description": "SANDAG asr_landuse 14-16 (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0481": {
+  "year_built": 1925,
+  "units": 63,
+  "units_min": 15,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A15",
+  "use_description": "Apartment 15 Units or more",
+  "year_note": null
+ },
+ "A0482": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '4S-B-A-25U-H' suggests 25U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "4S-B-A-25U-H",
+  "year_note": "missing in source"
+ },
+ "A0483": {
+  "year_built": 1917,
+  "units": 72,
+  "units_min": 15,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A15",
+  "use_description": "Apartment 15 Units or more",
+  "year_note": null
+ },
+ "A0484": {
+  "year_built": 1948,
+  "units": 5,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A5",
+  "use_description": "Apartment 5 to 14 Units",
+  "year_note": null
+ },
+ "A0485": {
+  "year_built": 1920,
+  "units": 6,
+  "units_min": 4,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "111",
+  "use_description": "4-8-UNIT-APT",
+  "year_note": null
+ },
+ "A0486": {
+  "year_built": 1910,
+  "units": 9,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A5",
+  "use_description": "Apartment 5 to 14 Units",
+  "year_note": null
+ },
+ "A0487": {
+  "year_built": 1900,
+  "units": 11,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A5",
+  "use_description": "Apartment 5 to 14 Units",
+  "year_note": null
+ },
+ "A0488": {
+  "year_built": 1900,
+  "units": null,
+  "units_min": 7,
+  "units_source": "use_code_class",
+  "units_note": "A/112 'APT 7-30 UNITS' => 7 to 30 units (units_min=7)",
+  "use_code": "A/112",
+  "use_description": "APT 7-30 UNITS",
+  "year_note": null
+ },
+ "A0489": {
+  "year_built": 2000,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '6B-30U-G' suggests 30U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "6B-30U-G",
+  "year_note": null
+ },
+ "A0490": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units",
+  "use_code": "4C",
+  "use_description": "4F-8U-C/3F-2U",
+  "year_note": "missing in source"
+ },
+ "A0491": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units",
+  "use_code": "4C",
+  "use_description": "3SF",
+  "year_note": "missing in source"
+ },
+ "A0492": {
+  "year_built": 2019,
+  "units": 131,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0551",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0493": {
+  "year_built": 1916,
+  "units": 10,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A5",
+  "use_description": "Apartment 5 to 14 Units",
+  "year_note": null
+ },
+ "A0494": {
+  "year_built": 1923,
+  "units": 6,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "A5",
+  "use_description": "Apartment 5 to 14 Units",
+  "year_note": null
+ },
+ "A0495": {
+  "year_built": 1895,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units; description '3S-B-D-6U-NH' suggests 6U (unvalidated hint, not used as units)",
+  "use_code": "4C",
+  "use_description": "3S-B-D-6U-NH",
+  "year_note": null
+ },
+ "A0496": {
+  "year_built": null,
+  "units": 8,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "14",
+  "use_description": "SANDAG asr_landuse 14-16 (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0497": {
+  "year_built": null,
+  "units": 5,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "14",
+  "use_description": "SANDAG asr_landuse 14-16 (5+ units)",
+  "year_note": "missing in source"
+ },
+ "A0498": {
+  "year_built": null,
+  "units": null,
+  "units_min": 5,
+  "units_source": "use_code_class",
+  "units_note": "NJ property class 4C = apartments, 5 or more units",
+  "use_code": "4C",
+  "use_description": "3SB",
+  "year_note": "missing in source"
+ },
+ "A0499": {
+  "year_built": 1962,
+  "units": 33,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0501",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ },
+ "A0500": {
+  "year_built": 1954,
+  "units": 36,
+  "units_min": 5,
+  "units_source": "assessor",
+  "units_note": "exact count given by assessor",
+  "use_code": "0500",
+  "use_description": "Five or more apartments",
+  "year_note": null
+ }
+}
