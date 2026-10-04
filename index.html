@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Rental Housing Law Navigator</title>
+<meta name="description" content="Look up which rental housing rules may apply to an address, as of a date. Not legal advice.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='3' fill='%231e4d8c'/%3E%3Cpath d='M3 6.5L8 3l5 3.5M4 7v5M6.7 7v5M9.3 7v5M12 7v5M2.5 13h11' stroke='%23fff' stroke-width='1.3' fill='none'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css?v=25">
+</head>
+<body>
+<a class="skip" href="#main" data-i18n="skip">Skip to content</a>
+
+<div class="notice" role="note" id="notice">
+  <span class="sect" aria-hidden="true">&sect;</span>
+  <strong data-i18n="banner_strong">Not legal advice.</strong>
+  <span data-i18n="banner_rest">Plain-language summaries of public law, built for a hackathon prototype.</span>
+</div>
+<header class="top" role="banner">
+  <div class="bar wrap">
+    <div class="brandrow">
+      <svg class="mark" viewBox="0 0 40 40" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round">
+        <path d="M5 15L20 5l15 10z"/><path d="M9 18v13M16 18v13M24 18v13M31 18v13"/><path d="M5 34.5h30"/><circle cx="20" cy="11.5" r="1.6" fill="currentColor" stroke="none"/>
+      </svg>
+      <h1 class="brand" data-i18n="title">Rental Housing Law Navigator</h1>
+    </div>
+    <div class="langs" role="group" aria-label="Language">
+      <button type="button" class="lang" data-lang="en" aria-pressed="true" lang="en">English</button>
+      <button type="button" class="lang" data-lang="es" aria-pressed="false" lang="es">Español</button>
+    </div>
+  </div>
+  <nav class="tabs wrap" aria-label="Sections">
+    <button type="button" class="tab" data-tab="lookup" aria-current="page" data-i18n="tab_lookup">Address lookup</button>
+    <button type="button" class="tab" data-tab="changes" data-i18n="tab_changes">What changed</button>
+    <button type="button" class="tab" data-tab="how" data-i18n="tab_how">How it works and audit</button>
+  </nav>
+</header>
+
+<main id="main" class="wrap" tabindex="-1">
+  <div id="loading" class="loading" role="status">
+    <p id="loading-text" data-i18n="loading">Loading the rules data (about 14 MB, once)...</p>
+    <progress id="loading-bar" max="100" aria-label="Loading"></progress>
+  </div>
+  <div id="fatal" class="fatal" role="alert" hidden></div>
+
+  <section id="view-lookup" class="view" hidden aria-labelledby="h-lookup">
+    <div class="hero">
+      <div class="hero-txt">
+        <h2 id="h-lookup" data-i18n="h_lookup">Find an address</h2>
+        <p class="muted" data-i18n="lookup_intro">Search the 500 sample addresses by street, address id or city. Results show which rules our sources say may apply, and what we could not tell.</p>
+      </div>
+      <div class="search">
+        <label for="q" data-i18n="search_label">Address, id (for example A0016) or city</label>
+        <div class="combo">
+          <svg class="search-ico" viewBox="0 0 20 20" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="8.5" cy="8.5" r="5.5"/><path d="M12.8 12.8L17 17"/></svg>
+          <input id="q" type="text" role="combobox" aria-expanded="false" aria-controls="sugg" aria-autocomplete="list" autocomplete="off" spellcheck="false" placeholder="3515 Fillmore, A0002, Hoboken...">
+          <ul id="sugg" role="listbox" hidden></ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="layout" id="layout">
+      <div class="rail" id="rail">
+        <div id="rail-addr"></div>
+        <div class="asof" id="asof-box">
+          <label for="asof" data-i18n="asof_label">As-of date</label>
+          <p class="asof-iso" id="asof-iso" aria-hidden="true"></p>
+          <input id="asof" type="date" min="2000-01-01" max="2035-12-31">
+          <div class="quick" role="group" aria-label="Quick dates" id="quick"></div>
+        </div>
+      </div>
+      <div id="answer"></div>
+    </div>
+    <div id="live" class="sr" role="status" aria-live="polite"></div>
+  </section>
+
+  <section id="view-changes" class="view" hidden aria-labelledby="h-changes"></section>
+  <section id="view-how" class="view" hidden aria-labelledby="h-how"></section>
+</main>
+
+<footer class="foot" role="contentinfo">
+  <div class="wrap"><span class="sect" aria-hidden="true">&sect;</span><p id="foot-text"></p></div>
+</footer>
+
+<script src="app.js?v=25"></script>
+</body>
+</html>
